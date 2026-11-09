@@ -58,90 +58,68 @@ export default function AiStylistChatbot() {
     }
   ]);
   const [input, setInput] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isOpen]);
 
-  const handleSend = async (userMsgText) => {
-    const userMsg = userMsgText || input;
+  const handleSend = async (e) => {
+    if (e && e.preventDefault) e.preventDefault();
+    const userMsg = typeof e === 'string' ? e : input;
     if (!userMsg.trim()) return;
 
     setMessages((prev) => [...prev, { sender: 'user', text: userMsg }]);
-    if (!userMsgText) setInput('');
-    setIsLoading(true);
+    setInput('');
+    setMessages((prev) => [...prev, { sender: 'ai', text: '...', id: 'loading' }]);
 
-    const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY || 'API_KEY_CỦA_BẠN';
+    try {
+      const apiKey = process.env.REACT_APP_GEMINI_API_KEY || 'GEMINI_API_KEY';
+      const url = `https://generativelanguage.googleapis.com/v1beta/interactions?key=${apiKey}`;
 
-    if (GEMINI_API_KEY && GEMINI_API_KEY !== 'API_KEY_CỦA_BẠN') {
-      try {
-        const response = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/interactions?key=${GEMINI_API_KEY}`,
-          {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'models/gemini-3.8-flash',
+          input: userMsg,
+          tools: [
+            {
+              type: 'google_search',
             },
-            body: JSON.stringify({
-              model: 'models/gemini-3.8-flash',
-              input: userMsg,
-              tools: [
-                {
-                  type: 'google_search',
-                },
-              ],
-              generation_config: {
-                max_output_tokens: 65536,
-                thinking_level: 'medium',
-              },
-            }),
-          }
-        );
+          ],
+          generation_config: {
+            max_output_tokens: 65536,
+            thinking_level: 'medium',
+          },
+        }),
+      });
 
-        const data = await response.json();
+      const data = await response.json();
 
-        let aiReply = '';
-        if (typeof data.output === 'string') {
-          aiReply = data.output;
-        } else if (data.outputs && Array.isArray(data.outputs)) {
-          aiReply = data.outputs
-            .map((o) => (typeof o === 'string' ? o : o.text || o.content || JSON.stringify(o)))
-            .join('\n');
-        } else if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
-          aiReply = data.candidates[0].content.parts[0].text;
-        } else if (data.output?.text) {
-          aiReply = data.output.text;
-        } else if (data.text) {
-          aiReply = data.text;
-        } else if (data.response) {
-          aiReply = typeof data.response === 'string' ? data.response : JSON.stringify(data.response);
-        } else {
-          aiReply = getSmartStylistResponse(userMsg);
-        }
+      // Lấy kết quả phản hồi từ cấu trúc interactions (tương tự như steps[-1] trong Python)
+      const steps = data.steps || [];
+      const lastStep = steps.length > 0 ? steps[steps.length - 1] : null;
+      const aiReply =
+        lastStep?.text ||
+        (typeof data.output === 'string' ? data.output : data.output?.text) ||
+        data.candidates?.[0]?.content?.parts?.[0]?.text ||
+        (data.error ? getSmartStylistResponse(userMsg) : null) ||
+        'Xin chào! Tôi có thể hỗ trợ gì thêm cho bạn về thời trang?';
 
-        setMessages((prev) => [...prev, { sender: 'ai', text: aiReply }]);
-      } catch (err) {
-        console.warn('Interactions API call error, falling back to local fashion AI engine:', err);
-        const fallbackReply = getSmartStylistResponse(userMsg);
-        setMessages((prev) => [...prev, { sender: 'ai', text: fallbackReply }]);
-      } finally {
-        setIsLoading(false);
-      }
-    } else {
-      // Smart instant local fashion AI response
-      setTimeout(() => {
-        const aiReply = getSmartStylistResponse(userMsg);
-        setMessages((prev) => [...prev, { sender: 'ai', text: aiReply }]);
-        setIsLoading(false);
-      }, 400);
+      setMessages((prev) => prev.filter((msg) => msg.id !== 'loading').concat({ sender: 'ai', text: aiReply }));
+    } catch (error) {
+      console.error('Lỗi gọi API:', error);
+      const fallbackReply = getSmartStylistResponse(userMsg);
+      setMessages((prev) =>
+        prev.filter((msg) => msg.id !== 'loading').concat({
+          sender: 'ai',
+          text: fallbackReply || 'Hệ thống AI đang bận kết nối, bạn thử lại nhé! ❤️',
+        })
+      );
     }
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    handleSend();
   };
 
   return (
@@ -217,28 +195,27 @@ export default function AiStylistChatbot() {
                 key={index}
                 className={`ai-stylist-msg ${msg.sender === 'user' ? 'ai-stylist-msg--user' : 'ai-stylist-msg--ai'}`}
               >
-                <div className="ai-stylist-bubble">
-                  {msg.text.split('\n').map((line, i) => (
-                    <p key={i}>{line}</p>
-                  ))}
+                <div className={`ai-stylist-bubble ${msg.id === 'loading' ? 'ai-stylist-typing' : ''}`}>
+                  {msg.id === 'loading' ? (
+                    <>
+                      <span className="ai-stylist-dot" />
+                      <span className="ai-stylist-dot" />
+                      <span className="ai-stylist-dot" />
+                    </>
+                  ) : (
+                    typeof msg.text === 'string' &&
+                    msg.text.split('\n').map((line, i) => (
+                      <p key={i}>{line}</p>
+                    ))
+                  )}
                 </div>
               </div>
             ))}
-
-            {isLoading && (
-              <div className="ai-stylist-msg ai-stylist-msg--ai">
-                <div className="ai-stylist-bubble ai-stylist-typing">
-                  <span className="ai-stylist-dot" />
-                  <span className="ai-stylist-dot" />
-                  <span className="ai-stylist-dot" />
-                </div>
-              </div>
-            )}
             <div ref={messagesEndRef} />
           </div>
 
           {/* Input Form */}
-          <form onSubmit={handleSubmit} className="ai-stylist-form">
+          <form onSubmit={handleSend} className="ai-stylist-form">
             <input
               type="text"
               value={input}
@@ -248,7 +225,7 @@ export default function AiStylistChatbot() {
             />
             <button
               type="submit"
-              disabled={!input.trim() || isLoading}
+              disabled={!input.trim()}
               className="ai-stylist-send-btn"
               aria-label="Gửi tin nhắn"
             >
