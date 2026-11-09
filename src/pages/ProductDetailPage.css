@@ -251,6 +251,12 @@
   font-weight: 700;
   margin-left: 6px;
 }
+.product-detail__size-guide-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
 .product-detail__size-guide {
   font-size: 0.82rem;
   color: var(--accent-dark);

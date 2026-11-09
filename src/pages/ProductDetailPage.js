@@ -4,6 +4,7 @@ import { FiHeart, FiShoppingBag, FiTruck, FiRefreshCw, FiMinus, FiPlus, FiCheck 
 import { FaHeart, FaStar, FaMagic } from 'react-icons/fa';
 import { CartContext } from '../context/CartContext';
 import ProductCard from '../components/ProductCard';
+import BodySizeAI from '../components/BodySizeAI';
 import products, { getProductById } from '../data/products';
 import './ProductDetailPage.css';
 
@@ -17,6 +18,7 @@ const ProductDetailPage = () => {
   const [selectedColor, setSelectedColor] = useState(null);
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState('desc');
+  const [showAiSizeModal, setShowAiSizeModal] = useState(false);
 
   // Reset when product changes
   useEffect(() => {
@@ -199,7 +201,16 @@ const ProductDetailPage = () => {
                   <label className="product-detail__option-label">
                     Kích cỡ: <strong className="product-detail__selected-val">{selectedSize}</strong>
                   </label>
-                  <a href="#size-guide" className="product-detail__size-guide">Hướng dẫn chọn size</a>
+                  <div className="product-detail__size-guide-group">
+                    <button
+                      type="button"
+                      className="product-detail__ai-size-btn"
+                      onClick={() => setShowAiSizeModal(true)}
+                    >
+                      <FaMagic /> AI Quét Vóc Dáng
+                    </button>
+                    <a href="#size-guide" className="product-detail__size-guide">Hướng dẫn chọn size</a>
+                  </div>
                 </div>
                 <div className="product-detail__sizes">
                   {product.sizes.map(size => (
@@ -361,6 +372,34 @@ const ProductDetailPage = () => {
           </div>
         )}
       </div>
+
+      {/* AI Body Size Scanner Modal */}
+      {showAiSizeModal && (
+        <div className="ai-size-modal-overlay" onClick={() => setShowAiSizeModal(false)}>
+          <div className="ai-size-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              className="ai-size-modal-close"
+              onClick={() => setShowAiSizeModal(false)}
+              aria-label="Đóng"
+            >
+              ✕
+            </button>
+            <BodySizeAI
+              currentSize={selectedSize}
+              onSizeCalculated={(recommendedSize) => {
+                if (product && product.sizes && product.sizes.includes(recommendedSize)) {
+                  setSelectedSize(recommendedSize);
+                } else if (product && product.sizes && product.sizes.length > 0) {
+                  setSelectedSize(product.sizes[0]);
+                }
+                setShowAiSizeModal(false);
+              }}
+              onClose={() => setShowAiSizeModal(false)}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

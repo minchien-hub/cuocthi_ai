@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FiUpload, FiRefreshCw, FiShoppingBag, FiCheck } from 'react-icons/fi';
 import { FaMagic } from 'react-icons/fa';
 import { CartContext } from '../context/CartContext';
+import BodySizeAI from '../components/BodySizeAI';
 import products from '../data/products';
 import './VirtualTryOnPage.css';
 
@@ -48,6 +49,7 @@ const VirtualTryOnPage = () => {
   const [tryOnCompleted, setTryOnCompleted] = useState(false);
   const [activeTab, setActiveTab] = useState('models'); // 'models' | 'upload'
   const [aiResultImage, setAiResultImage] = useState(null);
+  const [showAiSizeModal, setShowAiSizeModal] = useState(false);
 
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
@@ -317,7 +319,16 @@ const VirtualTryOnPage = () => {
               </div>
 
               <div className="vton-size-picker">
-                <span className="vton-sublabel">Chọn size thử đồ:</span>
+                <div className="vton-size-picker-header">
+                  <span className="vton-sublabel">Chọn size thử đồ:</span>
+                  <button
+                    type="button"
+                    className="vton-ai-size-btn"
+                    onClick={() => setShowAiSizeModal(true)}
+                  >
+                    <FaMagic /> AI Quét Vóc Dáng
+                  </button>
+                </div>
                 <div className="vton-size-buttons">
                   {selectedProduct.sizes.map((s) => (
                     <button
@@ -349,6 +360,34 @@ const VirtualTryOnPage = () => {
           </div>
         </div>
       </div>
+
+      {/* AI Body Size Scanner Modal */}
+      {showAiSizeModal && (
+        <div className="ai-size-modal-overlay" onClick={() => setShowAiSizeModal(false)}>
+          <div className="ai-size-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              className="ai-size-modal-close"
+              onClick={() => setShowAiSizeModal(false)}
+              aria-label="Đóng"
+            >
+              ✕
+            </button>
+            <BodySizeAI
+              currentSize={selectedSize}
+              onSizeCalculated={(recommendedSize) => {
+                if (selectedProduct && selectedProduct.sizes && selectedProduct.sizes.includes(recommendedSize)) {
+                  setSelectedSize(recommendedSize);
+                } else if (selectedProduct && selectedProduct.sizes && selectedProduct.sizes.length > 0) {
+                  setSelectedSize(selectedProduct.sizes[0]);
+                }
+                setShowAiSizeModal(false);
+              }}
+              onClose={() => setShowAiSizeModal(false)}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
