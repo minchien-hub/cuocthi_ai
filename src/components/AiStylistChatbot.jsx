@@ -73,37 +73,57 @@ export default function AiStylistChatbot() {
     if (!userMsgText) setInput('');
     setIsLoading(true);
 
-    const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
+    const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY || 'API_KEY_CỦA_BẠN';
 
-    if (apiKey && apiKey !== 'API_KEY_CỦA_BẠN') {
+    if (GEMINI_API_KEY && GEMINI_API_KEY !== 'API_KEY_CỦA_BẠN') {
       try {
         const response = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+          `https://generativelanguage.googleapis.com/v1beta/interactions?key=${GEMINI_API_KEY}`,
           {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+              'Content-Type': 'application/json',
+            },
             body: JSON.stringify({
-              contents: [
+              model: 'models/gemini-3.8-flash',
+              input: userMsg,
+              tools: [
                 {
-                  parts: [
-                    {
-                      text: `Bạn là trợ lý AI Stylist thời trang cao cấp của thương hiệu LUXE Fashion. Nhiệm vụ của bạn là tư vấn chọn size quần áo (S, M, L, XL), cách phối đồ sành điệu và hướng dẫn khách dùng tính năng AI quét vóc dáng & phòng thử đồ ảo. Trả lời ngắn gọn, thân thiện, chuyên nghiệp bằng tiếng Việt: "${userMsg}"`
-                    }
-                  ]
-                }
-              ]
-            })
+                  type: 'google_search',
+                },
+              ],
+              generation_config: {
+                max_output_tokens: 65536,
+                thinking_level: 'medium',
+              },
+            }),
           }
         );
 
         const data = await response.json();
-        const aiReply =
-          data.candidates?.[0]?.content?.parts?.[0]?.text ||
-          getSmartStylistResponse(userMsg);
+
+        let aiReply = '';
+        if (typeof data.output === 'string') {
+          aiReply = data.output;
+        } else if (data.outputs && Array.isArray(data.outputs)) {
+          aiReply = data.outputs
+            .map((o) => (typeof o === 'string' ? o : o.text || o.content || JSON.stringify(o)))
+            .join('\n');
+        } else if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
+          aiReply = data.candidates[0].content.parts[0].text;
+        } else if (data.output?.text) {
+          aiReply = data.output.text;
+        } else if (data.text) {
+          aiReply = data.text;
+        } else if (data.response) {
+          aiReply = typeof data.response === 'string' ? data.response : JSON.stringify(data.response);
+        } else {
+          aiReply = getSmartStylistResponse(userMsg);
+        }
 
         setMessages((prev) => [...prev, { sender: 'ai', text: aiReply }]);
       } catch (err) {
-        console.warn('Gemini API call failed, falling back to local fashion AI engine:', err);
+        console.warn('Interactions API call error, falling back to local fashion AI engine:', err);
         const fallbackReply = getSmartStylistResponse(userMsg);
         setMessages((prev) => [...prev, { sender: 'ai', text: fallbackReply }]);
       } finally {
