@@ -533,6 +533,89 @@
   font-size: 0.85rem;
 }
 
+/* AI Fit Analysis Card */
+.vton-ai-fit-card {
+  background: linear-gradient(135deg, #fdfbf7 0%, #f7f3ec 100%);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  animation: fadeIn 0.4s ease;
+}
+
+.vton-ai-fit-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.vton-ai-fit-card__title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vton-ai-fit-card__badge {
+  background: #27ae60;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.vton-ai-fit-card__body {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.vton-ai-fit-card__size {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.vton-ai-fit-card__match {
+  font-size: 0.82rem;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.vton-ai-fit-card__desc {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Camera Tab Info */
+.vton-camera-tab-info {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e8d5b5;
+  text-align: center;
+}
+
+.vton-camera-tab-info h4 {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.vton-camera-tab-info p {
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
 @media (max-width: 1024px) {
   .vton-layout {
     grid-template-columns: 1fr;
