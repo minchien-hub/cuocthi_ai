@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🌟 AI Fashion Virtual Try-On (Fit-Size AI) - Cuộc Thi AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dự án website thương mại điện tử thời trang cao cấp tích hợp công nghệ **Thử Đồ Ảo AI (Virtual Try-On - VTON)** tiên tiến, cho phép khách hàng trực tiếp phối và thử trang phục trên người mẫu hoặc ảnh cá nhân theo thời gian thực trước khi mua sắm.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tính Năng Nổi Bật
 
-### `npm start`
+1. **Phòng Thử Đồ Ảo AI (Virtual Try-On)**:
+   - Tích hợp mô hình AI **IDM-VTON** hiện đại thông qua FastAPI backend.
+   - Thử đồ trên dàn người mẫu chuẩn hoặc upload ảnh cá nhân.
+   - Tự động bóc tách phom dáng trang phục, xử lý ánh sáng và nếp gấp chân thực.
+2. **Cửa Hàng Thời Trang Đẳng Cấp**:
+   - Danh mục sản phẩm đa dạng: Áo, Quần, Đầm, Phụ kiện.
+   - Bộ sưu tập biến thể màu sắc chân thực, ảnh chụp studio chất lượng cao.
+   - Bộ lọc thông minh theo danh mục, mức giá và tìm kiếm từ khóa.
+3. **Trải Nghiệm Mua Sắm Toàn Diện**:
+   - Giỏ hàng (Cart) và Danh sách yêu thích (Wishlist) tương tác mượt mà.
+   - Thông báo Toast sống động, tối ưu Responsive trên mọi kích thước màn hình.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Công Nghệ Sử Dụng
 
-### `npm test`
+- **Frontend**: React 18, React Router DOM, React Icons, Context API, CSS Modern Responsive.
+- **Backend**: Python 3.10+, FastAPI, Uvicorn, Pydantic, Python-Dotenv.
+- **AI Core**: IDM-VTON (Diffusion-based Virtual Try-On Model via Replicate).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Hướng Dẫn Khởi Chạy Dự Án
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Khởi động Backend (FastAPI AI Server)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# 1. Chuyển vào thư mục backend
+cd backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 2. Cài đặt các thư viện cần thiết
+pip install -r requirements.txt
 
-### `npm run eject`
+# 3. Cấu hình file .env
+# Tạo file .env từ .env.example và điền REPLICATE_API_TOKEN của bạn:
+cp ../.env.example .env
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 4. Chạy máy chủ FastAPI
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+> Máy chủ API sẽ chạy tại: `http://localhost:8000` (Swagger UI: `http://localhost:8000/docs`).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Khởi động Frontend (React App)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Mở một terminal mới tại thư mục gốc của dự án:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# 1. Cài đặt các gói phụ thuộc
+npm install
 
-## Learn More
+# 2. Khởi chạy ứng dụng web
+npm start
+```
+> Trang web sẽ tự động mở tại: `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Cấu Trúc Thư Mục
 
-### Code Splitting
+```
+fashion-vton/
+├── backend/
+│   ├── main.py              # FastAPI server tích hợp IDM-VTON
+│   └── requirements.txt     # Danh sách thư viện Python
+├── public/
+│   └── images/              # Thư viện hình ảnh sản phẩm & người mẫu
+├── src/
+│   ├── components/          # Navbar, Footer, ProductCard, Toast...
+│   ├── context/             # CartContext quản lý giỏ hàng & wishlist
+│   ├── data/                # Dữ liệu sản phẩm (products.js)
+│   ├── pages/               # HomePage, ShopPage, ProductDetailPage, VirtualTryOnPage...
+│   ├── App.js
+│   └── index.js
+├── .env.example             # Mẫu cấu hình biến môi trường
+├── .gitignore
+└── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Dự án phát triển phục vụ cuộc thi AI - Cuộc thi Sáng tạo Giải pháp Trí tuệ Nhân tạo.*
