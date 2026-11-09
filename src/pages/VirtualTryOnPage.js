@@ -4,6 +4,7 @@ import { FiUpload, FiRefreshCw, FiShoppingBag, FiCheck, FiCamera } from 'react-i
 import { FaMagic } from 'react-icons/fa';
 import { CartContext } from '../context/CartContext';
 import BodySizeAI from '../components/BodySizeAI';
+import AiStylistChatbot from '../components/AiStylistChatbot';
 import products from '../data/products';
 import './VirtualTryOnPage.css';
 
@@ -430,6 +431,8 @@ const VirtualTryOnPage = () => {
           </div>
         </div>
       )}
+      {/* Chatbot nổi góc màn hình */}
+      <AiStylistChatbot />
     </div>
   );
 };
