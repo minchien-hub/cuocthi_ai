@@ -13,7 +13,6 @@ const VirtualTryOnPage = () => {
 
   const [userUploadedPhoto, setUserUploadedPhoto] = useState(null);
   const [selectedProduct, setSelectedProduct] = useState(products[0]);
-  const [selectedSize, setSelectedSize] = useState('M');
   const [isProcessing, setIsProcessing] = useState(false);
   const [processStep, setProcessStep] = useState('');
   const [tryOnCompleted, setTryOnCompleted] = useState(false);
@@ -72,7 +71,8 @@ const VirtualTryOnPage = () => {
 
   const handleAddToCart = () => {
     if (selectedProduct) {
-      addToCart(selectedProduct, selectedSize, selectedProduct.colors[0], 1);
+      const sizeToAdd = selectedProduct.sizes && selectedProduct.sizes.length > 0 ? selectedProduct.sizes[0] : 'FreeSize';
+      addToCart(selectedProduct, sizeToAdd, selectedProduct.colors[0], 1);
     }
   };
 
@@ -218,7 +218,7 @@ const VirtualTryOnPage = () => {
                   <div className="vton-stage-status">
                     {tryOnCompleted ? (
                       <span className="vton-status-chip vton-status-chip--success">
-                        <FiCheck /> Đã ghép AI chuẩn phom thực tế (Size {selectedSize})
+                        <FiCheck /> Đã ghép AI chuẩn phom thực tế
                       </span>
                     ) : (
                       <span className="vton-status-chip">
@@ -276,31 +276,13 @@ const VirtualTryOnPage = () => {
                     <span className="vton-ai-fit-card__badge">Chuẩn {fitMatchScore}%</span>
                   </div>
                   <div className="vton-ai-fit-card__body">
-                    <span className="vton-ai-fit-card__size">Size {selectedSize}</span>
                     <span className="vton-ai-fit-card__match">• Vừa Vặn Hoàn Hảo</span>
                   </div>
                   <p className="vton-ai-fit-card__desc">
-                    Tỷ lệ vai, ngực & chiều dài áo tương thích hoàn toàn với hình thể. An tâm đặt hàng không lo chật/rộng!
+                    Tỷ lệ vai, ngực & chiều dài trang phục tương thích hoàn toàn với hình thể. An tâm đặt hàng không lo chật/rộng!
                   </p>
                 </div>
               )}
-
-              <div className="vton-size-picker">
-                <div className="vton-size-picker-header">
-                  <span className="vton-sublabel">Chọn size thử đồ:</span>
-                </div>
-                <div className="vton-size-buttons">
-                  {selectedProduct.sizes.map((s) => (
-                    <button
-                      key={s}
-                      className={`vton-size-btn ${selectedSize === s ? 'active' : ''}`}
-                      onClick={() => setSelectedSize(s)}
-                    >
-                      {s}
-                    </button>
-                  ))}
-                </div>
-              </div>
 
               <button
                 className="btn btn-primary vton-try-btn"
