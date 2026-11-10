@@ -221,6 +221,27 @@
   font-size: 0.85rem;
 }
 
+.vton-sample-demo-btn {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px dashed var(--accent);
+  color: var(--accent-dark);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.vton-sample-demo-btn:hover {
+  background: rgba(201, 169, 110, 0.18);
+  border-color: var(--accent-dark);
+}
+
 /* Center Stage */
 .vton-stage {
   background: white;
@@ -246,6 +267,46 @@
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.vton-empty-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 30px;
+  text-align: center;
+  background: #fbf9f6;
+  border-radius: 8px;
+}
+
+.vton-empty-stage__icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--accent-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.vton-empty-stage h3 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.vton-empty-stage p {
+  font-size: 0.88rem;
+  color: #64748b;
+  max-width: 320px;
+  margin-bottom: 18px;
+  line-height: 1.5;
 }
 
 .vton-base-img {
