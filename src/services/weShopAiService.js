@@ -89,10 +89,18 @@ export const callWeShopAiTryOn = async (personImage, garmentImage, apiKey = proc
   const app = await client("weshopai/weshopai-virtual-try-on");
 
   console.log("📤 Đang gửi ảnh lên WeShop AI xử lý thử đồ...");
-  const result = await app.predict("/generate_image", [
-    personFile,    // Main Image (người mẫu)
-    garmentFile    // Background reference image (quần áo)
-  ]);
+  let result;
+  try {
+    result = await app.predict("/generate_image", [
+      personFile,    // Main Image (người mẫu)
+      garmentFile    // Background reference image (quần áo)
+    ]);
+  } catch (epErr) {
+    result = await app.predict("/predict", [
+      personFile,
+      garmentFile
+    ]);
+  }
 
   console.log("✅ Kết quả WeShop AI trả về:", result);
 
