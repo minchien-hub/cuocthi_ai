@@ -125,29 +125,17 @@ const VirtualTryOnPage = () => {
                   </div>
                 </div>
               ) : (
-                <>
-                  <div
-                    className="vton-dropzone"
-                    onClick={() => fileInputRef.current && fileInputRef.current.click()}
-                  >
-                    <FiUpload className="vton-dropzone-icon" />
-                    <h4>Tải lên ảnh toàn thân hoặc nửa người</h4>
-                    <p>Hỗ trợ định dạng JPG, PNG, WEBP (khuyên dùng ảnh đứng thẳng, rõ nét)</p>
-                    <button type="button" className="btn btn-primary btn--sm">
-                      Chọn tệp từ máy tính
-                    </button>
-                  </div>
-                  <button
-                    type="button"
-                    className="vton-sample-demo-btn"
-                    onClick={() => {
-                      setUserUploadedPhoto('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80');
-                      setTryOnCompleted(false);
-                    }}
-                  >
-                    ✨ Hoặc dùng ảnh mẫu demo để thử nhanh
+                <div
+                  className="vton-dropzone"
+                  onClick={() => fileInputRef.current && fileInputRef.current.click()}
+                >
+                  <FiUpload className="vton-dropzone-icon" />
+                  <h4>Tải lên ảnh toàn thân hoặc nửa người</h4>
+                  <p>Hỗ trợ định dạng JPG, PNG, WEBP (khuyên dùng ảnh đứng thẳng, rõ nét)</p>
+                  <button type="button" className="btn btn-primary btn--sm">
+                    Chọn tệp từ máy tính
                   </button>
-                </>
+                </div>
               )}
               <input
                 type="file"

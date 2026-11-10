@@ -221,27 +221,6 @@
   font-size: 0.85rem;
 }
 
-.vton-sample-demo-btn {
-  display: block;
-  width: 100%;
-  margin-top: 12px;
-  background: rgba(201, 169, 110, 0.08);
-  border: 1px dashed var(--accent);
-  color: var(--accent-dark);
-  font-size: 0.82rem;
-  font-weight: 600;
-  padding: 10px 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: var(--transition);
-  text-align: center;
-}
-
-.vton-sample-demo-btn:hover {
-  background: rgba(201, 169, 110, 0.18);
-  border-color: var(--accent-dark);
-}
-
 /* Center Stage */
 .vton-stage {
   background: white;
