@@ -1,64 +1,666 @@
-.virtual-tryon-wrapper {
-  padding-top: 100px;
-  padding-bottom: 60px;
-  background: #f8fafc;
+.vton-page {
+  padding-bottom: 80px;
+  background: #faf8f5;
   min-height: 100vh;
 }
 
-.virtual-tryon-container {
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 24px;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  font-family: 'Inter', sans-serif;
-}
-
-.tryon-header {
+/* Header */
+.vton-header {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+  padding: 120px 0 50px;
   text-align: center;
-  margin-bottom: 24px;
+  color: white;
+  margin-bottom: 40px;
 }
 
-.tryon-header h2 {
-  color: #1a1a1a;
-  font-size: 24px;
+.vton-breadcrumb {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+}
+
+.vton-breadcrumb a {
+  color: var(--accent);
+}
+
+.vton-breadcrumb span {
+  margin: 0 8px;
+}
+
+.vton-badge-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(201, 169, 110, 0.2);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.vton-title {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.vton-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Layout */
+.vton-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr 340px;
+  gap: 25px;
+  align-items: start;
+}
+
+.vton-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.vton-section-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Left Panel */
+.vton-panel__tabs {
+  display: flex;
+  background: var(--bg-light);
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+.vton-panel__tab {
+  flex: 1;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.vton-panel__tab.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.vton-models-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.vton-model-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  aspect-ratio: 3/4;
+}
+
+.vton-model-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vton-model-card:hover {
+  transform: translateY(-3px);
+}
+
+.vton-model-card.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(201, 169, 110, 0.3);
+}
+
+.vton-model-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  color: white;
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+
+.vton-model-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.vton-selected-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--accent);
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+/* Upload area */
+.vton-dropzone {
+  border: 2px dashed var(--accent);
+  background: rgba(201, 169, 110, 0.05);
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.vton-dropzone:hover {
+  background: rgba(201, 169, 110, 0.12);
+}
+
+.vton-dropzone-icon {
+  font-size: 2.5rem;
+  color: var(--accent-dark);
+  margin-bottom: 12px;
+}
+
+.vton-dropzone h4 {
+  font-size: 0.95rem;
+  color: var(--primary);
   margin-bottom: 8px;
 }
 
-.tryon-header p {
-  color: #666666;
-  font-size: 14px;
+.vton-dropzone p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
 }
 
-.iframe-wrapper {
+.vton-uploaded-preview {
+  text-align: center;
+}
+
+.vton-uploaded-preview img {
   width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.vton-reupload-btn {
+  width: 100%;
+  color: var(--primary) !important;
+  border-color: var(--border) !important;
+  font-size: 0.85rem;
+}
+
+/* Center Stage */
+.vton-stage {
+  background: white;
   border-radius: 12px;
+  padding: 16px;
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.vton-stage__screen {
+  position: relative;
+  aspect-ratio: 3/4;
+  background: #f0ede9;
+  border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #e5e7eb;
-  background: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.iframe-wrapper iframe {
-  display: block;
+.vton-canvas-wrap {
+  position: relative;
   width: 100%;
-  height: 800px;
-  border: none;
+  height: 100%;
 }
 
-@media (max-width: 768px) {
-  .virtual-tryon-wrapper {
-    padding-top: 80px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+.vton-empty-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 30px;
+  text-align: center;
+  background: #fbf9f6;
+  border-radius: 8px;
+}
 
-  .virtual-tryon-container {
-    padding: 16px;
-    margin: 10px auto;
-  }
+.vton-empty-stage__icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--accent-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
 
-  .iframe-wrapper iframe {
-    height: 650px;
+.vton-empty-stage h3 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.vton-empty-stage p {
+  font-size: 0.88rem;
+  color: #64748b;
+  max-width: 320px;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.vton-base-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vton-garment-layer {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vton-garment-img {
+  max-width: 85%;
+  max-height: 85%;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.35));
+}
+
+.vton-garment-layer--preview {
+  opacity: 0.55;
+  filter: grayscale(40%);
+}
+
+.vton-garment-layer--fitted {
+  opacity: 0.95;
+  animation: garmentPulse 0.6s ease;
+}
+
+@keyframes garmentPulse {
+  0% { transform: scale(0.75); opacity: 0; }
+  100% { transform: scale(0.9); opacity: 0.95; }
+}
+
+/* Processing Overlay */
+.vton-processing-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 15, 26, 0.85);
+  backdrop-filter: blur(4px);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.vton-spinner {
+  width: 55px;
+  height: 55px;
+  border: 3px solid rgba(201, 169, 110, 0.2);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.vton-scanning-laser {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  box-shadow: 0 0 15px var(--accent);
+  animation: scanLaser 2s linear infinite;
+}
+
+@keyframes scanLaser {
+  0% { top: 0%; opacity: 0; }
+  25% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.vton-processing-title {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.vton-processing-step {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.vton-stage-status {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 5;
+}
+
+.vton-status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.vton-status-chip--success {
+  background: rgba(39, 174, 96, 0.9);
+}
+
+.vton-stage-controls {
+  padding-top: 15px;
+}
+
+.vton-adjustment-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.85rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.vton-adjust-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.vton-slider {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.vton-adjust-val {
+  font-weight: 700;
+  color: var(--accent-dark);
+  min-width: 35px;
+}
+
+/* Right Panel */
+.vton-garment-catalog {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.vton-garment-thumb {
+  flex: 0 0 90px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background: var(--bg-light);
+  transition: var(--transition);
+}
+
+.vton-garment-thumb img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.vton-garment-thumb.active {
+  border-color: var(--accent);
+}
+
+.vton-garment-thumb-info {
+  padding: 6px;
+  font-size: 0.68rem;
+  text-align: center;
+}
+
+.vton-garment-thumb-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.vton-garment-thumb-price {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.vton-selected-summary {
+  background: var(--bg-light);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.vton-selected-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.vton-selected-header img {
+  width: 55px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.vton-selected-header h4 {
+  font-size: 0.95rem;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.vton-price-highlight {
+  font-weight: 700;
+  color: var(--accent-dark);
+  font-size: 1.05rem;
+}
+
+.vton-size-picker {
+  margin-bottom: 15px;
+}
+
+.vton-sublabel {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.vton-size-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.vton-size-btn {
+  min-width: 40px;
+  height: 36px;
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.vton-size-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.vton-try-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.vton-cart-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 0.85rem;
+}
+
+/* AI Fit Analysis Card */
+.vton-ai-fit-card {
+  background: linear-gradient(135deg, #fdfbf7 0%, #f7f3ec 100%);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  animation: fadeIn 0.4s ease;
+}
+
+.vton-ai-fit-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.vton-ai-fit-card__title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vton-ai-fit-card__badge {
+  background: #27ae60;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.vton-ai-fit-card__body {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.vton-ai-fit-card__size {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.vton-ai-fit-card__match {
+  font-size: 0.82rem;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.vton-ai-fit-card__desc {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Camera Tab Info */
+.vton-camera-tab-info {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e8d5b5;
+  text-align: center;
+}
+
+.vton-camera-tab-info h4 {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.vton-camera-tab-info p {
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+  .vton-layout {
+    grid-template-columns: 1fr;
   }
 }
+
