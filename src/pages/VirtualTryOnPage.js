@@ -4,7 +4,7 @@ import { FiUpload, FiRefreshCw, FiShoppingBag, FiCheck, FiTrash2, FiEye } from '
 import { FaMagic } from 'react-icons/fa';
 import { CartContext } from '../context/CartContext';
 import AiStylistChatbot from '../components/AiStylistChatbot';
-import { handleAITryOn } from '../services/fashnAiService';
+import { callWeShopAiTryOn } from '../services/weShopAiService';
 import products from '../data/products';
 import './VirtualTryOnPage.css';
 
@@ -16,6 +16,7 @@ const VirtualTryOnPage = () => {
   const [userFile, setUserFile] = useState(null);
   const [aiResultImage, setAiResultImage] = useState(null);
   const [showOriginal, setShowOriginal] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
   const selectedProduct = products[0];
   const [selectedSize, setSelectedSize] = useState('L');
   const [isProcessing, setIsProcessing] = useState(false);
@@ -31,6 +32,7 @@ const VirtualTryOnPage = () => {
       setUserFile(file);
       setAiResultImage(null);
       setTryOnCompleted(false);
+      setErrorMessage('');
     }
   };
 
@@ -39,6 +41,7 @@ const VirtualTryOnPage = () => {
     setUserFile(null);
     setAiResultImage(null);
     setTryOnCompleted(false);
+    setErrorMessage('');
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
     }
@@ -55,39 +58,34 @@ const VirtualTryOnPage = () => {
     setIsProcessing(true);
     setTryOnCompleted(false);
     setShowOriginal(false);
+    setErrorMessage('');
 
     try {
-      setProcessStep('WeShopAI VTON: Đang chuẩn bị dữ liệu hình ảnh & nhận diện vóc dáng...');
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      setProcessStep('WeShop AI: Đang tải dữ liệu hình ảnh & kết nối hệ sinh thái...');
+      await new Promise((resolve) => setTimeout(resolve, 400));
 
       const personInput = userFile || userUploadedPhoto;
       const garmentInput = selectedProduct.images[0];
 
-      setProcessStep('WeShopAI VTON: Đang kết nối tới mô hình AI Virtual Try-On trên Hugging Face...');
+      setProcessStep('WeShop AI: Đang nhận diện vóc dáng & tiến hành thử đồ ảo...');
 
-      try {
-        const resultUrl = await handleAITryOn(
-          personInput,
-          garmentInput,
-          selectedProduct.category
-        );
-        if (resultUrl) {
-          setAiResultImage(resultUrl);
-          setProcessStep('WeShopAI: Hoàn tất quá trình tạo ảnh thử đồ chân thực bằng AI Diffusion!');
-          await new Promise((resolve) => setTimeout(resolve, 600));
-        }
-      } catch (apiErr) {
-        console.warn('API Space đang bận hoặc giới hạn kết nối, kích hoạt cơ chế hiển thị Client-Side AI:', apiErr);
-        setProcessStep('Client AI: Tự động căn chỉnh hình học trang phục & phom dáng 3D...');
-        await new Promise((resolve) => setTimeout(resolve, 800));
-        setProcessStep('Client AI: Tối ưu ánh sáng, nếp gấp & hoàn tất phối đồ!');
-        await new Promise((resolve) => setTimeout(resolve, 500));
+      // CHỈ 1 TẦNG DUY NHẤT: Gọi trực tiếp WeShop AI
+      const resultUrl = await callWeShopAiTryOn(personInput, garmentInput);
+
+      if (resultUrl) {
+        setAiResultImage(resultUrl);
+        setFitMatchScore((96.5 + Math.random() * 2.8).toFixed(1));
+        setTryOnCompleted(true);
+        setErrorMessage('');
+      } else {
+        throw new Error('Hệ thống chưa nhận diện được ảnh kết quả.');
       }
-
-      setFitMatchScore((96.5 + Math.random() * 2.8).toFixed(1));
-      setTryOnCompleted(true);
     } catch (error) {
-      console.error('Lỗi xử lý AI:', error);
+      console.error('Lỗi WeShop AI:', error);
+      // NẾU NGHẼN HOẶC LỖI -> THÔNG BÁO CHỜ HOẶC THỬ LẠI SAU (THEO YÊU CẦU NGƯỜI DÙNG)
+      setErrorMessage('⚠️ Hệ thống AI đang bận hoặc quá tải hàng đợi, bạn vui lòng chờ hoặc thử lại sau nhé!');
+      setTryOnCompleted(false);
+      setAiResultImage(null);
     } finally {
       setIsProcessing(false);
       setProcessStep('');
@@ -189,7 +187,7 @@ const VirtualTryOnPage = () => {
                   aiResultImage && !showOriginal ? (
                     <img
                       src={aiResultImage}
-                      alt="Kết quả thử đồ FASHN AI"
+                      alt="Kết quả thử đồ WeShop AI"
                       className="vton-base-img vton-ai-result-img"
                     />
                   ) : (
@@ -327,6 +325,26 @@ const VirtualTryOnPage = () => {
                   💡 Có đủ 6 size: <strong>S, M, L, XL, XXL, XXXL</strong>. Bạn có thể hỏi <strong>AI Stylist</strong> ở góc phải để được gợi ý chuẩn theo cân nặng & chiều cao!
                 </div>
               </div>
+
+              {/* Thông báo lỗi khi hệ thống AI quá tải hoặc nghẽn */}
+              {errorMessage && (
+                <div
+                  className="vton-error-banner"
+                  style={{
+                    background: '#fff3cd',
+                    border: '1px solid #ffeeba',
+                    color: '#856404',
+                    padding: '12px',
+                    borderRadius: '8px',
+                    fontSize: '0.82rem',
+                    marginBottom: '14px',
+                    lineHeight: 1.5,
+                    fontWeight: '500'
+                  }}
+                >
+                  {errorMessage}
+                </div>
+              )}
 
               <button
                 className="btn btn-primary vton-try-btn"
