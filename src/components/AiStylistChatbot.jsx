@@ -7,7 +7,7 @@ export default function AiStylistChatbot() {
   const [messages, setMessages] = useState([
     {
       sender: 'ai',
-      text: 'Xin chào quý khách! Tôi là LUXE AI Stylist kết nối trực tiếp với Llama 3.1 (LM Studio). Tôi có thể hỗ trợ gì cho bạn hôm nay?'
+      text: 'Xin chào! Tôi là AI Stylist tư vấn Áo Polo Đồng Phục HCMUTE. Áo hiện có đầy đủ 6 size: S, M, L, XL, XXL, XXXL. Bạn hãy cho tôi biết chiều cao & cân nặng để tôi tư vấn chọn size chuẩn nhất nhé!'
     }
   ]);
   const [input, setInput] = useState('');
@@ -39,7 +39,7 @@ export default function AiStylistChatbot() {
           messages: [
             {
               role: "system",
-              content: "Bạn là trợ lý AI Stylist thời trang chuyên nghiệp của cửa hàng LUXE. Hãy tư vấn ngắn gọn, thân thiện, thông minh bằng tiếng Việt."
+              content: "Bạn là trợ lý AI Stylist thời trang chuyên nghiệp tư vấn Áo Polo Đồng Phục HCMUTE (Since 1962). Cửa hàng hiện cung cấp duy nhất sản phẩm: Áo Polo Đồng Phục HCMUTE với 6 size chuẩn: S, M, L, XL, XXL, XXXL.\nBảng chuẩn size khuyến nghị:\n- Size S: Cao 1m50 - 1m60, Cân nặng 42 - 50kg\n- Size M: Cao 1m60 - 1m68, Cân nặng 50 - 60kg\n- Size L: Cao 1m68 - 1m75, Cân nặng 60 - 70kg\n- Size XL: Cao 1m72 - 1m80, Cân nặng 70 - 78kg\n- Size XXL: Cao 1m75 - 1m85, Cân nặng 78 - 86kg\n- Size XXXL: Cao trên 1m80, Cân nặng trên 86kg (hoặc thích mặc form rộng rãi thoải mái)\nHãy tư vấn ngắn gọn, lịch sự, thân thiện, thông minh bằng tiếng Việt cho sinh viên HCMUTE."
             },
             {
               role: "user",
@@ -101,10 +101,10 @@ export default function AiStylistChatbot() {
                 <FaRobot />
               </div>
               <div className="ai-stylist-header__text">
-                <h4>LUXE AI Stylist</h4>
+                <h4>HCMUTE AI Stylist</h4>
                 <div className="ai-stylist-header__status">
                   <span className="ai-stylist-status-dot" />
-                  <span>Llama 3.1 • Offline 100%</span>
+                  <span>Tư vấn size Áo Polo HCMUTE</span>
                 </div>
               </div>
             </div>
@@ -123,16 +123,16 @@ export default function AiStylistChatbot() {
             <button
               type="button"
               className="ai-stylist-chip"
-              onClick={() => handleSend('Đùi tôi hơi to thì nên mặc quần gì?')}
+              onClick={() => handleSend('Tư vấn size: Cao 1m70 nặng 65kg thì mặc size gì?')}
             >
-              👖 Đùi to mặc gì?
+              📏 Size 1m70 65kg?
             </button>
             <button
               type="button"
               className="ai-stylist-chip"
-              onClick={() => handleSend('Tư vấn size: Cao 1m62 nặng 50kg')}
+              onClick={() => handleSend('Áo Polo Đồng Phục HCMUTE có những size nào?')}
             >
-              📏 Size 1m62 50kg?
+              👕 Các size áo có sẵn?
             </button>
           </div>
 

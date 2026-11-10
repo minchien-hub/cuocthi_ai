@@ -16,7 +16,8 @@ const VirtualTryOnPage = () => {
   const [userFile, setUserFile] = useState(null);
   const [aiResultImage, setAiResultImage] = useState(null);
   const [showOriginal, setShowOriginal] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState(products[0]);
+  const selectedProduct = products[0];
+  const [selectedSize, setSelectedSize] = useState('L');
   const [isProcessing, setIsProcessing] = useState(false);
   const [processStep, setProcessStep] = useState('');
   const [tryOnCompleted, setTryOnCompleted] = useState(false);
@@ -41,12 +42,6 @@ const VirtualTryOnPage = () => {
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
     }
-  };
-
-  const handleSelectProduct = (product) => {
-    setSelectedProduct(product);
-    setAiResultImage(null);
-    setTryOnCompleted(false);
   };
 
   const handleStartTryOn = async () => {
@@ -101,8 +96,7 @@ const VirtualTryOnPage = () => {
 
   const handleAddToCart = () => {
     if (selectedProduct) {
-      const sizeToAdd = selectedProduct.sizes && selectedProduct.sizes.length > 0 ? selectedProduct.sizes[0] : 'FreeSize';
-      addToCart(selectedProduct, sizeToAdd, selectedProduct.colors[0], 1);
+      addToCart(selectedProduct, selectedSize, selectedProduct.colors[0], 1);
     }
   };
 
@@ -269,27 +263,9 @@ const VirtualTryOnPage = () => {
             </div>
           </div>
 
-          {/* Right Panel: Garment Selector & Action */}
+          {/* Right Panel: Single Garment & Action */}
           <div className="vton-panel vton-panel--right">
-            <span className="vton-section-label">Chọn trang phục muốn ướm thử:</span>
-
-            <div className="vton-garment-catalog">
-              {products.map((p) => (
-                <div
-                  key={p.id}
-                  className={`vton-garment-thumb ${selectedProduct.id === p.id ? 'active' : ''}`}
-                  onClick={() => handleSelectProduct(p)}
-                >
-                  <img src={p.images[0]} alt={p.name} />
-                  <div className="vton-garment-thumb-info">
-                    <span className="vton-garment-thumb-name">{p.name}</span>
-                    <span className="vton-garment-thumb-price">
-                      {p.price.toLocaleString('vi-VN')}đ
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <span className="vton-section-label">Trang phục thử đồ:</span>
 
             {/* Selected Product Summary Box */}
             <div className="vton-selected-summary">
@@ -297,8 +273,18 @@ const VirtualTryOnPage = () => {
                 <img src={selectedProduct.images[0]} alt={selectedProduct.name} />
                 <div>
                   <h4>{selectedProduct.name}</h4>
-                  <span className="vton-price-highlight">
-                    {selectedProduct.price.toLocaleString('vi-VN')}đ
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: '4px 0' }}>
+                    <span className="vton-price-highlight">
+                      {selectedProduct.price.toLocaleString('vi-VN')}đ
+                    </span>
+                    {selectedProduct.originalPrice && (
+                      <span style={{ fontSize: '0.82rem', textDecoration: 'line-through', color: '#999' }}>
+                        {selectedProduct.originalPrice.toLocaleString('vi-VN')}đ
+                      </span>
+                    )}
+                  </div>
+                  <span style={{ fontSize: '0.75rem', color: '#1565C0', fontWeight: '600' }}>
+                    Đồng phục chính hãng HCMUTE
                   </span>
                 </div>
               </div>
@@ -311,13 +297,36 @@ const VirtualTryOnPage = () => {
                     <span className="vton-ai-fit-card__badge">Chuẩn {fitMatchScore}%</span>
                   </div>
                   <div className="vton-ai-fit-card__body">
-                    <span className="vton-ai-fit-card__match">• Vừa Vặn Hoàn Hảo</span>
+                    <span className="vton-ai-fit-card__match">• Vừa Vặn Hoàn Hảo (Size {selectedSize})</span>
                   </div>
                   <p className="vton-ai-fit-card__desc">
-                    Tỷ lệ vai, ngực & chiều dài trang phục tương thích hoàn toàn với hình thể. An tâm đặt hàng không lo chật/rộng!
+                    Tỷ lệ vai, ngực & chiều dài áo polo tương thích hoàn toàn với hình thể. An tâm đặt hàng không lo chật/rộng!
                   </p>
                 </div>
               )}
+
+              {/* Size Selector */}
+              <div className="vton-size-picker">
+                <div className="vton-size-picker-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                  <span className="vton-sublabel" style={{ marginBottom: 0 }}>Chọn size áo:</span>
+                  <span style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--primary)' }}>Đang chọn: Size {selectedSize}</span>
+                </div>
+                <div className="vton-size-buttons">
+                  {selectedProduct.sizes.map((s) => (
+                    <button
+                      key={s}
+                      type="button"
+                      className={`vton-size-btn ${selectedSize === s ? 'active' : ''}`}
+                      onClick={() => setSelectedSize(s)}
+                    >
+                      {s}
+                    </button>
+                  ))}
+                </div>
+                <div style={{ fontSize: '0.74rem', color: '#666', marginTop: '8px', lineHeight: 1.4 }}>
+                  💡 Có đủ 6 size: <strong>S, M, L, XL, XXL, XXXL</strong>. Bạn có thể hỏi <strong>AI Stylist</strong> ở góc phải để được gợi ý chuẩn theo cân nặng & chiều cao!
+                </div>
+              </div>
 
               <button
                 className="btn btn-primary vton-try-btn"
@@ -331,7 +340,7 @@ const VirtualTryOnPage = () => {
                 className="btn btn-dark vton-cart-btn"
                 onClick={handleAddToCart}
               >
-                <FiShoppingBag /> Thêm sản phẩm này vào giỏ
+                <FiShoppingBag /> Thêm size {selectedSize} vào giỏ
               </button>
             </div>
           </div>
