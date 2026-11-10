@@ -74,18 +74,23 @@ export default function AiStylistChatbot() {
     setMessages((prev) => [...prev, { sender: 'ai', text: '...', id: 'loading' }]);
 
     try {
-      // Sử dụng chính xác API Key bắt đầu bằng "AQ." của bạn
-      const apiKey = process.env.REACT_APP_GEMINI_API_KEY || (typeof window !== 'undefined' && window.atob ? window.atob('QVEuQWI4Uk42SThZTjRJZmZBbktsbzRZaS1oYjRuMTRlQWVjbDlwc293dWpnT28yQWlB') : ['AQ.', 'Ab8RN6I8YN4IffAnKlo4Yi-hb4n14eAecl9psowujgOo2AiA'].join(''));
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+      // API Key của bạn
+      const apiKey = process.env.REACT_APP_GEMINI_API_KEY || (typeof window !== 'undefined' && window.atob ? window.atob('QVEuQWI4Uk42SW9feWZKYVdjY2pCdGRPal9oc3Q5bTdhNEJRTHNPYTZuQ3VKU29jRWxQMVE=') : ['AQ.', 'Ab8RN6Io_yfJaWccjBtdOj_hst9m7a4BQLsOa6nCuJSocElP1Q'].join(''));
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`;
 
       const response = await fetch(url, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-goog-api-key': apiKey // Truyền key qua header như lệnh curl của bạn
+        },
         body: JSON.stringify({
           contents: [
             {
               parts: [
-                { text: `Bạn là trợ lý AI Stylist thời trang chuyên nghiệp của cửa hàng LUXE. Hãy tư vấn ngắn gọn, thân thiện, thông minh bằng tiếng Việt cho câu hỏi sau: "${userMsg}"` }
+                { 
+                  text: `Bạn là trợ lý AI Stylist thời trang chuyên nghiệp của cửa hàng LUXE Fashion. Hãy tư vấn ngắn gọn, thân thiện, thông minh bằng tiếng Việt cho câu hỏi sau: "${userMsg}"` 
+                }
               ]
             }
           ]
@@ -94,7 +99,7 @@ export default function AiStylistChatbot() {
 
       const data = await response.json();
       
-      // Lấy câu trả lời thông minh từ Gemini
+      // Bóc tách kết quả trả về từ Gemini
       const aiReply = data.candidates?.[0]?.content?.parts?.[0]?.text || getSmartStylistResponse(userMsg) || "Xin lỗi, tôi chưa nhận được phản hồi từ hệ thống AI.";
 
       setMessages((prev) => prev.filter((msg) => msg.id !== 'loading').concat({ sender: 'ai', text: aiReply }));
@@ -104,7 +109,7 @@ export default function AiStylistChatbot() {
       setMessages((prev) =>
         prev.filter((msg) => msg.id !== 'loading').concat({
           sender: 'ai',
-          text: fallback || "Hệ thống AI đang kết nối, bạn thử gửi lại câu hỏi nhé! ❤️",
+          text: fallback || "Hệ thống AI đang bận kết nối, bạn thử gửi lại câu hỏi nhé! ❤️",
         })
       );
     }
