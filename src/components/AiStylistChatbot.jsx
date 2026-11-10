@@ -99,7 +99,7 @@ export default function AiStylistChatbot() {
       });
 
       const data = await response.json();
-      
+
       // Bóc tách kết quả trả về từ LM Studio (chuẩn OpenAI format)
       const aiReply =
         data.choices?.[0]?.message?.content ||
