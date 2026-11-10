@@ -85,20 +85,30 @@ export const callWeShopAiTryOn = async (personImage, garmentImage, apiKey = proc
   }
 
   // 2. Gọi qua WeShop AI Virtual Try-On API trên Hugging Face
-  console.log("🚀 Đang kết nối tới WeShop AI Virtual Try-On (weshopai/weshopai-virtual-try-on)...");
-  const app = await client("weshopai/weshopai-virtual-try-on");
+  console.log("🚀 Đang kết nối tới WeShop AI Virtual Try-On...");
+  let app;
+  try {
+    app = await client("https://weshopai-weshopai-virtual-try-on.hf.space");
+  } catch (directErr) {
+    console.warn("Thử kết nối qua Space ID fallback:", directErr);
+    app = await client("WeShopAI/WeShopAI-Virtual-Try-On");
+  }
 
-  console.log("📤 Đang gửi ảnh lên WeShop AI xử lý thử đồ...");
+  console.log("📤 Đang gửi ảnh lên WeShop AI xử lý thử đồ (Garment: Bước 1, Person: Bước 2)...");
   let result;
   try {
+    // Theo cấu trúc của WeShopAI:
+    // Param 1 (Main Image): Ảnh trang phục (garmentFile)
+    // Param 2 (Background reference image): Ảnh người mẫu (personFile)
     result = await app.predict("/generate_image", [
-      personFile,    // Main Image (người mẫu)
-      garmentFile    // Background reference image (quần áo)
+      garmentFile,
+      personFile
     ]);
   } catch (epErr) {
+    console.warn("Endpoint /generate_image lỗi, thử gọi /predict:", epErr);
     result = await app.predict("/predict", [
-      personFile,
-      garmentFile
+      garmentFile,
+      personFile
     ]);
   }
 
