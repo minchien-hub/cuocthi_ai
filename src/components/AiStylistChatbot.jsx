@@ -74,42 +74,49 @@ export default function AiStylistChatbot() {
     setMessages((prev) => [...prev, { sender: 'ai', text: '...', id: 'loading' }]);
 
     try {
-      // API Key của bạn
-      const apiKey = process.env.REACT_APP_GEMINI_API_KEY || (typeof window !== 'undefined' && window.atob ? window.atob('QVEuQWI4Uk42SW9feWZKYVdjY2pCdGRPal9oc3Q5bTdhNEJRTHNPYTZuQ3VKU29jRWxQMVE=') : ['AQ.', 'Ab8RN6Io_yfJaWccjBtdOj_hst9m7a4BQLsOa6nCuJSocElP1Q'].join(''));
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`;
+      // Đổi cổng thành 1235 như trên LM Studio của bạn
+      const url = "http://localhost:1235/v1/chat/completions";
 
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-goog-api-key': apiKey // Truyền key qua header như lệnh curl của bạn
         },
         body: JSON.stringify({
-          contents: [
+          model: 'local-model',
+          messages: [
             {
-              parts: [
-                { 
-                  text: `Bạn là trợ lý AI Stylist thời trang chuyên nghiệp của cửa hàng LUXE Fashion. Hãy tư vấn ngắn gọn, thân thiện, thông minh bằng tiếng Việt cho câu hỏi sau: "${userMsg}"` 
-                }
-              ]
+              role: 'system',
+              content: 'Bạn là trợ lý AI Stylist thời trang chuyên nghiệp của cửa hàng LUXE Fashion. Hãy tư vấn ngắn gọn, thân thiện, thông minh bằng tiếng Việt.'
+            },
+            {
+              role: 'user',
+              content: userMsg
             }
-          ]
+          ],
+          temperature: 0.7
         })
       });
 
       const data = await response.json();
       
-      // Bóc tách kết quả trả về từ Gemini
-      const aiReply = data.candidates?.[0]?.content?.parts?.[0]?.text || getSmartStylistResponse(userMsg) || "Xin lỗi, tôi chưa nhận được phản hồi từ hệ thống AI.";
+      // Bóc tách kết quả trả về từ LM Studio (chuẩn OpenAI format)
+      const aiReply =
+        data.choices?.[0]?.message?.content ||
+        data.choices?.[0]?.text ||
+        data.candidates?.[0]?.content?.parts?.[0]?.text ||
+        data.output ||
+        getSmartStylistResponse(userMsg) ||
+        "Xin lỗi, tôi chưa nhận được phản hồi từ hệ thống AI.";
 
       setMessages((prev) => prev.filter((msg) => msg.id !== 'loading').concat({ sender: 'ai', text: aiReply }));
     } catch (error) {
-      console.error('Lỗi gọi API:', error);
+      console.error('Lỗi gọi API LM Studio:', error);
       const fallback = getSmartStylistResponse(userMsg);
       setMessages((prev) =>
         prev.filter((msg) => msg.id !== 'loading').concat({
           sender: 'ai',
-          text: fallback || "Hệ thống AI đang bận kết nối, bạn thử gửi lại câu hỏi nhé! ❤️",
+          text: fallback || "Hệ thống AI đang kết nối tới LM Studio, bạn thử gửi lại câu hỏi nhé! ❤️",
         })
       );
     }
