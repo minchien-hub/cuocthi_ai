@@ -1,7 +1,7 @@
 .weshop-tryon-container {
-  max-width: 900px;
+  max-width: 1050px;
   margin: 30px auto;
-  padding: 24px;
+  padding: 28px;
   background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
@@ -15,7 +15,7 @@
 
 .weshop-header h2 {
   color: #1a1a1a;
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 6px;
 }
 
@@ -26,26 +26,196 @@
 
 .weshop-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 24px;
   margin-bottom: 24px;
 }
 
-.upload-box h3 {
+.upload-box {
+  background: #fafbfc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.upload-box-header h3 {
   font-size: 15px;
-  color: #333;
-  margin-bottom: 10px;
+  color: #1e293b;
+  margin: 0;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
+.btn-upload-custom-label {
+  font-size: 12px;
+  color: #2563eb;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+}
+
+.btn-upload-custom-label:hover {
+  background: #dbeafe;
+}
+
+/* Store Products Horizontal Carousel */
+.store-products-carousel {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+}
+
+.store-products-carousel::-webkit-scrollbar {
+  height: 6px;
+}
+
+.store-products-carousel::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.store-product-item {
+  flex: 0 0 85px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.store-product-item:hover {
+  transform: translateY(-2px);
+  border-color: #93c5fd;
+}
+
+.store-product-item.active {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.store-product-item img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.store-product-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 11px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.store-product-price {
+  display: block;
+  font-size: 11px;
+  color: #2563eb;
+  font-weight: 700;
+}
+
+/* Selected Garment Preview */
+.selected-garment-preview {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  height: 240px;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-with-info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 16px;
+  padding: 12px;
+}
+
+.preview-with-info .preview-img {
+  width: 160px;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.garment-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.garment-details h4 {
+  font-size: 16px;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.garment-price {
+  font-size: 16px;
+  color: #2563eb;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.garment-sizes span {
+  font-size: 12px;
+  color: #64748b;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.size-tags {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.size-tag {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* Person Dropzone */
 .dropzone-label {
   display: block;
   border: 2px dashed #cbd5e1;
   border-radius: 12px;
-  height: 260px;
-  background: #f8fafc;
+  height: 335px;
+  background: white;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -54,7 +224,7 @@
 
 .dropzone-label:hover {
   border-color: #2563eb;
-  background: #f1f5f9;
+  background: #f8fafc;
 }
 
 .dropzone-placeholder {
@@ -65,18 +235,43 @@
   height: 100%;
   color: #64748b;
   gap: 10px;
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
+  padding: 16px;
+}
+
+.dropzone-subtext {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.person-preview-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.person-preview-wrapper .preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.change-photo-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 50px;
 }
 
 .icon-upl {
   font-size: 28px;
   color: #2563eb;
-}
-
-.preview-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
 
 .generate-btn {
@@ -90,6 +285,10 @@
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .generate-btn:hover:not(:disabled) {
@@ -114,7 +313,7 @@
   text-align: center;
   background: #f0fdf4;
   border: 1px solid #bbf7d0;
-  padding: 20px;
+  padding: 24px;
   border-radius: 12px;
 }
 
@@ -132,12 +331,12 @@
 }
 
 .result-image-wrapper {
-  max-height: 400px;
-  margin-bottom: 15px;
+  max-height: 480px;
+  margin-bottom: 18px;
 }
 
 .result-final-img {
-  max-height: 400px;
+  max-height: 480px;
   border-radius: 8px;
   object-fit: contain;
 }
@@ -146,7 +345,7 @@
   display: inline-block;
   background: #16a34a;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 24px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
@@ -155,4 +354,13 @@
 
 .download-btn:hover {
   background: #15803d;
+}
+
+@media (max-width: 900px) {
+  .weshop-grid {
+    grid-template-columns: 1fr;
+  }
+  .dropzone-label {
+    height: 280px;
+  }
 }
