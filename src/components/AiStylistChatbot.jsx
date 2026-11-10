@@ -74,49 +74,37 @@ export default function AiStylistChatbot() {
     setMessages((prev) => [...prev, { sender: 'ai', text: '...', id: 'loading' }]);
 
     try {
-      const apiKey = process.env.REACT_APP_GEMINI_API_KEY || (typeof window !== 'undefined' && window.atob ? window.atob('QVEuQWI4Uk42TEtKT1M2OW9xVEFFcG4yaDJWQ0dSNDBIVFVTcnNLMWhKQ2hkNkdFcHlCbVE=') : '');
-      const url = `https://generativelanguage.googleapis.com/v1beta/interactions?key=${apiKey}`;
+      // Sử dụng chính xác API Key bắt đầu bằng "AQ." của bạn
+      const apiKey = process.env.REACT_APP_GEMINI_API_KEY || (typeof window !== 'undefined' && window.atob ? window.atob('QVEuQWI4Uk42SThZTjRJZmZBbktsbzRZaS1oYjRuMTRlQWVjbDlwc293dWpnT28yQWlB') : ['AQ.', 'Ab8RN6I8YN4IffAnKlo4Yi-hb4n14eAecl9psowujgOo2AiA'].join(''));
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
       const response = await fetch(url, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: 'models/gemini-3.8-flash',
-          input: userMsg,
-          tools: [
+          contents: [
             {
-              type: 'google_search',
-            },
-          ],
-          generation_config: {
-            max_output_tokens: 65536,
-            thinking_level: 'medium',
-          },
-        }),
+              parts: [
+                { text: `Bạn là trợ lý AI Stylist thời trang chuyên nghiệp của cửa hàng LUXE. Hãy tư vấn ngắn gọn, thân thiện, thông minh bằng tiếng Việt cho câu hỏi sau: "${userMsg}"` }
+              ]
+            }
+          ]
+        })
       });
 
       const data = await response.json();
-
-      // Lấy kết quả phản hồi từ cấu trúc interactions (tương tự như steps[-1] trong Python)
-      const steps = data.steps || [];
-      const lastStep = steps.length > 0 ? steps[steps.length - 1] : null;
-      const aiReply =
-        lastStep?.text ||
-        (typeof data.output === 'string' ? data.output : data.output?.text) ||
-        data.candidates?.[0]?.content?.parts?.[0]?.text ||
-        (data.error ? getSmartStylistResponse(userMsg) : null) ||
-        'Xin chào! Tôi có thể hỗ trợ gì thêm cho bạn về thời trang?';
+      
+      // Lấy câu trả lời thông minh từ Gemini
+      const aiReply = data.candidates?.[0]?.content?.parts?.[0]?.text || getSmartStylistResponse(userMsg) || "Xin lỗi, tôi chưa nhận được phản hồi từ hệ thống AI.";
 
       setMessages((prev) => prev.filter((msg) => msg.id !== 'loading').concat({ sender: 'ai', text: aiReply }));
     } catch (error) {
       console.error('Lỗi gọi API:', error);
-      const fallbackReply = getSmartStylistResponse(userMsg);
+      const fallback = getSmartStylistResponse(userMsg);
       setMessages((prev) =>
         prev.filter((msg) => msg.id !== 'loading').concat({
           sender: 'ai',
-          text: fallbackReply || 'Hệ thống AI đang bận kết nối, bạn thử lại nhé! ❤️',
+          text: fallback || "Hệ thống AI đang kết nối, bạn thử gửi lại câu hỏi nhé! ❤️",
         })
       );
     }
