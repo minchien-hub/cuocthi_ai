@@ -25,7 +25,7 @@ const WishlistPage = () => {
             <FiHeart className="wishlist-page__empty-icon" />
           </div>
           <h2>Danh Sách Yêu Thích Trống</h2>
-          <p>Bạn chưa lưu sản phẩm nào vào danh sách yêu thích. Hãy tiếp tục khám phá các bộ sưu tập thời trang cao cấp của LUXE nhé!</p>
+          <p>Bạn chưa lưu sản phẩm nào vào danh sách yêu thích. Hãy tiếp tục khám phá các bộ sưu tập thời trang cao cấp của AUREUS nhé!</p>
           <Link to="/shop" className="btn btn-primary">
             Khám phá cửa hàng <FiArrowRight />
           </Link>

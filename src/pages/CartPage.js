@@ -17,11 +17,11 @@ const CartPage = () => {
 
   const handleApplyCoupon = (e) => {
     e.preventDefault();
-    if (couponCode.toLowerCase() === 'luxe10') {
+    if (couponCode.toLowerCase() === 'aureus10' || couponCode.toLowerCase() === 'luxe10') {
       setDiscount(cartTotal * 0.1);
       setCouponApplied(true);
     } else {
-      alert('Mã giảm giá không hợp lệ. Hãy thử: LUXE10');
+      alert('Mã giảm giá không hợp lệ. Hãy thử: AUREUS10');
     }
   };
 
@@ -36,7 +36,7 @@ const CartPage = () => {
         <div className="cart-page__success-card">
           <div className="cart-page__success-icon"><FiCheck /></div>
           <h2>Đặt Hàng Thành Công!</h2>
-          <p>Cảm ơn bạn đã mua sắm tại LUXE Fashion. Chúng tôi sẽ liên hệ để xác nhận đơn hàng trong thời gian sớm nhất.</p>
+          <p>Cảm ơn bạn đã mua sắm tại AUREUS Fashion. Chúng tôi sẽ liên hệ để xác nhận đơn hàng trong thời gian sớm nhất.</p>
           <Link to="/shop" className="btn btn-primary" onClick={() => setOrderPlaced(false)}>
             Tiếp tục mua sắm <FiArrowRight />
           </Link>
@@ -174,7 +174,7 @@ const CartPage = () => {
             <form className="cart-page__coupon-form" onSubmit={handleApplyCoupon}>
               <input
                 type="text"
-                placeholder="Mã giảm giá (thử LUXE10)"
+                placeholder="Mã giảm giá (thử AUREUS10)"
                 value={couponCode}
                 onChange={(e) => setCouponCode(e.target.value)}
                 disabled={couponApplied}

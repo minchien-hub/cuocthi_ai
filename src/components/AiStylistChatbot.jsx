@@ -7,7 +7,7 @@ export default function AiStylistChatbot() {
   const [messages, setMessages] = useState([
     {
       sender: 'ai',
-      text: 'Xin chào! Tôi là AI Stylist tư vấn Áo Polo Đồng Phục HCMUTE. Áo hiện có đầy đủ 6 size: S, M, L, XL, XXL, XXXL. Bạn hãy cho tôi biết chiều cao & cân nặng để tôi tư vấn chọn size chuẩn nhất nhé!'
+      text: 'Xin chào! Tôi là Aureus AI Stylist - Trợ lý phong cách & tư vấn kích cỡ thông minh của thương hiệu Aureus. Bạn hãy cho tôi biết chiều cao, cân nặng hoặc trang phục bạn quan tâm để tôi hỗ trợ tư vấn chọn size chuẩn nhất nhé!'
     }
   ]);
   const [input, setInput] = useState('');
@@ -39,7 +39,7 @@ export default function AiStylistChatbot() {
           messages: [
             {
               role: "system",
-              content: "Bạn là trợ lý AI Stylist thời trang chuyên nghiệp tư vấn Áo Polo Đồng Phục HCMUTE (Since 1962). Cửa hàng hiện cung cấp duy nhất sản phẩm: Áo Polo Đồng Phục HCMUTE với 6 size chuẩn: S, M, L, XL, XXL, XXXL.\nBảng chuẩn size khuyến nghị:\n- Size S: Cao 1m50 - 1m60, Cân nặng 42 - 50kg\n- Size M: Cao 1m60 - 1m68, Cân nặng 50 - 60kg\n- Size L: Cao 1m68 - 1m75, Cân nặng 60 - 70kg\n- Size XL: Cao 1m72 - 1m80, Cân nặng 70 - 78kg\n- Size XXL: Cao 1m75 - 1m85, Cân nặng 78 - 86kg\n- Size XXXL: Cao trên 1m80, Cân nặng trên 86kg (hoặc thích mặc form rộng rãi thoải mái)\nHãy tư vấn ngắn gọn, lịch sự, thân thiện, thông minh bằng tiếng Việt cho sinh viên HCMUTE."
+              content: "Bạn là Aureus AI Stylist - Trợ lý AI thời trang & phong cách của thương hiệu thời trang cao cấp Aureus. Bạn hỗ trợ khách hàng tư vấn kích cỡ, gợi ý phối đồ và phong cách thời trang.\nNếu khách hỏi về Áo Polo Đồng Phục HCMUTE (sản phẩm đặc trưng của shop có 6 size S, M, L, XL, XXL, XXXL), bảng size khuyến nghị là:\n- Size S: Cao 1m50 - 1m60, Cân nặng 42 - 50kg\n- Size M: Cao 1m60 - 1m68, Cân nặng 50 - 60kg\n- Size L: Cao 1m68 - 1m75, Cân nặng 60 - 70kg\n- Size XL: Cao 1m72 - 1m80, Cân nặng 70 - 78kg\n- Size XXL: Cao 1m75 - 1m85, Cân nặng 78 - 86kg\n- Size XXXL: Cao trên 1m80, Cân nặng trên 86kg (hoặc thích mặc form rộng rãi thoải mái)\nHãy tư vấn ngắn gọn, lịch sự, thân thiện, thông minh bằng tiếng Việt cho khách hàng của Aureus."
             },
             {
               role: "user",
@@ -89,7 +89,7 @@ export default function AiStylistChatbot() {
           <span className="ai-stylist-trigger__icon">
             <FaRobot />
           </span>
-          <span>AI Stylist</span>
+          <span>Aureus AI Stylist</span>
           <span className="ai-stylist-trigger__badge" />
         </button>
       ) : (
@@ -101,10 +101,10 @@ export default function AiStylistChatbot() {
                 <FaRobot />
               </div>
               <div className="ai-stylist-header__text">
-                <h4>HCMUTE AI Stylist</h4>
+                <h4>Aureus AI Stylist</h4>
                 <div className="ai-stylist-header__status">
                   <span className="ai-stylist-status-dot" />
-                  <span>Tư vấn size Áo Polo HCMUTE</span>
+                  <span>Trợ lý thời trang Aureus</span>
                 </div>
               </div>
             </div>

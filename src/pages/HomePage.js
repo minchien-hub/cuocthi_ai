@@ -40,7 +40,7 @@ const HomePage = () => {
 
   const testimonials = [
     { name: 'Nguyễn Minh Anh', role: 'Doanh nhân', avatar: '/images/avatars/avatar-1.jpg', rating: 5, text: 'Chất lượng sản phẩm tuyệt vời! Tôi đã mua nhiều lần và luôn hài lòng. Thiết kế sang trọng, vải cao cấp.' },
-    { name: 'Trần Thu Hà', role: 'Fashionista', avatar: '/images/avatars/avatar-2.jpg', rating: 5, text: 'LUXE là thương hiệu yêu thích của tôi. Phong cách thời trang cập nhật xu hướng mà vẫn giữ nét thanh lịch.' },
+    { name: 'Trần Thu Hà', role: 'Fashionista', avatar: '/images/avatars/avatar-2.jpg', rating: 5, text: 'AUREUS là thương hiệu yêu thích của tôi. Phong cách thời trang cập nhật xu hướng mà vẫn giữ nét thanh lịch.' },
     { name: 'Lê Phương Thảo', role: 'KOL', avatar: '/images/avatars/avatar-3.jpg', rating: 4, text: 'Dịch vụ chăm sóc khách hàng tuyệt vời. Giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại!' },
   ];
 
@@ -210,7 +210,7 @@ const HomePage = () => {
           <div className="section-title animate-in">
             <h2>Theo Dõi Chúng Tôi</h2>
             <div className="line" />
-            <p>@luxe_fashion</p>
+            <p>@aureus_fashion</p>
           </div>
           <div className="instagram__grid">
             {instagramImages.map((img, i) => (

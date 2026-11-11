@@ -76,7 +76,7 @@ const Navbar = () => {
           <div className="navbar__container">
             {/* Logo */}
             <Link to="/" className="navbar__logo">
-              <span className="navbar__logo-text">LUXE</span>
+              <span className="navbar__logo-text">AUREUS</span>
               <span className="navbar__logo-sub">FASHION</span>
             </Link>
 
@@ -170,7 +170,7 @@ const Navbar = () => {
       <div className={`navbar__mobile-menu ${mobileMenuOpen ? 'navbar__mobile-menu--open' : ''}`}>
         <div className="navbar__mobile-header">
           <Link to="/" className="navbar__logo" onClick={() => setMobileMenuOpen(false)}>
-            <span className="navbar__logo-text">LUXE</span>
+            <span className="navbar__logo-text">AUREUS</span>
             <span className="navbar__logo-sub">FASHION</span>
           </Link>
           <button className="navbar__mobile-close" onClick={() => setMobileMenuOpen(false)}>

@@ -13,7 +13,7 @@ const AboutPage = () => {
     {
       icon: <FiHeart />,
       title: 'Tôn Vinh Bản Sắc',
-      desc: 'Chúng tôi tin rằng thời trang là tuyên ngôn của sự tự tin. LUXE giúp phụ nữ thể hiện nét quyến rũ riêng biệt.'
+      desc: 'Chúng tôi tin rằng thời trang là tuyên ngôn của sự tự tin. AUREUS giúp phụ nữ thể hiện nét quyến rũ riêng biệt.'
     },
     {
       icon: <FiUsers />,
@@ -60,7 +60,7 @@ const AboutPage = () => {
           <div className="about-hero__breadcrumb">
             <Link to="/">Trang chủ</Link> <span>/</span> <span>Về chúng tôi</span>
           </div>
-          <span className="about-hero__sub">LUXE FASHION HOUSE</span>
+          <span className="about-hero__sub">AUREUS FASHION HOUSE</span>
           <h1 className="about-hero__title">Nâng Tầm Phong Cách Sống<br />Dành Cho Phái Đẹp</h1>
         </div>
       </section>
@@ -85,10 +85,10 @@ const AboutPage = () => {
               <span className="about-section-subtitle">CÂU CHUYỆN THƯƠNG HIỆU</span>
               <h2 className="about-story__title">Nơi Vẻ Đẹp Sang Trọng Gặp Gỡ Tinh Hoa May Mặc</h2>
               <p className="about-story__p">
-                Khởi nguồn từ niềm đam mê thời trang thượng lưu năm 2018, LUXE ra đời với sứ mệnh mang đến những bộ trang phục không chỉ hoàn hảo về phom dáng mà còn toát lên khí chất quý phái của người phụ nữ hiện đại.
+                Khởi nguồn từ niềm đam mê thời trang thượng lưu năm 2018, AUREUS ra đời với sứ mệnh mang đến những bộ trang phục không chỉ hoàn hảo về phom dáng mà còn toát lên khí chất quý phái của người phụ nữ hiện đại.
               </p>
               <p className="about-story__p">
-                Chúng tôi không chạy theo các trào lưu ngắn hạn. Mỗi thiết kế của LUXE là bản giao hưởng hài hòa giữa sự thanh lịch cổ điển của thời trang Paris và hơi thở thời thượng của phụ nữ Á Đông.
+                Chúng tôi không chạy theo các trào lưu ngắn hạn. Mỗi thiết kế của AUREUS là bản giao hưởng hài hòa giữa sự thanh lịch cổ điển của thời trang Paris và hơi thở thời thượng của phụ nữ Á Đông.
               </p>
 
               <div className="about-story__highlights">
@@ -120,7 +120,7 @@ const AboutPage = () => {
           <div className="section-title">
             <h2>Giá Trị Cốt Lõi</h2>
             <div className="line" />
-            <p>Những nguyên tắc vàng tạo nên thương hiệu LUXE vững bền</p>
+            <p>Những nguyên tắc vàng tạo nên thương hiệu AUREUS vững bền</p>
           </div>
 
           <div className="about-values__grid">

@@ -298,7 +298,7 @@ const ProductDetailPage = () => {
             {activeTab === 'desc' && (
               <div className="product-detail__tab-pane">
                 <p>{product.description}</p>
-                <p>Sản phẩm được thiết kế và sản xuất theo tiêu chuẩn cao cấp của LUXE FASHION, chú trọng từng đường kim mũi chỉ để mang đến trải nghiệm tuyệt vời nhất cho người mặc.</p>
+                <p>Sản phẩm được thiết kế và sản xuất theo tiêu chuẩn cao cấp của AUREUS FASHION, chú trọng từng đường kim mũi chỉ để mang đến trải nghiệm tuyệt vời nhất cho người mặc.</p>
                 <ul>
                   <li>Chất liệu được tuyển chọn kỹ lưỡng, bền màu theo thời gian</li>
                   <li>Phom dáng chuẩn, tôn dáng người mặc</li>
@@ -337,7 +337,7 @@ const ProductDetailPage = () => {
                         {[...Array(5)].map((_, i) => <FaStar key={i} className={i < 4 ? 'star--filled' : 'star--empty'} />)}
                       </div>
                     </div>
-                    <p>Form dáng đẹp, màu sắc chuẩn, giao hàng nhanh chóng. Sẽ tiếp tục ủng hộ LUXE FASHION!</p>
+                    <p>Form dáng đẹp, màu sắc chuẩn, giao hàng nhanh chóng. Sẽ tiếp tục ủng hộ AUREUS FASHION!</p>
                   </div>
                 </div>
               </div>

@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="footer__newsletter-content">
             <div className="footer__newsletter-text">
               <h3>Đăng ký nhận tin</h3>
-              <p>Nhận thông tin ưu đãi và bộ sưu tập mới nhất từ LUXE</p>
+              <p>Nhận thông tin ưu đãi và bộ sưu tập mới nhất từ AUREUS</p>
             </div>
             <form className="footer__newsletter-form" onSubmit={handleSubscribe}>
               <div className="footer__newsletter-input-wrapper">
@@ -57,7 +57,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="footer__col">
               <div className="footer__brand">
-                <span className="footer__brand-name">LUXE</span>
+                <span className="footer__brand-name">AUREUS</span>
                 <span className="footer__brand-sub">FASHION</span>
               </div>
               <p className="footer__description">
@@ -107,7 +107,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__contact-item">
                   <FiMail className="footer__contact-icon" />
-                  <span>info@luxefashion.vn</span>
+                  <span>info@aureusfashion.vn</span>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Footer = () => {
       <div className="footer__bottom">
         <div className="container">
           <div className="footer__bottom-content">
-            <p>&copy; 2024 LUXE Fashion. All rights reserved.</p>
+            <p>&copy; 2024 AUREUS Fashion. All rights reserved.</p>
             <div className="footer__payment">
               <span className="footer__payment-label">Thanh toán:</span>
               <div className="footer__payment-icons">

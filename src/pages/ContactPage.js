@@ -16,8 +16,8 @@ const ContactPage = () => {
 
   const faqs = [
     {
-      q: 'Chính sách đổi trả sản phẩm của LUXE như thế nào?',
-      a: 'LUXE áp dụng chính sách đổi hàng trong vòng 30 ngày kể từ ngày nhận hàng với điều kiện sản phẩm còn nguyên tem mác, chưa qua sử dụng và có hóa đơn mua hàng.'
+      q: 'Chính sách đổi trả sản phẩm của AUREUS như thế nào?',
+      a: 'AUREUS áp dụng chính sách đổi hàng trong vòng 30 ngày kể từ ngày nhận hàng với điều kiện sản phẩm còn nguyên tem mác, chưa qua sử dụng và có hóa đơn mua hàng.'
     },
     {
       q: 'Thời gian giao hàng tiêu chuẩn là bao lâu?',
@@ -28,12 +28,12 @@ const ContactPage = () => {
       a: 'Trên mỗi trang chi tiết sản phẩm đều có liên kết "Hướng dẫn chọn size" với bảng số đo chi tiết (ngực, eo, mông, chiều cao, cân nặng). Ngoài ra, bạn có thể liên hệ trực tiếp hotline hoặc chat để được nhân viên tư vấn phom dáng phù hợp nhất.'
     },
     {
-      q: 'LUXE có hỗ trợ may đo hoặc chỉnh sửa trang phục theo yêu cầu không?',
-      a: 'Chúng tôi hỗ trợ chỉnh sửa nhẹ (lên lai, bóp eo vừa vặn) hoàn toàn miễn phí tại tất cả các showroom LUXE cho sản phẩm mua tại cửa hàng hoặc online.'
+      q: 'AUREUS có hỗ trợ may đo hoặc chỉnh sửa trang phục theo yêu cầu không?',
+      a: 'Chúng tôi hỗ trợ chỉnh sửa nhẹ (lên lai, bóp eo vừa vặn) hoàn toàn miễn phí tại tất cả các showroom AUREUS cho sản phẩm mua tại cửa hàng hoặc online.'
     },
     {
       q: 'Các hình thức thanh toán được hỗ trợ?',
-      a: 'LUXE hỗ trợ thanh toán khi nhận hàng (COD), chuyển khoản ngân hàng, thanh toán qua thẻ tín dụng/ghi nợ quốc tế (Visa, Mastercard, JCB) và ví điện tử MoMo.'
+      a: 'AUREUS hỗ trợ thanh toán khi nhận hàng (COD), chuyển khoản ngân hàng, thanh toán qua thẻ tín dụng/ghi nợ quốc tế (Visa, Mastercard, JCB) và ví điện tử MoMo.'
     }
   ];
 
@@ -68,7 +68,7 @@ const ContactPage = () => {
           <div className="contact-page__breadcrumb">
             <Link to="/">Trang chủ</Link> <span>/</span> <span>Liên hệ</span>
           </div>
-          <h1 className="contact-page__title">Liên Hệ Với LUXE</h1>
+          <h1 className="contact-page__title">Liên Hệ Với AUREUS</h1>
           <p className="contact-page__subtitle">Chúng tôi luôn sẵn sàng lắng nghe và giải đáp mọi yêu cầu của bạn</p>
         </div>
       </div>
@@ -89,7 +89,7 @@ const ContactPage = () => {
           <div className="contact-info-card">
             <div className="contact-info-card__icon"><FiMail /></div>
             <h4>Hộp Thư Điện Tử</h4>
-            <p>contact@luxefashion.vn<br />support@luxefashion.vn</p>
+            <p>contact@aureusfashion.vn<br />support@aureusfashion.vn</p>
           </div>
           <div className="contact-info-card">
             <div className="contact-info-card__icon"><FiClock /></div>
@@ -183,11 +183,11 @@ const ContactPage = () => {
           <div className="contact-map-wrap">
             <div className="contact-map-header">
               <h3>Bản Đồ Chỉ Dẫn</h3>
-              <p>Ghé thăm không gian mua sắm sang trọng của LUXE tại trung tâm thành phố.</p>
+              <p>Ghé thăm không gian mua sắm sang trọng của AUREUS tại trung tâm thành phố.</p>
             </div>
             <div className="contact-map-frame">
               <iframe
-                title="LUXE Location Map"
+                title="AUREUS Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.521538356942!2d106.7017555148007!3d10.77130299232502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f416d860161%3A0x63351a66a1a0f8bf!2zTmd1eeG7hW4gSHXhu4csIELhur9uIE5naMOpLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1620000000000!5m2!1svi!2s"
                 width="100%"
                 height="380"
