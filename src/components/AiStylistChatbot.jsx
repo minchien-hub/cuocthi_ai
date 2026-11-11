@@ -89,7 +89,7 @@ export default function AiStylistChatbot() {
           <span className="ai-stylist-trigger__icon">
             <FaRobot />
           </span>
-          <span>AI Stylist (Local LLM)</span>
+          <span>AI Stylist</span>
           <span className="ai-stylist-trigger__badge" />
         </button>
       ) : (

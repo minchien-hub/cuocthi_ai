@@ -13,6 +13,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import VirtualTryOnPage from './pages/VirtualTryOnPage';
 import ScrollToTop from './components/ScrollToTop';
+import AiStylistChatbot from './components/AiStylistChatbot';
 import './App.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <AiStylistChatbot />
       </div>
     </CartProvider>
   );

@@ -3,7 +3,6 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { FiUpload, FiRefreshCw, FiShoppingBag, FiCheck, FiTrash2, FiEye } from 'react-icons/fi';
 import { FaMagic } from 'react-icons/fa';
 import { CartContext } from '../context/CartContext';
-import AiStylistChatbot from '../components/AiStylistChatbot';
 import { callWeShopAiTryOn } from '../services/weShopAiService';
 import products from '../data/products';
 import './VirtualTryOnPage.css';
@@ -130,9 +129,6 @@ const VirtualTryOnPage = () => {
         <div className="container">
           <div className="vton-breadcrumb">
             <Link to="/">Trang chủ</Link> <span>/</span> <span>Phòng Thử Đồ Ảo AI</span>
-          </div>
-          <div className="vton-badge-tag">
-            <FaMagic /> CLIENT-SIDE AI VISION STUDIO
           </div>
           <h1 className="vton-title">Phòng Thử Đồ Trực Tuyến Thông Minh</h1>
           <p className="vton-subtitle">
@@ -386,9 +382,6 @@ const VirtualTryOnPage = () => {
           </div>
         </div>
       </div>
-
-      {/* Chatbot nổi góc màn hình */}
-      <AiStylistChatbot />
     </div>
   );
 };
