@@ -60,9 +60,17 @@
 /* Layout */
 .vton-layout {
   display: grid;
-  grid-template-columns: 320px 1fr 340px;
+  grid-template-columns: 320px minmax(0, 1fr) 340px;
   gap: 25px;
   align-items: start;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.vton-layout > * {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .vton-panel {
@@ -71,6 +79,10 @@
   padding: 24px;
   box-shadow: var(--shadow);
   border: 1px solid rgba(0, 0, 0, 0.05);
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .vton-section-label {
@@ -178,6 +190,9 @@
   text-align: center;
   cursor: pointer;
   transition: var(--transition);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .vton-dropzone:hover {
@@ -229,6 +244,10 @@
   box-shadow: var(--shadow-lg);
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .vton-stage__screen {
@@ -452,6 +471,11 @@
   overflow-x: auto;
   padding-bottom: 12px;
   margin-bottom: 20px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 
 .vton-garment-thumb {
@@ -498,6 +522,9 @@
   background: var(--bg-light);
   border-radius: 8px;
   padding: 18px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .vton-selected-header {
@@ -658,9 +685,161 @@
   margin-bottom: 16px;
 }
 
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
 @media (max-width: 1024px) {
   .vton-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .vton-panel,
+  .vton-stage {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  .vton-page {
+    padding-bottom: 50px;
+    overflow-x: hidden;
+  }
+
+  .vton-header {
+    padding: 85px 0 28px;
+    margin-bottom: 20px;
+  }
+
+  .vton-breadcrumb {
+    font-size: 0.78rem;
+    margin-bottom: 8px;
+  }
+
+  .vton-title {
+    font-size: 1.7rem;
+    line-height: 1.3;
+    padding: 0 10px;
+    word-break: break-word;
+  }
+
+  .vton-subtitle {
+    font-size: 0.88rem;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  .vton-panel {
+    padding: 16px;
+    border-radius: 10px;
+  }
+
+  .vton-stage {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .vton-stage__screen {
+    aspect-ratio: 4/5;
+  }
+
+  .vton-dropzone {
+    padding: 24px 14px;
+  }
+
+  .vton-dropzone-icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .vton-dropzone h4 {
+    font-size: 0.92rem;
+  }
+
+  .vton-dropzone p {
+    font-size: 0.78rem;
+    margin-bottom: 12px;
+  }
+
+  .vton-empty-stage {
+    padding: 24px 14px;
+  }
+
+  .vton-empty-stage__icon {
+    width: 52px;
+    height: 52px;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .vton-empty-stage h3 {
+    font-size: 1.15rem;
+  }
+
+  .vton-empty-stage p {
+    font-size: 0.8rem;
+    margin-bottom: 14px;
+  }
+
+  .vton-selected-summary {
+    padding: 14px;
+  }
+
+  .vton-selected-header img {
+    width: 48px;
+    height: 60px;
+  }
+
+  .vton-selected-header h4 {
+    font-size: 0.9rem;
+  }
+
+  .vton-try-btn,
+  .vton-cart-btn {
+    padding: 12px 14px;
+    font-size: 0.88rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .vton-header {
+    padding: 75px 0 20px;
+  }
+
+  .vton-title {
+    font-size: 1.45rem;
+  }
+
+  .vton-subtitle {
+    font-size: 0.82rem;
+  }
+
+  .vton-panel {
+    padding: 14px;
+  }
+
+  .vton-section-label {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .vton-garment-thumb {
+    flex: 0 0 76px;
+  }
+
+  .vton-garment-thumb-info {
+    padding: 4px;
+    font-size: 0.65rem;
+  }
+
+  .vton-stage__screen {
+    aspect-ratio: 3/4;
+    max-height: 400px;
   }
 }
 
