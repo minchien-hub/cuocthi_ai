@@ -348,29 +348,6 @@ const VirtualTryOnPage = () => {
                 </div>
               )}
 
-              {/* Size Selector */}
-              <div className="vton-size-picker">
-                <div className="vton-size-picker-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                  <span className="vton-sublabel" style={{ marginBottom: 0 }}>Chọn size:</span>
-                  <span style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--primary)' }}>Đang chọn: Size {selectedSize}</span>
-                </div>
-                <div className="vton-size-buttons">
-                  {selectedProduct.sizes.map((s) => (
-                    <button
-                      key={s}
-                      type="button"
-                      className={`vton-size-btn ${selectedSize === s ? 'active' : ''}`}
-                      onClick={() => setSelectedSize(s)}
-                    >
-                      {s}
-                    </button>
-                  ))}
-                </div>
-                <div style={{ fontSize: '0.74rem', color: '#666', marginTop: '8px', lineHeight: 1.4 }}>
-                  💡 Bạn có thể hỏi <strong>AI Stylist</strong> ở góc phải để được gợi ý chuẩn size theo cân nặng & chiều cao!
-                </div>
-              </div>
-
               {/* Thông báo lỗi khi hệ thống AI quá tải hoặc nghẽn */}
               {errorMessage && (
                 <div
@@ -403,7 +380,7 @@ const VirtualTryOnPage = () => {
                 className="btn btn-dark vton-cart-btn"
                 onClick={handleAddToCart}
               >
-                <FiShoppingBag /> Thêm size {selectedSize} vào giỏ
+                <FiShoppingBag /> Thêm vào giỏ hàng
               </button>
             </div>
           </div>
