@@ -14,31 +14,27 @@ export default function AiStylistChatbot() {
   const messagesEndRef = useRef(null);
 
   // Vị trí bong bóng chat có thể kéo thả (Draggable)
-  const [position, setPosition] = useState({
-    x: typeof window !== 'undefined' ? window.innerWidth - 76 : 300,
-    y: typeof window !== 'undefined' ? window.innerHeight - 84 : 500,
-  });
+  const [hasDragged, setHasDragged] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
   const isDraggingRef = useRef(false);
   const dragStartRef = useRef({ mouseX: 0, mouseY: 0, posX: 0, posY: 0 });
   const hasMovedRef = useRef(false);
 
-  // Khởi tạo vị trí góc dưới phải màn hình an toàn
+  // Resize listener: cập nhật lại biên khi người dùng đã kéo
   useEffect(() => {
-    const initX = Math.max(12, window.innerWidth - 76);
-    const initY = Math.max(12, window.innerHeight - 84);
-    setPosition({ x: initX, y: initY });
-
     const handleResize = () => {
-      setPosition((prev) => ({
-        x: Math.max(12, Math.min(window.innerWidth - 70, prev.x)),
-        y: Math.max(12, Math.min(window.innerHeight - 70, prev.y)),
-      }));
+      if (hasDragged) {
+        setPosition((prev) => ({
+          x: Math.max(12, Math.min(window.innerWidth - 70, prev.x)),
+          y: Math.max(12, Math.min(window.innerHeight - 70, prev.y)),
+        }));
+      }
     };
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  }, [hasDragged]);
 
   // Xử lý kéo thả con trỏ (chuột + cảm ứng trên điện thoại)
   const handlePointerDown = (e) => {
@@ -48,11 +44,12 @@ export default function AiStylistChatbot() {
     hasMovedRef.current = false;
     setIsDragging(false);
 
+    const rect = e.currentTarget.getBoundingClientRect();
     dragStartRef.current = {
       mouseX: e.clientX,
       mouseY: e.clientY,
-      posX: position.x,
-      posY: position.y,
+      posX: rect.left,
+      posY: rect.top,
     };
 
     try {
@@ -69,6 +66,7 @@ export default function AiStylistChatbot() {
     if (Math.abs(dx) > 4 || Math.abs(dy) > 4) {
       hasMovedRef.current = true;
       setIsDragging(true);
+      setHasDragged(true);
     }
 
     const BUBBLE_SIZE = 58;
@@ -93,8 +91,12 @@ export default function AiStylistChatbot() {
     }
   };
 
-  // Tính toán vị trí mở cửa sổ chat luôn nằm trọn trong màn hình gần bong bóng
+  // Tính toán vị trí mở cửa sổ chat luôn nằm trọn trong màn hình
   const getWindowStyle = () => {
+    if (!hasDragged) {
+      return {};
+    }
+
     const BUBBLE_SIZE = 58;
     const windowWidth = Math.min(380, window.innerWidth - 24);
     const windowHeight = Math.min(540, window.innerHeight - 30);
@@ -195,11 +197,13 @@ export default function AiStylistChatbot() {
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}
           className={`ai-stylist-trigger ${isDragging ? 'ai-stylist-trigger--dragging' : ''}`}
-          style={{
+          style={hasDragged ? {
             position: 'fixed',
             left: `${position.x}px`,
             top: `${position.y}px`,
-          }}
+            bottom: 'auto',
+            right: 'auto',
+          } : undefined}
           aria-label="Mở Aureus AI Stylist tư vấn"
           title="Aureus AI Stylist (Nhấn để chat, giữ kéo để di chuyển)"
         >

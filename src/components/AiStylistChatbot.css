@@ -6,6 +6,9 @@
 
 /* Floating Trigger Button (Compact Logo Bubble & Draggable) */
 .ai-stylist-trigger {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
   width: 58px;
   height: 58px;
   border-radius: 50%;
@@ -68,6 +71,9 @@
 
 /* Chat Window */
 .ai-stylist-window {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
   width: 380px;
   height: 540px;
   max-width: calc(100vw - 32px);
@@ -80,6 +86,7 @@
   flex-direction: column;
   overflow: hidden;
   animation: chat-popup 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 10000;
 }
 
 @keyframes chat-popup {
@@ -345,8 +352,11 @@
 
 @media (max-width: 480px) {
   .ai-stylist-trigger {
-    width: 52px;
-    height: 52px;
+    position: fixed;
+    bottom: 20px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
   }
 
   .ai-stylist-trigger__icon {
@@ -361,11 +371,15 @@
   }
 
   .ai-stylist-window {
+    position: fixed;
+    bottom: 16px !important;
+    left: 10px !important;
+    right: 10px !important;
     width: calc(100vw - 20px) !important;
     height: calc(100vh - 80px) !important;
     max-height: 520px;
-    left: 10px !important;
     border-radius: 16px;
+    top: auto !important;
   }
 
   .ai-stylist-header {

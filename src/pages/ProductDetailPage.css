@@ -495,6 +495,13 @@
   gap: 30px;
   border-bottom: 1px solid #ebebf0;
   margin-bottom: 30px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.product-detail__tab-headers::-webkit-scrollbar {
+  display: none;
 }
 .product-detail__tab-btn {
   padding: 14px 4px;
@@ -610,6 +617,13 @@
   .product-detail__tab-headers {
     gap: 16px;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 2px;
+  }
+  .product-detail__tab-headers::-webkit-scrollbar {
+    display: none;
   }
   .product-detail__tab-btn {
     font-size: 0.92rem;
