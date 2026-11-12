@@ -13,6 +13,115 @@ export default function AiStylistChatbot() {
   const [input, setInput] = useState('');
   const messagesEndRef = useRef(null);
 
+  // Vị trí bong bóng chat có thể kéo thả (Draggable)
+  const [position, setPosition] = useState({
+    x: typeof window !== 'undefined' ? window.innerWidth - 76 : 300,
+    y: typeof window !== 'undefined' ? window.innerHeight - 84 : 500,
+  });
+  const [isDragging, setIsDragging] = useState(false);
+  const isDraggingRef = useRef(false);
+  const dragStartRef = useRef({ mouseX: 0, mouseY: 0, posX: 0, posY: 0 });
+  const hasMovedRef = useRef(false);
+
+  // Khởi tạo vị trí góc dưới phải màn hình an toàn
+  useEffect(() => {
+    const initX = Math.max(12, window.innerWidth - 76);
+    const initY = Math.max(12, window.innerHeight - 84);
+    setPosition({ x: initX, y: initY });
+
+    const handleResize = () => {
+      setPosition((prev) => ({
+        x: Math.max(12, Math.min(window.innerWidth - 70, prev.x)),
+        y: Math.max(12, Math.min(window.innerHeight - 70, prev.y)),
+      }));
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Xử lý kéo thả con trỏ (chuột + cảm ứng trên điện thoại)
+  const handlePointerDown = (e) => {
+    if (e.button !== 0 && e.pointerType === 'mouse') return;
+
+    isDraggingRef.current = true;
+    hasMovedRef.current = false;
+    setIsDragging(false);
+
+    dragStartRef.current = {
+      mouseX: e.clientX,
+      mouseY: e.clientY,
+      posX: position.x,
+      posY: position.y,
+    };
+
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch (err) {}
+  };
+
+  const handlePointerMove = (e) => {
+    if (!isDraggingRef.current) return;
+
+    const dx = e.clientX - dragStartRef.current.mouseX;
+    const dy = e.clientY - dragStartRef.current.mouseY;
+
+    if (Math.abs(dx) > 4 || Math.abs(dy) > 4) {
+      hasMovedRef.current = true;
+      setIsDragging(true);
+    }
+
+    const BUBBLE_SIZE = 58;
+    const newX = Math.max(12, Math.min(window.innerWidth - BUBBLE_SIZE - 12, dragStartRef.current.posX + dx));
+    const newY = Math.max(12, Math.min(window.innerHeight - BUBBLE_SIZE - 12, dragStartRef.current.posY + dy));
+
+    setPosition({ x: newX, y: newY });
+  };
+
+  const handlePointerUp = (e) => {
+    if (!isDraggingRef.current) return;
+    isDraggingRef.current = false;
+    setIsDragging(false);
+
+    try {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    } catch (err) {}
+
+    // Nếu chỉ click/tap nhẹ mà không kéo di chuyển -> Mở cửa sổ chat
+    if (!hasMovedRef.current) {
+      setIsOpen(true);
+    }
+  };
+
+  // Tính toán vị trí mở cửa sổ chat luôn nằm trọn trong màn hình gần bong bóng
+  const getWindowStyle = () => {
+    const BUBBLE_SIZE = 58;
+    const windowWidth = Math.min(380, window.innerWidth - 24);
+    const windowHeight = Math.min(540, window.innerHeight - 30);
+
+    let left = position.x + BUBBLE_SIZE - windowWidth;
+    if (left < 12) left = 12;
+    if (left + windowWidth > window.innerWidth - 12) {
+      left = window.innerWidth - windowWidth - 12;
+    }
+
+    let top = position.y - windowHeight + BUBBLE_SIZE;
+    if (top < 12) {
+      top = Math.max(12, Math.min(position.y, window.innerHeight - windowHeight - 12));
+    }
+    if (top + windowHeight > window.innerHeight - 12) {
+      top = window.innerHeight - windowHeight - 12;
+    }
+
+    return {
+      position: 'fixed',
+      left: `${left}px`,
+      top: `${top}px`,
+      width: `${windowWidth}px`,
+      height: `${windowHeight}px`,
+    };
+  };
+
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isOpen]);
@@ -82,18 +191,25 @@ export default function AiStylistChatbot() {
       {!isOpen ? (
         <button
           type="button"
-          onClick={() => setIsOpen(true)}
-          className="ai-stylist-trigger"
-          aria-label="Mở AI Stylist tư vấn"
+          onPointerDown={handlePointerDown}
+          onPointerMove={handlePointerMove}
+          onPointerUp={handlePointerUp}
+          className={`ai-stylist-trigger ${isDragging ? 'ai-stylist-trigger--dragging' : ''}`}
+          style={{
+            position: 'fixed',
+            left: `${position.x}px`,
+            top: `${position.y}px`,
+          }}
+          aria-label="Mở Aureus AI Stylist tư vấn"
+          title="Aureus AI Stylist (Nhấn để chat, giữ kéo để di chuyển)"
         >
           <span className="ai-stylist-trigger__icon">
             <FaRobot />
           </span>
-          <span>Aureus AI Stylist</span>
           <span className="ai-stylist-trigger__badge" />
         </button>
       ) : (
-        <div className="ai-stylist-window">
+        <div className="ai-stylist-window" style={getWindowStyle()}>
           {/* Header */}
           <div className="ai-stylist-header">
             <div className="ai-stylist-header__info">
@@ -168,7 +284,7 @@ export default function AiStylistChatbot() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Nhắn tin cho Llama 3.1..."
+              placeholder="Hỏi Aureus AI Stylist về size, dáng người..."
               className="ai-stylist-input"
             />
             <button

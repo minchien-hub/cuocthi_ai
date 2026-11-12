@@ -1,58 +1,69 @@
 /* AiStylistChatbot Styles */
 .ai-stylist-chatbot {
-  position: fixed;
-  bottom: 28px;
-  right: 28px;
   z-index: 9999;
   font-family: 'Poppins', sans-serif;
 }
 
-/* Floating Trigger Button */
+/* Floating Trigger Button (Compact Logo Bubble & Draggable) */
 .ai-stylist-trigger {
-  display: inline-flex;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: #ffffff;
-  border: 1.5px solid #c9a96e;
-  padding: 12px 22px;
-  border-radius: 50px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25), 0 0 15px rgba(201, 169, 110, 0.35);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #c9a96e;
+  padding: 0;
+  cursor: grab;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35), 0 0 18px rgba(201, 169, 110, 0.4);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease, border-color 0.2s ease;
   outline: none;
+  touch-action: none;
+  user-select: none;
+  z-index: 9999;
 }
 
 .ai-stylist-trigger:hover {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35), 0 0 25px rgba(201, 169, 110, 0.5);
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45), 0 0 25px rgba(201, 169, 110, 0.6);
   border-color: #e8d5b5;
 }
 
+.ai-stylist-trigger:active,
+.ai-stylist-trigger--dragging {
+  cursor: grabbing !important;
+  transform: scale(1.12);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 30px rgba(201, 169, 110, 0.7);
+}
+
 .ai-stylist-trigger__icon {
-  font-size: 20px;
+  font-size: 26px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #c9a96e;
-  animation: pulse-icon 2s infinite;
+  animation: pulse-icon 2.5s infinite;
+  pointer-events: none;
 }
 
 @keyframes pulse-icon {
   0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.15); }
+  50% { transform: scale(1.12); }
 }
 
 .ai-stylist-trigger__badge {
   position: absolute;
-  top: -4px;
-  right: -4px;
-  width: 12px;
-  height: 12px;
+  top: 1px;
+  right: 1px;
+  width: 13px;
+  height: 13px;
   background: #27ae60;
   border: 2px solid #ffffff;
   border-radius: 50%;
+  box-shadow: 0 0 6px #27ae60;
+  pointer-events: none;
 }
 
 /* Chat Window */
@@ -333,28 +344,27 @@
 }
 
 @media (max-width: 480px) {
-  .ai-stylist-chatbot {
-    bottom: 16px;
-    right: 16px;
-  }
-
   .ai-stylist-trigger {
-    padding: 9px 16px;
-    font-size: 12.5px;
-    gap: 8px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    width: 52px;
+    height: 52px;
   }
 
   .ai-stylist-trigger__icon {
-    font-size: 17px;
+    font-size: 22px;
+  }
+
+  .ai-stylist-trigger__badge {
+    width: 11px;
+    height: 11px;
+    top: 0;
+    right: 0;
   }
 
   .ai-stylist-window {
-    width: calc(100vw - 24px);
-    height: calc(100vh - 90px);
-    max-height: 500px;
-    right: 0;
-    bottom: 0;
+    width: calc(100vw - 20px) !important;
+    height: calc(100vh - 80px) !important;
+    max-height: 520px;
+    left: 10px !important;
     border-radius: 16px;
   }
 
