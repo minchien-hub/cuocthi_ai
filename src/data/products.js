@@ -1423,12 +1423,15 @@ const products = [
       "/images/products/tshirt-icevibes254-grey-front.jpg",
       "/images/products/tshirt-icevibes254-grey-back.jpg",
       "/images/products/tshirt-icevibes254-white-front.jpg",
-      "/images/products/tshirt-icevibes254-white-back.jpg"
+      "/images/products/tshirt-icevibes254-white-back.jpg",
+      "/images/products/tshirt-icevibes254-black-front.jpg",
+      "/images/products/tshirt-icevibes254-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Tiêu Sáng", hex: "#E2E4E6", imageIndex: 0 },
-      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 158,
@@ -1448,15 +1451,46 @@ const products = [
       "/images/products/tshirt-icevibes254-white-front.jpg",
       "/images/products/tshirt-icevibes254-white-back.jpg",
       "/images/products/tshirt-icevibes254-grey-front.jpg",
-      "/images/products/tshirt-icevibes254-grey-back.jpg"
+      "/images/products/tshirt-icevibes254-grey-back.jpg",
+      "/images/products/tshirt-icevibes254-black-front.jpg",
+      "/images/products/tshirt-icevibes254-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
-      { name: "Xám Tiêu Sáng", hex: "#E2E4E6", imageIndex: 2 }
+      { name: "Xám Tiêu Sáng", hex: "#E2E4E6", imageIndex: 2 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 4 }
     ],
     rating: 5.0,
     reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ Cool Comfort"
+  },
+  {
+    id: 54,
+    name: "Áo Thun Cổ Tròn Icevibes™ High Iq Cool Comfort Vải 2 Da Nhanh Khô Thoáng Da Gân Nổi Phom Rộng F4 - Màu Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn thể thao công nghệ Icevibes™ High IQ Cool Comfort thuộc bộ sưu tập The No Style 254 từ Aureus Fashion. Sử dụng chất liệu vải dệt 2 da (double-faced fabric) công nghệ làm mát Icevibes™ tông màu đen tuyền nam tính, cá tính và sang trọng. Bề mặt vải dệt gân vi mô chống nhăn xù, đẩy ẩm cực nhanh giữ cơ thể luôn thoáng mát, không đọng mồ hôi. Thiết kế cầu vai raglan vát góc thể thao, đường may định hình dập nổi và tà áo xẻ nhẹ năng động. Phom rộng F4 đứng dáng chuẩn phong cách minimal techwear hiện đại.",
+    images: [
+      "/images/products/tshirt-icevibes254-black-front.jpg",
+      "/images/products/tshirt-icevibes254-black-back.jpg",
+      "/images/products/tshirt-icevibes254-white-front.jpg",
+      "/images/products/tshirt-icevibes254-white-back.jpg",
+      "/images/products/tshirt-icevibes254-grey-front.jpg",
+      "/images/products/tshirt-icevibes254-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#E2E4E6", imageIndex: 4 }
+    ],
+    rating: 5.0,
+    reviews: 185,
     inStock: true,
     isNew: true,
     isSale: true,
