@@ -2013,12 +2013,18 @@ const products = [
       "/images/products/polo-cloudtouch061-brown-front.jpg",
       "/images/products/polo-cloudtouch061-brown-back.jpg",
       "/images/products/polo-cloudtouch061-grey-front.jpg",
-      "/images/products/polo-cloudtouch061-grey-back.jpg"
+      "/images/products/polo-cloudtouch061-grey-back.jpg",
+      "/images/products/polo-cloudtouch061-black-front.jpg",
+      "/images/products/polo-cloudtouch061-black-back.jpg",
+      "/images/products/polo-cloudtouch061-white-front.png",
+      "/images/products/polo-cloudtouch061-white-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 0 },
-      { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 2 }
+      { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 2 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 4 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 138,
@@ -2038,15 +2044,83 @@ const products = [
       "/images/products/polo-cloudtouch061-grey-front.jpg",
       "/images/products/polo-cloudtouch061-grey-back.jpg",
       "/images/products/polo-cloudtouch061-brown-front.jpg",
-      "/images/products/polo-cloudtouch061-brown-back.jpg"
+      "/images/products/polo-cloudtouch061-brown-back.jpg",
+      "/images/products/polo-cloudtouch061-black-front.jpg",
+      "/images/products/polo-cloudtouch061-black-back.jpg",
+      "/images/products/polo-cloudtouch061-white-front.png",
+      "/images/products/polo-cloudtouch061-white-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 0 },
-      { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 2 }
+      { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 2 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 4 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F2"
+  },
+  {
+    id: 74,
+    name: "Áo Polo CloudTouch™ Vải Ultra Ribbed Mướt Mịn Clean Fit Phom Ôm Vừa F2 - Màu Đen",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo phong cách Clean Fit & Quiet Luxury thuộc bộ sưu tập The Weekend 061 từ Aureus Fashion. Tông màu đen tuyền nam tính, sang trọng và tôn dáng tuyệt đối. Chất liệu sợi dệt siêu vi CloudTouch™ mướt mịn tựa mây trời, êm dịu làm mát tức thì, co giãn 4 chiều linh hoạt. Chi tiết cổ bẻ và bo tay dệt gân Ultra Ribbed cao cấp định hình chống dão, kết hợp nẹp cổ giấu cúc (clean hidden placket) tối giản và lịch lãm. Phom ôm vừa F2 (Clean Fit) tôn đường nét cơ thể săn chắc, chỉn chu và đẳng cấp.",
+    images: [
+      "/images/products/polo-cloudtouch061-black-front.jpg",
+      "/images/products/polo-cloudtouch061-black-back.jpg",
+      "/images/products/polo-cloudtouch061-brown-front.jpg",
+      "/images/products/polo-cloudtouch061-brown-back.jpg",
+      "/images/products/polo-cloudtouch061-grey-front.jpg",
+      "/images/products/polo-cloudtouch061-grey-back.jpg",
+      "/images/products/polo-cloudtouch061-white-front.png",
+      "/images/products/polo-cloudtouch061-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 2 },
+      { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 4 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 164,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F2"
+  },
+  {
+    id: 75,
+    name: "Áo Polo CloudTouch™ Vải Ultra Ribbed Mướt Mịn Clean Fit Phom Ôm Vừa F2 - Màu Trắng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo phong cách Clean Fit & Quiet Luxury thuộc bộ sưu tập The Weekend 061 từ Aureus Fashion. Tông màu trắng sáng tinh tế, trang nhã và dễ dàng phối hợp với mọi trang phục. Ứng dụng công nghệ vải dệt CloudTouch™ mỏng mát, thấm hút mồ hôi và bay ẩm siêu tốc giúp cơ thể luôn sảng khoái suốt ngày dài. Cổ bẻ và bo tay Ultra Ribbed dệt tinh xảo, nẹp giấu cúc hiện đại cùng đường cắt cúp cầu vai thể thao. Dáng phom ôm vừa F2 mang lại vẻ ngoài trẻ trung, lịch thiệp và sang trọng chuẩn phong cách doanh nhân hiện đại cuối tuần.",
+    images: [
+      "/images/products/polo-cloudtouch061-white-front.png",
+      "/images/products/polo-cloudtouch061-white-back.png",
+      "/images/products/polo-cloudtouch061-brown-front.jpg",
+      "/images/products/polo-cloudtouch061-brown-back.jpg",
+      "/images/products/polo-cloudtouch061-grey-front.jpg",
+      "/images/products/polo-cloudtouch061-grey-back.jpg",
+      "/images/products/polo-cloudtouch061-black-front.jpg",
+      "/images/products/polo-cloudtouch061-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 2 },
+      { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 4 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 147,
     inStock: true,
     isNew: true,
     isSale: true,
