@@ -2271,12 +2271,18 @@ const products = [
       "/images/products/polo-nostyle292-burgundy-front.jpg",
       "/images/products/polo-nostyle292-burgundy-back.jpg",
       "/images/products/polo-nostyle292-grey-front.jpg",
-      "/images/products/polo-nostyle292-grey-back.jpg"
+      "/images/products/polo-nostyle292-grey-back.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-front.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-back.jpg",
+      "/images/products/polo-nostyle292-black-white-front.png",
+      "/images/products/polo-nostyle292-black-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 0 },
-      { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 2 }
+      { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 2 },
+      { name: "Đen Phối Xám Chì", hex: "#4C5057", imageIndex: 4 },
+      { name: "Đen Phối Trắng", hex: "#1F2024", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 146,
@@ -2296,15 +2302,83 @@ const products = [
       "/images/products/polo-nostyle292-grey-front.jpg",
       "/images/products/polo-nostyle292-grey-back.jpg",
       "/images/products/polo-nostyle292-burgundy-front.jpg",
-      "/images/products/polo-nostyle292-burgundy-back.jpg"
+      "/images/products/polo-nostyle292-burgundy-back.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-front.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-back.jpg",
+      "/images/products/polo-nostyle292-black-white-front.png",
+      "/images/products/polo-nostyle292-black-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 0 },
-      { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 2 }
+      { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 2 },
+      { name: "Đen Phối Xám Chì", hex: "#4C5057", imageIndex: 4 },
+      { name: "Đen Phối Trắng", hex: "#1F2024", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ 250Gsm"
+  },
+  {
+    id: 83,
+    name: "Áo Polo Tay Ngắn Phối Màu Thân Áo Colorlock™ Vải Pique 250Gsm Khóa Màu Chống Xù Ít Nhăn Phom Vừa F3 - Màu Đen Phối Xám Chì",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo nam thể thao phong cách Athletic Color-Block thuộc bộ sưu tập The No Style 292 từ Aureus Fashion. Mảng phối màu nam tính và huyền bí: nửa trên tone đen tuyền kết hợp cùng nửa dưới xám chì (Charcoal Grey) trầm ổn, tôn trọn nét đẹp khỏe khoắn. Sử dụng chất liệu vải Pique dệt cá sấu định lượng 250Gsm đanh mịn, dày dặn, đứng phom và ít nhăn nhàu sau khi giặt. Ứng dụng công nghệ nhuộm ColorLock™ khóa màu sợi vải, chống phai sờn và xù lông. Cổ bẻ dệt đen phối sọc viền trắng nổi bật cùng logo Athleisure Athletic & Leisure thêu sắc nét ngực trái. Dáng áo phom vừa F3 ôm gọn gàng, mang lại phong thái tự tin và chỉn chu.",
+    images: [
+      "/images/products/polo-nostyle292-black-charcoal-front.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-back.jpg",
+      "/images/products/polo-nostyle292-black-white-front.png",
+      "/images/products/polo-nostyle292-black-white-back.jpg",
+      "/images/products/polo-nostyle292-burgundy-front.jpg",
+      "/images/products/polo-nostyle292-burgundy-back.jpg",
+      "/images/products/polo-nostyle292-grey-front.jpg",
+      "/images/products/polo-nostyle292-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Phối Xám Chì", hex: "#4C5057", imageIndex: 0 },
+      { name: "Đen Phối Trắng", hex: "#1F2024", imageIndex: 2 },
+      { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 4 },
+      { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 184,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ 250Gsm"
+  },
+  {
+    id: 84,
+    name: "Áo Polo Tay Ngắn Phối Màu Thân Áo Colorlock™ Vải Pique 250Gsm Khóa Màu Chống Xù Ít Nhăn Phom Vừa F3 - Màu Đen Phối Trắng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo nam thể thao phong cách Athletic Color-Block thuộc bộ sưu tập The No Style 292 từ Aureus Fashion. Bản phối màu đen - trắng (Monochrome Black & White) tương phản kinh điển không bao giờ lỗi mốt: nửa trên đen tuyền sang trọng, nửa dưới trắng sáng nổi bật. Chất vải cá sấu Pique 250Gsm cao cấp co giãn đa chiều, đanh chắc đứng phom và thoáng mát. Công nghệ ColorLock™ ngăn hiện tượng loang màu giữa các mảng vải khi giặt. Bo cổ bẻ và viền tay áo dệt sọc thể thao tinh tế, logo thêu Athleisure ngực áo phong cách. Phom vừa F3 tôn dáng năng động, cuốn hút trong mọi khung cảnh.",
+    images: [
+      "/images/products/polo-nostyle292-black-white-front.png",
+      "/images/products/polo-nostyle292-black-white-back.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-front.jpg",
+      "/images/products/polo-nostyle292-black-charcoal-back.jpg",
+      "/images/products/polo-nostyle292-burgundy-front.jpg",
+      "/images/products/polo-nostyle292-burgundy-back.jpg",
+      "/images/products/polo-nostyle292-grey-front.jpg",
+      "/images/products/polo-nostyle292-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Phối Trắng", hex: "#1F2024", imageIndex: 0 },
+      { name: "Đen Phối Xám Chì", hex: "#4C5057", imageIndex: 2 },
+      { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 4 },
+      { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 178,
     inStock: true,
     isNew: true,
     isSale: true,
