@@ -1545,6 +1545,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Unreal Silence"
+  },
+  {
+    id: 57,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Flexfit™ Cotton Compact 225Gsm Co Giãn Hack Dáng Chống Gião Cổ Phom Rộng F4 - Màu Xanh Navy",
+    category: "Áo",
+    price: 360000,
+    originalPrice: 480000,
+    description: "Áo thun cổ tròn dáng boxy tối giản thuộc bộ sưu tập Non Branded 047 từ Aureus Fashion. Được phát triển trên nền chất liệu Cotton Compact 225Gsm dệt chải kỹ cao cấp kết hợp công nghệ co giãn đa chiều Flexfit™, mang đến bề mặt vải mịn lì, mát lạnh, chống xù lông và có khả năng phục hồi phom dáng vượt trội sau nhiều lần giặt. Thiết kế cổ tròn bo rib 2 lớp dệt mật độ cao chống gião cổ triệt để. Dáng áo Boxy cắt vuông hiện đại tạo hiệu ứng hack dáng tôn chiều cao, vai rơi thả nhẹ và phom rộng F4 chuẩn phong cách minimal streetwear. Điểm nhấn tinh giản với chi tiết thêu vi mô chữ 'Tue' thanh lịch bên ngực trái.",
+    images: [
+      "/images/products/tshirt-nonbranded047-navy-front.jpg",
+      "/images/products/tshirt-nonbranded047-navy-back.jpg",
+      "/images/products/tshirt-nonbranded047-grey-front.jpg",
+      "/images/products/tshirt-nonbranded047-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Navy", hex: "#1F293D", imageIndex: 0 },
+      { name: "Xám Tiêu Sáng", hex: "#D1D5DB", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 164,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Boxy"
+  },
+  {
+    id: 58,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Flexfit™ Cotton Compact 225Gsm Co Giãn Hack Dáng Chống Gião Cổ Phom Rộng F4 - Màu Xám Tiêu Sáng",
+    category: "Áo",
+    price: 360000,
+    originalPrice: 480000,
+    description: "Áo thun cổ tròn dáng boxy tối giản thuộc bộ sưu tập Non Branded 047 từ Aureus Fashion. Sử dụng chất vải Cotton Compact định lượng 225Gsm dày dặn đứng phom, công nghệ làm mát và đàn hồi Flexfit™ cao cấp tạo cảm giác mềm mịn, thoáng khí tối đa suốt ngày dài. Cổ áo bo rib dệt đôi công nghệ chống gião độc quyền giữ cho đường viền cổ luôn phẳng phiu, cứng cáp. Phom dáng Boxy F4 cắt cúp gọn gàng giúp kéo dài tỉ lệ đôi chân, mang lại diện mạo trẻ trung, năng động và thời thượng. Ngực trái điểm xuyết thêu chữ vi mô 'Fri' tinh tế, là item hoàn hảo cho phong cách Daily Minimalist.",
+    images: [
+      "/images/products/tshirt-nonbranded047-grey-front.jpg",
+      "/images/products/tshirt-nonbranded047-grey-back.jpg",
+      "/images/products/tshirt-nonbranded047-navy-front.jpg",
+      "/images/products/tshirt-nonbranded047-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#D1D5DB", imageIndex: 0 },
+      { name: "Xanh Navy", hex: "#1F293D", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Boxy"
   }
 ];
 
