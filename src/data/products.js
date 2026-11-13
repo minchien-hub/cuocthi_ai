@@ -1411,6 +1411,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Dream Streetwear"
+  },
+  {
+    id: 52,
+    name: "Áo Thun Cổ Tròn Icevibes™ High Iq Cool Comfort Vải 2 Da Nhanh Khô Thoáng Da Gân Nổi Phom Rộng F4 - Màu Xám Tiêu Sáng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn thể thao công nghệ Icevibes™ High IQ Cool Comfort thuộc bộ sưu tập The No Style 254 từ Aureus Fashion. Sử dụng chất liệu vải dệt 2 da (double-faced fabric) cấu trúc gân nổi vi mô cao cấp tông màu xám tiêu sáng trẻ trung, mặt trong thấm hút mồ hôi cực nhanh và đẩy ẩm ra mặt ngoài tản nhiệt, giữ cho làn da luôn khô thoáng, mát lạnh tức thì trong mọi điều kiện thời tiết. Thiết kế tối giản mang hơi hướng tương lai (minimal techwear) với đường cắt cúp cầu vai thể thao, đường may gân nổi cánh tay và tà áo xẻ nhẹ năng động. Phom rộng F4 đứng dáng, tôn chiều cao và độ rũ tự nhiên hoàn hảo.",
+    images: [
+      "/images/products/tshirt-icevibes254-grey-front.jpg",
+      "/images/products/tshirt-icevibes254-grey-back.jpg",
+      "/images/products/tshirt-icevibes254-white-front.jpg",
+      "/images/products/tshirt-icevibes254-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#E2E4E6", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ Cool Comfort"
+  },
+  {
+    id: 53,
+    name: "Áo Thun Cổ Tròn Icevibes™ High Iq Cool Comfort Vải 2 Da Nhanh Khô Thoáng Da Gân Nổi Phom Rộng F4 - Màu Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn thể thao công nghệ Icevibes™ High IQ Cool Comfort thuộc bộ sưu tập The No Style 254 từ Aureus Fashion. Sử dụng chất liệu vải dệt 2 da (double-faced fabric) công nghệ làm mát Icevibes™ tông màu trắng sứ sang trọng và tinh tế. Bề mặt vải dệt gân nổi chống nhăn xù, co giãn 4 chiều linh hoạt, kháng khuẩn và nhanh khô vượt trội. Thiết kế cầu vai raglan vát góc thể thao, đường may dập nổi độc đáo và tà xẻ cách điệu. Phom rộng F4 mang lại sự tự do tối đa cho mọi hoạt động hàng ngày từ đi làm, đi chơi đến tập luyện thể thao.",
+    images: [
+      "/images/products/tshirt-icevibes254-white-front.jpg",
+      "/images/products/tshirt-icevibes254-white-back.jpg",
+      "/images/products/tshirt-icevibes254-grey-front.jpg",
+      "/images/products/tshirt-icevibes254-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Xám Tiêu Sáng", hex: "#E2E4E6", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ Cool Comfort"
   }
 ];
 
