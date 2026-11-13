@@ -1657,12 +1657,18 @@ const products = [
       "/images/products/tshirt-raglan052-grey-front.jpg",
       "/images/products/tshirt-raglan052-grey-back.jpg",
       "/images/products/tshirt-raglan052-blue-front.jpg",
-      "/images/products/tshirt-raglan052-blue-back.jpg"
+      "/images/products/tshirt-raglan052-blue-back.jpg",
+      "/images/products/tshirt-raglan052-charcoal-front.jpg",
+      "/images/products/tshirt-raglan052-charcoal-back.jpg",
+      "/images/products/tshirt-raglan052-navy-front.jpg",
+      "/images/products/tshirt-raglan052-navy-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 0 },
-      { name: "Xanh Thép", hex: "#59738A", imageIndex: 2 }
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 2 },
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 4 },
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 128,
@@ -1682,15 +1688,83 @@ const products = [
       "/images/products/tshirt-raglan052-blue-front.jpg",
       "/images/products/tshirt-raglan052-blue-back.jpg",
       "/images/products/tshirt-raglan052-grey-front.jpg",
-      "/images/products/tshirt-raglan052-grey-back.jpg"
+      "/images/products/tshirt-raglan052-grey-back.jpg",
+      "/images/products/tshirt-raglan052-charcoal-front.jpg",
+      "/images/products/tshirt-raglan052-charcoal-back.jpg",
+      "/images/products/tshirt-raglan052-navy-front.jpg",
+      "/images/products/tshirt-raglan052-navy-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Thép", hex: "#59738A", imageIndex: 0 },
-      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 }
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 4 },
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Raglan"
+  },
+  {
+    id: 63,
+    name: "Áo Thun Tay Dài Raglan Flexfit™ 190Gsm Mỏng Mịn Co Giãn 4 Chiều Tay Xỏ Ngón Phom Vừa F3 - Màu Xám Tiêu Đậm",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun tay dài thể thao công nghệ Flexfit™ thuộc bộ sưu tập Non Branded 052 từ Aureus Fashion. Gam màu xám chì / xám tiêu đậm (Charcoal Grey) mạnh mẽ, trung tính và tôn dáng. Chất liệu Flexfit™ định lượng 190Gsm siêu co giãn, thoáng khí và êm ái khi tiếp xúc trực tiếp với làn da. Đường cúp raglan vát cong tinh tế từ cổ áo giúp mở rộng biên độ chuyển động của cánh tay, hạn chế tình trạng co kéo khi tập luyện. Thiết kế tay áo xỏ ngón tay cái thời thượng, bảo vệ đôi bàn tay trước nắng gió và giữ ấm hiệu quả. Phom vừa F3 tôn nét đẹp khỏe khoắn, năng động.",
+    images: [
+      "/images/products/tshirt-raglan052-charcoal-front.jpg",
+      "/images/products/tshirt-raglan052-charcoal-back.jpg",
+      "/images/products/tshirt-raglan052-grey-front.jpg",
+      "/images/products/tshirt-raglan052-grey-back.jpg",
+      "/images/products/tshirt-raglan052-blue-front.jpg",
+      "/images/products/tshirt-raglan052-blue-back.jpg",
+      "/images/products/tshirt-raglan052-navy-front.jpg",
+      "/images/products/tshirt-raglan052-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 4 },
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Raglan"
+  },
+  {
+    id: 64,
+    name: "Áo Thun Tay Dài Raglan Flexfit™ 190Gsm Mỏng Mịn Co Giãn 4 Chiều Tay Xỏ Ngón Phom Vừa F3 - Màu Xanh Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun tay dài thể thao công nghệ Flexfit™ thuộc bộ sưu tập Non Branded 052 từ Aureus Fashion. Tông màu xanh đen (Dark Navy) kinh điển, sạch sẽ và dễ phối với mọi trang phục thể thao. Ứng dụng công nghệ sợi đàn hồi Flexfit™ 190Gsm siêu mịn, mềm mát, chống bám bụi và chống nhăn nhàu vượt trội. Cầu vai raglan vát góc thể thao, đường may phẳng (flatlock seams) giảm ma sát tối đa khi vận động cường độ cao. Cổ tay xỏ ngón tay cái năng động giúp giữ cố định phom áo và che mu bàn tay khi chạy bộ ngoài trời. Dáng áo phom vừa F3 chuẩn athletic fit.",
+    images: [
+      "/images/products/tshirt-raglan052-navy-front.jpg",
+      "/images/products/tshirt-raglan052-navy-back.jpg",
+      "/images/products/tshirt-raglan052-grey-front.jpg",
+      "/images/products/tshirt-raglan052-grey-back.jpg",
+      "/images/products/tshirt-raglan052-blue-front.jpg",
+      "/images/products/tshirt-raglan052-blue-back.jpg",
+      "/images/products/tshirt-raglan052-charcoal-front.jpg",
+      "/images/products/tshirt-raglan052-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 4 },
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 162,
     inStock: true,
     isNew: true,
     isSale: true,
