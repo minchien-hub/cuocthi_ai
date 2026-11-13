@@ -1107,6 +1107,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Outseam Cyber"
+  },
+  {
+    id: 42,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Phối Màu Cotton Compact Co Giãn Giữ Phom In Nổi 3D Phom Hộp Rộng F5 - Màu Đen Phối Xám",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn dáng boxy phối màu phong cách thể thao Athleisure thuộc bộ sưu tập The No Style 253 từ Aureus Fashion. Sử dụng chất liệu vải Cotton Compact cao cấp dệt sợi siêu mịn, co giãn 4 chiều linh hoạt và giữ phom áo đứng chuẩn hộp rộng F5. Thiết kế thân áo tông màu đen phối tay và sườn xám tiêu tương phản cá tính. Điểm nhấn trung tâm ngực in nổi 3D cao cấp chữ 'Athleisure - Athletic x Leisure' sắc sảo. Phom hộp rộng F5 rũ đẹp, tôn dáng, cực kỳ ăn ý khi mix cùng quần jeans baggy hoặc quần cargo.",
+    images: [
+      "/images/products/tshirt-boxy253-blackgrey-front.jpg",
+      "/images/products/tshirt-boxy253-blackgrey-back.jpg",
+      "/images/products/tshirt-boxy253-greyblack-front.jpg",
+      "/images/products/tshirt-boxy253-greyblack-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Phối Xám", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Xám Phối Đen", hex: "#5E6064", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy 3D Athleisure"
+  },
+  {
+    id: 43,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Phối Màu Cotton Compact Co Giãn Giữ Phom In Nổi 3D Phom Hộp Rộng F5 - Màu Xám Phối Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn dáng boxy phối màu phong cách thể thao Athleisure thuộc bộ sưu tập The No Style 253 từ Aureus Fashion. Sử dụng chất liệu vải Cotton Compact cao cấp tông màu xám chì thời thượng, dệt sợi thoáng mát, co giãn tự nhiên và chống nhăn tối đa. Thiết kế cắt rập tay raglan và mảng sườn phối đen mạnh mẽ, ngực áo in nổi 3D chữ 'Athleisure - Athletic x Leisure' nổi bật. Phom hộp rộng F5 hiện đại mang đến diện mạo phóng khoáng và chuẩn chất streetwear.",
+    images: [
+      "/images/products/tshirt-boxy253-greyblack-front.jpg",
+      "/images/products/tshirt-boxy253-greyblack-back.jpg",
+      "/images/products/tshirt-boxy253-blackgrey-front.jpg",
+      "/images/products/tshirt-boxy253-blackgrey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Phối Đen", hex: "#5E6064", imageIndex: 0 },
+      { name: "Đen Phối Xám", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 153,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy 3D Athleisure"
   }
 ];
 
