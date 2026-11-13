@@ -729,14 +729,17 @@ const products = [
       "/images/products/tshirt-ringer-white-front.png",
       "/images/products/tshirt-ringer-white-back.png",
       "/images/products/tshirt-ringer-grey-front.jpg",
-      "/images/products/tshirt-ringer-grey-back.jpg"
+      "/images/products/tshirt-ringer-grey-back.jpg",
+      "/images/products/tshirt-ringer-black-front.jpg",
+      "/images/products/tshirt-ringer-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 0 },
       { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 2 },
       { name: "Trắng Bo Đen", hex: "#FFFFFF", imageIndex: 4 },
-      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 6 }
+      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 6 },
+      { name: "Đen Bo Trắng", hex: "#1A1A1A", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 146,
@@ -760,14 +763,17 @@ const products = [
       "/images/products/tshirt-ringer-white-front.png",
       "/images/products/tshirt-ringer-white-back.png",
       "/images/products/tshirt-ringer-grey-front.jpg",
-      "/images/products/tshirt-ringer-grey-back.jpg"
+      "/images/products/tshirt-ringer-grey-back.jpg",
+      "/images/products/tshirt-ringer-black-front.jpg",
+      "/images/products/tshirt-ringer-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 0 },
       { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 2 },
       { name: "Trắng Bo Đen", hex: "#FFFFFF", imageIndex: 4 },
-      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 6 }
+      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 6 },
+      { name: "Đen Bo Trắng", hex: "#1A1A1A", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 138,
@@ -786,6 +792,8 @@ const products = [
     images: [
       "/images/products/tshirt-ringer-white-front.png",
       "/images/products/tshirt-ringer-white-back.png",
+      "/images/products/tshirt-ringer-black-front.jpg",
+      "/images/products/tshirt-ringer-black-back.png",
       "/images/products/tshirt-ringer-grey-front.jpg",
       "/images/products/tshirt-ringer-grey-back.jpg",
       "/images/products/tshirt-ringer-burgundy-front.jpg",
@@ -796,9 +804,10 @@ const products = [
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng Bo Đen", hex: "#FFFFFF", imageIndex: 0 },
-      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 2 },
-      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 4 },
-      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 6 }
+      { name: "Đen Bo Trắng", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 4 },
+      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 6 },
+      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 165,
@@ -819,6 +828,8 @@ const products = [
       "/images/products/tshirt-ringer-grey-back.jpg",
       "/images/products/tshirt-ringer-white-front.png",
       "/images/products/tshirt-ringer-white-back.png",
+      "/images/products/tshirt-ringer-black-front.jpg",
+      "/images/products/tshirt-ringer-black-back.png",
       "/images/products/tshirt-ringer-burgundy-front.jpg",
       "/images/products/tshirt-ringer-burgundy-back.jpg",
       "/images/products/tshirt-ringer-brown-front.jpg",
@@ -828,11 +839,46 @@ const products = [
     colors: [
       { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 0 },
       { name: "Trắng Bo Đen", hex: "#FFFFFF", imageIndex: 2 },
-      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 4 },
-      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 6 }
+      { name: "Đen Bo Trắng", hex: "#1A1A1A", imageIndex: 4 },
+      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 6 },
+      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 8 }
     ],
     rating: 4.8,
     reviews: 141,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ringer Athleisure"
+  },
+  {
+    id: 33,
+    name: "Áo Thun Cổ Tròn In Chữ Typography Cotton Compact Đứng Phom Mềm Mát Phom Rộng F4 - Màu Đen Bo Trắng",
+    category: "Áo",
+    price: 370000,
+    originalPrice: 480000,
+    description: "Áo thun ringer cổ tròn phong cách Athleisure cổ điển thuộc bộ sưu tập The No Style từ Aureus Fashion. Chất liệu vải Cotton Compact cao cấp bề mặt mềm mịn, thoáng mát, giữ phom đứng áo và thấm hút mồ hôi tối ưu. Thiết kế thân áo tông màu đen huyền bí, nam tính phối bo viền cổ và gấu tay màu trắng tương phản nổi bật chuẩn phong cách monochrome retro. Trung tâm ngực in chữ nghệ thuật 'Athleisure Vibes' kết hợp logo huy hiệu sắc nét. Phom rộng F4 tôn dáng, dễ dàng kết hợp cùng quần jeans baggy hoặc quần tây.",
+    images: [
+      "/images/products/tshirt-ringer-black-front.jpg",
+      "/images/products/tshirt-ringer-black-back.png",
+      "/images/products/tshirt-ringer-white-front.png",
+      "/images/products/tshirt-ringer-white-back.png",
+      "/images/products/tshirt-ringer-grey-front.jpg",
+      "/images/products/tshirt-ringer-grey-back.jpg",
+      "/images/products/tshirt-ringer-burgundy-front.jpg",
+      "/images/products/tshirt-ringer-burgundy-back.jpg",
+      "/images/products/tshirt-ringer-brown-front.jpg",
+      "/images/products/tshirt-ringer-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Bo Trắng", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng Bo Đen", hex: "#FFFFFF", imageIndex: 2 },
+      { name: "Xám Tiêu Bo Đỏ", hex: "#DCDCDC", imageIndex: 4 },
+      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 6 },
+      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 8 }
+    ],
+    rating: 4.9,
+    reviews: 172,
     inStock: true,
     isNew: true,
     isSale: true,
