@@ -2259,6 +2259,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "ColorLock™ Pique"
+  },
+  {
+    id: 81,
+    name: "Áo Polo Tay Ngắn Phối Màu Thân Áo Colorlock™ Vải Pique 250Gsm Khóa Màu Chống Xù Ít Nhăn Phom Vừa F3 - Màu Trắng Phối Đỏ Rượu",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo nam thể thao phong cách Athletic Color-Block thuộc bộ sưu tập The No Style 292 từ Aureus Fashion. Thiết kế thân áo rã phối mảng màu thời thượng: nửa trên tone trắng sáng thanh lịch kết hợp cùng nửa dưới màu đỏ rượu (Burgundy) trầm ấm tôn da. Sử dụng chất liệu vải Pique dệt cá sấu định lượng 250Gsm dày dặn đanh chắc, bề mặt đứng dáng, co giãn linh hoạt và ít nhăn nhàu sau khi giặt. Ứng dụng công nghệ nhuộm ColorLock™ khóa màu sợi vải, chống phai và chống xù lông vượt trội sau nhiều lần giặt. Cổ bẻ và bo tay dệt sọc viền tương phản sắc nét cùng logo Athleisure thêu ngực áo tạo điểm nhấn thể thao nổi bật. Phom vừa F3 tôn dáng khỏe khoắn, nam tính và chỉn chu.",
+    images: [
+      "/images/products/polo-nostyle292-burgundy-front.jpg",
+      "/images/products/polo-nostyle292-burgundy-back.jpg",
+      "/images/products/polo-nostyle292-grey-front.jpg",
+      "/images/products/polo-nostyle292-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 0 },
+      { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ 250Gsm"
+  },
+  {
+    id: 82,
+    name: "Áo Polo Tay Ngắn Phối Màu Thân Áo Colorlock™ Vải Pique 250Gsm Khóa Màu Chống Xù Ít Nhăn Phom Vừa F3 - Màu Trắng Phối Xám Sáng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo nam thể thao phong cách Athletic Color-Block thuộc bộ sưu tập The No Style 292 từ Aureus Fashion. Bản phối màu trung tính hiện đại: nửa trên trắng tinh khôi kết hợp cùng nửa dưới xám sáng (Grey Mist) trẻ trung, dễ phối đồ. Chất vải cá sấu Pique cao cấp định lượng 250Gsm đanh chắc, thoáng khí và ít nhăn. Công nghệ ColorLock™ chống phai màu bền bỉ. Bo cổ bẻ và viền tay áo dệt sọc thể thao tinh xảo, ngực áo tạo điểm nhấn với logo thêu Athleisure Athletic & Leisure. Dáng áo phom vừa F3 tôn nét đẹp nam tính, phong độ, lý tưởng cho mọi hoạt động thể thao, dạo phố và đi làm thường ngày.",
+    images: [
+      "/images/products/polo-nostyle292-grey-front.jpg",
+      "/images/products/polo-nostyle292-grey-back.jpg",
+      "/images/products/polo-nostyle292-burgundy-front.jpg",
+      "/images/products/polo-nostyle292-burgundy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Phối Xám Sáng", hex: "#A8ACB0", imageIndex: 0 },
+      { name: "Trắng Phối Đỏ Rượu", hex: "#7B1123", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ 250Gsm"
   }
 ];
 
