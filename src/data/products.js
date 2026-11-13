@@ -2001,6 +2001,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "DurableTex™ Pique"
+  },
+  {
+    id: 72,
+    name: "Áo Polo CloudTouch™ Vải Ultra Ribbed Mướt Mịn Clean Fit Phom Ôm Vừa F2 - Màu Nâu Cà Phê",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo phong cách Clean Fit & Quiet Luxury thuộc bộ sưu tập The Weekend 061 từ Aureus Fashion. Ứng dụng chất liệu vải công nghệ CloudTouch™ dệt từ sợi siêu vi cao cấp, mang lại cảm giác êm ái mướt mịn tựa mây trời, mát lạnh tức thì khi chạm vào da và co giãn đàn hồi 4 chiều linh hoạt. Điểm nhấn đắt giá ở phần cổ bẻ và bo viền tay áo dệt gân nổi Ultra Ribbed tinh xảo, định hình chuẩn phom chống bai dão. Thiết kế nẹp cổ giấu cúc (clean hidden placket) tối giản, hiện đại và sang trọng. Phom ôm vừa F2 (Clean Fit) tôn dáng vai ngực săn chắc, là sự lựa chọn hoàn hảo khi kết hợp cùng quần âu, kaki công sở hoặc quần short dạo phố cuối tuần.",
+    images: [
+      "/images/products/polo-cloudtouch061-brown-front.jpg",
+      "/images/products/polo-cloudtouch061-brown-back.jpg",
+      "/images/products/polo-cloudtouch061-grey-front.jpg",
+      "/images/products/polo-cloudtouch061-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F2"
+  },
+  {
+    id: 73,
+    name: "Áo Polo CloudTouch™ Vải Ultra Ribbed Mướt Mịn Clean Fit Phom Ôm Vừa F2 - Màu Xám Khói Sáng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo phong cách Clean Fit & Quiet Luxury thuộc bộ sưu tập The Weekend 061 từ Aureus Fashion. Tông màu xám khói sáng (Silver Mist Grey) thanh lịch, hiện đại và cực kỳ dễ phối đồ. Chất liệu sợi dệt CloudTouch™ mỏng mát, thấm hút mồ hôi và bay ẩm siêu tốc, giữ cho cơ thể luôn khô thoáng và tự tin trong suốt ngày dài. Bản cổ dệt Ultra Ribbed cao cấp chống quăn mép, đường cúp cầu vai xéo thể thao giảm ma sát khi cử động. Dáng phom ôm vừa F2 giúp tôn đường nét cơ thể nam tính, gọn gàng và chỉn chu trong mọi khoảnh khắc.",
+    images: [
+      "/images/products/polo-cloudtouch061-grey-front.jpg",
+      "/images/products/polo-cloudtouch061-grey-back.jpg",
+      "/images/products/polo-cloudtouch061-brown-front.jpg",
+      "/images/products/polo-cloudtouch061-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Khói Sáng", hex: "#ACB0B6", imageIndex: 0 },
+      { name: "Nâu Cà Phê", hex: "#54483F", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F2"
   }
 ];
 
