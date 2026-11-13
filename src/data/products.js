@@ -713,6 +713,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Ribbing Line Art"
+  },
+  {
+    id: 29,
+    name: "Áo Thun Cổ Tròn In Chữ Typography Cotton Compact Đứng Phom Mềm Mát Phom Rộng F4 - Màu Đỏ Rượu",
+    category: "Áo",
+    price: 370000,
+    originalPrice: 480000,
+    description: "Áo thun ringer cổ tròn phong cách Athleisure cổ điển thuộc bộ sưu tập The No Style từ Aureus Fashion. Chất liệu vải Cotton Compact cao cấp bề mặt mềm mịn, thoáng mát, giữ phom đứng áo và thấm hút mồ hôi tối ưu. Thiết kế cổ tròn và gấu tay phối viền rib màu kem tương phản tinh tế, tạo điểm nhấn phong cách retro varsity thể thao. Trung tâm ngực in chữ nghệ thuật 'Athleisure Vibes' kết hợp logo huy hiệu sắc nét. Phom rộng F4 tôn dáng, dễ dàng kết hợp cùng quần jeans baggy hoặc quần tây.",
+    images: [
+      "/images/products/tshirt-ringer-burgundy-front.jpg",
+      "/images/products/tshirt-ringer-burgundy-back.jpg",
+      "/images/products/tshirt-ringer-brown-front.jpg",
+      "/images/products/tshirt-ringer-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 0 },
+      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ringer Athleisure"
+  },
+  {
+    id: 30,
+    name: "Áo Thun Cổ Tròn In Chữ Typography Cotton Compact Đứng Phom Mềm Mát Phom Rộng F4 - Màu Nâu Cà Phê",
+    category: "Áo",
+    price: 370000,
+    originalPrice: 480000,
+    description: "Áo thun ringer cổ tròn phong cách Athleisure cổ điển thuộc bộ sưu tập The No Style từ Aureus Fashion. Chất liệu vải Cotton Compact cao cấp bề mặt mềm mịn, thoáng mát, giữ phom đứng áo và thấm hút mồ hôi tối ưu. Thiết kế cổ tròn và gấu tay phối viền rib màu kem tương phản tinh tế, tạo điểm nhấn phong cách retro varsity thể thao. Trung tâm ngực in chữ nghệ thuật 'Athleisure Vibes' kết hợp logo huy hiệu sắc nét. Phom rộng F4 tôn dáng, dễ dàng kết hợp cùng quần jeans baggy hoặc quần tây.",
+    images: [
+      "/images/products/tshirt-ringer-brown-front.jpg",
+      "/images/products/tshirt-ringer-brown-back.jpg",
+      "/images/products/tshirt-ringer-burgundy-front.jpg",
+      "/images/products/tshirt-ringer-burgundy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Cà Phê", hex: "#4A3B32", imageIndex: 0 },
+      { name: "Đỏ Rượu", hex: "#6B2737", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ringer Athleisure"
   }
 ];
 
