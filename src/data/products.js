@@ -663,6 +663,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "90s Vintage"
+  },
+  {
+    id: 27,
+    name: "Áo Thun Cổ Tròn Tay Raglan DurableTex™ Vải Ribbing Gân Nổi Phối Viền Line Art Phom Rộng F4 - Màu Xám Khói",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun cổ tròn tay raglan cao cấp thuộc bộ sưu tập Seventy Seven từ Aureus Fashion. Ứng dụng chất liệu vải dệt Ribbing gân nổi cao cấp kết hợp công nghệ sợi DurableTex™ siêu bền, co giãn đàn hồi vượt trội và chống nhăn xù. Thiết kế tay raglan phối đường viền line art tương phản sắc sảo dọc theo cầu vai, kết hợp họa tiết thêu chữ 'STEP OUT OF LINE' tinh tế ở trung tâm ngực. Phom rộng F4 chuẩn phong cách modern streetwear, thoải mái và tôn dáng trong mọi góc nhìn.",
+    images: [
+      "/images/products/tshirt-ribbed-grey-front.jpg",
+      "/images/products/tshirt-ribbed-grey-back.jpg",
+      "/images/products/tshirt-ribbed-cream-front.jpg",
+      "/images/products/tshirt-ribbed-cream-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Khói", hex: "#525256", imageIndex: 0 },
+      { name: "Trắng Kem", hex: "#F5F2EB", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 173,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ribbing Line Art"
+  },
+  {
+    id: 28,
+    name: "Áo Thun Cổ Tròn Tay Raglan DurableTex™ Vải Ribbing Gân Nổi Phối Viền Line Art Phom Rộng F4 - Màu Trắng Kem",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun cổ tròn tay raglan cao cấp thuộc bộ sưu tập Seventy Seven từ Aureus Fashion. Ứng dụng chất liệu vải dệt Ribbing gân nổi cao cấp kết hợp công nghệ sợi DurableTex™ siêu bền, co giãn đàn hồi vượt trội và chống nhăn xù. Thiết kế tay raglan phối đường viền line art tương phản sắc sảo dọc theo cầu vai, kết hợp họa tiết thêu chữ 'STEP OUT OF LINE' tinh tế ở trung tâm ngực. Phom rộng F4 chuẩn phong cách modern streetwear, thoải mái và tôn dáng trong mọi góc nhìn.",
+    images: [
+      "/images/products/tshirt-ribbed-cream-front.jpg",
+      "/images/products/tshirt-ribbed-cream-back.jpg",
+      "/images/products/tshirt-ribbed-grey-front.jpg",
+      "/images/products/tshirt-ribbed-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Kem", hex: "#F5F2EB", imageIndex: 0 },
+      { name: "Xám Khói", hex: "#525256", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ribbing Line Art"
   }
 ];
 
