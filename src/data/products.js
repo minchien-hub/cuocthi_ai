@@ -2175,6 +2175,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Micro Stripe F5"
+  },
+  {
+    id: 78,
+    name: "Áo Polo Tay Ngắn Colorlock™ Vải Cá Sấu Pique Đanh Chắc Đứng Phom Co Giãn Ít Nhăn Phom Vừa F3 - Màu Be Sáng Viền Rêu",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 540000,
+    description: "Áo polo nam phong cách Athletic Luxury thuộc bộ sưu tập The No Style 262 từ Aureus Fashion. Sử dụng chất liệu vải cá sấu Pique cao cấp dệt mắt đanh chắc, bề mặt đứng dáng, co giãn linh hoạt và ít nhăn nhàu sau khi giặt. Ứng dụng công nghệ nhuộm ColorLock™ độc quyền giúp giữ màu vải luôn tươi sáng, bền bỉ theo thời gian. Thiết kế tinh xảo với các đường viền phối màu xanh rêu tương phản (piping line) chạy dọc cầu vai, mép cổ bẻ và bo viền tay áo. Phom vừa F3 tôn nét đẹp khỏe khoắn, nam tính và chỉn chu, thích hợp cho cả môi trường làm việc smart-casual lẫn các buổi gặp gỡ thường ngày.",
+    images: [
+      "/images/products/polo-nostyle262-beige-front.jpg",
+      "/images/products/polo-nostyle262-beige-back.jpg",
+      "/images/products/polo-nostyle262-moss-front.jpg",
+      "/images/products/polo-nostyle262-moss-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be Sáng Viền Rêu", hex: "#D4CEBF", imageIndex: 0 },
+      { name: "Xanh Rêu Viền Trắng", hex: "#4A5340", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ Pique"
+  },
+  {
+    id: 79,
+    name: "Áo Polo Tay Ngắn Colorlock™ Vải Cá Sấu Pique Đanh Chắc Đứng Phom Co Giãn Ít Nhăn Phom Vừa F3 - Màu Xanh Rêu Viền Trắng",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 540000,
+    description: "Áo polo nam phong cách Athletic Luxury thuộc bộ sưu tập The No Style 262 từ Aureus Fashion. Tông màu xanh rêu (Moss Green) trầm ấm, nam tính và tôn da. Chất vải cá sấu Pique dày dặn đứng phom kết hợp công nghệ ColorLock™ chống bay màu tối đa. Điểm nhấn thể thao hiện đại với đường lé viền trắng sắc sảo chạy dọc theo cầu vai, bo cổ và tay áo. Nẹp 3 cúc sang trọng cùng dáng áo phom vừa F3 ôm nhẹ tôn dáng, mang lại vẻ ngoài lịch lãm, năng động và đầy cuốn hút.",
+    images: [
+      "/images/products/polo-nostyle262-moss-front.jpg",
+      "/images/products/polo-nostyle262-moss-back.jpg",
+      "/images/products/polo-nostyle262-beige-front.jpg",
+      "/images/products/polo-nostyle262-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu Viền Trắng", hex: "#4A5340", imageIndex: 0 },
+      { name: "Be Sáng Viền Rêu", hex: "#D4CEBF", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ Pique"
   }
 ];
 
