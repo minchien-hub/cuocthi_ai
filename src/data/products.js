@@ -1661,14 +1661,20 @@ const products = [
       "/images/products/tshirt-raglan052-charcoal-front.jpg",
       "/images/products/tshirt-raglan052-charcoal-back.jpg",
       "/images/products/tshirt-raglan052-navy-front.jpg",
-      "/images/products/tshirt-raglan052-navy-back.jpg"
+      "/images/products/tshirt-raglan052-navy-back.jpg",
+      "/images/products/tshirt-raglan052-white-front.png",
+      "/images/products/tshirt-raglan052-white-back.png",
+      "/images/products/tshirt-raglan052-black-front.jpg",
+      "/images/products/tshirt-raglan052-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 0 },
       { name: "Xanh Thép", hex: "#59738A", imageIndex: 2 },
       { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 4 },
-      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 }
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 8 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 10 }
     ],
     rating: 4.9,
     reviews: 128,
@@ -1692,14 +1698,20 @@ const products = [
       "/images/products/tshirt-raglan052-charcoal-front.jpg",
       "/images/products/tshirt-raglan052-charcoal-back.jpg",
       "/images/products/tshirt-raglan052-navy-front.jpg",
-      "/images/products/tshirt-raglan052-navy-back.jpg"
+      "/images/products/tshirt-raglan052-navy-back.jpg",
+      "/images/products/tshirt-raglan052-white-front.png",
+      "/images/products/tshirt-raglan052-white-back.png",
+      "/images/products/tshirt-raglan052-black-front.jpg",
+      "/images/products/tshirt-raglan052-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Thép", hex: "#59738A", imageIndex: 0 },
       { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
       { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 4 },
-      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 }
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 8 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 10 }
     ],
     rating: 5.0,
     reviews: 139,
@@ -1723,14 +1735,20 @@ const products = [
       "/images/products/tshirt-raglan052-blue-front.jpg",
       "/images/products/tshirt-raglan052-blue-back.jpg",
       "/images/products/tshirt-raglan052-navy-front.jpg",
-      "/images/products/tshirt-raglan052-navy-back.jpg"
+      "/images/products/tshirt-raglan052-navy-back.jpg",
+      "/images/products/tshirt-raglan052-white-front.png",
+      "/images/products/tshirt-raglan052-white-back.png",
+      "/images/products/tshirt-raglan052-black-front.jpg",
+      "/images/products/tshirt-raglan052-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 0 },
       { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
       { name: "Xanh Thép", hex: "#59738A", imageIndex: 4 },
-      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 }
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 6 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 8 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 10 }
     ],
     rating: 4.9,
     reviews: 145,
@@ -1754,17 +1772,97 @@ const products = [
       "/images/products/tshirt-raglan052-blue-front.jpg",
       "/images/products/tshirt-raglan052-blue-back.jpg",
       "/images/products/tshirt-raglan052-charcoal-front.jpg",
-      "/images/products/tshirt-raglan052-charcoal-back.jpg"
+      "/images/products/tshirt-raglan052-charcoal-back.jpg",
+      "/images/products/tshirt-raglan052-white-front.png",
+      "/images/products/tshirt-raglan052-white-back.png",
+      "/images/products/tshirt-raglan052-black-front.jpg",
+      "/images/products/tshirt-raglan052-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Đen", hex: "#232A3B", imageIndex: 0 },
       { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
       { name: "Xanh Thép", hex: "#59738A", imageIndex: 4 },
-      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 6 }
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 6 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 8 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 10 }
     ],
     rating: 5.0,
     reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Raglan"
+  },
+  {
+    id: 65,
+    name: "Áo Thun Tay Dài Raglan Flexfit™ 190Gsm Mỏng Mịn Co Giãn 4 Chiều Tay Xỏ Ngón Phom Vừa F3 - Màu Trắng",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun tay dài thể thao công nghệ Flexfit™ thuộc bộ sưu tập Non Branded 052 từ Aureus Fashion. Tông màu trắng sứ tinh khiết, thanh lịch và tôn dáng. Chất liệu Flexfit™ 190Gsm mỏng nhẹ, bề mặt chải kỹ siêu mềm mịn không ngứa rát, co giãn 4 chiều linh hoạt và thoáng mát vượt trội. Thiết kế cầu vai raglan vát cong công thái học kết hợp chi tiết xỏ ngón tay cái (thumbholes) tiện lợi, giúp cố định cổ tay khi tập luyện hoặc bảo vệ da mu bàn tay khi di chuyển ngoài trời. Phom vừa F3 gọn gàng, phong cách athleisure hiện đại.",
+    images: [
+      "/images/products/tshirt-raglan052-white-front.png",
+      "/images/products/tshirt-raglan052-white-back.png",
+      "/images/products/tshirt-raglan052-grey-front.jpg",
+      "/images/products/tshirt-raglan052-grey-back.jpg",
+      "/images/products/tshirt-raglan052-blue-front.jpg",
+      "/images/products/tshirt-raglan052-blue-back.jpg",
+      "/images/products/tshirt-raglan052-charcoal-front.jpg",
+      "/images/products/tshirt-raglan052-charcoal-back.jpg",
+      "/images/products/tshirt-raglan052-navy-front.jpg",
+      "/images/products/tshirt-raglan052-navy-back.jpg",
+      "/images/products/tshirt-raglan052-black-front.jpg",
+      "/images/products/tshirt-raglan052-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 4 },
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 6 },
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 8 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 10 }
+    ],
+    rating: 4.9,
+    reviews: 135,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Raglan"
+  },
+  {
+    id: 66,
+    name: "Áo Thun Tay Dài Raglan Flexfit™ 190Gsm Mỏng Mịn Co Giãn 4 Chiều Tay Xỏ Ngón Phom Vừa F3 - Màu Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun tay dài thể thao công nghệ Flexfit™ thuộc bộ sưu tập Non Branded 052 từ Aureus Fashion. Tông màu đen tuyền nam tính, cá tính và che khuyết điểm hoàn hảo. Sử dụng chất vải dệt Flexfit™ 190Gsm mỏng mát, co giãn 4 chiều đa chiều, thoáng ẩm và nhanh khô thần tốc. Cắt cúp raglan thể thao giảm ma sát vai gáy, ống tay dài thiết kế khe xỏ ngón tay cái (thumbholes) năng động. Phom dáng vừa vặn F3 chuẩn athletic fit mang lại diện mạo khỏe khoắn, nam tính và thời thượng.",
+    images: [
+      "/images/products/tshirt-raglan052-black-front.jpg",
+      "/images/products/tshirt-raglan052-black-back.jpg",
+      "/images/products/tshirt-raglan052-grey-front.jpg",
+      "/images/products/tshirt-raglan052-grey-back.jpg",
+      "/images/products/tshirt-raglan052-blue-front.jpg",
+      "/images/products/tshirt-raglan052-blue-back.jpg",
+      "/images/products/tshirt-raglan052-charcoal-front.jpg",
+      "/images/products/tshirt-raglan052-charcoal-back.jpg",
+      "/images/products/tshirt-raglan052-navy-front.jpg",
+      "/images/products/tshirt-raglan052-navy-back.jpg",
+      "/images/products/tshirt-raglan052-white-front.png",
+      "/images/products/tshirt-raglan052-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 4 },
+      { name: "Xám Tiêu Đậm", hex: "#6E7278", imageIndex: 6 },
+      { name: "Xanh Đen", hex: "#232A3B", imageIndex: 8 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 10 }
+    ],
+    rating: 5.0,
+    reviews: 178,
     inStock: true,
     isNew: true,
     isSale: true,
