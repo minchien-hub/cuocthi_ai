@@ -1595,6 +1595,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "FlexFit™ Boxy"
+  },
+  {
+    id: 59,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Airdry™ Vải Lưới Thoát Nhiệt Rã Phối Sọc Tay Năng Động Phom Rộng F4 - Màu Xanh Rêu",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun thể thao vải lưới dáng boxy phong cách Blokecore / Jersey Streetwear thuộc bộ sưu tập The No Style 208 từ Aureus Fashion. Ứng dụng chất liệu vải lưới dệt tổ ong cao cấp công nghệ Airdry™ siêu thoáng khí, thoát nhiệt và bay hơi ẩm thần tốc, mang lại cảm giác nhẹ tênh, mát lạnh sảng khoái suốt ngày dài. Thiết kế dáng Boxy phom rộng F4 thời thượng, phối đường sọc kép thể thao chạy dọc cầu vai và tay áo. Mặt trước in số thi đấu '36' viền chỉ nổi bật, lưng sau in typography thể thao bản lớn 'PEACE IN EVERY CORNER' đậm chất đường phố. Hoàn hảo khi diện layer cùng áo thun lót bên trong hoặc phối với quần short dù, quần jeans baggy cá tính.",
+    images: [
+      "/images/products/tshirt-airdry208-moss-front.jpg",
+      "/images/products/tshirt-airdry208-moss-back.jpg",
+      "/images/products/tshirt-airdry208-red-front.jpg",
+      "/images/products/tshirt-airdry208-red-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu", hex: "#4B5340", imageIndex: 0 },
+      { name: "Đỏ", hex: "#D32F2F", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Mesh"
+  },
+  {
+    id: 60,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Airdry™ Vải Lưới Thoát Nhiệt Rã Phối Sọc Tay Năng Động Phom Rộng F4 - Màu Đỏ",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun thể thao vải lưới dáng boxy phong cách Blokecore / Jersey Streetwear thuộc bộ sưu tập The No Style 208 từ Aureus Fashion. Tông màu đỏ thể thao rực rỡ kết hợp rã phối mảng ngực và bo cổ viền trắng tương phản bắt mắt. Chất liệu vải lưới Airdry™ dệt mắt nhỏ cao cấp chống cọ xát, tản nhiệt cực nhanh, bền màu và không nhăn nhàu. Mặt trước in số '02' đồ họa sọc ngang tốc độ, tay áo chạy sọc viền kép năng động và lưng sau nổi bật với thông điệp 'GOLDEN BRIDGE'S EMBRACE'. Phom rộng Boxy F4 hack dáng, giải phóng tối đa sự thoải mái cho phong cách thời trang thể thao đường phố hiện đại.",
+    images: [
+      "/images/products/tshirt-airdry208-red-front.jpg",
+      "/images/products/tshirt-airdry208-red-back.jpg",
+      "/images/products/tshirt-airdry208-moss-front.jpg",
+      "/images/products/tshirt-airdry208-moss-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đỏ", hex: "#D32F2F", imageIndex: 0 },
+      { name: "Xanh Rêu", hex: "#4B5340", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Mesh"
   }
 ];
 
