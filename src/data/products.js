@@ -427,12 +427,18 @@ const products = [
       "/images/products/tshirt-raglan-brown-front.jpg",
       "/images/products/tshirt-raglan-brown-back.jpg",
       "/images/products/tshirt-raglan-cream-front.jpg",
-      "/images/products/tshirt-raglan-cream-back.jpg"
+      "/images/products/tshirt-raglan-cream-back.jpg",
+      "/images/products/tshirt-raglan-blue-front.jpg",
+      "/images/products/tshirt-raglan-blue-back.jpg",
+      "/images/products/tshirt-raglan-grey-front.jpg",
+      "/images/products/tshirt-raglan-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu", hex: "#8D7362", imageIndex: 0 },
-      { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 2 }
+      { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 2 },
+      { name: "Xanh nhạt", hex: "#A8C3D8", imageIndex: 4 },
+      { name: "Xám đậm", hex: "#5C5C60", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 148,
@@ -452,15 +458,83 @@ const products = [
       "/images/products/tshirt-raglan-cream-front.jpg",
       "/images/products/tshirt-raglan-cream-back.jpg",
       "/images/products/tshirt-raglan-brown-front.jpg",
-      "/images/products/tshirt-raglan-brown-back.jpg"
+      "/images/products/tshirt-raglan-brown-back.jpg",
+      "/images/products/tshirt-raglan-blue-front.jpg",
+      "/images/products/tshirt-raglan-blue-back.jpg",
+      "/images/products/tshirt-raglan-grey-front.jpg",
+      "/images/products/tshirt-raglan-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 0 },
-      { name: "Nâu", hex: "#8D7362", imageIndex: 2 }
+      { name: "Nâu", hex: "#8D7362", imageIndex: 2 },
+      { name: "Xanh nhạt", hex: "#A8C3D8", imageIndex: 4 },
+      { name: "Xám đậm", hex: "#5C5C60", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Hot"
+  },
+  {
+    id: 20,
+    name: "Áo Thun Raglan Oversize - Màu Xanh Nhạt",
+    category: "Áo",
+    price: 350000,
+    originalPrice: 450000,
+    description: "Áo thun raglan oversize thiết kế cao cấp của Aureus Fashion. Tông màu xanh nhạt pastel tươi mát, dịu mắt và trẻ trung kết hợp đường may raglan tạo phom vai xuôi mềm mại. Chất liệu 100% cotton định lượng 250gsm dày dặn, đứng phom, thoáng khí và thấm hút mồ hôi vượt trội. Họa tiết thêu chữ sắc nét tinh tế ở ngực áo, phong cách unisex năng động cho ngày hè.",
+    images: [
+      "/images/products/tshirt-raglan-blue-front.jpg",
+      "/images/products/tshirt-raglan-blue-back.jpg",
+      "/images/products/tshirt-raglan-cream-front.jpg",
+      "/images/products/tshirt-raglan-cream-back.jpg",
+      "/images/products/tshirt-raglan-brown-front.jpg",
+      "/images/products/tshirt-raglan-brown-back.jpg",
+      "/images/products/tshirt-raglan-grey-front.jpg",
+      "/images/products/tshirt-raglan-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh nhạt", hex: "#A8C3D8", imageIndex: 0 },
+      { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 2 },
+      { name: "Nâu", hex: "#8D7362", imageIndex: 4 },
+      { name: "Xám đậm", hex: "#5C5C60", imageIndex: 6 }
+    ],
+    rating: 4.8,
+    reviews: 135,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "New"
+  },
+  {
+    id: 21,
+    name: "Áo Thun Raglan Oversize - Màu Xám Đậm",
+    category: "Áo",
+    price: 350000,
+    originalPrice: 450000,
+    description: "Áo thun raglan oversize thiết kế cao cấp của Aureus Fashion. Tông màu xám đậm (charcoal) cá tính, mạnh mẽ và thời thượng kết hợp đường may raglan tôn dáng vai. Chất liệu 100% cotton định lượng 250gsm dày dặn, bề mặt xử lý chống xù lông, co giãn êm ái. Họa tiết thêu chữ tinh xảo trước ngực, dễ dàng mix-match với quần jeans hoặc quần short.",
+    images: [
+      "/images/products/tshirt-raglan-grey-front.jpg",
+      "/images/products/tshirt-raglan-grey-back.jpg",
+      "/images/products/tshirt-raglan-cream-front.jpg",
+      "/images/products/tshirt-raglan-cream-back.jpg",
+      "/images/products/tshirt-raglan-brown-front.jpg",
+      "/images/products/tshirt-raglan-brown-back.jpg",
+      "/images/products/tshirt-raglan-blue-front.jpg",
+      "/images/products/tshirt-raglan-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám đậm", hex: "#5C5C60", imageIndex: 0 },
+      { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 2 },
+      { name: "Nâu", hex: "#8D7362", imageIndex: 4 },
+      { name: "Xanh nhạt", hex: "#A8C3D8", imageIndex: 6 }
+    ],
+    rating: 4.8,
+    reviews: 119,
     inStock: true,
     isNew: true,
     isSale: true,
