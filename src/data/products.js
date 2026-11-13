@@ -1929,12 +1929,15 @@ const products = [
       "/images/products/polo-nostyle288-black-front.jpg",
       "/images/products/polo-nostyle288-black-back.jpg",
       "/images/products/polo-nostyle288-brown-front.jpg",
-      "/images/products/polo-nostyle288-brown-back.jpg"
+      "/images/products/polo-nostyle288-brown-back.jpg",
+      "/images/products/polo-nostyle288-navy-front.jpg",
+      "/images/products/polo-nostyle288-navy-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 0 },
-      { name: "Nâu Rêu Sọc Trắng", hex: "#5C5346", imageIndex: 2 }
+      { name: "Nâu Rêu Sọc Trắng", hex: "#5C5346", imageIndex: 2 },
+      { name: "Xanh Đen Sọc Trắng", hex: "#252D3C", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 162,
@@ -1954,15 +1957,46 @@ const products = [
       "/images/products/polo-nostyle288-brown-front.jpg",
       "/images/products/polo-nostyle288-brown-back.jpg",
       "/images/products/polo-nostyle288-black-front.jpg",
-      "/images/products/polo-nostyle288-black-back.jpg"
+      "/images/products/polo-nostyle288-black-back.jpg",
+      "/images/products/polo-nostyle288-navy-front.jpg",
+      "/images/products/polo-nostyle288-navy-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Rêu Sọc Trắng", hex: "#5C5346", imageIndex: 0 },
-      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 2 }
+      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Xanh Đen Sọc Trắng", hex: "#252D3C", imageIndex: 4 }
     ],
     rating: 5.0,
     reviews: 175,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ Pique"
+  },
+  {
+    id: 71,
+    name: "Áo Polo DurableTex™ Vải Double Face Pique Sọc Khối Streetwear Phom Siêu Rộng F5 - Màu Xanh Đen Sọc Trắng",
+    category: "Áo",
+    price: 450000,
+    originalPrice: 590000,
+    description: "Áo polo phong cách 90s Rugby Streetwear thuộc bộ sưu tập The No Style 288 từ Aureus Fashion. Tông màu xanh đen (Navy) phối sọc khối trắng kem thời thượng, trẻ trung và tôn da. Chất vải công nghệ DurableTex™ dệt Double Face Pique 2 da dày dặn đứng dáng, thông thoáng và êm ái khi mặc. Cổ bẻ dệt len cotton màu kem sang trọng, phom siêu rộng F5 (oversize boxy fit) tạo độ rũ tự nhiên, chuẩn phong cách retro streetwear đường phố.",
+    images: [
+      "/images/products/polo-nostyle288-navy-front.jpg",
+      "/images/products/polo-nostyle288-navy-back.jpg",
+      "/images/products/polo-nostyle288-black-front.jpg",
+      "/images/products/polo-nostyle288-black-back.jpg",
+      "/images/products/polo-nostyle288-brown-front.jpg",
+      "/images/products/polo-nostyle288-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen Sọc Trắng", hex: "#252D3C", imageIndex: 0 },
+      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Nâu Rêu Sọc Trắng", hex: "#5C5346", imageIndex: 4 }
+    ],
+    rating: 5.0,
+    reviews: 184,
     inStock: true,
     isNew: true,
     isSale: true,
