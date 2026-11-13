@@ -1057,6 +1057,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Unreal Evolve"
+  },
+  {
+    id: 40,
+    name: "Áo Thun Cổ Tròn Phối Đường May Nổi Outseam Cá Tính Cotton Đứng Phom Phom Rộng F4 - Màu Trắng",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn đường may nổi outseam thuộc bộ sưu tập The No Style 277 từ Aureus Fashion. Sử dụng chất liệu vải Cotton cao cấp tông màu trắng sáng, bề mặt mềm mịn, giữ phom áo đứng chuẩn F4 và thoáng khí vượt trội suốt cả ngày. Thiết kế phá cách với các đường may nổi outseam tinh xảo, gấu tay in slogan nghệ thuật 'MASTER YOUR OWN MIND'. Trung tâm thân trước là tác phẩm đồ họa phản ánh thời đại số với hình tượng nhân vật TV Head cùng thông điệp 'MIND CONTROL - CONTROL THE SYSTEM / OBEY • CONFORM • SUBMIT'. Phom rộng F4 cá tính, cực kỳ ăn ý khi phối cùng quần jeans baggy hoặc quần cargo.",
+    images: [
+      "/images/products/tshirt-outseam277-white-front.jpg",
+      "/images/products/tshirt-outseam277-white-back.png",
+      "/images/products/tshirt-outseam277-black-front.jpg",
+      "/images/products/tshirt-outseam277-black-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Outseam Cyber"
+  },
+  {
+    id: 41,
+    name: "Áo Thun Cổ Tròn Phối Đường May Nổi Outseam Cá Tính Cotton Đứng Phom Phom Rộng F4 - Màu Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn đường may nổi outseam thuộc bộ sưu tập The No Style 277 từ Aureus Fashion. Sử dụng chất liệu vải Cotton cao cấp tông màu đen tuyền nam tính, đứng phom, co giãn và thấm hút mồ hôi tối ưu. Thiết kế phá cách với các đường may nổi outseam gân viền tinh xảo, gấu tay in slogan 'MASTER YOUR OWN MIND'. Mặt trước nổi bật với tác phẩm đồ họa nghệ thuật TV Head sắc nét cùng thông điệp 'MIND CONTROL - CONTROL THE SYSTEM'. Dáng áo phom rộng F4 chuẩn phong cách streetwear nổi loạn và đậm chất nghệ thuật đường phố hiện đại.",
+    images: [
+      "/images/products/tshirt-outseam277-black-front.jpg",
+      "/images/products/tshirt-outseam277-black-back.png",
+      "/images/products/tshirt-outseam277-white-front.jpg",
+      "/images/products/tshirt-outseam277-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Outseam Cyber"
   }
 ];
 
