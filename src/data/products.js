@@ -1119,12 +1119,15 @@ const products = [
       "/images/products/tshirt-boxy253-blackgrey-front.jpg",
       "/images/products/tshirt-boxy253-blackgrey-back.jpg",
       "/images/products/tshirt-boxy253-greyblack-front.jpg",
-      "/images/products/tshirt-boxy253-greyblack-back.jpg"
+      "/images/products/tshirt-boxy253-greyblack-back.jpg",
+      "/images/products/tshirt-boxy253-whiteblack-front.jpg",
+      "/images/products/tshirt-boxy253-whiteblack-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen Phối Xám", hex: "#1A1A1A", imageIndex: 0 },
-      { name: "Xám Phối Đen", hex: "#5E6064", imageIndex: 2 }
+      { name: "Xám Phối Đen", hex: "#5E6064", imageIndex: 2 },
+      { name: "Trắng Phối Đen", hex: "#FFFFFF", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 145,
@@ -1144,15 +1147,46 @@ const products = [
       "/images/products/tshirt-boxy253-greyblack-front.jpg",
       "/images/products/tshirt-boxy253-greyblack-back.jpg",
       "/images/products/tshirt-boxy253-blackgrey-front.jpg",
-      "/images/products/tshirt-boxy253-blackgrey-back.jpg"
+      "/images/products/tshirt-boxy253-blackgrey-back.jpg",
+      "/images/products/tshirt-boxy253-whiteblack-front.jpg",
+      "/images/products/tshirt-boxy253-whiteblack-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Phối Đen", hex: "#5E6064", imageIndex: 0 },
-      { name: "Đen Phối Xám", hex: "#1A1A1A", imageIndex: 2 }
+      { name: "Đen Phối Xám", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Trắng Phối Đen", hex: "#FFFFFF", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 153,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy 3D Athleisure"
+  },
+  {
+    id: 44,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Phối Màu Cotton Compact Co Giãn Giữ Phom In Nổi 3D Phom Hộp Rộng F5 - Màu Trắng Phối Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn dáng boxy phối màu phong cách thể thao Athleisure thuộc bộ sưu tập The No Style 253 từ Aureus Fashion. Sử dụng chất liệu vải Cotton Compact cao cấp tông màu trắng sáng, bề mặt mịn màng, co giãn 4 chiều linh hoạt và giữ phom áo đứng chuẩn hộp rộng F5. Thiết kế raglan thể thao cắt rập phối mảng màu đen mạnh mẽ ở cầu vai, tay áo và hai bên sườn. Ngực áo dập nổi 3D cao cấp chữ 'Athleisure - Athletic x Leisure' sang trọng. Phom hộp rộng F5 tôn dáng, năng động và chuẩn phong cách streetwear hiện đại.",
+    images: [
+      "/images/products/tshirt-boxy253-whiteblack-front.jpg",
+      "/images/products/tshirt-boxy253-whiteblack-back.jpg",
+      "/images/products/tshirt-boxy253-blackgrey-front.jpg",
+      "/images/products/tshirt-boxy253-blackgrey-back.jpg",
+      "/images/products/tshirt-boxy253-greyblack-front.jpg",
+      "/images/products/tshirt-boxy253-greyblack-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Phối Đen", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen Phối Xám", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Xám Phối Đen", hex: "#5E6064", imageIndex: 4 }
+    ],
+    rating: 5.0,
+    reviews: 168,
     inStock: true,
     isNew: true,
     isSale: true,
