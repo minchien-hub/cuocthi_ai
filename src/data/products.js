@@ -539,6 +539,30 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Hot"
+  },
+  {
+    id: 22,
+    name: "Quần Jeans Baggy Ống Cong Mài Rách Durabletex™ Phủ Đồng Hạn Chế Nhăn Chống Bục Đáy Phom Siêu",
+    category: "Quần",
+    price: 790000,
+    originalPrice: 980000,
+    description: "Quần jeans baggy ống cong mài rách ứng dụng công nghệ sợi Durabletex™ phủ đồng cao cấp độc quyền từ Aureus Fashion. Thiết kế ống cong (curved silhouette) thời thượng, tạo hiệu ứng xếp nếp hack dáng chân dài tự nhiên. Xử lý wash màu xanh retro vintage cùng các vệt mài rách tinh tế. Vải denim co giãn êm ái, hạn chế nhăn tối đa, gia cố đường may kép chống bục đáy vượt trội, khóa kéo và khuy dập nổi bền bỉ theo thời gian.",
+    images: [
+      "/images/products/jeans-baggy-curved-1.jpg",
+      "/images/products/jeans-baggy-curved-2.jpg",
+      "/images/products/jeans-baggy-curved-3.jpg",
+      "/images/products/jeans-baggy-curved-4.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Wash Vintage", hex: "#7D9EB8", imageIndex: 0 }
+    ],
+    rating: 5.0,
+    reviews: 186,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™"
   }
 ];
 
