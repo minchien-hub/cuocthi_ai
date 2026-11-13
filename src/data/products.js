@@ -2125,6 +2125,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "CloudTouch™ F2"
+  },
+  {
+    id: 76,
+    name: "Áo Polo Tay Ngắn Họa Tiết Sọc Nhí Thoáng Mát Đứng Phom Trẻ Trung Phom Hộp Rộng F5 - Màu Trắng Sọc Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo polo phong cách Parisian Retro & Vintage Streetwear thuộc bộ sưu tập The Weekend 098 từ Aureus Fashion. Sử dụng chất liệu vải dệt cao cấp mềm mát, đứng phom, thấm hút mồ hôi và thoáng khí tối đa. Điểm nhấn là họa tiết sọc nhí (micro pinstripes) đen thanh mảnh trên nền trắng sáng tinh tế, tạo hiệu ứng thị giác thon gọn và mang đến vẻ đẹp cổ điển, lịch thiệp. Bản cổ polo dệt trơn màu trắng kem đồng điệu, dày dặn chống quăn mép. Dáng áo phom hộp rộng F5 (boxy oversize fit) vai rơi phóng khoáng, độ rủ tự nhiên chuẩn phong cách dạo phố, cà phê cuối tuần cùng bạn bè.",
+    images: [
+      "/images/products/polo-weekend098-white-front.jpg",
+      "/images/products/polo-weekend098-white-back.jpg",
+      "/images/products/polo-weekend098-black-front.jpg",
+      "/images/products/polo-weekend098-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Sọc Đen", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Micro Stripe F5"
+  },
+  {
+    id: 77,
+    name: "Áo Polo Tay Ngắn Họa Tiết Sọc Nhí Thoáng Mát Đứng Phom Trẻ Trung Phom Hộp Rộng F5 - Màu Đen Sọc Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo polo phong cách Parisian Retro & Vintage Streetwear thuộc bộ sưu tập The Weekend 098 từ Aureus Fashion. Tông màu đen tuyền nam tính kết hợp họa tiết đường kẻ sọc nhí trắng tinh tế, trẻ trung và tôn dáng. Chất vải dệt mật độ cao dày dặn nhưng vẫn cực kỳ êm mát và thoáng khí, không lo xù lông hay phai màu sau nhiều lần giặt. Cổ bẻ dệt đen tuyền sang trọng, nẹp cúc chỉn chu. Thiết kế phom hộp rộng F5 cá tính, tôn dáng và che khuyết điểm hoàn hảo, dễ dàng mix-match cùng quần short hoặc quần jeans baggy ống rộng.",
+    images: [
+      "/images/products/polo-weekend098-black-front.jpg",
+      "/images/products/polo-weekend098-black-back.jpg",
+      "/images/products/polo-weekend098-white-front.jpg",
+      "/images/products/polo-weekend098-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng Sọc Đen", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Micro Stripe F5"
   }
 ];
 
