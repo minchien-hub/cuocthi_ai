@@ -1191,6 +1191,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Boxy 3D Athleisure"
+  },
+  {
+    id: 45,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Vải Loang Batik Tản Nhiệt Thoáng Mịn In Nổi Wanderlust Phom Hộp Rộng F5 - Màu Xanh Denim Loang",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun cổ tròn dáng boxy vải loang Batik thuộc bộ sưu tập The No Style 281 từ Aureus Fashion. Ứng dụng công nghệ nhuộm wash loang khoáng chất (Batik mineral wash) thủ công độc bản trên nền sắc xanh denim cổ điển, mang lại họa tiết loang tự nhiên không trùng lặp. Chất vải Cotton cao cấp kết cấu tản nhiệt siêu thoáng khí, bề mặt mềm mịn và kháng khuẩn tốt. Trung tâm ngực in nổi artwork phong cảnh núi rừng hùng vĩ cùng thông điệp 'WANDERLUST - Wander more WORRY LESS'. Phom hộp rộng F5 phóng khoáng, cực chất khi mix cùng quần jeans baggy hoặc quần shorts đi du lịch, dã ngoại.",
+    images: [
+      "/images/products/tshirt-batik281-blue-front.jpg",
+      "/images/products/tshirt-batik281-blue-back.jpg",
+      "/images/products/tshirt-batik281-brown-front.jpg",
+      "/images/products/tshirt-batik281-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 0 },
+      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Batik Wanderlust"
+  },
+  {
+    id: 46,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Vải Loang Batik Tản Nhiệt Thoáng Mịn In Nổi Wanderlust Phom Hộp Rộng F5 - Màu Nâu Rêu Loang",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun cổ tròn dáng boxy vải loang Batik thuộc bộ sưu tập The No Style 281 từ Aureus Fashion. Ứng dụng công nghệ nhuộm wash loang khoáng chất (Batik mineral wash) thủ công độc bản trên nền gam màu nâu rêu / nâu cát trầm ấm, bụi bặm đậm chất phiêu lưu. Chất vải Cotton dệt sợi tản nhiệt làm mát tự nhiên, co giãn nhẹ và giữ phom áo hộp F5 chuẩn dáng suốt ngày dài. Mặt trước in nổi sắc sảo họa tiết thiên nhiên kỳ vĩ cùng slogan truyền cảm hứng 'WANDERLUST - Wander more WORRY LESS'. Phom áo thời thượng dễ dàng phối đồ theo phong cách camping, outdoor hay streetwear dạo phố.",
+    images: [
+      "/images/products/tshirt-batik281-brown-front.jpg",
+      "/images/products/tshirt-batik281-brown-back.jpg",
+      "/images/products/tshirt-batik281-blue-front.jpg",
+      "/images/products/tshirt-batik281-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 0 },
+      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 161,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Batik Wanderlust"
   }
 ];
 
