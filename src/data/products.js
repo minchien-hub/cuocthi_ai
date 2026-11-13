@@ -1495,6 +1495,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Icevibes™ Cool Comfort"
+  },
+  {
+    id: 55,
+    name: "Áo Thun Cổ Tròn Vải Cotton Co Giãn Giữ Phom Thoáng Mát In Hình Unreal Silence Phom Rộng F4 - Màu Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn nghệ thuật streetwear 'Built In Silence' thuộc bộ sưu tập The No Style 276 từ Aureus Fashion. Sử dụng chất liệu vải Cotton cao cấp kết hợp sợi spandex co giãn, giữ phom áo đứng chuẩn F4 và bề mặt tiếp xúc mềm mịn, mát mẻ suốt ngày dài. Mặt trước áo nổi bật với tác phẩm đồ họa hội họa đường phố đầy tính tự sự: hình ảnh nhân vật đội mũ trùm đứng dưới ánh đèn đêm mưa cùng thông điệp truyền cảm hứng mạnh mẽ 'BUILT IN SILENCE - LET ACTION SPEAK / CREATE YOUR FUTURE - ONE DAY OR DAY ONE YOU DECIDE'. Điểm nhấn tinh tế với dòng chữ 'BUILT IN SILENCE' in sắc nét trên bắp tay áo. Phom rộng F4 phóng khoáng, dễ dàng mix-match cùng quần jeans baggy hoặc quần short thể thao.",
+    images: [
+      "/images/products/tshirt-silence276-white-front.jpg",
+      "/images/products/tshirt-silence276-white-back.png",
+      "/images/products/tshirt-silence276-black-front.jpg",
+      "/images/products/tshirt-silence276-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 136,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Unreal Silence"
+  },
+  {
+    id: 56,
+    name: "Áo Thun Cổ Tròn Vải Cotton Co Giãn Giữ Phom Thoáng Mát In Hình Unreal Silence Phom Rộng F4 - Màu Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 510000,
+    description: "Áo thun cổ tròn nghệ thuật streetwear 'Built In Silence' thuộc bộ sưu tập The No Style 276 từ Aureus Fashion. Tông màu đen tuyền nam tính kết hợp chất vải Cotton co giãn 4 chiều mềm mịn, thoáng khí, chống nhăn xù và giữ phom áo đứng chuẩn F4. Mặt trước nổi bật với artwork hội họa bí ẩn: nhân vật trùm mũ đơn độc dưới làn mưa và ánh đèn vàng rực rỡ, kèm các câu slogan truyền động lực sâu sắc 'BUILT IN SILENCE - LET ACTION SPEAK' và 'CREATE YOUR FUTURE'. Chi tiết in typography 'BUILT IN SILENCE' ở tay áo tạo điểm nhấn độc đáo. Dáng áo phom rộng F4 mang phong cách đường phố phóng khoáng và cá tính.",
+    images: [
+      "/images/products/tshirt-silence276-black-front.jpg",
+      "/images/products/tshirt-silence276-black-back.jpg",
+      "/images/products/tshirt-silence276-white-front.jpg",
+      "/images/products/tshirt-silence276-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Unreal Silence"
   }
 ];
 
