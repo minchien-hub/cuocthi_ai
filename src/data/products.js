@@ -415,6 +415,56 @@ const products = [
     isNew: true,
     isSale: false,
     badge: "New"
+  },
+  {
+    id: 18,
+    name: "Áo Thun Raglan Oversize - Màu Nâu",
+    category: "Áo",
+    price: 350000,
+    originalPrice: 450000,
+    description: "Áo thun raglan oversize thiết kế cao cấp của Aureus Fashion. Tông màu nâu cacao ấm áp, thời thượng kết hợp đường may raglan tạo phom vai xuôi mềm mại. Chất liệu 100% cotton định lượng 250gsm dày dặn, đứng phom, thoáng khí và thấm hút mồ hôi tốt. Họa tiết thêu chữ sắc nét tinh tế ở ngực áo, phong cách unisex trẻ trung cá tính.",
+    images: [
+      "/images/products/tshirt-raglan-brown-front.jpg",
+      "/images/products/tshirt-raglan-brown-back.jpg",
+      "/images/products/tshirt-raglan-cream-front.jpg",
+      "/images/products/tshirt-raglan-cream-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu", hex: "#8D7362", imageIndex: 0 },
+      { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "New"
+  },
+  {
+    id: 19,
+    name: "Áo Thun Raglan Oversize - Màu Trắng Sữa",
+    category: "Áo",
+    price: 350000,
+    originalPrice: 450000,
+    description: "Áo thun raglan oversize thiết kế cao cấp của Aureus Fashion. Tông màu trắng sữa thanh lịch, trẻ trung và dễ phối đồ kết hợp đường may raglan tôn dáng vai. Chất liệu 100% cotton định lượng 250gsm dày dặn, bề mặt vải xử lý mịn màng, co giãn tự nhiên. Họa tiết thêu chữ tinh tế ngực áo, phù hợp cho cả nam và nữ trong mọi hoạt động thường nhật.",
+    images: [
+      "/images/products/tshirt-raglan-cream-front.jpg",
+      "/images/products/tshirt-raglan-cream-back.jpg",
+      "/images/products/tshirt-raglan-brown-front.jpg",
+      "/images/products/tshirt-raglan-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng sữa", hex: "#F3ECE2", imageIndex: 0 },
+      { name: "Nâu", hex: "#8D7362", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Hot"
   }
 ];
 

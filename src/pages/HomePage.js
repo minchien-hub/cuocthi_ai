@@ -24,7 +24,16 @@ const HomePage = () => {
     return () => observerRef.current && observerRef.current.disconnect();
   }, []);
 
-  const featuredProducts = products.slice(0, 8);
+  const featuredProducts = [
+    products[0],  // Áo Polo Đồng Phục HCMUTE
+    products[17], // Áo Thun Raglan Oversize - Màu Nâu
+    products[18], // Áo Thun Raglan Oversize - Màu Trắng Sữa
+    products[1],  // Áo Blazer Nữ Premium
+    products[2],  // Đầm Dạ Hội Lụa Satin
+    products[3],  // Quần Tây Slim Fit
+    products[4],  // Túi Xách Da Handmade
+    products[5],  // Áo Sơ Mi Lụa Cổ Đứng
+  ];
 
   const getCategoryCount = (catName) => {
     const count = products.filter(p => p.category === catName).length;
