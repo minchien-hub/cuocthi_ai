@@ -883,6 +883,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Ringer Athleisure"
+  },
+  {
+    id: 34,
+    name: "Áo Thun Cổ Tròn Phối Màu Raglan Năng Động Cotton Mềm Mát Co Giãn Phom Hộp Rộng F5 - Màu Xanh Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn phom hộp rộng F5 (Boxy Fit) thuộc bộ sưu tập The No Style 251 từ Aureus Fashion. Sử dụng chất liệu sợi 100% Cotton cao cấp mềm mát, co giãn tự nhiên, thoáng khí tối đa mang lại cảm giác dễ chịu suốt ngày dài năng động. Thiết kế tay raglan phối đường cắt cúp vai thời thượng, gấu tay viền dải vải màu xanh pastel tinh tế tạo điểm nhấn thể thao hiện đại. Điểm xuyết chữ in nghệ thuật 'Athleisure' tối giản trước ngực. Phom hộp F5 rũ đẹp, cá tính, cực kỳ ăn ý khi mix cùng quần jeans baggy hoặc quần shorts.",
+    images: [
+      "/images/products/tshirt-boxyf5-navy-front.jpg",
+      "/images/products/tshirt-boxyf5-navy-back.jpg",
+      "/images/products/tshirt-boxyf5-white-front.jpg",
+      "/images/products/tshirt-boxyf5-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen", hex: "#1C2541", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 135,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy Fit F5"
+  },
+  {
+    id: 35,
+    name: "Áo Thun Cổ Tròn Phối Màu Raglan Năng Động Cotton Mềm Mát Co Giãn Phom Hộp Rộng F5 - Màu Trắng",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn phom hộp rộng F5 (Boxy Fit) thuộc bộ sưu tập The No Style 251 từ Aureus Fashion. Sử dụng chất liệu sợi 100% Cotton cao cấp màu trắng tinh khôi, bề mặt mịn màng, co giãn và thấm hút mồ hôi vượt trội. Thiết kế tay áo raglan năng động với viền gấu tay phối dải xanh pastel thời thượng và logo 'Athleisure' in sắc sảo giữa ngực áo. Dáng áo phom hộp F5 hiện đại che khuyết điểm tốt, dễ dàng biến hóa đa dạng phong cách từ năng động dạo phố đến du lịch.",
+    images: [
+      "/images/products/tshirt-boxyf5-white-front.jpg",
+      "/images/products/tshirt-boxyf5-white-back.png",
+      "/images/products/tshirt-boxyf5-navy-front.jpg",
+      "/images/products/tshirt-boxyf5-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Xanh Đen", hex: "#1C2541", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy Fit F5"
   }
 ];
 
