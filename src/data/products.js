@@ -1361,6 +1361,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Batik Wanderlust"
+  },
+  {
+    id: 50,
+    name: "Áo Thun Cổ Tròn Dáng Rộng Streetwear Cotton 2 Chiều Đứng Phom Bền Màu Phom Hộp Rộng F5 - Màu Trắng",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn dáng rộng streetwear thuộc bộ sưu tập The No Style 273 từ Aureus Fashion. Sử dụng chất liệu vải Cotton 2 chiều cao cấp dệt mật độ cao dày dặn, giữ phom áo đứng chuẩn hộp rộng F5, bề mặt tiếp xúc mịn mát, chống xù lông và cực kỳ bền màu qua nhiều lần giặt. Nổi bật với tác phẩm đồ họa nghệ thuật mang đậm phong cách tương lai Cyberpunk: nhân vật đeo kính viễn tưởng hướng về phía trước kết hợp vầng hào quang đỏ rực cùng thông điệp truyền cảm hứng 'THE FUTURE IS YOURS / DREAM - CREATE YOUR REALITY'. Phom hộp rộng F5 phóng khoáng, dễ dàng mix cùng quần jeans baggy hoặc quần cargo chuẩn phong cách đường phố.",
+    images: [
+      "/images/products/tshirt-dream273-white-front.jpg",
+      "/images/products/tshirt-dream273-white-back.png",
+      "/images/products/tshirt-dream273-black-front.jpg",
+      "/images/products/tshirt-dream273-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 149,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Dream Streetwear"
+  },
+  {
+    id: 51,
+    name: "Áo Thun Cổ Tròn Dáng Rộng Streetwear Cotton 2 Chiều Đứng Phom Bền Màu Phom Hộp Rộng F5 - Màu Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn dáng rộng streetwear thuộc bộ sưu tập The No Style 273 từ Aureus Fashion. Tông màu đen tuyền nam tính kết hợp chất vải Cotton 2 chiều đứng phom chuẩn hộp rộng F5, mềm mịn, thoáng khí và co giãn nhẹ tạo cảm giác dễ chịu khi vận động. Artwork mặt trước với đồ họa nhân vật viễn tưởng nổi bật trên vầng tròn đỏ và chữ in 'THE FUTURE IS YOURS / DREAM' sắc nét, không bong tróc. Dáng áo phom hộp F5 thời thượng, tôn dáng và che khuyết điểm hoàn hảo.",
+    images: [
+      "/images/products/tshirt-dream273-black-front.jpg",
+      "/images/products/tshirt-dream273-black-back.jpg",
+      "/images/products/tshirt-dream273-white-front.jpg",
+      "/images/products/tshirt-dream273-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 167,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Dream Streetwear"
   }
 ];
 
