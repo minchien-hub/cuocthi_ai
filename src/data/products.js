@@ -895,12 +895,18 @@ const products = [
       "/images/products/tshirt-boxyf5-navy-front.jpg",
       "/images/products/tshirt-boxyf5-navy-back.jpg",
       "/images/products/tshirt-boxyf5-white-front.jpg",
-      "/images/products/tshirt-boxyf5-white-back.png"
+      "/images/products/tshirt-boxyf5-white-back.png",
+      "/images/products/tshirt-boxyf5-grey-front.jpg",
+      "/images/products/tshirt-boxyf5-grey-back.jpg",
+      "/images/products/tshirt-boxyf5-black-front.jpg",
+      "/images/products/tshirt-boxyf5-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Đen", hex: "#1C2541", imageIndex: 0 },
-      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 },
+      { name: "Xám Chì", hex: "#5E6064", imageIndex: 4 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 135,
@@ -920,15 +926,83 @@ const products = [
       "/images/products/tshirt-boxyf5-white-front.jpg",
       "/images/products/tshirt-boxyf5-white-back.png",
       "/images/products/tshirt-boxyf5-navy-front.jpg",
-      "/images/products/tshirt-boxyf5-navy-back.jpg"
+      "/images/products/tshirt-boxyf5-navy-back.jpg",
+      "/images/products/tshirt-boxyf5-grey-front.jpg",
+      "/images/products/tshirt-boxyf5-grey-back.jpg",
+      "/images/products/tshirt-boxyf5-black-front.jpg",
+      "/images/products/tshirt-boxyf5-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
-      { name: "Xanh Đen", hex: "#1C2541", imageIndex: 2 }
+      { name: "Xanh Đen", hex: "#1C2541", imageIndex: 2 },
+      { name: "Xám Chì", hex: "#5E6064", imageIndex: 4 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy Fit F5"
+  },
+  {
+    id: 36,
+    name: "Áo Thun Cổ Tròn Phối Màu Raglan Năng Động Cotton Mềm Mát Co Giãn Phom Hộp Rộng F5 - Màu Xám Chì",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn phom hộp rộng F5 (Boxy Fit) thuộc bộ sưu tập The No Style 251 từ Aureus Fashion. Sử dụng chất liệu sợi 100% Cotton cao cấp màu xám chì (charcoal grey) hiện đại, bề mặt mịn màng, co giãn và thoáng khí tối đa. Thiết kế tay áo raglan năng động với viền gấu tay phối dải xám sáng thời thượng và logo 'Athleisure' in sắc nét giữa ngực áo. Dáng áo phom hộp F5 hiện đại tôn dáng, che khuyết điểm tốt, chuẩn phong cách streetwear thời thượng.",
+    images: [
+      "/images/products/tshirt-boxyf5-grey-front.jpg",
+      "/images/products/tshirt-boxyf5-grey-back.jpg",
+      "/images/products/tshirt-boxyf5-black-front.jpg",
+      "/images/products/tshirt-boxyf5-black-back.png",
+      "/images/products/tshirt-boxyf5-white-front.jpg",
+      "/images/products/tshirt-boxyf5-white-back.png",
+      "/images/products/tshirt-boxyf5-navy-front.jpg",
+      "/images/products/tshirt-boxyf5-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Chì", hex: "#5E6064", imageIndex: 0 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 4 },
+      { name: "Xanh Đen", hex: "#1C2541", imageIndex: 6 }
+    ],
+    rating: 4.8,
+    reviews: 129,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Boxy Fit F5"
+  },
+  {
+    id: 37,
+    name: "Áo Thun Cổ Tròn Phối Màu Raglan Năng Động Cotton Mềm Mát Co Giãn Phom Hộp Rộng F5 - Màu Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun cổ tròn phom hộp rộng F5 (Boxy Fit) thuộc bộ sưu tập The No Style 251 từ Aureus Fashion. Sử dụng chất liệu sợi 100% Cotton cao cấp tông màu đen tuyền cá tính, co giãn tự nhiên, thoáng mát tối ưu. Thiết kế tay raglan phối đường cắt cúp vai thời thượng, gấu tay viền dải vải màu xám sáng tinh tế tạo điểm nhấn thể thao hiện đại. Điểm xuyết chữ in nghệ thuật 'Athleisure' tối giản trước ngực. Phom hộp F5 rũ đẹp, cá tính, cực kỳ ăn ý khi mix cùng quần jeans baggy hoặc quần shorts.",
+    images: [
+      "/images/products/tshirt-boxyf5-black-front.jpg",
+      "/images/products/tshirt-boxyf5-black-back.png",
+      "/images/products/tshirt-boxyf5-grey-front.jpg",
+      "/images/products/tshirt-boxyf5-grey-back.jpg",
+      "/images/products/tshirt-boxyf5-white-front.jpg",
+      "/images/products/tshirt-boxyf5-white-back.png",
+      "/images/products/tshirt-boxyf5-navy-front.jpg",
+      "/images/products/tshirt-boxyf5-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#5E6064", imageIndex: 2 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 4 },
+      { name: "Xanh Đen", hex: "#1C2541", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 156,
     inStock: true,
     isNew: true,
     isSale: true,
