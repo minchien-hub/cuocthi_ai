@@ -1207,14 +1207,17 @@ const products = [
       "/images/products/tshirt-batik281-grey-front.jpg",
       "/images/products/tshirt-batik281-grey-back.jpg",
       "/images/products/tshirt-batik281-black-front.jpg",
-      "/images/products/tshirt-batik281-black-back.jpg"
+      "/images/products/tshirt-batik281-black-back.jpg",
+      "/images/products/tshirt-batik281-white-front.jpg",
+      "/images/products/tshirt-batik281-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 0 },
       { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 2 },
       { name: "Xám Khói Loang", hex: "#55585C", imageIndex: 4 },
-      { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 6 }
+      { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 6 },
+      { name: "Trắng Loang", hex: "#EAEAEA", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 154,
@@ -1238,14 +1241,17 @@ const products = [
       "/images/products/tshirt-batik281-grey-front.jpg",
       "/images/products/tshirt-batik281-grey-back.jpg",
       "/images/products/tshirt-batik281-black-front.jpg",
-      "/images/products/tshirt-batik281-black-back.jpg"
+      "/images/products/tshirt-batik281-black-back.jpg",
+      "/images/products/tshirt-batik281-white-front.jpg",
+      "/images/products/tshirt-batik281-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 0 },
       { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 2 },
       { name: "Xám Khói Loang", hex: "#55585C", imageIndex: 4 },
-      { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 6 }
+      { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 6 },
+      { name: "Trắng Loang", hex: "#EAEAEA", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 161,
@@ -1266,6 +1272,8 @@ const products = [
       "/images/products/tshirt-batik281-grey-back.jpg",
       "/images/products/tshirt-batik281-black-front.jpg",
       "/images/products/tshirt-batik281-black-back.jpg",
+      "/images/products/tshirt-batik281-white-front.jpg",
+      "/images/products/tshirt-batik281-white-back.jpg",
       "/images/products/tshirt-batik281-blue-front.jpg",
       "/images/products/tshirt-batik281-blue-back.jpg",
       "/images/products/tshirt-batik281-brown-front.jpg",
@@ -1275,8 +1283,9 @@ const products = [
     colors: [
       { name: "Xám Khói Loang", hex: "#55585C", imageIndex: 0 },
       { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 2 },
-      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 4 },
-      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 6 }
+      { name: "Trắng Loang", hex: "#EAEAEA", imageIndex: 4 },
+      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 6 },
+      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 147,
@@ -1297,6 +1306,8 @@ const products = [
       "/images/products/tshirt-batik281-black-back.jpg",
       "/images/products/tshirt-batik281-grey-front.jpg",
       "/images/products/tshirt-batik281-grey-back.jpg",
+      "/images/products/tshirt-batik281-white-front.jpg",
+      "/images/products/tshirt-batik281-white-back.jpg",
       "/images/products/tshirt-batik281-blue-front.jpg",
       "/images/products/tshirt-batik281-blue-back.jpg",
       "/images/products/tshirt-batik281-brown-front.jpg",
@@ -1306,11 +1317,46 @@ const products = [
     colors: [
       { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 0 },
       { name: "Xám Khói Loang", hex: "#55585C", imageIndex: 2 },
-      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 4 },
-      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 6 }
+      { name: "Trắng Loang", hex: "#EAEAEA", imageIndex: 4 },
+      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 6 },
+      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 176,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Batik Wanderlust"
+  },
+  {
+    id: 49,
+    name: "Áo Thun Cổ Tròn Dáng Boxy Vải Loang Batik Tản Nhiệt Thoáng Mịn In Nổi Wanderlust Phom Hộp Rộng F5 - Màu Trắng Loang",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 520000,
+    description: "Áo thun cổ tròn dáng boxy vải loang Batik thuộc bộ sưu tập The No Style 281 từ Aureus Fashion. Kỹ thuật wash loang mây khói khoáng chất (Batik mineral wash) thủ công trên nền trắng sứ tinh khôi, tạo nên những đường vân mây loang xám khói nhẹ nhàng, tinh tế và độc nhất vô nhị. Chất vải Cotton tản nhiệt mềm mát cao cấp, kháng khuẩn và giữ phom áo hộp F5 chuẩn dáng suốt ngày dài. Mặt trước in nổi artwork phong cảnh núi rừng Wanderlust sắc nét cùng thông điệp 'Wander more WORRY LESS'. Phom rộng thời thượng, cực kỳ tươi sáng và thanh lịch cho mọi chuyến du lịch hay dạo phố.",
+    images: [
+      "/images/products/tshirt-batik281-white-front.jpg",
+      "/images/products/tshirt-batik281-white-back.jpg",
+      "/images/products/tshirt-batik281-grey-front.jpg",
+      "/images/products/tshirt-batik281-grey-back.jpg",
+      "/images/products/tshirt-batik281-black-front.jpg",
+      "/images/products/tshirt-batik281-black-back.jpg",
+      "/images/products/tshirt-batik281-blue-front.jpg",
+      "/images/products/tshirt-batik281-blue-back.jpg",
+      "/images/products/tshirt-batik281-brown-front.jpg",
+      "/images/products/tshirt-batik281-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Loang", hex: "#EAEAEA", imageIndex: 0 },
+      { name: "Xám Khói Loang", hex: "#55585C", imageIndex: 2 },
+      { name: "Đen Wash Loang", hex: "#2B2B2B", imageIndex: 4 },
+      { name: "Xanh Denim Loang", hex: "#4A6572", imageIndex: 6 },
+      { name: "Nâu Rêu Loang", hex: "#7D7468", imageIndex: 8 }
+    ],
+    rating: 5.0,
+    reviews: 182,
     inStock: true,
     isNew: true,
     isSale: true,
