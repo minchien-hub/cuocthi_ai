@@ -1867,6 +1867,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "FlexFit™ Raglan"
+  },
+  {
+    id: 67,
+    name: "Áo Polo ColorLock™ Vải Pique Lục Giác Kẻ Sọc Yarn-Dyed Đứng Phom Phom Vừa F3 - Màu Be Phối Trắng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 560000,
+    description: "Áo polo nam công nghệ ColorLock™ thuộc bộ sưu tập The Weekend 050 từ Aureus Fashion. Sử dụng chất liệu vải dệt Pique lục giác (hexagonal honeycomb pique) cao cấp, cấu trúc dệt mắt kim cương thoáng khí tối ưu, thấm hút mồ hôi nhanh và giữ phom áo luôn phẳng phiu, đứng dáng. Họa tiết kẻ sọc ngang ngực dệt nhuộm từng sợi (Yarn-Dyed) theo công nghệ ColorLock™ chống phai màu, chống loang màu tuyệt đối sau nhiều chu kỳ giặt. Thiết kế phối màu be cát thanh lịch ở phần ngực, tay áo và toàn bộ thân sau, kết hợp thân trước trắng sáng trang nhã. Bo cổ và bo tay dệt ribbing mật độ cao chống quăn mép. Phom vừa F3 tôn dáng lịch thiệp, dễ dàng kết hợp cùng quần âu, kaki đi làm hoặc quần jeans dạo phố cuối tuần.",
+    images: [
+      "/images/products/polo-weekend050-beige-front.jpg",
+      "/images/products/polo-weekend050-beige-back.jpg",
+      "/images/products/polo-weekend050-navy-front.jpg",
+      "/images/products/polo-weekend050-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be Phối Trắng", hex: "#B0A696", imageIndex: 0 },
+      { name: "Xanh Đen Phối Trắng", hex: "#1E2837", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ Polo"
+  },
+  {
+    id: 68,
+    name: "Áo Polo ColorLock™ Vải Pique Lục Giác Kẻ Sọc Yarn-Dyed Đứng Phom Phom Vừa F3 - Màu Xanh Đen Phối Trắng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 560000,
+    description: "Áo polo nam công nghệ ColorLock™ thuộc bộ sưu tập The Weekend 050 từ Aureus Fashion. Tông màu xanh đen (Navy) nam tính, sang trọng phối cùng mảng trắng tinh tế ở thân dưới. Bề mặt vải Pique dệt lục giác dày dặn, đứng phom, co giãn nhẹ và cực kỳ thoáng mát. Công nghệ dệt sợi nhuộm Yarn-Dyed ColorLock™ độc quyền bảo toàn độ tươi sáng của sợi vải, không bai nhão và chống xù lông. Cổ áo dệt bẻ góc tinh xảo, nẹp 2 cúc chỉn chu. Dáng phom vừa F3 ôm gọn gàng, tôn bờ vai vững chãi và đem đến sự tự tin cho phái mạnh trong cả môi trường công sở lẫn các buổi hẹn hò cuối tuần.",
+    images: [
+      "/images/products/polo-weekend050-navy-front.jpg",
+      "/images/products/polo-weekend050-navy-back.jpg",
+      "/images/products/polo-weekend050-beige-front.jpg",
+      "/images/products/polo-weekend050-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen Phối Trắng", hex: "#1E2837", imageIndex: 0 },
+      { name: "Be Phối Trắng", hex: "#B0A696", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "ColorLock™ Polo"
   }
 ];
 
