@@ -563,6 +563,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Durabletex™"
+  },
+  {
+    id: 23,
+    name: "Áo Thun Cổ Tròn FlexFit™ Cotton Compact 2C Co Giãn In Nổi 3D Typography Phom Siêu Rộng - Màu Đen",
+    category: "Áo",
+    price: 360000,
+    originalPrice: 480000,
+    description: "Áo thun cổ tròn ứng dụng công nghệ độc quyền FlexFit™ từ thương hiệu Aureus Fashion. Chất liệu cotton compact 2 chiều (2C) cao cấp bề mặt siêu mịn, co giãn đàn hồi tốt, giữ phom tuyệt đối sau nhiều lần giặt. Kỹ thuật in nổi 3D Typography đa sắc màu chủ đề 'BETTER DAYS START TODAY' nổi bật, hiệu ứng thị giác ấn tượng cả mặt trước và mặt sau. Phom dáng siêu rộng (ultra-oversize) phóng khoáng, thời thượng, phù hợp cho giới trẻ yêu thích phong cách streetwear năng động.",
+    images: [
+      "/images/products/tshirt-flexfit-black-front.jpg",
+      "/images/products/tshirt-flexfit-black-back.jpg",
+      "/images/products/tshirt-flexfit-white-front.jpg",
+      "/images/products/tshirt-flexfit-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1a1a1a", imageIndex: 0 },
+      { name: "Trắng", hex: "#ffffff", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ 3D"
+  },
+  {
+    id: 24,
+    name: "Áo Thun Cổ Tròn FlexFit™ Cotton Compact 2C Co Giãn In Nổi 3D Typography Phom Siêu Rộng - Màu Trắng",
+    category: "Áo",
+    price: 360000,
+    originalPrice: 480000,
+    description: "Áo thun cổ tròn ứng dụng công nghệ độc quyền FlexFit™ từ thương hiệu Aureus Fashion. Chất liệu cotton compact 2 chiều (2C) cao cấp bề mặt siêu mịn, co giãn đàn hồi tốt, giữ phom tuyệt đối sau nhiều lần giặt. Kỹ thuật in nổi 3D Typography đa sắc màu chủ đề 'BETTER DAYS START TODAY' nổi bật, hiệu ứng thị giác ấn tượng cả mặt trước và mặt sau. Phom dáng siêu rộng (ultra-oversize) phóng khoáng, thời thượng, phù hợp cho giới trẻ yêu thích phong cách streetwear năng động.",
+    images: [
+      "/images/products/tshirt-flexfit-white-front.jpg",
+      "/images/products/tshirt-flexfit-white-back.jpg",
+      "/images/products/tshirt-flexfit-black-front.jpg",
+      "/images/products/tshirt-flexfit-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#ffffff", imageIndex: 0 },
+      { name: "Đen", hex: "#1a1a1a", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ 3D"
   }
 ];
 
