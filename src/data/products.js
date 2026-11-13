@@ -613,6 +613,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "FlexFit™ 3D"
+  },
+  {
+    id: 25,
+    name: "Áo Thun Cổ Tròn FlexFit™ Cotton Blend 270gsm Sọc Mảnh Typography 90s Streetwear Phom Rộng F4 - Đỏ Rượu",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun sọc cổ tròn phong cách 90s Streetwear cổ điển ứng dụng chất vải Cotton Blend định lượng dày dặn 270gsm từ Aureus Fashion. Công nghệ dệt sợi FlexFit™ cao cấp giúp áo đanh mịn, hạn chế nhăn xù, co giãn êm ái và thấm hút mồ hôi tối ưu. Thiết kế sọc ngang mảnh tinh tế phối màu hoài niệm retro, nổi bật với họa tiết thêu chữ nghệ thuật 'ATHLEISURE VIBES' sắc nét ánh kim trước ngực. Phom rộng F4 thoải mái, phóng khoáng, dễ dàng mix đồ cùng quần jeans baggy hoặc quần short.",
+    images: [
+      "/images/products/tshirt-striped-burgundy-front.jpg",
+      "/images/products/tshirt-striped-burgundy-back.jpg",
+      "/images/products/tshirt-striped-sage-front.jpg",
+      "/images/products/tshirt-striped-sage-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đỏ Rượu", hex: "#5C242A", imageIndex: 0 },
+      { name: "Xanh Rêu", hex: "#6E7A6E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "90s Vintage"
+  },
+  {
+    id: 26,
+    name: "Áo Thun Cổ Tròn FlexFit™ Cotton Blend 270gsm Sọc Mảnh Typography 90s Streetwear Phom Rộng F4 - Xanh Rêu",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun sọc cổ tròn phong cách 90s Streetwear cổ điển ứng dụng chất vải Cotton Blend định lượng dày dặn 270gsm từ Aureus Fashion. Công nghệ dệt sợi FlexFit™ cao cấp giúp áo đanh mịn, hạn chế nhăn xù, co giãn êm ái và thấm hút mồ hôi tối ưu. Thiết kế sọc ngang mảnh tinh tế phối màu hoài niệm retro, nổi bật với họa tiết thêu chữ nghệ thuật 'ATHLEISURE VIBES' sắc nét ánh kim trước ngực. Phom rộng F4 thoải mái, phóng khoáng, dễ dàng mix đồ cùng quần jeans baggy hoặc quần short.",
+    images: [
+      "/images/products/tshirt-striped-sage-front.jpg",
+      "/images/products/tshirt-striped-sage-back.jpg",
+      "/images/products/tshirt-striped-burgundy-front.jpg",
+      "/images/products/tshirt-striped-burgundy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu", hex: "#6E7A6E", imageIndex: 0 },
+      { name: "Đỏ Rượu", hex: "#5C242A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 129,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "90s Vintage"
   }
 ];
 
