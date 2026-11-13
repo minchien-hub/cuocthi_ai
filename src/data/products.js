@@ -1917,6 +1917,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "ColorLock™ Polo"
+  },
+  {
+    id: 69,
+    name: "Áo Polo DurableTex™ Vải Double Face Pique Sọc Khối Streetwear Phom Siêu Rộng F5 - Màu Đen Sọc Trắng",
+    category: "Áo",
+    price: 450000,
+    originalPrice: 590000,
+    description: "Áo polo phong cách 90s Rugby Streetwear thuộc bộ sưu tập The No Style 288 từ Aureus Fashion. Sử dụng chất liệu vải DurableTex™ dệt Double Face Pique (pique 2 da) mật độ cao dày dặn, mặt ngoài cấu trúc gân pique dệt khối đứng phom, mặt trong tiếp xúc da êm ái, tản nhiệt và thấm hút mồ hôi hiệu quả. Họa tiết sọc ngang bản lớn (bold block stripes) đen phối trắng kem tương phản mạnh mẽ, mang đậm cảm hứng Retro Preppy và văn hóa đường phố cổ điển. Cổ polo dệt len cotton dệt kim màu trắng kem cao cấp, nẹp cổ dập cúc tinh xảo. Phom siêu rộng F5 (oversize boxy fit) vai rơi cực sâu, mang lại độ rũ tự nhiên và phong cách phóng khoáng đỉnh cao.",
+    images: [
+      "/images/products/polo-nostyle288-black-front.jpg",
+      "/images/products/polo-nostyle288-black-back.jpg",
+      "/images/products/polo-nostyle288-brown-front.jpg",
+      "/images/products/polo-nostyle288-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Nâu Rêu Sọc Trắng", hex: "#5C5346", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ Pique"
+  },
+  {
+    id: 70,
+    name: "Áo Polo DurableTex™ Vải Double Face Pique Sọc Khối Streetwear Phom Siêu Rộng F5 - Màu Nâu Rêu Sọc Trắng",
+    category: "Áo",
+    price: 450000,
+    originalPrice: 590000,
+    description: "Áo polo phong cách 90s Rugby Streetwear thuộc bộ sưu tập The No Style 288 từ Aureus Fashion. Tông màu nâu rêu / nâu đất (Olive Mocha) phối sọc khối trắng kem cổ điển, ấm áp và cực kỳ cuốn hút. Ứng dụng công nghệ sợi DurableTex™ dệt Double Face Pique 2 da cao cấp bền bỉ, chống bai nhão và chống xù lông vượt trội qua nhiều lần giặt. Bản cổ dệt cotton màu kem tinh tế, phom siêu rộng F5 tạo hiệu ứng boxy che khuyết điểm hoàn hảo, dễ dàng phối layer cùng áo thun cổ lọ bên trong hoặc phối đơn cùng quần jeans ống rộng, quần túi hộp streetwear.",
+    images: [
+      "/images/products/polo-nostyle288-brown-front.jpg",
+      "/images/products/polo-nostyle288-brown-back.jpg",
+      "/images/products/polo-nostyle288-black-front.jpg",
+      "/images/products/polo-nostyle288-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Rêu Sọc Trắng", hex: "#5C5346", imageIndex: 0 },
+      { name: "Đen Sọc Trắng", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 175,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ Pique"
   }
 ];
 
