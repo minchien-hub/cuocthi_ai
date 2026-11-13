@@ -1645,6 +1645,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ Mesh"
+  },
+  {
+    id: 61,
+    name: "Áo Thun Tay Dài Raglan Flexfit™ 190Gsm Mỏng Mịn Co Giãn 4 Chiều Tay Xỏ Ngón Phom Vừa F3 - Màu Xám Khói Sáng",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun tay dài thể thao công nghệ Flexfit™ thuộc bộ sưu tập Non Branded 052 từ Aureus Fashion. Sử dụng chất liệu vải Flexfit™ cao cấp định lượng 190Gsm mỏng nhẹ, bề mặt chải kỹ siêu mềm mượt như làn da thứ hai, co giãn 4 chiều vượt trội giúp vận động tối đa mà không gây gò bó. Thiết kế cầu vai raglan vát cong thể thao tôn dáng ngực và vai, đường may phẳng êm ái chống ma sát. Chi tiết cổ tay thiết kế khe xỏ ngón tay cái (thumbholes) thông minh giúp cố định ống tay khi chạy bộ, tập gym hoặc che mu bàn tay khi ra ngoài trời. Phom vừa F3 gọn gàng, năng động và tôn dáng.",
+    images: [
+      "/images/products/tshirt-raglan052-grey-front.jpg",
+      "/images/products/tshirt-raglan052-grey-back.jpg",
+      "/images/products/tshirt-raglan052-blue-front.jpg",
+      "/images/products/tshirt-raglan052-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 0 },
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 128,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Raglan"
+  },
+  {
+    id: 62,
+    name: "Áo Thun Tay Dài Raglan Flexfit™ 190Gsm Mỏng Mịn Co Giãn 4 Chiều Tay Xỏ Ngón Phom Vừa F3 - Màu Xanh Thép",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Áo thun tay dài thể thao công nghệ Flexfit™ thuộc bộ sưu tập Non Branded 052 từ Aureus Fashion. Tông màu xanh thép (Steel Blue) hiện đại, nam tính và thanh lịch. Chất vải dệt Flexfit™ 190Gsm mỏng mát, thấm hút mồ hôi và nhanh khô vượt trội, giữ cơ thể luôn thoáng đãng trong mọi cường độ tập luyện. Cấu trúc raglan thể thao giảm áp lực vai gáy, kết hợp đường cắt cúp công thái học và ống tay xỏ ngón tay cái tiện dụng. Phom dáng vừa vặn F3 chuẩn athletic fit, hoàn hảo cho các hoạt động thể thao ngoài trời, phòng tập gym hoặc phong cách athleisure hàng ngày.",
+    images: [
+      "/images/products/tshirt-raglan052-blue-front.jpg",
+      "/images/products/tshirt-raglan052-blue-back.jpg",
+      "/images/products/tshirt-raglan052-grey-front.jpg",
+      "/images/products/tshirt-raglan052-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Thép", hex: "#59738A", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#D5D6D8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "FlexFit™ Raglan"
   }
 ];
 
