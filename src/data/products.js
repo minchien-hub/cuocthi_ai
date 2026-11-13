@@ -1007,6 +1007,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Boxy Fit F5"
+  },
+  {
+    id: 38,
+    name: "Áo Thun Cổ Tròn Vải Cotton Co Giãn Giữ Phom Mềm Mịn In Hình Unreal Evolve Phom Rộng F4 - Màu Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 500000,
+    description: "Áo thun cổ tròn đồ họa tương lai Cyberpunk thuộc bộ sưu tập The No Style 278 từ Aureus Fashion. Chất liệu vải Cotton cao cấp kết hợp sợi spandex co giãn 4 chiều, giữ phom áo đứng chuẩn F4 và bề mặt tiếp xúc mềm mịn, mát mẻ suốt ngày dài. Mặt trước áo nổi bật với slogan nghệ thuật 'ADAPT TO SURVIVE FUTURE' phong cách stencil grunge bụi bặm. Mặt sau là tác phẩm đồ họa Mecha Cyborg ấn tượng với thông điệp 'BUILT TO ENDURE - EVOLVE OR BE OBSOLETE' đậm chất viễn tưởng và cá tính mạnh mẽ. Phom rộng F4 chuẩn phong cách streetwear hiện đại, cực chất khi diện cùng quần jeans baggy mài rách.",
+    images: [
+      "/images/products/tshirt-evolve-black-front.jpg",
+      "/images/products/tshirt-evolve-black-back.jpg",
+      "/images/products/tshirt-evolve-white-front.jpg",
+      "/images/products/tshirt-evolve-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Unreal Evolve"
+  },
+  {
+    id: 39,
+    name: "Áo Thun Cổ Tròn Vải Cotton Co Giãn Giữ Phom Mềm Mịn In Hình Unreal Evolve Phom Rộng F4 - Màu Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 500000,
+    description: "Áo thun cổ tròn đồ họa tương lai Cyberpunk thuộc bộ sưu tập The No Style 278 từ Aureus Fashion. Sử dụng tông màu trắng sáng hiện đại trên nền chất liệu Cotton dệt mịn co giãn cao cấp, giữ phom đứng áo và thấm hút mồ hôi tối ưu. Mặt trước ngực in slogan nghệ thuật 'ADAPT TO SURVIVE FUTURE'. Điểm nhấn đắt giá ở mặt sau với hình in Mecha Cyborg cơ khí chi tiết cao cùng thông điệp 'BUILT TO ENDURE - EVOLVE OR BE OBSOLETE'. Thiết kế phom rộng F4 phóng khoáng, dễ dàng mix-match cùng quần baggy jeans hoặc cargo.",
+    images: [
+      "/images/products/tshirt-evolve-white-front.jpg",
+      "/images/products/tshirt-evolve-white-back.jpg",
+      "/images/products/tshirt-evolve-black-front.jpg",
+      "/images/products/tshirt-evolve-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 136,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Unreal Evolve"
   }
 ];
 
