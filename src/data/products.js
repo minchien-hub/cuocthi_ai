@@ -3889,6 +3889,30 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ Pinstripe"
+  },
+  {
+    id: 133,
+    name: "Quần Jeans Ôm Vừa Slim Fit Vải Denim 12Oz Co Giãn Chống Bùng Gối Bền Bỉ Đứng Dáng Phom Ôm Vừa F2 - Màu Xanh Nhạt Wash",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam slim-fit cao cấp thuộc bộ sưu tập The Original 028 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải denim định lượng 12Oz dày dặn, đanh chắc nhưng tích hợp sợi co giãn cao cấp mang lại sự thoải mái tối đa khi di chuyển, ngồi làm việc và đặc biệt sở hữu công nghệ chống bùng gối (Anti-Knee Bagging) giữ phom dáng luôn sắc nét sau thời gian dài sử dụng. Công nghệ wash màu xanh sáng (Light Blue Stone Wash) tự nhiên theo phong cách Retro Casual cổ điển. Thiết kế chuẩn 5 túi tiện dụng, khóa kéo kim loại đồng cao cấp chống trượt cùng tag da khắc chìm logo thương hiệu tinh xảo ở cạp lưng. Phom ôm vừa F2 (Slim Fit F2) tôn đôi chân thon dài, mạnh mẽ, cực kỳ dễ phối cùng áo thun, polo hoặc áo sơ mi công sở.",
+    images: [
+      "/images/products/pants-original028-lightblue-front.jpg",
+      "/images/products/pants-original028-lightblue-back.jpg",
+      "/images/products/pants-original028-lightblue-detail1.jpg",
+      "/images/products/pants-original028-lightblue-detail2.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xanh Nhạt Wash", hex: "#A4B5CD", imageIndex: 0 }
+    ],
+    rating: 5.0,
+    reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim 12Oz Stretch"
   }
 ];
 
