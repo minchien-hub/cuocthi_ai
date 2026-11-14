@@ -3731,12 +3731,18 @@ const products = [
       "/images/products/shirt-minimalist017-lightblue-front.jpg",
       "/images/products/shirt-minimalist017-lightblue-back.jpg",
       "/images/products/shirt-minimalist017-blue-front.jpg",
-      "/images/products/shirt-minimalist017-blue-back.jpg"
+      "/images/products/shirt-minimalist017-blue-back.jpg",
+      "/images/products/shirt-minimalist017-iceblue-front.jpg",
+      "/images/products/shirt-minimalist017-iceblue-back.jpg",
+      "/images/products/shirt-minimalist017-grey-front.jpg",
+      "/images/products/shirt-minimalist017-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 0 },
-      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 2 }
+      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 2 },
+      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 4 },
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 154,
@@ -3756,15 +3762,83 @@ const products = [
       "/images/products/shirt-minimalist017-blue-front.jpg",
       "/images/products/shirt-minimalist017-blue-back.jpg",
       "/images/products/shirt-minimalist017-lightblue-front.jpg",
-      "/images/products/shirt-minimalist017-lightblue-back.jpg"
+      "/images/products/shirt-minimalist017-lightblue-back.jpg",
+      "/images/products/shirt-minimalist017-iceblue-front.jpg",
+      "/images/products/shirt-minimalist017-iceblue-back.jpg",
+      "/images/products/shirt-minimalist017-grey-front.jpg",
+      "/images/products/shirt-minimalist017-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 0 },
-      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 }
+      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
+      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 4 },
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Pinstripe"
+  },
+  {
+    id: 130,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Họa Tiết Sọc Chìm Siêu Nhẹ Thoáng Khí Ít Nhăn Phom Vừa F3 - Màu Xanh Băng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay dài công sở cao cấp thuộc bộ sưu tập The Minimalist 017 từ Aureus Fashion. Tông màu xanh băng (Ice Blue) thanh thoát, dịu mát mang đến luồng gió tươi mới cho diện mạo chốn văn phòng. Cấu trúc dệt sọc tăm chìm mờ ảo tạo nét nhã nhặn, sang trọng mà không đơn điệu. Vải sợi công nghệ Airdry™ siêu nhẹ thoáng khí, giải phóng nhiệt độ cơ thể nhanh chóng và giữ bề mặt phẳng phiu ít nhăn. Thiết kế cổ ve nhọn, túi ngực vuông và phom vừa F3 (Regular Fit F3) tôn phong thái điềm tĩnh, chuyên nghiệp.",
+    images: [
+      "/images/products/shirt-minimalist017-iceblue-front.jpg",
+      "/images/products/shirt-minimalist017-iceblue-back.jpg",
+      "/images/products/shirt-minimalist017-lightblue-front.jpg",
+      "/images/products/shirt-minimalist017-lightblue-back.jpg",
+      "/images/products/shirt-minimalist017-blue-front.jpg",
+      "/images/products/shirt-minimalist017-blue-back.jpg",
+      "/images/products/shirt-minimalist017-grey-front.jpg",
+      "/images/products/shirt-minimalist017-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
+      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 4 },
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 160,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Pinstripe"
+  },
+  {
+    id: 131,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Họa Tiết Sọc Chìm Siêu Nhẹ Thoáng Khí Ít Nhăn Phom Vừa F3 - Màu Xám Sáng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay dài công sở cao cấp thuộc bộ sưu tập The Minimalist 017 từ Aureus Fashion. Gam màu xám sáng (Light Grey / Ash Grey) hiện đại, trung tính và chuẩn mực cho thời trang Sartorial tối giản. Kỹ thuật dệt sọc chìm đồng màu tinh xảo mang lại nét thanh lịch kín đáo. Ứng dụng công nghệ vải Airdry™ thế hệ mới siêu nhẹ và siêu thoáng khí, chống co rút và giữ nếp tuyệt đối suốt ngày dài bận rộn. Phom vừa F3 (Regular Fit F3) vừa vặn che khuyết điểm tốt, cực kỳ lịch lãm khi phối cùng quần tây đen, navy hay ghi đậm.",
+    images: [
+      "/images/products/shirt-minimalist017-grey-front.jpg",
+      "/images/products/shirt-minimalist017-grey-back.jpg",
+      "/images/products/shirt-minimalist017-lightblue-front.jpg",
+      "/images/products/shirt-minimalist017-lightblue-back.jpg",
+      "/images/products/shirt-minimalist017-blue-front.jpg",
+      "/images/products/shirt-minimalist017-blue-back.jpg",
+      "/images/products/shirt-minimalist017-iceblue-front.jpg",
+      "/images/products/shirt-minimalist017-iceblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
+      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 4 },
+      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 147,
     inStock: true,
     isNew: true,
     isSale: true,
