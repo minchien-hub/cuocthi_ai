@@ -33,7 +33,7 @@ Trong ngành thương mại điện tử thời trang, **chọn sai kích cỡ (
 
 ### 3. 🤖 Trợ Lý Thời Trang Trí Tuệ Nhân Tạo (Aureus AI Stylist Chatbot)
 * **Tư vấn size chuyên sâu**: Phân tích chiều cao, cân nặng và phom dáng khách hàng mong muốn (Phom ôm vừa F2, Phom vừa F3, Phom rộng F4, Phom hộp F5) để gợi ý size chuẩn từng milimet.
-* **Hiểu sâu 100+ sản phẩm**: Nắm vững thông tin về công nghệ vải (Pique 250Gsm, Jean Waffle CloudTouch™, Linen Rayon Blend, Cotton Compact, Double-Face Knit, Denim DurableTex™, ColorLock™, Icevibes™, Flexfit™).
+* **Hiểu sâu 100+ sản phẩm**: Nắm vững thông tin về công nghệ vải (Pique 250Gsm, Jean Waffle CloudTouch™, EasyCare™ Corduroy, Linen Rayon Blend, Cotton Compact, Double-Face Knit, Denim DurableTex™, ColorLock™, Icevibes™, Flexfit™).
 * **Gợi ý phối đồ (Outfit Styling)**: Đưa ra lời khuyên mix & match thời thượng theo nhiều phong cách: *Athletic Luxury, Quiet Luxury & Resort Wear, 90s Streetwear, Clean Fit, Parisian Retro, Smart-Casual*.
 
 ### 4. 🛍️ Nền Tảng Thương Mại Điện Tử Hiện Đại & 100+ Sản Phẩm Thời Trang

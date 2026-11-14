@@ -2953,6 +2953,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "CloudTouch™ Waffle"
+  },
+  {
+    id: 103,
+    name: "Áo Sơ Mi Tay Ngắn EasyCare™ Vải Nhung Tăm Cổ Phối Nẹp Lai Nút Bấm Phom Hộp Rộng F5 - Màu Be Sáng Cổ Nâu",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Modern Retro & Vintage Chic thuộc bộ sưu tập Seventy Seven 065 từ Aureus Fashion. Sử dụng chất liệu vải nhung tăm siêu mảnh (Micro Corduroy) cao cấp ứng dụng công nghệ EasyCare™ hạn chế nhăn nhàu, giữ phom đứng nếp và cực kỳ dễ dàng là ủi, bảo quản. Thiết kế ấn tượng với phần cổ bẻ tương phản sắc nét tone nâu trầm trên nền thân áo be sáng nhã nhặn. Điểm nhấn hàng cúc nẹp lai nút bấm (Snap Buttons) bọc màu tiệp vải hiện đại, thao tác đóng mở nhanh chóng và tiện lợi. Phom hộp rộng F5 (Boxy Fit) cá tính với vạt bằng tinh tế, tạo nên vẻ ngoài thanh lịch, phóng khoáng khi kết hợp cùng áo thun lót bên trong và quần âu hoặc quần ống suông.",
+    images: [
+      "/images/products/shirt-seventyseven065-cream-front.jpg",
+      "/images/products/shirt-seventyseven065-cream-back.jpg",
+      "/images/products/shirt-seventyseven065-brown-front.jpg",
+      "/images/products/shirt-seventyseven065-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 0 },
+      { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Corduroy"
+  },
+  {
+    id: 104,
+    name: "Áo Sơ Mi Tay Ngắn EasyCare™ Vải Nhung Tăm Cổ Phối Nẹp Lai Nút Bấm Phom Hộp Rộng F5 - Màu Nâu Cà Phê Cổ Đen",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Streetwear & Retro Sartorial thuộc bộ sưu tập Seventy Seven 065 từ Aureus Fashion. Tông màu nâu cà phê đậm đà kết hợp cổ bẻ đen tương phản quyền lực, tạo điểm nhấn thị giác đẳng cấp và nam tính. Chất vải nhung tăm mịn màng ứng dụng công nghệ xử lý EasyCare™ chống xù lông, hạn chế bám bụi và duy trì độ đanh chắc, mềm mại theo thời gian. Hàng nút bấm snap kim loại bọc thời thượng cùng phom dáng hộp rộng F5 (Boxy Fit) thoải mái mang đến tinh thần tự do, đậm chất nghệ thuật đường phố đương đại.",
+    images: [
+      "/images/products/shirt-seventyseven065-brown-front.jpg",
+      "/images/products/shirt-seventyseven065-brown-back.jpg",
+      "/images/products/shirt-seventyseven065-cream-front.jpg",
+      "/images/products/shirt-seventyseven065-cream-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 0 },
+      { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 132,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Corduroy"
   }
 ];
 
