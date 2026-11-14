@@ -2779,6 +2779,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Flexfit™ V-Shape"
+  },
+  {
+    id: 97,
+    name: "Áo Thun Dệt Kim Cổ Tròn FlexFit™ Vải Linen Rayon Mềm Rũ Seamless Phom Vừa F3 - Màu Đen",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 520000,
+    description: "Áo thun nam dệt kim cao cấp phong cách Quiet Luxury & Resort Wear thuộc bộ sưu tập The Weekend 081 từ Aureus Fashion. Sử dụng chất liệu sợi dệt kết hợp Linen & Rayon (Linen Rayon Blend Knit) siêu mềm mại, độ rủ tự nhiên tinh tế, bề mặt thoáng khí và tản nhiệt tối ưu cho mùa hè oi bức. Ứng dụng kỹ thuật dệt kim nguyên khối Seamless hạn chế đường may ma sát vào cơ thể, kết hợp công nghệ co giãn FlexFit™ giữ phom áo luôn chỉn chu, không bai dão sau nhiều lần giặt. Thiết kế cổ tròn dệt bo gân rib sắc sảo với chi tiết tam giác retro V-insert cổ điển, gấu áo và viền tay dệt bo nhẹ tôn phom dáng. Phom vừa F3 thanh lịch, sang trọng và chuẩn mực cho những buổi hẹn hò cuối tuần hay kỳ nghỉ dưỡng.",
+    images: [
+      "/images/products/knit-weekend081-black-front.jpg",
+      "/images/products/knit-weekend081-black-back.jpg",
+      "/images/products/knit-weekend081-oatmeal-front.jpg",
+      "/images/products/knit-weekend081-oatmeal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Linen Rayon Knit"
+  },
+  {
+    id: 98,
+    name: "Áo Thun Dệt Kim Cổ Tròn FlexFit™ Vải Linen Rayon Mềm Rũ Seamless Phom Vừa F3 - Màu Be Yến Mạch",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 520000,
+    description: "Áo thun nam dệt kim cao cấp phong cách Quiet Luxury & Resort Wear thuộc bộ sưu tập The Weekend 081 từ Aureus Fashion. Tông màu be yến mạch (Oatmeal Beige / Kem Tiêu) nhã nhặn, tôn vinh kết cấu vân xơ tự nhiên của sợi Linen mộc mạc và Rayon mềm mát. Công nghệ dệt Seamless không đường nối cọ xát, cùng sợi đàn hồi FlexFit™ tạo cảm giác dễ chịu, nhẹ tênh khi chạm vào làn da. Chi tiết V-insert cổ áo vintage cùng bo gấu dệt tinh xảo tạo nét cuốn hút lịch thiệp, dễ dàng phối cùng quần âu ống suông, quần linen hoặc short đũi.",
+    images: [
+      "/images/products/knit-weekend081-oatmeal-front.jpg",
+      "/images/products/knit-weekend081-oatmeal-back.jpg",
+      "/images/products/knit-weekend081-black-front.jpg",
+      "/images/products/knit-weekend081-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Linen Rayon Knit"
   }
 ];
 
