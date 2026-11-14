@@ -4161,6 +4161,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Double Knee 310Gsm"
+  },
+  {
+    id: 142,
+    name: "Quần Jeans Jogger Lưng Thun Mài Nhẹ Durabletex™ Co Giãn Thoải Mái Đứng Phom Phom Vừa F3 - Màu Đen Wash",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần jeans nam dáng jogger cao cấp thuộc bộ sưu tập The Original 102 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải denim Durabletex™ cao cấp tích hợp sợi co giãn 4 chiều linh hoạt, mang lại cảm giác êm ái, thoải mái vận động tối đa mà vẫn giữ được độ đanh dày và đứng phom chuẩn mực. Thiết kế cạp lưng thun co giãn tích hợp dây rút kim loại cao cấp tùy chỉnh tiện lợi, kết hợp gấu quần bo chun jogger gọn gàng, năng động. Điểm nhấn độc đáo là các đường rã cúp cắt may vát xéo công thái học (Ergonomic Curved Seams) ở phần đùi và gối, tạo hiệu ứng thị giác khỏe khoắn, hiện đại và chống căng chật khi ngồi hoặc vận động mạnh. Tông màu đen wash mài nhẹ (Acid Washed Black) cá tính, bụi bặm, dễ dàng phối cùng sneaker, áo thun oversized, hoodie hay áo khoác bomber.",
+    images: [
+      "/images/products/pants-original102-blackwash-front.jpg",
+      "/images/products/pants-original102-blackwash-back.jpg",
+      "/images/products/pants-original102-lightblue-front.jpg",
+      "/images/products/pants-original102-lightblue-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Đen Wash", hex: "#333438", imageIndex: 0 },
+      { name: "Xanh Nhạt Wash", hex: "#A8B3C0", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 165,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Lưng Thun Co Giãn"
+  },
+  {
+    id: 143,
+    name: "Quần Jeans Jogger Lưng Thun Mài Nhẹ Durabletex™ Co Giãn Thoải Mái Đứng Phom Phom Vừa F3 - Màu Xanh Nhạt Wash",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần jeans nam dáng jogger cao cấp thuộc bộ sưu tập The Original 102 từ Aureus Fashion. Tông màu xanh nhạt wash loang tự nhiên (Light Acid Blue Wash) trẻ trung, tươi sáng và tràn đầy năng lượng đường phố. Sử dụng chất liệu vải denim Durabletex™ mềm mại, tản nhiệt tốt, tích hợp sợi thun co giãn đàn hồi giúp người mặc luôn cảm thấy nhẹ nhõm, dễ chịu trong mọi hoạt động. Cạp chun co giãn êm ái kèm dây rút thời trang, gấu jogger ôm vừa cổ chân tôn đôi giày sneaker yêu thích. Thiết kế đường rã cắt xéo tạo phom 3D nâng đỡ chuyển động, túi xéo phía trước sâu rộng cùng 2 túi sau tiện ích. Phom vừa F3 (Regular Jogger Fit F3) vừa vặn, gọn gàng, phối cực chất cùng áo thun basic, polo thể thao hoặc áo nỉ sweater.",
+    images: [
+      "/images/products/pants-original102-lightblue-front.jpg",
+      "/images/products/pants-original102-lightblue-back.jpg",
+      "/images/products/pants-original102-blackwash-front.jpg",
+      "/images/products/pants-original102-blackwash-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xanh Nhạt Wash", hex: "#A8B3C0", imageIndex: 0 },
+      { name: "Đen Wash", hex: "#333438", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Lưng Thun Co Giãn"
   }
 ];
 
