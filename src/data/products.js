@@ -3735,14 +3735,17 @@ const products = [
       "/images/products/shirt-minimalist017-iceblue-front.jpg",
       "/images/products/shirt-minimalist017-iceblue-back.jpg",
       "/images/products/shirt-minimalist017-grey-front.jpg",
-      "/images/products/shirt-minimalist017-grey-back.jpg"
+      "/images/products/shirt-minimalist017-grey-back.jpg",
+      "/images/products/shirt-minimalist017-purple-front.jpg",
+      "/images/products/shirt-minimalist017-purple-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 0 },
       { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 2 },
       { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 4 },
-      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 }
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 },
+      { name: "Tím Nhạt", hex: "#E2C8E4", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 154,
@@ -3766,14 +3769,17 @@ const products = [
       "/images/products/shirt-minimalist017-iceblue-front.jpg",
       "/images/products/shirt-minimalist017-iceblue-back.jpg",
       "/images/products/shirt-minimalist017-grey-front.jpg",
-      "/images/products/shirt-minimalist017-grey-back.jpg"
+      "/images/products/shirt-minimalist017-grey-back.jpg",
+      "/images/products/shirt-minimalist017-purple-front.jpg",
+      "/images/products/shirt-minimalist017-purple-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 0 },
       { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
       { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 4 },
-      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 }
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 },
+      { name: "Tím Nhạt", hex: "#E2C8E4", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 142,
@@ -3797,14 +3803,17 @@ const products = [
       "/images/products/shirt-minimalist017-blue-front.jpg",
       "/images/products/shirt-minimalist017-blue-back.jpg",
       "/images/products/shirt-minimalist017-grey-front.jpg",
-      "/images/products/shirt-minimalist017-grey-back.jpg"
+      "/images/products/shirt-minimalist017-grey-back.jpg",
+      "/images/products/shirt-minimalist017-purple-front.jpg",
+      "/images/products/shirt-minimalist017-purple-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 0 },
       { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
       { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 4 },
-      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 }
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 6 },
+      { name: "Tím Nhạt", hex: "#E2C8E4", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 160,
@@ -3828,17 +3837,54 @@ const products = [
       "/images/products/shirt-minimalist017-blue-front.jpg",
       "/images/products/shirt-minimalist017-blue-back.jpg",
       "/images/products/shirt-minimalist017-iceblue-front.jpg",
-      "/images/products/shirt-minimalist017-iceblue-back.jpg"
+      "/images/products/shirt-minimalist017-iceblue-back.jpg",
+      "/images/products/shirt-minimalist017-purple-front.jpg",
+      "/images/products/shirt-minimalist017-purple-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 0 },
       { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
       { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 4 },
-      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 6 }
+      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 6 },
+      { name: "Tím Nhạt", hex: "#E2C8E4", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 147,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Pinstripe"
+  },
+  {
+    id: 132,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Họa Tiết Sọc Chìm Siêu Nhẹ Thoáng Khí Ít Nhăn Phom Vừa F3 - Màu Tím Nhạt",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay dài công sở cao cấp thuộc bộ sưu tập The Minimalist 017 từ Aureus Fashion. Tông màu tím nhạt pastel (Lavender Pinstripe) lãng mạn, tinh tế và đầy cuốn hút, tạo điểm nhấn phong cách mới lạ chuẩn quý ông hiện đại. Cấu trúc dệt sọc tăm chìm dọc thân áo giúp tôn chiều cao và tạo nét hài hòa nhã nhặn. Nhờ chất vải dệt công nghệ Airdry™ siêu nhẹ và thoáng khí, áo mang lại cảm giác dễ chịu, mát mịn và hạn chế tối đa nhăn nhàu khi vận động. Thiết kế cổ bẻ ve nhọn cùng túi ngực vuông và phom vừa F3 (Regular Fit F3) chuẩn mực, kết hợp cực đẹp cùng quần âu màu be, xám hoặc xanh navy.",
+    images: [
+      "/images/products/shirt-minimalist017-purple-front.jpg",
+      "/images/products/shirt-minimalist017-purple-back.jpg",
+      "/images/products/shirt-minimalist017-lightblue-front.jpg",
+      "/images/products/shirt-minimalist017-lightblue-back.jpg",
+      "/images/products/shirt-minimalist017-blue-front.jpg",
+      "/images/products/shirt-minimalist017-blue-back.jpg",
+      "/images/products/shirt-minimalist017-iceblue-front.jpg",
+      "/images/products/shirt-minimalist017-iceblue-back.jpg",
+      "/images/products/shirt-minimalist017-grey-front.jpg",
+      "/images/products/shirt-minimalist017-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Tím Nhạt", hex: "#E2C8E4", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 },
+      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 4 },
+      { name: "Xanh Băng", hex: "#CFDEE7", imageIndex: 6 },
+      { name: "Xám Sáng", hex: "#CCD1D9", imageIndex: 8 }
+    ],
+    rating: 5.0,
+    reviews: 156,
     inStock: true,
     isNew: true,
     isSale: true,
