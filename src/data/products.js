@@ -3449,6 +3449,28 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ Linen-Touch"
+  },
+  {
+    id: 119,
+    name: "Áo Sơ Mi Tay Dài Công Sở Vải Mềm Đứng Phom Ít Nhăn Dễ Ủi Lịch Lãm Phom Vừa F3 - Màu Trắng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay dài công sở cao cấp thuộc dòng Non Branded 060 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu cotton blend kết hợp sợi tơ mềm mại, bề mặt vải đanh mịn, đứng phom chuẩn mực và sở hữu khả năng hạn chế nhăn nhàu vượt trội, dễ ủi (EasyCare™ Wrinkle-Free). Thiết kế cổ bẻ ve nhọn (Classic Point Collar) phối viền lót cổ màu xám nhạt tinh tế, hàng nút cài chỉn chu cùng chi tiết xếp ly lưng đôi mang lại sự thoải mái tối đa khi cử động. Phom vừa F3 (Regular Fit F3) tôn nét đĩnh đạc, thanh lịch, là lựa chọn hoàn hảo cho môi trường văn phòng công sở, gặp gỡ đối tác hoặc các sự kiện trang trọng.",
+    images: [
+      "/images/products/shirt-nonbranded060-white-front.png",
+      "/images/products/shirt-nonbranded060-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 }
+    ],
+    rating: 5.0,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Wrinkle-Free"
   }
 ];
 
