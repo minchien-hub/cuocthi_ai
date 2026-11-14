@@ -2569,12 +2569,18 @@ const products = [
       "/images/products/tanktop-nonbranded051-sand-front.jpg",
       "/images/products/tanktop-nonbranded051-sand-back.jpg",
       "/images/products/tanktop-nonbranded051-terracotta-front.jpg",
-      "/images/products/tanktop-nonbranded051-terracotta-back.jpg"
+      "/images/products/tanktop-nonbranded051-terracotta-back.jpg",
+      "/images/products/tanktop-nonbranded051-steelblue-front.jpg",
+      "/images/products/tanktop-nonbranded051-steelblue-back.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-front.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Vàng Cát", hex: "#BFA888", imageIndex: 0 },
-      { name: "Cam Đất", hex: "#A2583E", imageIndex: 2 }
+      { name: "Cam Đất", hex: "#A2583E", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#4F6D7A", imageIndex: 4 },
+      { name: "Xám Khói Sáng", hex: "#D8D7D5", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 138,
@@ -2594,15 +2600,83 @@ const products = [
       "/images/products/tanktop-nonbranded051-terracotta-front.jpg",
       "/images/products/tanktop-nonbranded051-terracotta-back.jpg",
       "/images/products/tanktop-nonbranded051-sand-front.jpg",
-      "/images/products/tanktop-nonbranded051-sand-back.jpg"
+      "/images/products/tanktop-nonbranded051-sand-back.jpg",
+      "/images/products/tanktop-nonbranded051-steelblue-front.jpg",
+      "/images/products/tanktop-nonbranded051-steelblue-back.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-front.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Cam Đất", hex: "#A2583E", imageIndex: 0 },
-      { name: "Vàng Cát", hex: "#BFA888", imageIndex: 2 }
+      { name: "Vàng Cát", hex: "#BFA888", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#4F6D7A", imageIndex: 4 },
+      { name: "Xám Khói Sáng", hex: "#D8D7D5", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Flexfit™ V-Shape"
+  },
+  {
+    id: 93,
+    name: "Áo Thun Ba Lỗ Tank Top Flexfit™ Cotton Compact Mềm Mịn Co Giãn Tôn Dáng V-Shape Phom Ôm Vừa F2 - Màu Xanh Thép",
+    category: "Áo",
+    price: 260000,
+    originalPrice: 350000,
+    description: "Áo thun ba lỗ nam (Tank Top) cao cấp thuộc bộ sưu tập Non Branded 051 từ Aureus Fashion. Tông màu xanh thép (Steel Blue) hiện đại, nam tính và tôn da. Chất vải Cotton Compact mềm mịn kết hợp công nghệ co giãn 4 chiều Flexfit™ giúp tôn trọn vóc dáng cơ bắp V-Shape săn chắc. Thoáng khí, thấm hút mồ hôi tốt và kháng xù lông tối đa. Dáng áo phom ôm vừa F2 cùng đường cắt nách và xẻ tà sườn hoàn hảo cho các hoạt động thể thao, gym hoặc mặc hằng ngày.",
+    images: [
+      "/images/products/tanktop-nonbranded051-steelblue-front.jpg",
+      "/images/products/tanktop-nonbranded051-steelblue-back.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-front.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-back.png",
+      "/images/products/tanktop-nonbranded051-sand-front.jpg",
+      "/images/products/tanktop-nonbranded051-sand-back.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-front.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Thép", hex: "#4F6D7A", imageIndex: 0 },
+      { name: "Xám Khói Sáng", hex: "#D8D7D5", imageIndex: 2 },
+      { name: "Vàng Cát", hex: "#BFA888", imageIndex: 4 },
+      { name: "Cam Đất", hex: "#A2583E", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Flexfit™ V-Shape"
+  },
+  {
+    id: 94,
+    name: "Áo Thun Ba Lỗ Tank Top Flexfit™ Cotton Compact Mềm Mịn Co Giãn Tôn Dáng V-Shape Phom Ôm Vừa F2 - Màu Xám Khói Sáng",
+    category: "Áo",
+    price: 260000,
+    originalPrice: 350000,
+    description: "Áo thun ba lỗ nam (Tank Top) cao cấp thuộc bộ sưu tập Non Branded 051 từ Aureus Fashion. Gam màu xám khói sáng (Light Smoke Grey / Be Sáng) thanh lịch, tối giản theo chuẩn phong cách Clean Fit. Sử dụng chất liệu Cotton Compact chải kỹ dệt sợi dài mềm mát, thấm hút mồ hôi và kháng nhăn hiệu quả. Sợi co giãn Flexfit™ đàn hồi 4 chiều ôm trọn cơ thể, tôn nét nở nang của khuôn ngực và bắp tay. Dễ dàng kết hợp cùng quần short thể thao, quần jogger hoặc làm lớp áo lót bên trong sơ mi, áo khoác.",
+    images: [
+      "/images/products/tanktop-nonbranded051-smokegrey-front.jpg",
+      "/images/products/tanktop-nonbranded051-smokegrey-back.png",
+      "/images/products/tanktop-nonbranded051-steelblue-front.jpg",
+      "/images/products/tanktop-nonbranded051-steelblue-back.jpg",
+      "/images/products/tanktop-nonbranded051-sand-front.jpg",
+      "/images/products/tanktop-nonbranded051-sand-back.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-front.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Khói Sáng", hex: "#D8D7D5", imageIndex: 0 },
+      { name: "Xanh Thép", hex: "#4F6D7A", imageIndex: 2 },
+      { name: "Vàng Cát", hex: "#BFA888", imageIndex: 4 },
+      { name: "Cam Đất", hex: "#A2583E", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 162,
     inStock: true,
     isNew: true,
     isSale: true,
