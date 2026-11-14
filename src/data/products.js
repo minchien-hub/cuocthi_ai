@@ -2557,6 +2557,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Icevibes™ Boxy F5"
+  },
+  {
+    id: 91,
+    name: "Áo Thun Ba Lỗ Tank Top Flexfit™ Cotton Compact Mềm Mịn Co Giãn Tôn Dáng V-Shape Phom Ôm Vừa F2 - Màu Vàng Cát",
+    category: "Áo",
+    price: 260000,
+    originalPrice: 350000,
+    description: "Áo thun ba lỗ nam (Tank Top) cao cấp thuộc bộ sưu tập Non Branded 051 từ Aureus Fashion. Ứng dụng chất liệu Cotton Compact chải kỹ dệt sợi dài siêu mềm mịn, thấm hút mồ hôi vượt trội và kháng xù lông tối đa. Công nghệ sợi Flexfit™ mang lại độ co giãn đàn hồi 4 chiều tuyệt hảo, ôm vừa vặn cơ thể và giữ phom bền bỉ sau nhiều chu kỳ giặt. Thiết kế cổ tròn dệt bo đanh chắc, nách khoét sâu vừa vặn tôn trọn cầu vai và khuôn ngực vạm vỡ, tạo hiệu ứng vóc dáng chữ V (V-Shape) đầy nam tính. Tà áo xẻ sườn nhẹ nhàng tạo độ linh hoạt tối đa khi vận động thể thao, tập gym, chạy bộ hoặc mặc lót trong áo sơ mi, áo khoác.",
+    images: [
+      "/images/products/tanktop-nonbranded051-sand-front.jpg",
+      "/images/products/tanktop-nonbranded051-sand-back.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-front.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Vàng Cát", hex: "#BFA888", imageIndex: 0 },
+      { name: "Cam Đất", hex: "#A2583E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Flexfit™ V-Shape"
+  },
+  {
+    id: 92,
+    name: "Áo Thun Ba Lỗ Tank Top Flexfit™ Cotton Compact Mềm Mịn Co Giãn Tôn Dáng V-Shape Phom Ôm Vừa F2 - Màu Cam Đất",
+    category: "Áo",
+    price: 260000,
+    originalPrice: 350000,
+    description: "Áo thun ba lỗ nam (Tank Top) cao cấp thuộc bộ sưu tập Non Branded 051 từ Aureus Fashion. Tông màu cam đất (Terracotta / Nâu Cam) thời thượng, trầm ấm và tôn làn da bánh mật khỏe khoắn. Sử dụng chất liệu Cotton Compact cao cấp kết hợp sợi đàn hồi Flexfit™ mềm mịn, mát da và co giãn 4 chiều linh hoạt. Phom ôm vừa F2 (Athletic Fit) kết hợp đường cắt may tỉ mỉ giúp tôn dáng ngực và siết nhẹ phần eo, tôn nét đẹp cơ bắp săn chắc. Lựa chọn lý tưởng cho các buổi tập luyện cường độ cao hoặc phối đồ mùa hè năng động.",
+    images: [
+      "/images/products/tanktop-nonbranded051-terracotta-front.jpg",
+      "/images/products/tanktop-nonbranded051-terracotta-back.jpg",
+      "/images/products/tanktop-nonbranded051-sand-front.jpg",
+      "/images/products/tanktop-nonbranded051-sand-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Cam Đất", hex: "#A2583E", imageIndex: 0 },
+      { name: "Vàng Cát", hex: "#BFA888", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Flexfit™ V-Shape"
   }
 ];
 
