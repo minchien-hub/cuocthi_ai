@@ -3719,6 +3719,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ Featherlight"
+  },
+  {
+    id: 128,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Họa Tiết Sọc Chìm Siêu Nhẹ Thoáng Khí Ít Nhăn Phom Vừa F3 - Màu Xanh Nhạt",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay dài công sở cao cấp thuộc bộ sưu tập The Minimalist 017 từ Aureus Fashion. Họa tiết kẻ sọc tăm chìm (Micro Tone-on-tone Pinstripes) trên nền xanh pastel nhạt mang đến hiệu ứng thị giác tinh tế, thanh nhã và giúp vóc dáng thon gọn, cao ráo hơn. Ứng dụng chất liệu công nghệ Airdry™ siêu nhẹ tênh, thấm hút mồ hôi cực nhanh và hạn chế nhăn nhàu vượt trội sau nhiều lần giặt. Thiết kế cổ bẻ ve nhọn tiêu chuẩn, túi ốp ngực vuông tiện lợi cùng phom vừa F3 (Regular Fit F3) chuẩn mực, dễ dàng phối cùng cà vạt, veston hoặc diện thường nhật cùng quần âu, chinos.",
+    images: [
+      "/images/products/shirt-minimalist017-lightblue-front.jpg",
+      "/images/products/shirt-minimalist017-lightblue-back.jpg",
+      "/images/products/shirt-minimalist017-blue-front.jpg",
+      "/images/products/shirt-minimalist017-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 0 },
+      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Pinstripe"
+  },
+  {
+    id: 129,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Họa Tiết Sọc Chìm Siêu Nhẹ Thoáng Khí Ít Nhăn Phom Vừa F3 - Màu Xanh Dương",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay dài công sở cao cấp thuộc bộ sưu tập The Minimalist 017 từ Aureus Fashion. Gam màu xanh dương thanh lịch (Cornflower Blue) kết hợp kỹ thuật dệt sọc chìm tinh xảo, tạo chiều sâu thị giác sang trọng và lịch lãm cho quý ông công sở. Công nghệ sợi dệt Airdry™ mang lại khả năng lưu thông khí tối đa, mát dịu suốt ngày dài và chống bết dính hiệu quả. Thiết kế cổ bẻ ve nhọn cứng cáp, túi ốp ngực tiện ích cùng phom vừa F3 (Regular Fit F3) vừa vặn tôn nét đĩnh đạc, chỉn chu trong mọi buổi họp và sự kiện kinh doanh.",
+    images: [
+      "/images/products/shirt-minimalist017-blue-front.jpg",
+      "/images/products/shirt-minimalist017-blue-back.jpg",
+      "/images/products/shirt-minimalist017-lightblue-front.jpg",
+      "/images/products/shirt-minimalist017-lightblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Dương", hex: "#7E9EC9", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#B2D3EE", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Pinstripe"
   }
 ];
 
