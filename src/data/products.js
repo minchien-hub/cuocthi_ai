@@ -3077,6 +3077,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "EasyCare™ Corduroy"
+  },
+  {
+    id: 107,
+    name: "Áo Sơ Mi Tay Ngắn Vải Thun Icevibes™ 270Gsm Nút Bấm Co Giãn Mát Mịn Mặc Êm Phom Hộp Rộng F5 - Màu Xám Tiêu Sáng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay ngắn phong cách Clean Fit & Urban Minimalist thuộc bộ sưu tập The Minimalist 026 từ Aureus Fashion. Được dệt từ chất liệu vải thun hai mặt cao cấp định lượng 270Gsm dày dặn đứng phom, tích hợp công nghệ làm mát sợi Icevibes™ Cool Comfort mang lại cảm giác mát rượi tức thì, thấm hút mồ hôi và tản nhiệt tối ưu suốt cả ngày. Sợi vải có độ đàn hồi co giãn linh hoạt 4 chiều giúp cử động êm ái, hoàn toàn không gò bó như sơ mi truyền thống. Thiết kế hiện đại với hàng nút bấm snap bọc tiệp màu sang trọng, túi ốp ngực vuông tiện lợi và phom hộp rộng F5 (Boxy Fit) tôn lên nét nam tính, phóng khoáng, trẻ trung.",
+    images: [
+      "/images/products/shirt-minimalist026-grey-front.jpg",
+      "/images/products/shirt-minimalist026-grey-back.jpg",
+      "/images/products/shirt-minimalist026-charcoal-front.jpg",
+      "/images/products/shirt-minimalist026-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#636569", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ 270Gsm"
+  },
+  {
+    id: 108,
+    name: "Áo Sơ Mi Tay Ngắn Vải Thun Icevibes™ 270Gsm Nút Bấm Co Giãn Mát Mịn Mặc Êm Phom Hộp Rộng F5 - Màu Xám Chì",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay ngắn phong cách Smart Minimalist & Athletic Leisure thuộc bộ sưu tập The Minimalist 026 từ Aureus Fashion. Tông màu xám chì (Charcoal Grey) mạnh mẽ, sang trọng và chuẩn mực cho mọi dịp từ công sở đến dạo phố. Ứng dụng công nghệ vải thun dệt đanh 2 mặt Icevibes™ 270Gsm mát lạnh, bề mặt láng mịn không xù lông và kháng nhăn tuyệt đối. Điểm nhấn hàng cúc nút bấm snap kim loại tiện lợi kết hợp bờ vai drop-shoulder và vạt bằng phom hộp rộng F5 (Boxy Fit), đem lại diện mạo đĩnh đạc, hiện đại và cực kỳ thoải mái khi vận động.",
+    images: [
+      "/images/products/shirt-minimalist026-charcoal-front.jpg",
+      "/images/products/shirt-minimalist026-charcoal-back.jpg",
+      "/images/products/shirt-minimalist026-grey-front.jpg",
+      "/images/products/shirt-minimalist026-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Chì", hex: "#636569", imageIndex: 0 },
+      { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ 270Gsm"
   }
 ];
 
