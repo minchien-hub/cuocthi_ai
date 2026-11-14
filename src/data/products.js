@@ -2791,12 +2791,18 @@ const products = [
       "/images/products/knit-weekend081-black-front.jpg",
       "/images/products/knit-weekend081-black-back.jpg",
       "/images/products/knit-weekend081-oatmeal-front.jpg",
-      "/images/products/knit-weekend081-oatmeal-back.jpg"
+      "/images/products/knit-weekend081-oatmeal-back.jpg",
+      "/images/products/knit-weekend081-white-front.jpg",
+      "/images/products/knit-weekend081-white-back.jpg",
+      "/images/products/knit-weekend081-grey-front.jpg",
+      "/images/products/knit-weekend081-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
-      { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 2 }
+      { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF8F5", imageIndex: 4 },
+      { name: "Xám Tiêu", hex: "#9EA1A5", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 142,
@@ -2816,15 +2822,83 @@ const products = [
       "/images/products/knit-weekend081-oatmeal-front.jpg",
       "/images/products/knit-weekend081-oatmeal-back.jpg",
       "/images/products/knit-weekend081-black-front.jpg",
-      "/images/products/knit-weekend081-black-back.jpg"
+      "/images/products/knit-weekend081-black-back.jpg",
+      "/images/products/knit-weekend081-white-front.jpg",
+      "/images/products/knit-weekend081-white-back.jpg",
+      "/images/products/knit-weekend081-grey-front.jpg",
+      "/images/products/knit-weekend081-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 0 },
-      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 }
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF8F5", imageIndex: 4 },
+      { name: "Xám Tiêu", hex: "#9EA1A5", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Linen Rayon Knit"
+  },
+  {
+    id: 99,
+    name: "Áo Thun Dệt Kim Cổ Tròn FlexFit™ Vải Linen Rayon Mềm Rũ Seamless Phom Vừa F3 - Màu Trắng",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 520000,
+    description: "Áo thun nam dệt kim cao cấp phong cách Quiet Luxury & Resort Wear thuộc bộ sưu tập The Weekend 081 từ Aureus Fashion. Tông màu trắng thanh lịch, tinh tế và thuần khiết. Chất vải dệt kim từ sợi pha Linen & Rayon tạo độ rủ mềm mại, thoáng mát và tản nhiệt tối ưu cho những ngày hè rực nắng. Kỹ thuật dệt nguyên khối Seamless hạn chế ma sát tối đa cùng sợi đàn hồi FlexFit™ giúp áo giữ phom đứng dáng, không lo co rút hay biến dạng sau khi giặt. Chi tiết cổ tròn dệt gân với miếng đệm tam giác retro V-insert mang đậm vẻ đẹp lịch thiệp, dễ phối cùng mọi kiểu quần âu, khaki hoặc quần short.",
+    images: [
+      "/images/products/knit-weekend081-white-front.jpg",
+      "/images/products/knit-weekend081-white-back.jpg",
+      "/images/products/knit-weekend081-grey-front.jpg",
+      "/images/products/knit-weekend081-grey-back.jpg",
+      "/images/products/knit-weekend081-black-front.jpg",
+      "/images/products/knit-weekend081-black-back.jpg",
+      "/images/products/knit-weekend081-oatmeal-front.jpg",
+      "/images/products/knit-weekend081-oatmeal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FAF8F5", imageIndex: 0 },
+      { name: "Xám Tiêu", hex: "#9EA1A5", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Linen Rayon Knit"
+  },
+  {
+    id: 100,
+    name: "Áo Thun Dệt Kim Cổ Tròn FlexFit™ Vải Linen Rayon Mềm Rũ Seamless Phom Vừa F3 - Màu Xám Tiêu",
+    category: "Áo",
+    price: 380000,
+    originalPrice: 520000,
+    description: "Áo thun nam dệt kim cao cấp phong cách Quiet Luxury & Resort Wear thuộc bộ sưu tập The Weekend 081 từ Aureus Fashion. Tông màu xám tiêu (Heather Grey) kinh điển, kết hợp hài hòa giữa các sợi dệt sáng tối tạo nên hiệu ứng melange tự nhiên sang trọng. Vải dệt Linen Rayon Blend mềm mát rũ nhẹ, thấm hút mồ hôi và thoáng khí tuyệt đối. Công nghệ FlexFit™ co giãn linh hoạt giúp dáng áo phom vừa F3 tôn lên nét nam tính, phóng khoáng và lịch lãm.",
+    images: [
+      "/images/products/knit-weekend081-grey-front.jpg",
+      "/images/products/knit-weekend081-grey-back.jpg",
+      "/images/products/knit-weekend081-white-front.jpg",
+      "/images/products/knit-weekend081-white-back.jpg",
+      "/images/products/knit-weekend081-black-front.jpg",
+      "/images/products/knit-weekend081-black-back.jpg",
+      "/images/products/knit-weekend081-oatmeal-front.jpg",
+      "/images/products/knit-weekend081-oatmeal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu", hex: "#9EA1A5", imageIndex: 0 },
+      { name: "Trắng", hex: "#FAF8F5", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Be Yến Mạch", hex: "#E6DFD5", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 152,
     inStock: true,
     isNew: true,
     isSale: true,
