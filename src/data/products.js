@@ -3925,12 +3925,18 @@ const products = [
       "/images/products/pants-original064-lightblue-front.jpg",
       "/images/products/pants-original064-lightblue-back.jpg",
       "/images/products/pants-original064-darkblue-front.jpg",
-      "/images/products/pants-original064-darkblue-back.jpg"
+      "/images/products/pants-original064-darkblue-back.jpg",
+      "/images/products/pants-original064-greywash-front.jpg",
+      "/images/products/pants-original064-greywash-back.jpg",
+      "/images/products/pants-original064-black-front.jpg",
+      "/images/products/pants-original064-black-back.jpg"
     ],
     sizes: ["28", "29", "30", "31", "32", "34"],
     colors: [
       { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 0 },
-      { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 2 }
+      { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 2 },
+      { name: "Xám Khói Wash", hex: "#4A4D53", imageIndex: 4 },
+      { name: "Đen", hex: "#1E1E20", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 168,
@@ -3950,15 +3956,83 @@ const products = [
       "/images/products/pants-original064-darkblue-front.jpg",
       "/images/products/pants-original064-darkblue-back.jpg",
       "/images/products/pants-original064-lightblue-front.jpg",
-      "/images/products/pants-original064-lightblue-back.jpg"
+      "/images/products/pants-original064-lightblue-back.jpg",
+      "/images/products/pants-original064-greywash-front.jpg",
+      "/images/products/pants-original064-greywash-back.jpg",
+      "/images/products/pants-original064-black-front.jpg",
+      "/images/products/pants-original064-black-back.jpg"
     ],
     sizes: ["28", "29", "30", "31", "32", "34"],
     colors: [
       { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 0 },
-      { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 2 }
+      { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 2 },
+      { name: "Xám Khói Wash", hex: "#4A4D53", imageIndex: 4 },
+      { name: "Đen", hex: "#1E1E20", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ 11.8Oz"
+  },
+  {
+    id: 136,
+    name: "Quần Jeans Ống Suông Mài Nhẹ Durabletex™ 11.8Oz Vải Mềm Thoáng Mát Đứng Phom Phom Rộng F4 - Màu Xám Khói Wash",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống suông cao cấp thuộc bộ sưu tập The Original 064 từ Aureus Fashion. Tông màu xám khói wash (Washed Smoke Grey) cá tính, nổi bật với hiệu ứng wash râu mèo nhẹ nhàng và mài loang tự nhiên mang hơi thở thời trang đường phố đương đại. Chất vải denim Durabletex™ định lượng 11.8Oz bền bỉ, xử lý làm mềm đặc biệt cho cảm giác êm ái, thoáng mát cả ngày dài. Thiết kế cạp chuẩn, chi tiết 5 túi cổ điển sắc sảo, nút đinh tán kim loại mạ bạc và tag da may tỉ mỉ phía sau. Phom rộng F4 (Wide Leg / Relaxed Straight Fit F4) suông thẳng đứng ống giúp kéo dài đôi chân, cực kỳ phong cách và dễ biến hóa khi phối cùng hoodie, áo thun oversize hay sơ mi layering.",
+    images: [
+      "/images/products/pants-original064-greywash-front.jpg",
+      "/images/products/pants-original064-greywash-back.jpg",
+      "/images/products/pants-original064-black-front.jpg",
+      "/images/products/pants-original064-black-back.jpg",
+      "/images/products/pants-original064-lightblue-front.jpg",
+      "/images/products/pants-original064-lightblue-back.jpg",
+      "/images/products/pants-original064-darkblue-front.jpg",
+      "/images/products/pants-original064-darkblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xám Khói Wash", hex: "#4A4D53", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E20", imageIndex: 2 },
+      { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 4 },
+      { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ 11.8Oz"
+  },
+  {
+    id: 137,
+    name: "Quần Jeans Ống Suông Mài Nhẹ Durabletex™ 11.8Oz Vải Mềm Thoáng Mát Đứng Phom Phom Rộng F4 - Màu Đen",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống suông cao cấp thuộc bộ sưu tập The Original 064 từ Aureus Fashion. Tông màu đen tuyền huyền bí, tối giản và thời thượng (Pitch Black Denim), đem lại vẻ ngoài nam tính, chững chạc và cực kỳ tôn dáng. Dệt từ chất liệu denim Durabletex™ 11.8Oz cao cấp mềm mịn, chống co rút và giữ độ bền màu tối ưu sau nhiều lần giặt. Phom rộng F4 (Wide Leg / Relaxed Straight Fit F4) buông thả tự nhiên, che khuyết điểm chân hoàn hảo và tạo sự thoải mái tối đa trong mọi hoạt động. Món đồ 'must-have' dễ dàng mix & match cùng áo thun trắng, sơ mi flannel, áo len hay áo khoác blazer hiện đại.",
+    images: [
+      "/images/products/pants-original064-black-front.jpg",
+      "/images/products/pants-original064-black-back.jpg",
+      "/images/products/pants-original064-greywash-front.jpg",
+      "/images/products/pants-original064-greywash-back.jpg",
+      "/images/products/pants-original064-lightblue-front.jpg",
+      "/images/products/pants-original064-lightblue-back.jpg",
+      "/images/products/pants-original064-darkblue-front.jpg",
+      "/images/products/pants-original064-darkblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Đen", hex: "#1E1E20", imageIndex: 0 },
+      { name: "Xám Khói Wash", hex: "#4A4D53", imageIndex: 2 },
+      { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 4 },
+      { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 138,
     inStock: true,
     isNew: true,
     isSale: true,
