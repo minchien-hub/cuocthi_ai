@@ -4037,6 +4037,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Durabletex™ 11.8Oz"
+  },
+  {
+    id: 138,
+    name: "Quần Jeans Ống Rộng Loose Fit Durabletex™ 310Gsm Gối Double Knee Chịu Lực Bền Bỉ Phom Rộng F4 - Màu Xanh Xô Thơm",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống rộng phong cách workwear utility cao cấp thuộc bộ sưu tập Multi Color Jean 012 từ Aureus Fashion. Được phát triển từ chất vải denim/canvas Durabletex™ định lượng 310Gsm dày dặn, đanh mịn và sở hữu khả năng chống mài mòn, chống rách vượt trội. Điểm nhấn ấn tượng là thiết kế gối đôi chịu lực (Double Knee Panel) gia cố bằng đinh tán tán góc (rivets) đặc trưng của văn hóa thợ thủ công và thời trang skatewear cổ điển. Tích hợp quai gài búa (hammer loop) và túi dụng cụ tiện ích bên sườn quần. Tông màu xanh xô thơm (Sage Green) trầm ấm, độc đáo và cực kỳ tôn gu thẩm mỹ. Phom rộng F4 (Loose Fit / Wide Leg F4) buông suông thẳng đứng, che khuyết điểm chân, hack chiều cao và mang lại sự phóng khoáng, tự do trong từng bước di chuyển.",
+    images: [
+      "/images/products/pants-doubleknee012-sagegreen-front.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-back.jpg",
+      "/images/products/pants-doubleknee012-khaki-front.jpg",
+      "/images/products/pants-doubleknee012-khaki-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 0 },
+      { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Double Knee 310Gsm"
+  },
+  {
+    id: 139,
+    name: "Quần Jeans Ống Rộng Loose Fit Durabletex™ 310Gsm Gối Double Knee Chịu Lực Bền Bỉ Phom Rộng F4 - Màu Nâu Khaki",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống rộng phong cách workwear utility cao cấp thuộc bộ sưu tập Multi Color Jean 012 từ Aureus Fashion. Tông màu nâu khaki cát (Sand Khaki / Tan) kinh điển đậm chất thời trang dã ngoại gorpcore và phong cách đường phố đương đại. Chất vải denim/canvas Durabletex™ định lượng 310Gsm cao cấp, dệt chắc tay, giữ phom đứng dáng sau thời gian dài sử dụng. Cấu trúc mảng đắp gối đôi (Double Knee) với đinh tán tán góc kim loại chịu lực tối đa, kèm quai búa và túi hộp utility bên hông tiện dụng. Phom rộng F4 (Loose Fit / Wide Leg F4) chuẩn mực, cực kỳ thoải mái và dễ dàng phối cùng áo thun phom hộp boxy, áo polo, hoodie hay khoác ngoài sơ mi flannel.",
+    images: [
+      "/images/products/pants-doubleknee012-khaki-front.jpg",
+      "/images/products/pants-doubleknee012-khaki-back.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-front.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 0 },
+      { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Double Knee 310Gsm"
   }
 ];
 
