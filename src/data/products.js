@@ -3201,6 +3201,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Icevibes™ 270Gsm"
+  },
+  {
+    id: 111,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ 145Gsm Vải Dệt Rổ Sọc Mảnh Siêu Thoáng Khí Hack Dáng Phom Hộp Rộng F5 - Màu Xanh Đen Sọc Trắng",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Parisian Casual & Resort Chic thuộc bộ sưu tập The Weekend 067 từ Aureus Fashion. Được dệt theo cấu trúc dệt rổ (Basketweave) kết hợp công nghệ Airdry™ siêu nhẹ chỉ 145Gsm với hàng ngàn lỗ thoát khí vi mô giúp cơ thể luôn mát mẻ, khô thoáng ngay cả dưới thời tiết oi ả. Họa tiết sọc mảnh (Pinstripes) dọc thân áo phối màu trắng trên nền xanh đen (Navy) thanh lịch tạo hiệu ứng thị giác hack dáng thon gọn và kéo dài tỷ lệ cơ thể. Điểm nhấn túi hộp đôi (Double Utility Pockets) hai bên ngực với sọc ngang đối xứng độc đáo cùng phom hộp rộng F5 (Boxy Fit) vai hạ drop-shoulder, vạt cắt ngang phóng khoáng, dễ phối cùng quần âu suông hoặc quần short đi biển.",
+    images: [
+      "/images/products/shirt-weekend067-navy-front.jpg",
+      "/images/products/shirt-weekend067-navy-back.jpg",
+      "/images/products/shirt-weekend067-black-front.jpg",
+      "/images/products/shirt-weekend067-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 0 },
+      { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Basketweave"
+  },
+  {
+    id: 112,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ 145Gsm Vải Dệt Rổ Sọc Mảnh Siêu Thoáng Khí Hack Dáng Phom Hộp Rộng F5 - Màu Đen Sọc Trắng",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Modern Streetwear & Chic Sartorial thuộc bộ sưu tập The Weekend 067 từ Aureus Fashion. Tông màu đen huyền bí kết hợp sọc pinstripe trắng mảnh mai sắc nét, mang lại vẻ ngoài nam tính, sang trọng và chuẩn mực. Cấu trúc vải dệt rổ Airdry™ 145Gsm siêu mỏng nhẹ, bề mặt xốp thoáng khí tự nhiên và có độ rủ mềm mại tựa lụa nhưng đứng phom bền chắc. Thiết kế hai túi ngực vuông đối xứng may sọc ngang cá tính, cúc áo dập nổi tinh xảo cùng phom hộp rộng F5 (Boxy Fit) mang đến trải nghiệm thời trang sành điệu, tôn trọn vóc dáng nam giới.",
+    images: [
+      "/images/products/shirt-weekend067-black-front.jpg",
+      "/images/products/shirt-weekend067-black-back.jpg",
+      "/images/products/shirt-weekend067-navy-front.jpg",
+      "/images/products/shirt-weekend067-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 0 },
+      { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Basketweave"
   }
 ];
 
