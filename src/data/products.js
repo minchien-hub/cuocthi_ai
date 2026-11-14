@@ -4335,6 +4335,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Ống Loe F3"
+  },
+  {
+    id: 149,
+    name: "Quần Jeans Baggy Ống Cong 3D Durabletex™ Đáy Hạ Thoải Mái Giải Phóng Đôi Chân Phom Siêu Rộng F5 - The Original 053 - Màu Xanh Đậm Indigo",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam baggy ống cong 3D cao cấp thuộc bộ sưu tập The Original 053 từ thương hiệu Aureus Fashion. Được phát triển trên nền chất liệu denim Durabletex™ cao cấp dày dặn, đanh mịn và sở hữu khả năng thoáng khí, chống bai dão vượt trội. Điểm nhấn đột phá là cấu trúc đáy hạ (Drop Crotch) giải phóng triệt để sự gò bó cho đôi chân, kết hợp các đường may cắt cúp 3D ống cong công thái học (3D Curved Ergonomic Seams) chạy dọc thân quần tạo nếp xếp phồng tự nhiên cực kỳ phá cách. Thiết kế túi xéo phía trước kiểu utility độc đáo kèm tab vải dệt điểm xuyết, túi sau bản lớn vuông vức và tag da cạp lưng sang trọng. Phom siêu rộng F5 (Ultra-Wide Baggy F5) chuẩn tinh thần thời trang đường phố và trượt ván đường phố (Skatewear), phối cực 'cháy' cùng áo thun oversize, hoodie boxy hoặc áo khoác denim.",
+    images: [
+      "/images/products/pants-original053-darkindigo-front.jpg",
+      "/images/products/pants-original053-darkindigo-back.jpg",
+      "/images/products/pants-original053-midblue-front.jpg",
+      "/images/products/pants-original053-midblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Đậm Indigo", hex: "#202A3D", imageIndex: 0 },
+      { name: "Xanh Vừa Wash", hex: "#55749A", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ống Cong 3D F5"
+  },
+  {
+    id: 150,
+    name: "Quần Jeans Baggy Ống Cong 3D Durabletex™ Đáy Hạ Thoải Mái Giải Phóng Đôi Chân Phom Siêu Rộng F5 - The Original 053 - Màu Xanh Vừa Wash",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam baggy ống cong 3D cao cấp thuộc bộ sưu tập The Original 053 từ thương hiệu Aureus Fashion. Tông màu xanh vừa wash loang tự nhiên (Medium Stone Blue Wash) mang phong cách Retro Y2K bụi bặm, phóng khoáng và tràn đầy năng lượng tuổi trẻ. Chất vải denim Durabletex™ được xử lý làm mềm chuyên sâu giúp sợi vải êm mát, không gây cọ xát khó chịu khi di chuyển. Thiết kế đáy hạ thoải mái kết hợp phom siêu rộng F5 (Ultra-Wide Baggy F5) với kỹ thuật rã rập ống cong 3D đa chiều giúp hack tỷ lệ cơ thể và che khuyết điểm chân tuyệt đối. Dễ dàng mix-match linh hoạt cùng áo thun graphic, áo len dệt kim, sơ mi flannel khoác ngoài và giày sneaker cổ thấp/cổ cao.",
+    images: [
+      "/images/products/pants-original053-midblue-front.jpg",
+      "/images/products/pants-original053-midblue-back.jpg",
+      "/images/products/pants-original053-darkindigo-front.jpg",
+      "/images/products/pants-original053-darkindigo-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Vừa Wash", hex: "#55749A", imageIndex: 0 },
+      { name: "Xanh Đậm Indigo", hex: "#202A3D", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 157,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ống Cong 3D F5"
   }
 ];
 
