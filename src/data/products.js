@@ -3325,6 +3325,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ Basketweave"
+  },
+  {
+    id: 115,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ Vải Dệt Xước Hiệu Ứng Linen Thoáng Mát Chống Bết Dính Phom Rộng F4 - Màu Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam cổ trụ tay ngắn phong cách Quiet Luxury & Resort Wear thuộc bộ sưu tập The Weekend 056 từ Aureus Fashion. Sử dụng chất liệu vải dệt xước (Slub Fabric) tạo hiệu ứng vân sợi Linen mộc mạc, tự nhiên và sang trọng. Ứng dụng công nghệ xử lý sợi Airdry™ mang lại khả năng thoáng khí siêu việt, tản nhiệt tức thì và hạn chế tối đa tình trạng vải bết dính vào da khi đổ mồ hôi. Thiết kế cổ trụ (Mandarin Collar / Cổ tàu) tối giản, trẻ trung và tôn nét phong độ, kết hợp túi ốp ngực trái và phom rộng F4 thoải mái, vạt bầu nhẹ dễ dàng sơ vin hoặc thả ngoài phóng khoáng cùng quần âu, khaki hoặc quần short đũi.",
+    images: [
+      "/images/products/shirt-weekend056-white-front.jpg",
+      "/images/products/shirt-weekend056-white-back.jpg",
+      "/images/products/shirt-weekend056-beige-front.jpg",
+      "/images/products/shirt-weekend056-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 0 },
+      { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Linen-Touch"
+  },
+  {
+    id: 116,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ Vải Dệt Xước Hiệu Ứng Linen Thoáng Mát Chống Bết Dính Phom Rộng F4 - Màu Be Yến Mạch",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam cổ trụ tay ngắn phong cách Minimalist Sartorial thuộc bộ sưu tập The Weekend 056 từ Aureus Fashion. Tông màu be yến mạch (Oatmeal Beige / Be Cát) trang nhã, nhẹ nhàng và tôn da, mang lại cảm giác thư thái của những kỳ nghỉ cuối tuần. Bề mặt vải dệt xước mô phỏng kết cấu xơ tự nhiên của Linen nhưng êm ái, ít nhăn và dễ giặt ủi nhờ công nghệ Airdry™. Thiết kế cổ trụ tinh tế, hàng khuy cài bọc chỉn chu cùng phom rộng F4 giúp che khuyết điểm cơ thể và mang lại diện mạo đĩnh đạc, thanh lịch trong mọi khoảnh khắc.",
+    images: [
+      "/images/products/shirt-weekend056-beige-front.jpg",
+      "/images/products/shirt-weekend056-beige-back.jpg",
+      "/images/products/shirt-weekend056-white-front.jpg",
+      "/images/products/shirt-weekend056-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 0 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Linen-Touch"
   }
 ];
 
