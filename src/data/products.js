@@ -3485,13 +3485,16 @@ const products = [
       "/images/products/shirt-nostyle266-grey-front.jpg",
       "/images/products/shirt-nostyle266-grey-back.jpg",
       "/images/products/shirt-nostyle266-blue-front.jpg",
-      "/images/products/shirt-nostyle266-blue-back.jpg"
+      "/images/products/shirt-nostyle266-blue-back.jpg",
+      "/images/products/shirt-nostyle266-white-front.jpg",
+      "/images/products/shirt-nostyle266-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
       { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 2 },
-      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 4 }
+      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 4 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 146,
@@ -3513,13 +3516,16 @@ const products = [
       "/images/products/shirt-nostyle266-black-front.jpg",
       "/images/products/shirt-nostyle266-black-back.jpg",
       "/images/products/shirt-nostyle266-blue-front.jpg",
-      "/images/products/shirt-nostyle266-blue-back.jpg"
+      "/images/products/shirt-nostyle266-blue-back.jpg",
+      "/images/products/shirt-nostyle266-white-front.jpg",
+      "/images/products/shirt-nostyle266-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 0 },
       { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
-      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 4 }
+      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 4 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 135,
@@ -3541,16 +3547,50 @@ const products = [
       "/images/products/shirt-nostyle266-black-front.jpg",
       "/images/products/shirt-nostyle266-black-back.jpg",
       "/images/products/shirt-nostyle266-grey-front.jpg",
-      "/images/products/shirt-nostyle266-grey-back.jpg"
+      "/images/products/shirt-nostyle266-grey-back.jpg",
+      "/images/products/shirt-nostyle266-white-front.jpg",
+      "/images/products/shirt-nostyle266-white-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 0 },
       { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
-      { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 4 }
+      { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 4 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Oxford"
+  },
+  {
+    id: 123,
+    name: "Áo Sơ Mi Tay Dài Easycare™ Vải Oxford Thoáng Mát Ít Nhăn Phối Cổ Sọc Tinh Tế Phom Vừa F3 - Màu Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay dài vải Oxford cao cấp thuộc bộ sưu tập The No Style 266 từ thương hiệu Aureus Fashion. Tông màu trắng tinh khôi chuẩn phong thái quý ông lịch thiệp, dễ dàng phối hợp cùng mọi trang phục từ thường nhật đến sự kiện quan trọng. Chất liệu vải Oxford dệt vân nổi đanh mịn, thoáng khí vượt trội kết hợp công nghệ xử lý sợi Easycare™ kháng khuẩn, chống nhăn hiệu quả và giữ phom áo phẳng phiu. Điểm nhấn đắt giá nằm ở ve lót chân cổ dệt họa tiết sọc pinstripe xanh dương cổ điển cùng hàng cúc nút vân sừng hổ phách tương phản độc đáo. Thiết kế xếp ly đôi sống lưng cùng phom vừa F3 (Regular Fit F3) tôn nét đĩnh đạc, tự tin trong mọi hoàn cảnh.",
+    images: [
+      "/images/products/shirt-nostyle266-white-front.jpg",
+      "/images/products/shirt-nostyle266-white-back.jpg",
+      "/images/products/shirt-nostyle266-black-front.jpg",
+      "/images/products/shirt-nostyle266-black-back.jpg",
+      "/images/products/shirt-nostyle266-grey-front.jpg",
+      "/images/products/shirt-nostyle266-grey-back.jpg",
+      "/images/products/shirt-nostyle266-blue-front.jpg",
+      "/images/products/shirt-nostyle266-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 4 },
+      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 164,
     inStock: true,
     isNew: true,
     isSale: true,
