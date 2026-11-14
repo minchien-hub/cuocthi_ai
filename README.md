@@ -12,7 +12,7 @@ Trong ngành thương mại điện tử thời trang, **chọn sai kích cỡ (
 - **100% Client-Side Edge AI (BodySize AI)**: Quét vóc dáng và nhận diện 33 điểm mốc khung xương bằng Google MediaPipe trực tiếp qua webcam trên trình duyệt, không gửi video/hình ảnh cá nhân lên máy chủ, bảo mật quyền riêng tư 100% và phản hồi tức thì với độ trễ 0ms.
 - **AI Virtual Try-On**: Tải ảnh chân dung cá nhân (toàn thân/nửa người), chọn đồ từ kho hàng và trải nghiệm thử đồ ảo chân thực được xử lý qua WeShop AI Engine, hỗ trợ so sánh đối chiếu ảnh gốc và hiển thị bảng chấm điểm vừa vặn vóc dáng (Fit Match Score 98%+).
 - **Aureus AI Stylist**: Trợ lý AI tư vấn phối đồ và chọn size chuẩn xác theo chiều cao, cân nặng 24/7.
-- **100 Sản Phẩm Thời Trang Cao Cấp**: Đầy đủ bộ sưu tập với thông số kỹ thuật chi tiết, bộ chọn màu swatch tương tác trực quan và ảnh chụp studio đa góc.
+- **100+ Sản Phẩm Thời Trang Cao Cấp**: Đầy đủ bộ sưu tập với thông số kỹ thuật chi tiết, bộ chọn màu swatch tương tác trực quan và ảnh chụp studio đa góc.
 
 ---
 
@@ -33,11 +33,11 @@ Trong ngành thương mại điện tử thời trang, **chọn sai kích cỡ (
 
 ### 3. 🤖 Trợ Lý Thời Trang Trí Tuệ Nhân Tạo (Aureus AI Stylist Chatbot)
 * **Tư vấn size chuyên sâu**: Phân tích chiều cao, cân nặng và phom dáng khách hàng mong muốn (Phom ôm vừa F2, Phom vừa F3, Phom rộng F4, Phom hộp F5) để gợi ý size chuẩn từng milimet.
-* **Hiểu sâu 100 sản phẩm**: Nắm vững thông tin về công nghệ vải (Pique 250Gsm, Linen Rayon Blend, Cotton Compact, Double-Face Knit, Denim DurableTex™, ColorLock™, Icevibes™, Flexfit™).
+* **Hiểu sâu 100+ sản phẩm**: Nắm vững thông tin về công nghệ vải (Pique 250Gsm, Jean Waffle CloudTouch™, Linen Rayon Blend, Cotton Compact, Double-Face Knit, Denim DurableTex™, ColorLock™, Icevibes™, Flexfit™).
 * **Gợi ý phối đồ (Outfit Styling)**: Đưa ra lời khuyên mix & match thời thượng theo nhiều phong cách: *Athletic Luxury, Quiet Luxury & Resort Wear, 90s Streetwear, Clean Fit, Parisian Retro, Smart-Casual*.
 
-### 4. 🛍️ Nền Tảng Thương Mại Điện Tử Hiện Đại & 100 Sản Phẩm Thời Trang
-* **Kho hàng 100 sản phẩm cao cấp**: Đa dạng các dòng Áo Polo, Áo Thun, Áo Ba Lỗ Tank Top, Áo Dệt Kim, Quần Jeans Baggy, Đầm dự tiệc và Phụ kiện.
+### 4. 🛍️ Nền Tảng Thương Mại Điện Tử Hiện Đại & 100+ Sản Phẩm Thời Trang
+* **Kho hàng 100+ sản phẩm cao cấp**: Đa dạng các dòng Áo Sơ Mi, Áo Polo, Áo Thun, Áo Ba Lỗ Tank Top, Áo Dệt Kim, Quần Jeans Baggy, Đầm dự tiệc và Phụ kiện.
 * **Bộ chọn màu tương hỗ (Cross-Linked Color Swatches)**: Mỗi sản phẩm hỗ trợ đổi màu linh hoạt, tự động cập nhật bộ ảnh đa góc nhìn tương ứng (ảnh mặt trước & mặt sau studio chất lượng cao).
 * **Bộ lọc thông minh**: Lọc nhanh theo danh mục, khoảng giá, sắp xếp linh hoạt và tìm kiếm từ khóa thời gian thực.
 * **Trải nghiệm mua sắm mượt mà**: Giỏ hàng (Cart) và Danh sách yêu thích (Wishlist) tương tác với Context API, thông báo Toast sống động, tối ưu Responsive 100% trên thiết bị di động, tablet và desktop.

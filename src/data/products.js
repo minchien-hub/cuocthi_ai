@@ -2903,6 +2903,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Linen Rayon Knit"
+  },
+  {
+    id: 101,
+    name: "Áo Sơ Mi Tay Ngắn CloudTouch™ Vải Jean Waffle Wash Bụi Bặm Phom Hộp Rộng F5 - Màu Xanh Đậm",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay ngắn phong cách Streetwear & Modern Vintage thuộc bộ sưu tập The Original 061 từ Aureus Fashion. Ứng dụng chất liệu vải Jean Waffle độc đáo dệt nổi vân tổ ong kết hợp công nghệ làm mềm CloudTouch™ mang lại cảm giác êm ái, thoáng khí vượt trội so với chất jean truyền thống. Kỹ thuật giặt wash bụi bặm (Vintage Garment Enzyme Wash) tạo hiệu ứng phai màu tự nhiên mang đậm hơi thở thời trang đường phố. Thiết kế phom hộp rộng F5 (Boxy Fit) hiện đại với vai hạ thả rủ, vạt bằng tinh tế và túi ốp ngực vuông tiện lợi, dễ dàng diện khoác ngoài cùng áo thun ba lỗ hoặc mặc đơn lẻ tôn trọn cá tính phóng khoáng.",
+    images: [
+      "/images/products/shirt-original061-darkblue-front.jpg",
+      "/images/products/shirt-original061-darkblue-back.jpg",
+      "/images/products/shirt-original061-lightblue-front.jpg",
+      "/images/products/shirt-original061-lightblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đậm", hex: "#22354F", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#8DAAC6", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ Waffle"
+  },
+  {
+    id: 102,
+    name: "Áo Sơ Mi Tay Ngắn CloudTouch™ Vải Jean Waffle Wash Bụi Bặm Phom Hộp Rộng F5 - Màu Xanh Nhạt",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam tay ngắn phong cách Streetwear & Clean Fit thuộc bộ sưu tập The Original 061 từ Aureus Fashion. Tông màu xanh nhạt wash sáng (Bleach / Light Indigo Wash) năng động, trẻ trung và cực kỳ bắt mắt dưới ánh nắng mùa hè. Sử dụng chất liệu vải dệt Jean Waffle cấu trúc tổ ong cải tiến kết hợp công nghệ sợi CloudTouch™ tạo độ mềm rũ tự nhiên, kháng cứng ráp và thấm hút mồ hôi tối ưu. Phom áo hộp rộng F5 (Boxy Fit) với bờ vai drop-shoulder thoải mái, cổ bẻ classic chỉn chu và cúc áo may tỉ mỉ, hoàn hảo để tạo nên outfit layer thời thượng cùng quần jeans baggy hoặc quần short túi hộp.",
+    images: [
+      "/images/products/shirt-original061-lightblue-front.jpg",
+      "/images/products/shirt-original061-lightblue-back.jpg",
+      "/images/products/shirt-original061-darkblue-front.jpg",
+      "/images/products/shirt-original061-darkblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#8DAAC6", imageIndex: 0 },
+      { name: "Xanh Đậm", hex: "#22354F", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 124,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ Waffle"
   }
 ];
 
