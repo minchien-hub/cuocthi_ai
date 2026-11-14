@@ -3089,12 +3089,18 @@ const products = [
       "/images/products/shirt-minimalist026-grey-front.jpg",
       "/images/products/shirt-minimalist026-grey-back.jpg",
       "/images/products/shirt-minimalist026-charcoal-front.jpg",
-      "/images/products/shirt-minimalist026-charcoal-back.jpg"
+      "/images/products/shirt-minimalist026-charcoal-back.jpg",
+      "/images/products/shirt-minimalist026-black-front.jpg",
+      "/images/products/shirt-minimalist026-black-back.jpg",
+      "/images/products/shirt-minimalist026-white-front.png",
+      "/images/products/shirt-minimalist026-white-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 0 },
-      { name: "Xám Chì", hex: "#636569", imageIndex: 2 }
+      { name: "Xám Chì", hex: "#636569", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 152,
@@ -3113,16 +3119,84 @@ const products = [
     images: [
       "/images/products/shirt-minimalist026-charcoal-front.jpg",
       "/images/products/shirt-minimalist026-charcoal-back.jpg",
+      "/images/products/shirt-minimalist026-black-front.jpg",
+      "/images/products/shirt-minimalist026-black-back.jpg",
+      "/images/products/shirt-minimalist026-white-front.png",
+      "/images/products/shirt-minimalist026-white-back.png",
       "/images/products/shirt-minimalist026-grey-front.jpg",
       "/images/products/shirt-minimalist026-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Chì", hex: "#636569", imageIndex: 0 },
-      { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 2 }
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 4 },
+      { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ 270Gsm"
+  },
+  {
+    id: 109,
+    name: "Áo Sơ Mi Tay Ngắn Vải Thun Icevibes™ 270Gsm Nút Bấm Co Giãn Mát Mịn Mặc Êm Phom Hộp Rộng F5 - Màu Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay ngắn phong cách All-Black Minimalist & Urban Chic thuộc bộ sưu tập The Minimalist 026 từ Aureus Fashion. Tông màu đen tuyền huyền bí, nam tính và tối giản đỉnh cao. Ứng dụng chất liệu vải thun dệt đanh 2 mặt công nghệ Icevibes™ định lượng 270Gsm đanh chắc đứng phom, co giãn đàn hồi 4 chiều và tạo cảm giác mát dịu trên da. Hàng nút bấm snap bọc màu đen đồng điệu sắc sảo cùng thiết kế túi ốp ngực vuông và phom dáng hộp rộng F5 (Boxy Fit) thời thượng, đem đến sự tự do phóng khoáng, dễ phối cùng mọi kiểu quần âu hoặc quần short thể thao.",
+    images: [
+      "/images/products/shirt-minimalist026-black-front.jpg",
+      "/images/products/shirt-minimalist026-black-back.jpg",
+      "/images/products/shirt-minimalist026-white-front.png",
+      "/images/products/shirt-minimalist026-white-back.png",
+      "/images/products/shirt-minimalist026-grey-front.jpg",
+      "/images/products/shirt-minimalist026-grey-back.jpg",
+      "/images/products/shirt-minimalist026-charcoal-front.jpg",
+      "/images/products/shirt-minimalist026-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 4 },
+      { name: "Xám Chì", hex: "#636569", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 164,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ 270Gsm"
+  },
+  {
+    id: 110,
+    name: "Áo Sơ Mi Tay Ngắn Vải Thun Icevibes™ 270Gsm Nút Bấm Co Giãn Mát Mịn Mặc Êm Phom Hộp Rộng F5 - Màu Trắng",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay ngắn phong cách Clean Fit & Pure Minimalist thuộc bộ sưu tập The Minimalist 026 từ Aureus Fashion. Tông màu trắng tinh khôi, thanh lịch và tươi mới, dễ dàng hòa phối cùng mọi outfit thường nhật. Chất vải thun hai mặt cao cấp dệt sợi Icevibes™ 270Gsm thoáng khí, không xù lông và có độ dày vừa vặn không lo lộ áo trong. Công nghệ co giãn đa chiều mang lại sự thoải mái tuyệt đối trong mọi chuyển động. Cúc bấm snap hiện đại kết hợp đường may tinh tế và phom hộp rộng F5 (Boxy Fit) tạo nên chuẩn mực thời trang hiện đại cho phái mạnh.",
+    images: [
+      "/images/products/shirt-minimalist026-white-front.png",
+      "/images/products/shirt-minimalist026-white-back.png",
+      "/images/products/shirt-minimalist026-black-front.jpg",
+      "/images/products/shirt-minimalist026-black-back.jpg",
+      "/images/products/shirt-minimalist026-grey-front.jpg",
+      "/images/products/shirt-minimalist026-grey-back.jpg",
+      "/images/products/shirt-minimalist026-charcoal-front.jpg",
+      "/images/products/shirt-minimalist026-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#D8D9DC", imageIndex: 4 },
+      { name: "Xám Chì", hex: "#636569", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 172,
     inStock: true,
     isNew: true,
     isSale: true,
