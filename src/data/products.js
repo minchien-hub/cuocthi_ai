@@ -4285,6 +4285,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Lưng Thun F4"
+  },
+  {
+    id: 147,
+    name: "Quần Jeans Ống Loe Regular Fit Durabletex™ Tôn Dáng Hack Chiều Dài Chân Bụi Bặm Phom Vừa F3 - The Original 076 - Màu Xanh Đậm Indigo",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống loe cao cấp thuộc bộ sưu tập The Original 076 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải denim Durabletex™ cao cấp dày dặn, đanh mịn và co giãn nhẹ tạo cảm giác thoải mái khi di chuyển. Thiết kế phom vừa F3 kết hợp dáng ống loe thời thượng (Flared / Bootcut Silhouette F3) ôm nhẹ ở phần đùi và xòe dần từ đầu gối xuống gấu quần, tạo hiệu ứng thị giác kéo dài đôi chân cực đỉnh và hack dáng thon gọn tuyệt đối. Tông màu xanh chàm đậm Indigo nguyên bản (Raw Dark Indigo) sang trọng, kết hợp đường chỉ may nổi tương phản sắc sảo, cúc kim loại dập nổi và tag da The Original Denim cao cấp. Hoàn hảo để diện cùng áo sơ mi Cuban, áo thun ôm fit, polo dệt kim hay áo khoác da biker.",
+    images: [
+      "/images/products/pants-original076-darkindigo-front.jpg",
+      "/images/products/pants-original076-darkindigo-back.jpg",
+      "/images/products/pants-original076-lightblue-front.jpg",
+      "/images/products/pants-original076-lightblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Đậm Indigo", hex: "#1E2838", imageIndex: 0 },
+      { name: "Xanh Nhạt Wash", hex: "#9FB2C8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ống Loe F3"
+  },
+  {
+    id: 148,
+    name: "Quần Jeans Ống Loe Regular Fit Durabletex™ Tôn Dáng Hack Chiều Dài Chân Bụi Bặm Phom Vừa F3 - The Original 076 - Màu Xanh Nhạt Wash",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống loe cao cấp thuộc bộ sưu tập The Original 076 từ thương hiệu Aureus Fashion. Tông màu xanh nhạt wash (Light Bleach Blue Wash) kết hợp hiệu ứng mài râu mèo nhẹ nhàng ở hông và đùi mang hơi thở Retro thập niên 70 pha lẫn tinh thần Y2K bụi bặm, phá cách. Chất vải denim Durabletex™ cao cấp thoáng mát, thấm hút mồ hôi và giữ phom ống loe sắc nét không bị gãy form sau khi giặt. Thiết kế cạp chuẩn 5 túi cổ điển, khóa kéo mượt mà và đường xòe gấu tinh tế giúp che khuyết điểm bắp chân to và tôn dáng giày boots, loafer hoặc chunky sneaker. Dễ dàng biến hóa phong cách lãng tử cùng sơ mi hoa văn, áo thun graphic vintage hay áo blazer.",
+    images: [
+      "/images/products/pants-original076-lightblue-front.jpg",
+      "/images/products/pants-original076-lightblue-back.jpg",
+      "/images/products/pants-original076-darkindigo-front.jpg",
+      "/images/products/pants-original076-darkindigo-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Nhạt Wash", hex: "#9FB2C8", imageIndex: 0 },
+      { name: "Xanh Đậm Indigo", hex: "#1E2838", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 153,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Ống Loe F3"
   }
 ];
 
