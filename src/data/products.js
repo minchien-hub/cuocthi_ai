@@ -3607,12 +3607,18 @@ const products = [
       "/images/products/shirt-seventyseven052-blue-front.jpg",
       "/images/products/shirt-seventyseven052-blue-back.jpg",
       "/images/products/shirt-seventyseven052-navy-front.jpg",
-      "/images/products/shirt-seventyseven052-navy-back.jpg"
+      "/images/products/shirt-seventyseven052-navy-back.jpg",
+      "/images/products/shirt-seventyseven052-white-front.png",
+      "/images/products/shirt-seventyseven052-white-back.png",
+      "/images/products/shirt-seventyseven052-black-front.png",
+      "/images/products/shirt-seventyseven052-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 0 },
-      { name: "Xanh Đen", hex: "#1F2937", imageIndex: 2 }
+      { name: "Xanh Đen", hex: "#1F2937", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 148,
@@ -3632,15 +3638,83 @@ const products = [
       "/images/products/shirt-seventyseven052-navy-front.jpg",
       "/images/products/shirt-seventyseven052-navy-back.jpg",
       "/images/products/shirt-seventyseven052-blue-front.jpg",
-      "/images/products/shirt-seventyseven052-blue-back.jpg"
+      "/images/products/shirt-seventyseven052-blue-back.jpg",
+      "/images/products/shirt-seventyseven052-white-front.png",
+      "/images/products/shirt-seventyseven052-white-back.png",
+      "/images/products/shirt-seventyseven052-black-front.png",
+      "/images/products/shirt-seventyseven052-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Đen", hex: "#1F2937", imageIndex: 0 },
-      { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 2 }
+      { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Featherlight"
+  },
+  {
+    id: 126,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Siêu Nhẹ Co Giãn Thoát Nhiệt Tốt Êm Ái Phom Ôm Vừa F2 - Màu Trắng",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam công sở cao cấp tay dài thuộc bộ sưu tập Seventy Seven 052 từ Aureus Fashion. Tông màu trắng trang nhã, thanh lịch vượt thời gian, là món đồ không thể thiếu của các quý ông hiện đại. Ứng dụng công nghệ sợi dệt Airdry™ Featherlight siêu nhẹ, co giãn đàn hồi 4 chiều và thoáng khí tối đa, xua tan hoàn toàn cảm giác ngột ngạt khi làm việc trong văn phòng suốt cả ngày. Đường chiết eo sau lưng chuẩn xác tôn trọn bờ ngực nở nang và vòng eo gọn gàng. Phom ôm vừa F2 (Fitted / Slim Fit F2) sắc sảo, hoàn mỹ khi kết hợp cùng cà vạt, veston hoặc diện đơn giản cùng quần âu.",
+    images: [
+      "/images/products/shirt-seventyseven052-white-front.png",
+      "/images/products/shirt-seventyseven052-white-back.png",
+      "/images/products/shirt-seventyseven052-blue-front.jpg",
+      "/images/products/shirt-seventyseven052-blue-back.jpg",
+      "/images/products/shirt-seventyseven052-navy-front.jpg",
+      "/images/products/shirt-seventyseven052-navy-back.jpg",
+      "/images/products/shirt-seventyseven052-black-front.png",
+      "/images/products/shirt-seventyseven052-black-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 2 },
+      { name: "Xanh Đen", hex: "#1F2937", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Featherlight"
+  },
+  {
+    id: 127,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Siêu Nhẹ Co Giãn Thoát Nhiệt Tốt Êm Ái Phom Ôm Vừa F2 - Màu Đen",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam công sở cao cấp tay dài thuộc bộ sưu tập Seventy Seven 052 từ Aureus Fashion. Tông màu đen tuyền cá tính, quyến rũ và đầy quyền lực theo phong cách All-Black Sartorial. Bề mặt vải dệt Airdry™ đanh mịn, mỏng nhẹ êm ái với khả năng co giãn 4 chiều và thoát mồ hôi ấn tượng. Thiết kế cổ ve nhọn chỉn chu cùng đường may chiết eo lưng giúp tôn vóc dáng chữ V săn chắc. Phom ôm vừa F2 (Fitted / Slim Fit F2) vừa vặn tôn dáng, lý tưởng cho những buổi tiệc tối sang trọng hay phong cách Smart Casual ấn tượng.",
+    images: [
+      "/images/products/shirt-seventyseven052-black-front.png",
+      "/images/products/shirt-seventyseven052-black-back.png",
+      "/images/products/shirt-seventyseven052-blue-front.jpg",
+      "/images/products/shirt-seventyseven052-blue-back.jpg",
+      "/images/products/shirt-seventyseven052-navy-front.jpg",
+      "/images/products/shirt-seventyseven052-navy-back.jpg",
+      "/images/products/shirt-seventyseven052-white-front.png",
+      "/images/products/shirt-seventyseven052-white-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 2 },
+      { name: "Xanh Đen", hex: "#1F2937", imageIndex: 4 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 145,
     inStock: true,
     isNew: true,
     isSale: true,
