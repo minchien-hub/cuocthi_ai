@@ -3481,14 +3481,76 @@ const products = [
     description: "Áo sơ mi nam tay dài vải Oxford cao cấp thuộc bộ sưu tập The No Style 266 từ thương hiệu Aureus Fashion. Ứng dụng công nghệ xử lý sợi Easycare™ giúp chất vải Oxford dệt đanh dày dặn nhưng vẫn cực kỳ thoáng mát, thấm hút mồ hôi tốt và chống nhăn nhàu vượt trội, tiết kiệm tối đa thời gian là ủi. Điểm nhấn nổi bật là phần lót chân cổ dệt họa tiết sọc pinstripe tinh tế, kết hợp hàng cúc nút vân sừng hổ phách sang trọng tạo nét tương phản hiện đại trên nền vải đen tuyền huyền bí. Phom vừa F3 (Regular Fit F3) đứng dáng, che khuyết điểm tốt, dễ dàng phối cùng quần âu, chinos hay jeans cho diện mạo lịch lãm chốn công sở hay năng động khi dạo phố.",
     images: [
       "/images/products/shirt-nostyle266-black-front.jpg",
-      "/images/products/shirt-nostyle266-black-back.jpg"
+      "/images/products/shirt-nostyle266-black-back.jpg",
+      "/images/products/shirt-nostyle266-grey-front.jpg",
+      "/images/products/shirt-nostyle266-grey-back.jpg",
+      "/images/products/shirt-nostyle266-blue-front.jpg",
+      "/images/products/shirt-nostyle266-blue-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
-      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 }
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 2 },
+      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 4 }
     ],
     rating: 5.0,
     reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Oxford"
+  },
+  {
+    id: 121,
+    name: "Áo Sơ Mi Tay Dài Easycare™ Vải Oxford Thoáng Mát Ít Nhăn Phối Cổ Sọc Tinh Tế Phom Vừa F3 - Màu Xám Tiêu",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay dài vải Oxford cao cấp thuộc bộ sưu tập The No Style 266 từ thương hiệu Aureus Fashion. Tông màu xám tiêu (Heather Grey) hiện đại, trẻ trung và cực kỳ trang nhã. Chất vải Oxford dệt đanh dày dặn ứng dụng công nghệ xử lý Easycare™ tạo độ thông thoáng tuyệt đối, kháng nhăn hiệu quả và giữ phom chuẩn mực suốt ngày dài. Điểm nhấn tinh tế với ve lót chân cổ dệt sọc pinstripe cổ điển cùng hàng khuy nút vân sừng hổ phách sang trọng. Phom vừa F3 (Regular Fit F3) tôn nét chững chạc, lịch lãm chốn văn phòng hay các buổi gặp gỡ quan trọng.",
+    images: [
+      "/images/products/shirt-nostyle266-grey-front.jpg",
+      "/images/products/shirt-nostyle266-grey-back.jpg",
+      "/images/products/shirt-nostyle266-black-front.jpg",
+      "/images/products/shirt-nostyle266-black-back.jpg",
+      "/images/products/shirt-nostyle266-blue-front.jpg",
+      "/images/products/shirt-nostyle266-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 4 }
+    ],
+    rating: 4.9,
+    reviews: 135,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Oxford"
+  },
+  {
+    id: 122,
+    name: "Áo Sơ Mi Tay Dài Easycare™ Vải Oxford Thoáng Mát Ít Nhăn Phối Cổ Sọc Tinh Tế Phom Vừa F3 - Màu Xanh Nhạt",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam tay dài vải Oxford cao cấp thuộc bộ sưu tập The No Style 266 từ thương hiệu Aureus Fashion. Gam màu xanh nhạt (Baby Blue Oxford) thanh lịch, tươi sáng và mang lại năng lượng tích cực cho phong cách công sở hàng ngày. Vải Oxford dệt cấu trúc rổ đanh mịn kết hợp sợi xử lý Easycare™ kháng khuẩn, thấm hút mồ hôi tối ưu và hạn chế nhăn nhàu vượt bậc. Chi tiết viền lót cổ dệt sọc pinstripe đồng điệu kết hợp cúc nút màu hổ phách ấm áp tạo nên vẻ ngoài chuẩn quý ông hiện đại. Phom vừa F3 (Regular Fit F3) vừa vặn tôn dáng, linh hoạt phối sơ vin hoặc buông ngoài.",
+    images: [
+      "/images/products/shirt-nostyle266-blue-front.jpg",
+      "/images/products/shirt-nostyle266-blue-back.jpg",
+      "/images/products/shirt-nostyle266-black-front.jpg",
+      "/images/products/shirt-nostyle266-black-back.jpg",
+      "/images/products/shirt-nostyle266-grey-front.jpg",
+      "/images/products/shirt-nostyle266-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#9BB8D3", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Xám Tiêu", hex: "#8A8D91", imageIndex: 4 }
+    ],
+    rating: 5.0,
+    reviews: 158,
     inStock: true,
     isNew: true,
     isSale: true,
