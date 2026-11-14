@@ -3595,6 +3595,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "EasyCare™ Oxford"
+  },
+  {
+    id: 124,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Siêu Nhẹ Co Giãn Thoát Nhiệt Tốt Êm Ái Phom Ôm Vừa F2 - Màu Xanh Nhạt",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam công sở cao cấp tay dài thuộc bộ sưu tập Seventy Seven 052 từ Aureus Fashion. Ứng dụng chất liệu vải Airdry™ thế hệ mới siêu nhẹ tênh, bề mặt đanh mịn như lụa với khả năng co giãn 4 chiều linh hoạt và thoát nhiệt vượt trội, đem lại cảm giác êm ái thoáng mát suốt 8 tiếng làm việc. Thiết kế cổ bẻ ve nhọn sắc sảo kết hợp đường cắt may chiết eo tinh tế phía sau lưng. Phom ôm vừa F2 (Fitted / Slim Fit F2) tôn trọn bờ vai rộng và vóc dáng săn chắc, hoàn hảo khi diện cùng quần âu slim-fit và veston hiện đại.",
+    images: [
+      "/images/products/shirt-seventyseven052-blue-front.jpg",
+      "/images/products/shirt-seventyseven052-blue-back.jpg",
+      "/images/products/shirt-seventyseven052-navy-front.jpg",
+      "/images/products/shirt-seventyseven052-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 0 },
+      { name: "Xanh Đen", hex: "#1F2937", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Featherlight"
+  },
+  {
+    id: 125,
+    name: "Áo Sơ Mi Tay Dài Công Sở Airdry™ Siêu Nhẹ Co Giãn Thoát Nhiệt Tốt Êm Ái Phom Ôm Vừa F2 - Màu Xanh Đen",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Áo sơ mi nam công sở cao cấp tay dài thuộc bộ sưu tập Seventy Seven 052 từ Aureus Fashion. Tông màu xanh đen (Midnight Navy) nam tính, bí ẩn và cực kỳ dễ phối đồ. Công nghệ sợi dệt Airdry™ siêu nhẹ tích hợp tính năng co giãn đàn hồi và tản nhiệt tức thì, xua tan cảm giác bí bách thường thấy ở sơ mi truyền thống. Đường may chiết lưng công phu cùng phom ôm vừa F2 (Fitted / Slim Fit F2) ôm nhẹ theo đường cong cơ thể, giúp quý ông luôn tự tin, đĩnh đạc và nổi bật trong mọi cuộc họp hay gặp gỡ đối tác.",
+    images: [
+      "/images/products/shirt-seventyseven052-navy-front.jpg",
+      "/images/products/shirt-seventyseven052-navy-back.jpg",
+      "/images/products/shirt-seventyseven052-blue-front.jpg",
+      "/images/products/shirt-seventyseven052-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen", hex: "#1F2937", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#A8CEEB", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Featherlight"
   }
 ];
 
