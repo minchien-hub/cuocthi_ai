@@ -9,8 +9,8 @@
 Trong ngành thương mại điện tử thời trang, **chọn sai kích cỡ (size)** và **không thể hình dung trang phục khi mặc lên người** là hai nguyên nhân lớn nhất khiến tỷ lệ hủy đơn và đổi trả hàng lên tới 30% - 40%. 
 
 **Aureus Fashion (Fit-Size AI)** ra đời nhằm giải quyết triệt để vấn đề này bằng cách kết hợp sức mạnh của **Edge AI (Trí tuệ nhân tạo biên trên thiết bị người dùng)** và **Generative AI (Trí tuệ nhân tạo tạo sinh)** để mang lại trải nghiệm mua sắm trực tuyến chân thực, bảo mật và thông minh vượt bậc:
-- **100% Client-Side Edge AI**: Quét vóc dáng và nhận diện chuyển động cơ thể bằng Google MediaPipe trực tiếp trên trình duyệt, không gửi video/hình ảnh cá nhân lên máy chủ, bảo mật quyền riêng tư tối đa và độ trễ 0ms.
-- **AI Virtual Try-On**: Thử đồ ảo đa chế độ từ Live Camera, dàn người mẫu chuẩn phom dáng đến công nghệ ghép đồ AI thế hệ mới (Diffusion VTON).
+- **100% Client-Side Edge AI (BodySize AI)**: Quét vóc dáng và nhận diện 33 điểm mốc khung xương bằng Google MediaPipe trực tiếp qua webcam trên trình duyệt, không gửi video/hình ảnh cá nhân lên máy chủ, bảo mật quyền riêng tư 100% và phản hồi tức thì với độ trễ 0ms.
+- **AI Virtual Try-On**: Tải ảnh chân dung cá nhân (toàn thân/nửa người), chọn đồ từ kho hàng và trải nghiệm thử đồ ảo chân thực được xử lý qua WeShop AI Engine, hỗ trợ so sánh đối chiếu ảnh gốc và hiển thị bảng chấm điểm vừa vặn vóc dáng (Fit Match Score 98%+).
 - **Aureus AI Stylist**: Trợ lý AI tư vấn phối đồ và chọn size chuẩn xác theo chiều cao, cân nặng 24/7.
 - **100 Sản Phẩm Thời Trang Cao Cấp**: Đầy đủ bộ sưu tập với thông số kỹ thuật chi tiết, bộ chọn màu swatch tương tác trực quan và ảnh chụp studio đa góc.
 
@@ -18,17 +18,18 @@ Trong ngành thương mại điện tử thời trang, **chọn sai kích cỡ (
 
 ## 🚀 4 Trụ Cột Tính Năng Đột Phá
 
-### 1. 📏 Trợ Lý AI Đo Vóc Dáng & Khóa Size Thông Minh (BodySize AI - Edge AI)
-* **Nhận diện 33 điểm mốc hình thể (MediaPipe Pose 33 Landmarks)**: Quét và định vị chính xác khung xương vai, ngực, eo, hông và chiều cao người dùng theo thời gian thực qua webcam.
-* **Tự động đo & Khóa size chuẩn**: Phân tích tỷ lệ hình thể để đưa ra đề xuất size chuẩn xác nhất (S, M, L, XL, XXL) với độ tin cậy hiển thị trực quan.
-* **Tích hợp đồng bộ**: Tự động liên kết kích thước đo được vào trang chi tiết sản phẩm ([`ProductDetailPage.js`](file:///c:/Users/ADMIN/Desktop/cuocthi/fashion-vton/src/pages/ProductDetailPage.js)) và phòng thử đồ ảo ([`VirtualTryOnPage.js`](file:///c:/Users/ADMIN/Desktop/cuocthi/fashion-vton/src/pages/VirtualTryOnPage.js)).
-* **Không phụ thuộc server**: Xử lý 100% bằng JavaScript/WebAssembly trên máy khách, đạt tốc độ 60 FPS mượt mà và bảo vệ tuyệt đối hình ảnh riêng tư.
+### 1. 📏 Trợ Lý AI Đo Vóc Dáng & Khóa Size Thông Minh (BodySize AI - Client-Side Edge AI)
+* **Nhận diện 33 điểm mốc hình thể (MediaPipe Pose 33 Landmarks)**: Quét và định vị chính xác khung xương vai, ngực, cánh tay theo thời gian thực qua webcam người dùng.
+* **Tự động đo & Gợi ý size chuẩn xác**: Phân tích khoảng cách giữa các điểm mốc cơ thể (đặc biệt là tỉ lệ độ rộng vai) để tự động tính toán và đưa ra đề xuất size chuẩn xác nhất (S, M, L, XL, XXL) với độ tin cậy hiển thị trực quan.
+* **Tích hợp đồng bộ tại trang sản phẩm**: Đặt ngay tại trang chi tiết sản phẩm ([`ProductDetailPage.js`](file:///c:/Users/ADMIN/Desktop/cuocthi/fashion-vton/src/pages/ProductDetailPage.js)), chỉ cần 1 cú nhấp "Áp Dụng Size Này" để tự động khóa size chuẩn vào đơn hàng.
+* **Không phụ thuộc server**: Xử lý 100% bằng JavaScript/WebAssembly trực tiếp trên máy khách, đạt tốc độ 60 FPS mượt mà và bảo vệ tuyệt đối hình ảnh riêng tư của người dùng.
 
-### 2. 👗 Phòng Thử Đồ Ảo AI Đa Chế Độ (Virtual Try-On Studio)
-* **Chế độ 1: Live Camera AI (Webcam trực tiếp)**: Người dùng bật camera, AI quét dáng và ướm trang phục theo chuyển động cơ thể trong thời gian thực.
-* **Chế độ 2: Người Mẫu Studio (Fashion Model Presets)**: Thử trang phục trực tiếp trên dàn người mẫu nam/nữ đa dạng chiều cao, cân nặng và phom dáng chuẩn.
-* **Chế độ 3: Ghép Đồ AI Tạo Sinh (Cloud Neural VTON - Gradio / WeShop AI / Fashn AI)**: Tải ảnh toàn thân cá nhân và ảnh trang phục từ cửa hàng, hệ thống AI tự động phân tích hình học, xử lý ánh sáng và nếp gấp vải để tạo ra bức ảnh mặc thử chân thực chuẩn studio thời trang.
-* **Neural Fitting Simulation**: Hiển thị bảng phân tích độ khớp trang phục với cơ thể (*Match Score 98%+, Đánh giá độ vừa vặn vai, ngực, tà áo*).
+### 2. 👗 Phòng Thử Đồ Ảo Trực Tuyến AI (Virtual Try-On Studio)
+* **Tải ảnh cá nhân dễ dàng**: Người dùng tải ảnh chụp chân dung toàn thân hoặc nửa người (JPG, PNG, WEBP) ở tư thế đứng tự nhiên, rõ nét.
+* **Chọn trang phục trực tiếp từ kho hàng**: Tự do lựa chọn bất kỳ món đồ nào trong bộ sưu tập 100 sản phẩm với ảnh mẫu chất lượng cao, hoặc bấm chuyển thẳng từ trang chi tiết sản phẩm sang phòng thử đồ.
+* **Xử lý ghép đồ AI tiên tiến (WeShop AI Engine)**: Tự động phân tích hình thể, nhận diện dáng người và ướm trang phục lên cơ thể với nếp gấp vải, độ co rủ và ánh sáng tự nhiên chuẩn xác.
+* **So sánh trực quan & Đánh giá độ khớp (Fit Match Score)**: Cho phép chuyển đổi tức thì giữa ảnh gốc và ảnh AI đã mặc đồ (`Xem ảnh gốc` / `Xem ảnh AI`), kèm chỉ số đo độ vừa vặn vóc dáng (*Match Score 98%+, đánh giá vai, ngực, chiều dài áo*).
+* **Thêm vào giỏ hàng tức thì**: Tích hợp chọn size và nút thêm ngay sản phẩm vào giỏ hàng (`Add to Cart`) trực tiếp từ kết quả thử đồ ảo.
 
 ### 3. 🤖 Trợ Lý Thời Trang Trí Tuệ Nhân Tạo (Aureus AI Stylist Chatbot)
 * **Tư vấn size chuyên sâu**: Phân tích chiều cao, cân nặng và phom dáng khách hàng mong muốn (Phom ôm vừa F2, Phom vừa F3, Phom rộng F4, Phom hộp F5) để gợi ý size chuẩn từng milimet.
@@ -64,7 +65,8 @@ fashion-vton/
 ├── public/
 │   ├── images/
 │   │   ├── products/              # Kho ảnh sản phẩm studio đa góc (mặt trước/mặt sau)
-│   │   └── models/                # Dàn ảnh người mẫu chuẩn phom dáng
+│   │   ├── banners/               # Banner quảng bá bộ sưu tập
+│   │   └── categories/            # Ảnh biểu trưng các danh mục thời trang
 │   ├── favicon.ico
 │   └── index.html
 ├── src/
@@ -88,7 +90,7 @@ fashion-vton/
 │   │   ├── HomePage.js            # Trang chủ: Banner, danh mục, sản phẩm hot
 │   │   ├── ShopPage.js            # Trang cửa hàng: Bộ lọc, tìm kiếm, sắp xếp
 │   │   ├── ProductDetailPage.js   # Chi tiết sản phẩm: Gallery, swatch, chọn size AI
-│   │   ├── VirtualTryOnPage.js    # Phòng thử đồ ảo AI đa chế độ
+│   │   ├── VirtualTryOnPage.js    # Phòng thử đồ ảo AI (WeShop AI Engine)
 │   │   ├── CartPage.js            # Trang giỏ hàng, áp mã ưu đãi, tính tổng
 │   │   ├── WishlistPage.js        # Trang danh sách sản phẩm yêu thích
 │   │   ├── AboutPage.js           # Trang giới thiệu thương hiệu Aureus Fashion
