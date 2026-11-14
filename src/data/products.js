@@ -4049,12 +4049,18 @@ const products = [
       "/images/products/pants-doubleknee012-sagegreen-front.jpg",
       "/images/products/pants-doubleknee012-sagegreen-back.jpg",
       "/images/products/pants-doubleknee012-khaki-front.jpg",
-      "/images/products/pants-doubleknee012-khaki-back.jpg"
+      "/images/products/pants-doubleknee012-khaki-back.jpg",
+      "/images/products/pants-doubleknee012-mocha-front.jpg",
+      "/images/products/pants-doubleknee012-mocha-back.jpg",
+      "/images/products/pants-doubleknee012-grey-front.jpg",
+      "/images/products/pants-doubleknee012-grey-back.jpg"
     ],
     sizes: ["28", "29", "30", "31", "32", "34"],
     colors: [
       { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 0 },
-      { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 2 }
+      { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 2 },
+      { name: "Nâu Mocha", hex: "#7B6C5F", imageIndex: 4 },
+      { name: "Xám Xi Măng", hex: "#A0A2A5", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 156,
@@ -4074,15 +4080,83 @@ const products = [
       "/images/products/pants-doubleknee012-khaki-front.jpg",
       "/images/products/pants-doubleknee012-khaki-back.jpg",
       "/images/products/pants-doubleknee012-sagegreen-front.jpg",
-      "/images/products/pants-doubleknee012-sagegreen-back.jpg"
+      "/images/products/pants-doubleknee012-sagegreen-back.jpg",
+      "/images/products/pants-doubleknee012-mocha-front.jpg",
+      "/images/products/pants-doubleknee012-mocha-back.jpg",
+      "/images/products/pants-doubleknee012-grey-front.jpg",
+      "/images/products/pants-doubleknee012-grey-back.jpg"
     ],
     sizes: ["28", "29", "30", "31", "32", "34"],
     colors: [
       { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 0 },
-      { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 2 }
+      { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 2 },
+      { name: "Nâu Mocha", hex: "#7B6C5F", imageIndex: 4 },
+      { name: "Xám Xi Măng", hex: "#A0A2A5", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Double Knee 310Gsm"
+  },
+  {
+    id: 140,
+    name: "Quần Jeans Ống Rộng Loose Fit Durabletex™ 310Gsm Gối Double Knee Chịu Lực Bền Bỉ Phom Rộng F4 - Màu Nâu Mocha",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống rộng phong cách workwear utility cao cấp thuộc bộ sưu tập Multi Color Jean 012 từ Aureus Fashion. Tông màu nâu mocha trầm ấm (Mocha Brown / Earth Tone) mang vẻ đẹp cổ điển, bụi bặm và đậm chất thời trang đường phố vintage. Chất liệu denim/canvas Durabletex™ định lượng 310Gsm đanh chắc, có khả năng chống sờn rách và giữ form ống suông đứng dáng hoàn hảo. Cấu trúc gối đôi chịu lực (Double Knee) gia cố bằng đinh tán tán góc kim loại mạ đồng, kết hợp quai búa và túi dụng cụ utility tiện ích. Phom rộng F4 (Loose Fit / Wide Leg F4) chuẩn mực, tôn dáng nam tính, thoải mái vận động và cực kỳ nổi bật khi mix cùng áo thun ringer, polo dệt kim hay áo khoác canvas.",
+    images: [
+      "/images/products/pants-doubleknee012-mocha-front.jpg",
+      "/images/products/pants-doubleknee012-mocha-back.jpg",
+      "/images/products/pants-doubleknee012-grey-front.jpg",
+      "/images/products/pants-doubleknee012-grey-back.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-front.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-back.jpg",
+      "/images/products/pants-doubleknee012-khaki-front.jpg",
+      "/images/products/pants-doubleknee012-khaki-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Nâu Mocha", hex: "#7B6C5F", imageIndex: 0 },
+      { name: "Xám Xi Măng", hex: "#A0A2A5", imageIndex: 2 },
+      { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 4 },
+      { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Double Knee 310Gsm"
+  },
+  {
+    id: 141,
+    name: "Quần Jeans Ống Rộng Loose Fit Durabletex™ 310Gsm Gối Double Knee Chịu Lực Bền Bỉ Phom Rộng F4 - Màu Xám Xi Măng",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống rộng phong cách workwear utility cao cấp thuộc bộ sưu tập Multi Color Jean 012 từ Aureus Fashion. Tông màu xám xi măng (Cement Grey) hiện đại, sắc sảo và mang tinh thần thời trang công nghiệp đương đại (Industrial Streetwear). Chất vải denim/canvas Durabletex™ định lượng 310Gsm bền bỉ, dày dặn nhưng tản nhiệt thông thoáng, không gây bí bách khi mặc cả ngày. Điểm nhấn mảng đắp gối đôi (Double Knee Panel) với hàng đinh tán tán góc chắc chắn, quai treo dụng cụ và túi sườn tiện dụng. Phom rộng F4 (Loose Fit / Wide Leg F4) buông rủ tự nhiên, hack dáng chân thon dài, dễ dàng phối match cùng áo thun oversize đen/trắng, áo hoodie nỉ hay sơ mi flannel năng động.",
+    images: [
+      "/images/products/pants-doubleknee012-grey-front.jpg",
+      "/images/products/pants-doubleknee012-grey-back.jpg",
+      "/images/products/pants-doubleknee012-mocha-front.jpg",
+      "/images/products/pants-doubleknee012-mocha-back.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-front.jpg",
+      "/images/products/pants-doubleknee012-sagegreen-back.jpg",
+      "/images/products/pants-doubleknee012-khaki-front.jpg",
+      "/images/products/pants-doubleknee012-khaki-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xám Xi Măng", hex: "#A0A2A5", imageIndex: 0 },
+      { name: "Nâu Mocha", hex: "#7B6C5F", imageIndex: 2 },
+      { name: "Xanh Xô Thơm", hex: "#7E8F84", imageIndex: 4 },
+      { name: "Nâu Khaki", hex: "#B5A593", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 134,
     inStock: true,
     isNew: true,
     isSale: true,
