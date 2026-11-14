@@ -2507,6 +2507,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "3D Jacquard 280Gsm"
+  },
+  {
+    id: 89,
+    name: "Áo Polo Tay Ngắn Icevibes™ Vải Thun 2 Mặt Cool Comfort Mát Rượi Cổ Phối Sọc Đứng Phom Phom Hộp Rộng F5 - Màu Xanh Đen Cổ Sọc",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo nam cao cấp phong cách Modern Streetwear thuộc bộ sưu tập The No Style 250 từ Aureus Fashion. Sử dụng chất liệu vải thun 2 mặt (Double-Face Knit) ứng dụng công nghệ làm mát Icevibes™ Cool Comfort độc quyền, bề mặt ngoài đanh chắc đứng phom, mặt trong tiếp xúc da tản nhiệt nhanh cho cảm giác mát lạnh tức thì, chống nhăn và kháng xù hiệu quả. Điểm nhấn thời trang ấn tượng với cổ áo dệt sọc nhí màu xanh nhạt (Light Blue Pinstripes) và bo viền tay áo đồng điệu mang hơi thở Retro Preppy thanh lịch. Thiết kế vai rơi drop-shoulder cùng phom hộp rộng F5 (Boxy Fit) thời thượng, tôn nét cá tính, phóng khoáng và tràn đầy năng lượng cho người mặc.",
+    images: [
+      "/images/products/polo-nostyle250-navy-front.jpg",
+      "/images/products/polo-nostyle250-navy-back.jpg",
+      "/images/products/polo-nostyle250-black-front.jpg",
+      "/images/products/polo-nostyle250-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen Cổ Sọc", hex: "#232B3E", imageIndex: 0 },
+      { name: "Đen Cổ Sọc", hex: "#1D1E22", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ Boxy F5"
+  },
+  {
+    id: 90,
+    name: "Áo Polo Tay Ngắn Icevibes™ Vải Thun 2 Mặt Cool Comfort Mát Rượi Cổ Phối Sọc Đứng Phom Phom Hộp Rộng F5 - Màu Đen Cổ Sọc",
+    category: "Áo",
+    price: 420000,
+    originalPrice: 550000,
+    description: "Áo polo nam cao cấp phong cách Modern Streetwear thuộc bộ sưu tập The No Style 250 từ Aureus Fashion. Tông màu đen kinh điển sang trọng và huyền bí, nổi bật với chi tiết cổ bẻ dệt sọc xám trắng tinh tế, đứng dáng chống quăn gập mép. Chất vải thun 2 mặt công nghệ Icevibes™ Cool Comfort mang lại sự thoáng mát vượt trội, đanh mịn và co giãn dễ chịu suốt ngày dài năng động. Dáng áo phom hộp rộng F5 (Boxy Fit) hack chiều cao, che khuyết điểm tốt và cực kỳ dễ phối cùng các loại quần jeans, quần túi hộp hay quần short.",
+    images: [
+      "/images/products/polo-nostyle250-black-front.jpg",
+      "/images/products/polo-nostyle250-black-back.jpg",
+      "/images/products/polo-nostyle250-navy-front.jpg",
+      "/images/products/polo-nostyle250-navy-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Cổ Sọc", hex: "#1D1E22", imageIndex: 0 },
+      { name: "Xanh Đen Cổ Sọc", hex: "#232B3E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 165,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ Boxy F5"
   }
 ];
 
