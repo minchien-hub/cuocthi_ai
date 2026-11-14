@@ -3213,12 +3213,18 @@ const products = [
       "/images/products/shirt-weekend067-navy-front.jpg",
       "/images/products/shirt-weekend067-navy-back.jpg",
       "/images/products/shirt-weekend067-black-front.jpg",
-      "/images/products/shirt-weekend067-black-back.jpg"
+      "/images/products/shirt-weekend067-black-back.jpg",
+      "/images/products/shirt-weekend067-white-front.jpg",
+      "/images/products/shirt-weekend067-white-back.jpg",
+      "/images/products/shirt-weekend067-lightblue-front.jpg",
+      "/images/products/shirt-weekend067-lightblue-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 0 },
-      { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 2 }
+      { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 2 },
+      { name: "Trắng Sọc Đen", hex: "#EDEDF0", imageIndex: 4 },
+      { name: "Xanh Nhạt Sọc Trắng", hex: "#7E9DBF", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 158,
@@ -3237,16 +3243,84 @@ const products = [
     images: [
       "/images/products/shirt-weekend067-black-front.jpg",
       "/images/products/shirt-weekend067-black-back.jpg",
+      "/images/products/shirt-weekend067-white-front.jpg",
+      "/images/products/shirt-weekend067-white-back.jpg",
+      "/images/products/shirt-weekend067-lightblue-front.jpg",
+      "/images/products/shirt-weekend067-lightblue-back.jpg",
       "/images/products/shirt-weekend067-navy-front.jpg",
       "/images/products/shirt-weekend067-navy-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 0 },
-      { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 2 }
+      { name: "Trắng Sọc Đen", hex: "#EDEDF0", imageIndex: 2 },
+      { name: "Xanh Nhạt Sọc Trắng", hex: "#7E9DBF", imageIndex: 4 },
+      { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Basketweave"
+  },
+  {
+    id: 113,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ 145Gsm Vải Dệt Rổ Sọc Mảnh Siêu Thoáng Khí Hack Dáng Phom Hộp Rộng F5 - Màu Trắng Sọc Đen",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Clean Fit & Mediterranean Summer thuộc bộ sưu tập The Weekend 067 từ Aureus Fashion. Tông màu trắng trang nhã kết hợp sọc pinstripe đen mảnh mai tinh tế, mang lại diện mạo thư thái, tươi sáng và cuốn hút. Cấu trúc vải dệt rổ (Basketweave) công nghệ Airdry™ siêu nhẹ 145Gsm với các khe thoáng khí tự nhiên giúp thoát mồ hôi và giảm nhiệt độ bề mặt da tức thì. Thiết kế túi ngực đôi may sọc ngang đối xứng phá cách, cúc áo dập nổi sắc nét cùng phom hộp rộng F5 (Boxy Fit) tạo hiệu ứng hack dáng thanh thoát và phong cách thời thượng.",
+    images: [
+      "/images/products/shirt-weekend067-white-front.jpg",
+      "/images/products/shirt-weekend067-white-back.jpg",
+      "/images/products/shirt-weekend067-lightblue-front.jpg",
+      "/images/products/shirt-weekend067-lightblue-back.jpg",
+      "/images/products/shirt-weekend067-navy-front.jpg",
+      "/images/products/shirt-weekend067-navy-back.jpg",
+      "/images/products/shirt-weekend067-black-front.jpg",
+      "/images/products/shirt-weekend067-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Sọc Đen", hex: "#EDEDF0", imageIndex: 0 },
+      { name: "Xanh Nhạt Sọc Trắng", hex: "#7E9DBF", imageIndex: 2 },
+      { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 4 },
+      { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Basketweave"
+  },
+  {
+    id: 114,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ 145Gsm Vải Dệt Rổ Sọc Mảnh Siêu Thoáng Khí Hack Dáng Phom Hộp Rộng F5 - Màu Xanh Nhạt Sọc Trắng",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Coastal Summer & Resort Chic thuộc bộ sưu tập The Weekend 067 từ Aureus Fashion. Tông màu xanh biển nhạt (Sky Blue) phối sọc pinstripe trắng mát mắt, mang đậm hơi thở của những kỳ nghỉ hè phóng khoáng. Chất liệu dệt rổ Airdry™ 145Gsm siêu mỏng nhẹ, bề mặt vải có độ xốp nhẹ tự nhiên, không nhăn nhàu và tạo cảm giác mát rượi khi mặc. Điểm nhấn túi hộp đôi hai bên ngực sọc ngang đối xứng cá tính, vạt bằng phom hộp rộng F5 (Boxy Fit) hiện đại, hoàn hảo để diện cùng quần short đũi, quần linen hoặc quần âu sáng màu.",
+    images: [
+      "/images/products/shirt-weekend067-lightblue-front.jpg",
+      "/images/products/shirt-weekend067-lightblue-back.jpg",
+      "/images/products/shirt-weekend067-white-front.jpg",
+      "/images/products/shirt-weekend067-white-back.jpg",
+      "/images/products/shirt-weekend067-navy-front.jpg",
+      "/images/products/shirt-weekend067-navy-back.jpg",
+      "/images/products/shirt-weekend067-black-front.jpg",
+      "/images/products/shirt-weekend067-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt Sọc Trắng", hex: "#7E9DBF", imageIndex: 0 },
+      { name: "Trắng Sọc Đen", hex: "#EDEDF0", imageIndex: 2 },
+      { name: "Xanh Đen Sọc Trắng", hex: "#232B3B", imageIndex: 4 },
+      { name: "Đen Sọc Trắng", hex: "#1E1F22", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 150,
     inStock: true,
     isNew: true,
     isSale: true,
