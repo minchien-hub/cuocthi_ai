@@ -4235,6 +4235,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Phủ Đồng F5"
+  },
+  {
+    id: 145,
+    name: "Quần Jeans Jogger Lưng Thun Durabletex™ Thoáng Mát Độ Bền Cao Giữ Dáng Hoàn Hảo Phom Rộng F4 - The Original 101 - Màu Xanh Nhạt Wash",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần jeans nam dáng jogger ống suông cao cấp thuộc bộ sưu tập The Original 101 từ Aureus Fashion. Được phát triển từ chất liệu vải denim Durabletex™ cao cấp với kết cấu sợi dệt bền chắc, thông thoáng tản nhiệt tốt và có khả năng giữ dáng hoàn hảo sau nhiều lần giặt. Thiết kế cạp lưng thun co giãn êm ái tích hợp dây rút tùy chỉnh độ vừa vặn, kết hợp ống suông buông tự nhiên phóng khoáng. Tông màu xanh nhạt wash (Light Bleach Blue) tươi trẻ, đậm chất thời trang dạo phố mùa hè. Thiết kế túi xéo sâu rộng và túi sau ốp nổi có thêu logo biểu tượng tinh tế ở góc túi. Phom rộng F4 (Relaxed Wide Fit F4) thoải mái, che khuyết điểm chân và tôn chiều cao, cực kỳ ăn ý khi kết hợp cùng áo thun oversize, áo polo hay sơ mi cộc tay.",
+    images: [
+      "/images/products/pants-original101-lightblue-front.jpg",
+      "/images/products/pants-original101-lightblue-back.jpg",
+      "/images/products/pants-original101-midblue-front.jpg",
+      "/images/products/pants-original101-midblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Nhạt Wash", hex: "#AEC2D9", imageIndex: 0 },
+      { name: "Xanh Vừa Wash", hex: "#7D98B8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Lưng Thun F4"
+  },
+  {
+    id: 146,
+    name: "Quần Jeans Jogger Lưng Thun Durabletex™ Thoáng Mát Độ Bền Cao Giữ Dáng Hoàn Hảo Phom Rộng F4 - The Original 101 - Màu Xanh Vừa Wash",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần jeans nam dáng jogger ống suông cao cấp thuộc bộ sưu tập The Original 101 từ Aureus Fashion. Tông màu xanh vừa wash (Medium Stone Wash) cổ điển, nam tính và dễ dàng phối đồ trong mọi hoàn cảnh. Ứng dụng công nghệ vải denim sợi Durabletex™ bền bỉ, thoáng khí, kháng nhăn và giữ phom ống đứng dáng chuẩn mực. Cạp chun co giãn kèm dây rút dệt cao cấp giúp cử động linh hoạt không gò bó. Phom rộng F4 (Relaxed Wide Fit F4) suông thẳng hiện đại, mang lại sự tự do thoải mái tuyệt đối cho cả ngày dài làm việc, học tập hay dạo phố cuối tuần.",
+    images: [
+      "/images/products/pants-original101-midblue-front.jpg",
+      "/images/products/pants-original101-midblue-back.jpg",
+      "/images/products/pants-original101-lightblue-front.jpg",
+      "/images/products/pants-original101-lightblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Vừa Wash", hex: "#7D98B8", imageIndex: 0 },
+      { name: "Xanh Nhạt Wash", hex: "#AEC2D9", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Lưng Thun F4"
   }
 ];
 
