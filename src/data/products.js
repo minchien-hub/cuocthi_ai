@@ -542,7 +542,7 @@ const products = [
   },
   {
     id: 22,
-    name: "Quần Jeans Baggy Ống Cong Mài Rách Durabletex™ Phủ Đồng Hạn Chế Nhăn Chống Bục Đáy Phom Siêu",
+    name: "Quần Jeans Baggy Ống Cong Mài Rách Durabletex™ Phủ Đồng Hạn Chế Nhăn Chống Bục Đáy Phom Siêu Rộng F5 - The Original 072",
     category: "Quần",
     price: 790000,
     originalPrice: 980000,
@@ -4211,6 +4211,30 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Lưng Thun Co Giãn"
+  },
+  {
+    id: 144,
+    name: "Quần Jeans Baggy Ống Cong Mài Rách Durabletex™ Phủ Đồng Hạn Chế Nhăn Chống Bục Đáy Phom Siêu Rộng F5 - The Original 072",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam baggy ống cong mài rách cao cấp thuộc bộ sưu tập The Original 072 từ thương hiệu Aureus Fashion. Ứng dụng công nghệ sợi Durabletex™ phủ đồng cao cấp độc quyền giúp tăng cường độ bền sợi vải, hạn chế nhăn tối đa và gia cố đường may kép chống bục đáy vượt trội. Thiết kế phom siêu rộng F5 với đường cắt ống cong thời thượng (Curved Silhouette F5) tạo hiệu ứng xếp nếp hack dáng chân dài tự nhiên, che khuyết điểm chân tuyệt đối. Hiệu ứng wash màu xanh retro vintage kết hợp cùng các chi tiết mài rách thủ công tinh xảo, cúc kim loại dập nổi và tag da bò The Original Denim ở cạp lưng. Dễ dàng mix & match cùng áo thun oversize, áo polo boxy hay hoodie đường phố.",
+    images: [
+      "/images/products/pants-original072-curved-front.jpg",
+      "/images/products/pants-original072-curved-back.jpg",
+      "/images/products/pants-original072-curved-detail1.jpg",
+      "/images/products/pants-original072-curved-detail2.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Wash Vintage", hex: "#7D9EB8", imageIndex: 0 }
+    ],
+    rating: 5.0,
+    reviews: 186,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Phủ Đồng F5"
   }
 ];
 
