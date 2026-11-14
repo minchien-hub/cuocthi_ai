@@ -3337,12 +3337,18 @@ const products = [
       "/images/products/shirt-weekend056-white-front.jpg",
       "/images/products/shirt-weekend056-white-back.jpg",
       "/images/products/shirt-weekend056-beige-front.jpg",
-      "/images/products/shirt-weekend056-beige-back.jpg"
+      "/images/products/shirt-weekend056-beige-back.jpg",
+      "/images/products/shirt-weekend056-navy-front.jpg",
+      "/images/products/shirt-weekend056-navy-back.jpg",
+      "/images/products/shirt-weekend056-black-front.jpg",
+      "/images/products/shirt-weekend056-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng", hex: "#FAF9F6", imageIndex: 0 },
-      { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 2 }
+      { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 2 },
+      { name: "Xanh Đen", hex: "#202636", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 154,
@@ -3362,15 +3368,83 @@ const products = [
       "/images/products/shirt-weekend056-beige-front.jpg",
       "/images/products/shirt-weekend056-beige-back.jpg",
       "/images/products/shirt-weekend056-white-front.jpg",
-      "/images/products/shirt-weekend056-white-back.jpg"
+      "/images/products/shirt-weekend056-white-back.jpg",
+      "/images/products/shirt-weekend056-navy-front.jpg",
+      "/images/products/shirt-weekend056-navy-back.jpg",
+      "/images/products/shirt-weekend056-black-front.jpg",
+      "/images/products/shirt-weekend056-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 0 },
-      { name: "Trắng", hex: "#FAF9F6", imageIndex: 2 }
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 2 },
+      { name: "Xanh Đen", hex: "#202636", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Linen-Touch"
+  },
+  {
+    id: 117,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ Vải Dệt Xước Hiệu Ứng Linen Thoáng Mát Chống Bết Dính Phom Rộng F4 - Màu Xanh Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam cổ trụ tay ngắn phong cách Quiet Luxury & Minimalist Resort thuộc bộ sưu tập The Weekend 056 từ Aureus Fashion. Tông màu xanh đen (Navy Night) trang nhã, nam tính và dễ dàng tôn vóc dáng. Chất vải dệt xước mô phỏng kết cấu xơ tự nhiên của Linen cao cấp kết hợp công nghệ thoát nhiệt Airdry™ mang lại cảm giác nhẹ tênh, mát mẻ và chống bết dính mồ hôi tối ưu. Thiết kế cổ trụ (Mandarin Collar) sắc nét, hàng nút cài tinh xảo cùng phom rộng F4 vạt bầu thanh lịch, cực kỳ phù hợp khi kết hợp cùng quần âu, khaki hoặc short đi dạo phố cuối tuần.",
+    images: [
+      "/images/products/shirt-weekend056-navy-front.jpg",
+      "/images/products/shirt-weekend056-navy-back.jpg",
+      "/images/products/shirt-weekend056-black-front.jpg",
+      "/images/products/shirt-weekend056-black-back.png",
+      "/images/products/shirt-weekend056-white-front.jpg",
+      "/images/products/shirt-weekend056-white-back.jpg",
+      "/images/products/shirt-weekend056-beige-front.jpg",
+      "/images/products/shirt-weekend056-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen", hex: "#202636", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 4 },
+      { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Linen-Touch"
+  },
+  {
+    id: 118,
+    name: "Áo Sơ Mi Tay Ngắn Airdry™ Vải Dệt Xước Hiệu Ứng Linen Thoáng Mát Chống Bết Dính Phom Rộng F4 - Màu Đen",
+    category: "Áo",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Áo sơ mi nam cổ trụ tay ngắn phong cách All-Black Chic & Modern Sartorial thuộc bộ sưu tập The Weekend 056 từ Aureus Fashion. Tông màu đen tuyền huyền bí kết hợp cấu trúc dệt xước (Slub Linen-Effect) tạo nên bề mặt vải có chiều sâu thị giác ấn tượng và cuốn hút. Nhờ công nghệ sợi Airdry™ tiên tiến, áo khắc phục hoàn toàn nhược điểm dày nóng của vải thông thường, giúp cơ thể luôn mát mẻ và khô thoáng. Chi tiết cổ trụ cổ điển kết hợp túi ốp ngực vuông và phom rộng F4 mang lại phong thái đỉnh đạc, tự tin cho phái mạnh.",
+    images: [
+      "/images/products/shirt-weekend056-black-front.jpg",
+      "/images/products/shirt-weekend056-black-back.png",
+      "/images/products/shirt-weekend056-navy-front.jpg",
+      "/images/products/shirt-weekend056-navy-back.jpg",
+      "/images/products/shirt-weekend056-white-front.jpg",
+      "/images/products/shirt-weekend056-white-back.jpg",
+      "/images/products/shirt-weekend056-beige-front.jpg",
+      "/images/products/shirt-weekend056-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Xanh Đen", hex: "#202636", imageIndex: 2 },
+      { name: "Trắng", hex: "#FAF9F6", imageIndex: 4 },
+      { name: "Be Yến Mạch", hex: "#E8E2D8", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 152,
     inStock: true,
     isNew: true,
     isSale: true,
