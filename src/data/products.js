@@ -2383,6 +2383,130 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "ColorLock™ 250Gsm"
+  },
+  {
+    id: 85,
+    name: "Áo Polo Tay Ngắn Dệt Hoa Văn Nổi 3D 280Gsm Đứng Phom Kháng Nhăn Co Giãn Linh Hoạt Phom Rộng F4 - Màu Xám Tiêu Sáng",
+    category: "Áo",
+    price: 430000,
+    originalPrice: 560000,
+    description: "Áo polo nam cao cấp thuộc bộ sưu tập The No Style 269 từ Aureus Fashion. Ứng dụng kỹ thuật dệt Jacquard hoa văn vân chéo hình học nổi 3D độc đáo trên nền vải định lượng 280Gsm đanh chắc, bề mặt sang trọng, kháng nhăn tự nhiên và co giãn linh hoạt 4 chiều. Thiết kế cổ bẻ dệt rib phối khóa kéo kim loại nửa ngực (quarter-zip) hiện đại thay thế hàng khuy truyền thống, mang đến phong thái lịch lãm, tinh giản và thời thượng. Tông màu xám tiêu sáng (Melange Grey) trẻ trung, dễ dàng phối hợp đa phong cách. Phom rộng F4 thoải mái, che khuyết điểm tốt và tôn vóc dáng phóng khoáng.",
+    images: [
+      "/images/products/polo-nostyle269-grey-front.jpg",
+      "/images/products/polo-nostyle269-grey-back.jpg",
+      "/images/products/polo-nostyle269-black-front.jpg",
+      "/images/products/polo-nostyle269-black-back.jpg",
+      "/images/products/polo-nostyle269-brown-front.jpg",
+      "/images/products/polo-nostyle269-brown-back.jpg",
+      "/images/products/polo-nostyle269-cream-front.jpg",
+      "/images/products/polo-nostyle269-cream-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#B5B7B9", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Nâu Mocha", hex: "#5A4538", imageIndex: 4 },
+      { name: "Trắng Kem", hex: "#F5F0E6", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "3D Jacquard 280Gsm"
+  },
+  {
+    id: 86,
+    name: "Áo Polo Tay Ngắn Dệt Hoa Văn Nổi 3D 280Gsm Đứng Phom Kháng Nhăn Co Giãn Linh Hoạt Phom Rộng F4 - Màu Đen",
+    category: "Áo",
+    price: 430000,
+    originalPrice: 560000,
+    description: "Áo polo nam cao cấp thuộc bộ sưu tập The No Style 269 từ Aureus Fashion. Tông màu đen huyền bí kết hợp cấu trúc dệt hoa văn hình học nổi 3D tinh xảo, tạo hiệu ứng thị giác chiều sâu ấn tượng trên từng thớ vải. Chất vải dệt Jacquard định lượng 280Gsm dày dặn đứng phom, kháng nhăn vượt trội, giữ dáng áo thẳng thớm suốt ngày dài. Điểm nhấn khóa kéo kim loại quarter-zip cổ áo mang đậm phong cách Urban Chic hiện đại. Phom rộng F4 năng động, thoáng mát và tôn lên nét nam tính cuốn hút.",
+    images: [
+      "/images/products/polo-nostyle269-black-front.jpg",
+      "/images/products/polo-nostyle269-black-back.jpg",
+      "/images/products/polo-nostyle269-grey-front.jpg",
+      "/images/products/polo-nostyle269-grey-back.jpg",
+      "/images/products/polo-nostyle269-brown-front.jpg",
+      "/images/products/polo-nostyle269-brown-back.jpg",
+      "/images/products/polo-nostyle269-cream-front.jpg",
+      "/images/products/polo-nostyle269-cream-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Xám Tiêu Sáng", hex: "#B5B7B9", imageIndex: 2 },
+      { name: "Nâu Mocha", hex: "#5A4538", imageIndex: 4 },
+      { name: "Trắng Kem", hex: "#F5F0E6", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "3D Jacquard 280Gsm"
+  },
+  {
+    id: 87,
+    name: "Áo Polo Tay Ngắn Dệt Hoa Văn Nổi 3D 280Gsm Đứng Phom Kháng Nhăn Co Giãn Linh Hoạt Phom Rộng F4 - Màu Nâu Mocha",
+    category: "Áo",
+    price: 430000,
+    originalPrice: 560000,
+    description: "Áo polo nam cao cấp thuộc bộ sưu tập The No Style 269 từ Aureus Fashion. Tông màu nâu mocha (Mocha Brown / Cà phê) sang trọng, ấm áp và cực kỳ tôn da. Sử dụng kỹ thuật dệt Jacquard tạo vân hoa văn hình học nổi 3D độc đáo trên chất vải định lượng 280Gsm dày dặn đanh chắc, kháng nhăn tự nhiên và co giãn 4 chiều linh hoạt. Cổ bẻ dệt rib đanh mịn kết hợp cùng khóa kéo kim loại quarter-zip nửa ngực hiện đại mang hơi thở Old Money tinh tế. Phom rộng F4 mang lại sự thoải mái, phóng khoáng và lịch lãm trong mọi hoàn cảnh.",
+    images: [
+      "/images/products/polo-nostyle269-brown-front.jpg",
+      "/images/products/polo-nostyle269-brown-back.jpg",
+      "/images/products/polo-nostyle269-cream-front.jpg",
+      "/images/products/polo-nostyle269-cream-back.jpg",
+      "/images/products/polo-nostyle269-grey-front.jpg",
+      "/images/products/polo-nostyle269-grey-back.jpg",
+      "/images/products/polo-nostyle269-black-front.jpg",
+      "/images/products/polo-nostyle269-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Mocha", hex: "#5A4538", imageIndex: 0 },
+      { name: "Trắng Kem", hex: "#F5F0E6", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#B5B7B9", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "3D Jacquard 280Gsm"
+  },
+  {
+    id: 88,
+    name: "Áo Polo Tay Ngắn Dệt Hoa Văn Nổi 3D 280Gsm Đứng Phom Kháng Nhăn Co Giãn Linh Hoạt Phom Rộng F4 - Màu Trắng Kem",
+    category: "Áo",
+    price: 430000,
+    originalPrice: 560000,
+    description: "Áo polo nam cao cấp thuộc bộ sưu tập The No Style 269 từ Aureus Fashion. Sắc trắng kem (Off-White / Cream) thanh nhã, tôn lên trọn vẹn những đường nét hoa văn dệt chìm nổi 3D tinh tế và đẳng cấp. Vải dệt Jacquard 280Gsm đứng dáng, co giãn linh hoạt, không lo nhăn nhàu sau khi giặt. Thiết kế cổ bẻ kết hợp khóa kéo kim loại quarter-zip bóng bẩy tạo diện mạo sang trọng, trẻ trung. Phom rộng F4 thoáng mát, dễ dàng phối cùng nhiều kiểu quần từ âu, khaki đến jeans.",
+    images: [
+      "/images/products/polo-nostyle269-cream-front.jpg",
+      "/images/products/polo-nostyle269-cream-back.jpg",
+      "/images/products/polo-nostyle269-brown-front.jpg",
+      "/images/products/polo-nostyle269-brown-back.jpg",
+      "/images/products/polo-nostyle269-grey-front.jpg",
+      "/images/products/polo-nostyle269-grey-back.jpg",
+      "/images/products/polo-nostyle269-black-front.jpg",
+      "/images/products/polo-nostyle269-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Kem", hex: "#F5F0E6", imageIndex: 0 },
+      { name: "Nâu Mocha", hex: "#5A4538", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#B5B7B9", imageIndex: 4 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "3D Jacquard 280Gsm"
   }
 ];
 
