@@ -3913,6 +3913,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Denim 12Oz Stretch"
+  },
+  {
+    id: 134,
+    name: "Quần Jeans Ống Suông Mài Nhẹ Durabletex™ 11.8Oz Vải Mềm Thoáng Mát Đứng Phom Phom Rộng F4 - Màu Xanh Nhạt Wash",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống suông cao cấp thuộc bộ sưu tập The Original 064 từ Aureus Fashion. Được phát triển từ chất liệu vải denim Durabletex™ định lượng 11.8Oz tiêu chuẩn, mềm mịn, thông thoáng và có khả năng chống mài mòn vượt trội. Hiệu ứng mài nhẹ (Subtle Whiskers & Sanded Wash) mang lại phong cách Retro Streetwear hiện đại, bụi bặm nhưng vẫn giữ được nét lịch lãm. Thiết kế cạp cao vừa vặn, chuẩn 5 túi cổ điển, khóa kéo kim loại cao cấp và tag da bò dập logo thương hiệu ở cạp lưng. Phom rộng F4 (Wide Leg / Relaxed Straight Fit F4) buông thẳng đứng ống, hack chiều cao và che khuyết điểm chân tuyệt đối, cực kỳ ăn ý khi kết hợp cùng áo thun oversize, polo boxy hay sơ mi khoác ngoài.",
+    images: [
+      "/images/products/pants-original064-lightblue-front.jpg",
+      "/images/products/pants-original064-lightblue-back.jpg",
+      "/images/products/pants-original064-darkblue-front.jpg",
+      "/images/products/pants-original064-darkblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 0 },
+      { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ 11.8Oz"
+  },
+  {
+    id: 135,
+    name: "Quần Jeans Ống Suông Mài Nhẹ Durabletex™ 11.8Oz Vải Mềm Thoáng Mát Đứng Phom Phom Rộng F4 - Màu Xanh Đậm",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần jeans nam ống suông cao cấp thuộc bộ sưu tập The Original 064 từ Aureus Fashion. Tông màu xanh chàm đậm nguyên bản (Raw Indigo Denim) sang trọng, đứng đắn và chuẩn phong cách Casual Smart. Chất liệu denim Durabletex™ 11.8Oz đanh mịn, đứng phom và tản nhiệt thoáng mát, không gây bí nóng. Thiết kế đường chỉ may nổi tương phản sắc nét, phụ kiện cúc đinh tán kim loại đúc bền bỉ cùng tag da cao cấp. Phom rộng F4 (Wide Leg / Relaxed Straight Fit F4) phóng khoáng, thoải mái trong mọi chuyển động, dễ dàng nâng tầm phong cách khi phối cùng áo thun trơn, sơ mi oxford hay áo khoác denim.",
+    images: [
+      "/images/products/pants-original064-darkblue-front.jpg",
+      "/images/products/pants-original064-darkblue-back.jpg",
+      "/images/products/pants-original064-lightblue-front.jpg",
+      "/images/products/pants-original064-lightblue-back.jpg"
+    ],
+    sizes: ["28", "29", "30", "31", "32", "34"],
+    colors: [
+      { name: "Xanh Đậm", hex: "#232B3E", imageIndex: 0 },
+      { name: "Xanh Nhạt Wash", hex: "#7E9EC9", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ 11.8Oz"
   }
 ];
 
