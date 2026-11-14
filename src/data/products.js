@@ -2965,12 +2965,18 @@ const products = [
       "/images/products/shirt-seventyseven065-cream-front.jpg",
       "/images/products/shirt-seventyseven065-cream-back.jpg",
       "/images/products/shirt-seventyseven065-brown-front.jpg",
-      "/images/products/shirt-seventyseven065-brown-back.jpg"
+      "/images/products/shirt-seventyseven065-brown-back.jpg",
+      "/images/products/shirt-seventyseven065-black-front.jpg",
+      "/images/products/shirt-seventyseven065-black-back.jpg",
+      "/images/products/shirt-seventyseven065-navy-front.jpg",
+      "/images/products/shirt-seventyseven065-navy-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 0 },
-      { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 2 }
+      { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 2 },
+      { name: "Đen Cổ Xám", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Xanh Than Cổ Đen", hex: "#343B47", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 146,
@@ -2989,16 +2995,84 @@ const products = [
     images: [
       "/images/products/shirt-seventyseven065-brown-front.jpg",
       "/images/products/shirt-seventyseven065-brown-back.jpg",
+      "/images/products/shirt-seventyseven065-black-front.jpg",
+      "/images/products/shirt-seventyseven065-black-back.jpg",
+      "/images/products/shirt-seventyseven065-navy-front.jpg",
+      "/images/products/shirt-seventyseven065-navy-back.jpg",
       "/images/products/shirt-seventyseven065-cream-front.jpg",
       "/images/products/shirt-seventyseven065-cream-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 0 },
-      { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 2 }
+      { name: "Đen Cổ Xám", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Xanh Than Cổ Đen", hex: "#343B47", imageIndex: 4 },
+      { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 132,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Corduroy"
+  },
+  {
+    id: 105,
+    name: "Áo Sơ Mi Tay Ngắn EasyCare™ Vải Nhung Tăm Cổ Phối Nẹp Lai Nút Bấm Phom Hộp Rộng F5 - Màu Đen Cổ Xám",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Streetwear & Minimalist Luxury thuộc bộ sưu tập Seventy Seven 065 từ Aureus Fashion. Tông màu đen tuyền huyền bí được làm bật lên nhờ chi tiết cổ bẻ phối màu xám tiêu tương phản tinh tế. Bề mặt vải nhung tăm micro corduroy dệt mịn với công nghệ EasyCare™ giúp chống nhăn, ít bám bụi, giữ cho áo luôn đứng nếp chuẩn mực. Hàng nút bấm snap kim loại bọc màu tiệp vải đồng bộ cùng thiết kế phom hộp rộng F5 (Boxy Fit) vai hạ drop-shoulder và vạt bằng gọn gàng, mang lại phong thái cuốn hút, nam tính và đầy tự tin.",
+    images: [
+      "/images/products/shirt-seventyseven065-black-front.jpg",
+      "/images/products/shirt-seventyseven065-black-back.jpg",
+      "/images/products/shirt-seventyseven065-navy-front.jpg",
+      "/images/products/shirt-seventyseven065-navy-back.jpg",
+      "/images/products/shirt-seventyseven065-cream-front.jpg",
+      "/images/products/shirt-seventyseven065-cream-back.jpg",
+      "/images/products/shirt-seventyseven065-brown-front.jpg",
+      "/images/products/shirt-seventyseven065-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Cổ Xám", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Xanh Than Cổ Đen", hex: "#343B47", imageIndex: 2 },
+      { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 4 },
+      { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "EasyCare™ Corduroy"
+  },
+  {
+    id: 106,
+    name: "Áo Sơ Mi Tay Ngắn EasyCare™ Vải Nhung Tăm Cổ Phối Nẹp Lai Nút Bấm Phom Hộp Rộng F5 - Màu Xanh Than Cổ Đen",
+    category: "Áo",
+    price: 410000,
+    originalPrice: 580000,
+    description: "Áo sơ mi nam tay ngắn phong cách Modern Casual & Dark Academia thuộc bộ sưu tập Seventy Seven 065 từ Aureus Fashion. Tông màu xanh than trầm lắng (Deep Charcoal Navy) kết hợp cổ bẻ đen tương phản quyền lực, tạo nên tổng thể trang nhã, hiện đại và bí ẩn. Ứng dụng chất vải nhung tăm sợi siêu nhỏ kết hợp công nghệ EasyCare™ mềm êm, thấm hút tốt và không lo co rút hay biến dạng sau khi giặt. Hàng nẹp lai nút bấm snap kim loại bọc thời thượng cùng phom dáng hộp rộng F5 (Boxy Fit) vạt bằng chuẩn form, cực kỳ dễ phối cùng quần âu, khaki hoặc quần short tối màu.",
+    images: [
+      "/images/products/shirt-seventyseven065-navy-front.jpg",
+      "/images/products/shirt-seventyseven065-navy-back.jpg",
+      "/images/products/shirt-seventyseven065-black-front.jpg",
+      "/images/products/shirt-seventyseven065-black-back.jpg",
+      "/images/products/shirt-seventyseven065-cream-front.jpg",
+      "/images/products/shirt-seventyseven065-cream-back.jpg",
+      "/images/products/shirt-seventyseven065-brown-front.jpg",
+      "/images/products/shirt-seventyseven065-brown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Than Cổ Đen", hex: "#343B47", imageIndex: 0 },
+      { name: "Đen Cổ Xám", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Be Sáng Cổ Nâu", hex: "#EAE5DC", imageIndex: 4 },
+      { name: "Nâu Cà Phê Cổ Đen", hex: "#5C4638", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 142,
     inStock: true,
     isNew: true,
     isSale: true,
