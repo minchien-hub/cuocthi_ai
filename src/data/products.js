@@ -5493,6 +5493,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Easycare™ F3"
+  },
+  {
+    id: 188,
+    name: "Quần Short Lưng Thun CloudTouch™ Tự Phẳng Không Cần Ủi Đáy Thụng Vừa Vặn Phom Rộng F4 - Non Branded 066 - Màu Đen",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam cao cấp thuộc bộ sưu tập Non Branded 066 từ thương hiệu Aureus Fashion. Được phát triển trên nền chất liệu dệt thun cao cấp ứng dụng công nghệ CloudTouch™ thế hệ mới, mang lại bề mặt vải siêu mềm mịn màng êm ái tựa đám mây, đàn hồi co giãn đa chiều và đặc tính tự phục hồi phẳng phiu (Non-Iron) không cần là ủi sau khi giặt. Thiết kế đũng thụng vừa vặn (Comfort Drop Crotch) giải phóng áp lực vùng đùi và đũng quần, đem lại sự thoải mái tự do tuyệt đối khi vận động, tập thể thao hay mặc nhà dạo phố. Cạp lưng thun co giãn êm ái tích hợp đường may chần chỉ chắc chắn không gây lằn bụng, 2 túi mổ dọc bên hông sâu rộng tiện lợi và 2 túi ốp vuông khỏe khoắn phía sau. Phom rộng F4 (Relaxed Wide Fit F4) năng động, che khuyết điểm chân và tôn nét phóng khoáng. Tông màu đen tuyền nam tính kinh điển, dễ dàng mix&match cùng áo thun oversize, áo ba lỗ tank top, áo polo dệt kim hay hoodie không tay.",
+    images: [
+      "/images/products/shorts-nonbranded066-black-front.jpg",
+      "/images/products/shorts-nonbranded066-black-back.jpg",
+      "/images/products/shorts-nonbranded066-grey-front.jpg",
+      "/images/products/shorts-nonbranded066-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Xám Tiêu", hex: "#B8B9BD", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F4"
+  },
+  {
+    id: 189,
+    name: "Quần Short Lưng Thun CloudTouch™ Tự Phẳng Không Cần Ủi Đáy Thụng Vừa Vặn Phom Rộng F4 - Non Branded 066 - Màu Xám Tiêu",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam cao cấp thuộc bộ sưu tập Non Branded 066 từ thương hiệu Aureus Fashion. Tông màu xám tiêu (Heather Grey Melange) trẻ trung, hiện đại và chuẩn tinh thần Athleisure đường phố. Ứng dụng công nghệ vải dệt CloudTouch™ xốp nhẹ, thấm hút mồ hôi và bay ẩm siêu tốc, giúp người mặc luôn cảm thấy mát mẻ dễ chịu trong mọi hoạt động mùa hè. Kỹ thuật cắt rập đáy thụng tinh tế kết hợp phom rộng F4 (Relaxed Fit F4) thời thượng, đem lại độ rũ tự nhiên mà không lo nhăn nhàu nhờ khả năng tự phẳng thông minh. Trang bị 2 túi xẻ sườn rộng rãi cùng 2 túi vuông bản lớn phía sau tiện dụng cất giữ đồ đạc. Hoàn hảo để diện đi tập gym, chạy bộ, dạo phố cuối tuần hoặc phối layer cùng áo thun streetwear, áo sơ mi cộc tay khoác ngoài và giày sneaker năng động.",
+    images: [
+      "/images/products/shorts-nonbranded066-grey-front.jpg",
+      "/images/products/shorts-nonbranded066-grey-back.jpg",
+      "/images/products/shorts-nonbranded066-black-front.jpg",
+      "/images/products/shorts-nonbranded066-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu", hex: "#B8B9BD", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F4"
   }
 ];
 
