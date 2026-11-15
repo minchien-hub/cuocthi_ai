@@ -5099,6 +5099,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Wide Leg F5"
+  },
+  {
+    id: 175,
+    name: "Quần Dài Lưng Thun Ống Cong Viền Line Cotton Dệt Kép Dày Dặn Đứng Dáng Phom Siêu Rộng F5 - The No Style 215 - Màu Đen Phối Cạp Xám",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài nam lưng thun ống cong thuộc bộ sưu tập The No Style 215 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu Cotton Dệt Kép (Double-Knit Interlock Cotton) cao cấp định lượng dày dặn, đanh mịn, đứng phom và chống bai xù sau nhiều lần giặt sấy. Thiết kế rập ống cong 3D (Curved Balloon Leg Silhouette) độc đáo kết hợp chi tiết xếp ly ly rút gấu tạo độ phồng nhẹ tự nhiên, hack dáng chân cong và tạo vẻ ngoài cực kỳ thời thượng. Điểm nhấn phối màu color-block ấn tượng với cạp chun thun xám tiêu tương phản kèm dây rút thể thao, dải viền line trắng chạy dọc hai bên sườn tạo hiệu ứng kéo dài đôi chân. Hai túi ốp vuông bản lớn phía trước vừa mang hơi thở Utility/Gorpcore vừa cực kỳ tiện dụng đựng đồ cá nhân, kèm 1 túi ốp phía sau. Phom siêu rộng F5 (Super Wide Leg F5) phóng khoáng, phối cực 'cháy' cùng áo thun oversize, hoodie boxy, áo polo dệt kim hay sneaker chunky.",
+    images: [
+      "/images/products/pants-thenostyle215-black-front.png",
+      "/images/products/pants-thenostyle215-black-back.png",
+      "/images/products/pants-thenostyle215-grey-front.jpg",
+      "/images/products/pants-thenostyle215-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen Phối Cạp Xám", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Xám Tiêu Phối Cạp Đen", hex: "#C5C7CA", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Curved F5"
+  },
+  {
+    id: 176,
+    name: "Quần Dài Lưng Thun Ống Cong Viền Line Cotton Dệt Kép Dày Dặn Đứng Dáng Phom Siêu Rộng F5 - The No Style 215 - Màu Xám Tiêu Phối Cạp Đen",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài nam lưng thun ống cong thuộc bộ sưu tập The No Style 215 từ thương hiệu Aureus Fashion. Tông màu xám tiêu phối cạp đen (Heather Grey & Black Waistband) hiện đại, đậm chất Athleisure & Y2K Streetwear. Vải cotton dệt kép đanh chắc, mềm mát, giữ form dáng ống phồng cong chuẩn chỉnh suốt cả ngày. Chi tiết viền line đen nổi bật hai bên hông tạo đường nét thể thao thanh thoát. Thiết kế hai túi hộp ốp phía trước rộng rãi, cạp chun co giãn êm ái tích hợp dây rút dễ điều chỉnh và túi sau tiện dụng. Phom siêu rộng F5 (Super Wide Leg F5) mang lại sự tự do thoải mái tuyệt đối cho người mặc, dễ dàng mix cùng áo thun ringer bo viền, áo nỉ sweater hay áo khoác bóng chày bomber.",
+    images: [
+      "/images/products/pants-thenostyle215-grey-front.jpg",
+      "/images/products/pants-thenostyle215-grey-back.jpg",
+      "/images/products/pants-thenostyle215-black-front.png",
+      "/images/products/pants-thenostyle215-black-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Phối Cạp Đen", hex: "#C5C7CA", imageIndex: 0 },
+      { name: "Đen Phối Cạp Xám", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 155,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Curved F5"
   }
 ];
 
