@@ -6113,14 +6113,17 @@ const products = [
       "/images/products/shorts-weekend063-charcoal-front.jpg",
       "/images/products/shorts-weekend063-charcoal-back.jpg",
       "/images/products/shorts-weekend063-lightgrey-front.jpg",
-      "/images/products/shorts-weekend063-lightgrey-back.jpg"
+      "/images/products/shorts-weekend063-lightgrey-back.jpg",
+      "/images/products/shorts-weekend063-black-front.jpg",
+      "/images/products/shorts-weekend063-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
       { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 2 },
       { name: "Xám Chì", hex: "#55524D", imageIndex: 4 },
-      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 6 }
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 6 },
+      { name: "Đen", hex: "#222222", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 142,
@@ -6144,14 +6147,17 @@ const products = [
       "/images/products/shorts-weekend063-charcoal-front.jpg",
       "/images/products/shorts-weekend063-charcoal-back.jpg",
       "/images/products/shorts-weekend063-lightgrey-front.jpg",
-      "/images/products/shorts-weekend063-lightgrey-back.jpg"
+      "/images/products/shorts-weekend063-lightgrey-back.jpg",
+      "/images/products/shorts-weekend063-black-front.jpg",
+      "/images/products/shorts-weekend063-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 0 },
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 },
       { name: "Xám Chì", hex: "#55524D", imageIndex: 4 },
-      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 6 }
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 6 },
+      { name: "Đen", hex: "#222222", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 135,
@@ -6175,14 +6181,17 @@ const products = [
       "/images/products/shorts-weekend063-white-front.jpg",
       "/images/products/shorts-weekend063-white-back.jpg",
       "/images/products/shorts-weekend063-beige-front.jpg",
-      "/images/products/shorts-weekend063-beige-back.jpg"
+      "/images/products/shorts-weekend063-beige-back.jpg",
+      "/images/products/shorts-weekend063-black-front.jpg",
+      "/images/products/shorts-weekend063-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Chì", hex: "#55524D", imageIndex: 0 },
       { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 2 },
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 4 },
-      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 6 }
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 6 },
+      { name: "Đen", hex: "#222222", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 148,
@@ -6206,17 +6215,54 @@ const products = [
       "/images/products/shorts-weekend063-white-front.jpg",
       "/images/products/shorts-weekend063-white-back.jpg",
       "/images/products/shorts-weekend063-beige-front.jpg",
-      "/images/products/shorts-weekend063-beige-back.jpg"
+      "/images/products/shorts-weekend063-beige-back.jpg",
+      "/images/products/shorts-weekend063-black-front.jpg",
+      "/images/products/shorts-weekend063-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 0 },
       { name: "Xám Chì", hex: "#55524D", imageIndex: 2 },
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 4 },
-      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 6 }
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 6 },
+      { name: "Đen", hex: "#222222", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ F3"
+  },
+  {
+    id: 211,
+    name: "Quần Short Lưng Gài DurableTex™ Xếp Ly Thân Trước Chiết Ben Ôm Eo Chạm Gối Phom Vừa F3 - The Weekend 063 - Màu Đen",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short nam may đo cao cấp thuộc bộ sưu tập The Weekend 063 từ thương hiệu Aureus Fashion. Tông màu đen kinh điển (Timeless Onyx Black) huyền bí, mạnh mẽ và quyền lực, tôn trọn vóc dáng nam tính thon gọn. Được chế tác từ chất vải dệt DurableTex™ độc quyền với kết cấu sợi bền bỉ đanh chắc, thoáng khí và kháng nhăn nhàu vượt trội qua mọi điều kiện giặt ủi. Thiết kế nổi bật với chi tiết đường xếp ly thân trước (Front Pleats) lịch lãm tạo độ phồng cử động thoải mái cho vùng đùi, kết hợp kỹ thuật chiết ben tỉ mỉ phía sau (Back Waist Darts) giúp quần ôm khít hõm eo một cách hoàn hảo mà không bị bửa hở lưng khi ngồi. Cạp quần dạng lưng gài khuy sang trọng có con đỉa tiện lợi phối cùng thắt lưng da, 2 túi xéo bên hông sâu rộng và 1 túi mổ cơi sau sắc nét. Độ dài chạm gối chuẩn mực, phom vừa F3 (Regular Fit F3) tôn nét đĩnh đạc chỉn chu. Dễ dàng mix-and-match cùng áo thun trắng, polo dệt kim, sơ mi cổ mở hay áo blazer cộc tay phong cách Monochrome.",
+    images: [
+      "/images/products/shorts-weekend063-black-front.jpg",
+      "/images/products/shorts-weekend063-black-back.jpg",
+      "/images/products/shorts-weekend063-charcoal-front.jpg",
+      "/images/products/shorts-weekend063-charcoal-back.jpg",
+      "/images/products/shorts-weekend063-lightgrey-front.jpg",
+      "/images/products/shorts-weekend063-lightgrey-back.jpg",
+      "/images/products/shorts-weekend063-white-front.jpg",
+      "/images/products/shorts-weekend063-white-back.jpg",
+      "/images/products/shorts-weekend063-beige-front.jpg",
+      "/images/products/shorts-weekend063-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#222222", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#55524D", imageIndex: 2 },
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 4 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 6 },
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 8 }
+    ],
+    rating: 5.0,
+    reviews: 156,
     inStock: true,
     isNew: true,
     isSale: true,
