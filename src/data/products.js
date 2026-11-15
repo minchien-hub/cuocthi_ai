@@ -5543,6 +5543,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "CloudTouch™ F4"
+  },
+  {
+    id: 190,
+    name: "Quần Short Lưng Thun AirDry™ Xếp Ly Thanh Lịch Nới Rộng Cử Động Dài Qua Gối Phom Rộng F4 - The No Style 296 - Màu Trắng Kem",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 520000,
+    description: "Quần short nam xếp ly phong cách City Boy & Sartorial Casual thuộc bộ sưu tập The No Style 296 từ thương hiệu Aureus Fashion. Được phát triển từ chất vải cao cấp ứng dụng công nghệ AirDry™ thoáng khí vượt bậc với khả năng tản nhiệt nhanh, nhẹ tênh và chống bết dính mồ hôi tối ưu trong những ngày hè oi ả. Thiết kế xếp ly đôi thanh lịch (Double Pleated Front) tạo độ phồng rũ tự nhiên, nới rộng tối đa không gian cử động vùng hông và đùi mang lại cảm giác thoải mái khi di chuyển. Lưng thun kết hợp thông minh (Smart Hybrid Waistband): mặt trước phẳng phiu chỉn chu có khuy cài và đỉa luồn thắt lưng, mặt sau may chun co giãn linh hoạt ôm gọn vòng eo. Chiều dài qua gối thời thượng (Over-the-knee Bermuda Length) cùng phom rộng F4 (Wide Fit F4) đứng dáng, che khuyết điểm chân hiệu quả. Tông màu trắng kem (Cream / Off-White) tinh tế, sang trọng, dễ dàng kết hợp cùng áo polo knit dệt kim, sơ mi tay ngắn phom hộp F5, áo thun trơn hay giày loafer/sneaker.",
+    images: [
+      "/images/products/shorts-thenostyle296-cream-front.jpg",
+      "/images/products/shorts-thenostyle296-cream-back.jpg",
+      "/images/products/shorts-thenostyle296-black-front.jpg",
+      "/images/products/shorts-thenostyle296-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "AirDry™ F4"
+  },
+  {
+    id: 191,
+    name: "Quần Short Lưng Thun AirDry™ Xếp Ly Thanh Lịch Nới Rộng Cử Động Dài Qua Gối Phom Rộng F4 - The No Style 296 - Màu Đen",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 520000,
+    description: "Quần short nam xếp ly phong cách City Boy & Sartorial Casual thuộc bộ sưu tập The No Style 296 từ thương hiệu Aureus Fashion. Tông màu đen kinh điển (Classic Black) mang lại vẻ ngoài nam tính, tối giản và cực kỳ đa dụng. Ứng dụng công nghệ sợi AirDry™ thông minh giúp bề mặt vải luôn khô thoáng, mát lạnh và mềm mại, hạn chế tối đa nếp nhăn. Điểm nhấn xếp ly kép mặt trước tinh tế mở rộng biên độ cử động, kết hợp chiều dài qua gối chuẩn mực và phom rộng F4 phóng khoáng giúp vóc dáng trông cao ráo, cân đối. Thiết kế cạp trước cài cúc sang trọng kết hợp đai lưng thun co giãn phía sau êm ái, 2 túi xéo sườn tiện dụng và 2 túi mổ cài cúc phía sau chỉn chu. Hoàn hảo để diện đi cà phê, du lịch nghỉ dưỡng hoặc dạo phố khi phối cùng áo sơ mi linen, áo thun boxy hoặc áo blazer ngắn tay.",
+    images: [
+      "/images/products/shorts-thenostyle296-black-front.jpg",
+      "/images/products/shorts-thenostyle296-black-back.jpg",
+      "/images/products/shorts-thenostyle296-cream-front.jpg",
+      "/images/products/shorts-thenostyle296-cream-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "AirDry™ F4"
   }
 ];
 
