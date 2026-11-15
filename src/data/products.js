@@ -6267,6 +6267,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "DurableTex™ F3"
+  },
+  {
+    id: 212,
+    name: "Quần Short Túi Hộp Cargo Vải Kaki Co Giãn Bền Bỉ Nhiều Túi Tiện Dụng Phom Rộng F4 - The No Style 226 - Màu Be",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short túi hộp cargo nam cao cấp thuộc bộ sưu tập The No Style 226 từ thương hiệu Aureus Fashion. Sử dụng chất liệu vải kaki cotton twill dệt chéo tích hợp sợi spandex co giãn đàn hồi nhẹ, bề mặt đanh chắc, chịu lực mài mòn cực tốt và thoáng mát khi diện ngoài trời. Điểm nhấn đậm chất Gorpcore & Military Utility với hệ thống 6 túi đa năng: 2 túi hộp hông vạt nắp cài khuy tiện lợi, 2 túi xéo trước sâu rộng và 2 túi ốp sau nắp vát góc gài khuy an toàn. Cạp quần chắc chắn phối đỉa đôi cách điệu chịu lực thắt lưng bản lớn, các đường may di bọ dằn chỉ đôi gia cố tăng độ bền bỉ tối đa tại các điểm nối đùi và đáy. Phom rộng F4 (Loose Fit F4) thoải mái, phóng khoáng, độ dài ngang đùi tôn phong thái năng động. Tông màu be (Khaki Sand / Safari Beige) bụi bặm, phong trần, cực kỳ ăn ý khi phối cùng áo thun oversize, áo hoodie sát nách hay giày dã ngoại trekking.",
+    images: [
+      "/images/products/shorts-cargo226-beige-front.jpg",
+      "/images/products/shorts-cargo226-beige-back.jpg",
+      "/images/products/shorts-cargo226-black-front.jpg",
+      "/images/products/shorts-cargo226-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be", hex: "#C5B7A5", imageIndex: 0 },
+      { name: "Đen", hex: "#2B2828", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cargo F4"
+  },
+  {
+    id: 213,
+    name: "Quần Short Túi Hộp Cargo Vải Kaki Co Giãn Bền Bỉ Nhiều Túi Tiện Dụng Phom Rộng F4 - The No Style 226 - Màu Đen",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short túi hộp cargo nam cao cấp thuộc bộ sưu tập The No Style 226 từ thương hiệu Aureus Fashion. Tông màu đen than (Charcoal Black / Tactical Onyx) cá tính, mạnh mẽ và đậm chất đường phố Streetwear & Techwear hiện đại. Được phát triển từ dòng vải kaki dệt chéo co giãn bền bỉ, chống bai dão, chống nhăn và kháng mài mòn tối ưu trong các hoạt động dã ngoại hay di chuyển thường nhật. Thiết kế tiện ích vượt trội với kết cấu 6 túi tiện dụng: 2 túi hộp cargo thân trước vạt nắp cài khuy, 2 túi mổ chéo hông và 2 túi nắp phía sau. Cạp lưng cài khuy đỉa đôi thời trang, đường may gia cố đúp chỉ chịu lực cao. Phom rộng F4 (Loose Fit F4) phóng khoáng, che khuyết điểm chân và tạo cảm giác mát mẻ trong mùa hè. Dễ dàng mix-and-match hoàn hảo cùng áo thun graphic, áo tank top, sơ mi khoác flannel hay giày sneaker hầm hố.",
+    images: [
+      "/images/products/shorts-cargo226-black-front.jpg",
+      "/images/products/shorts-cargo226-black-back.jpg",
+      "/images/products/shorts-cargo226-beige-front.jpg",
+      "/images/products/shorts-cargo226-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#2B2828", imageIndex: 0 },
+      { name: "Be", hex: "#C5B7A5", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 138,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cargo F4"
   }
 ];
 
