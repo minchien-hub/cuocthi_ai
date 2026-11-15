@@ -4669,12 +4669,18 @@ const products = [
       "/images/products/pants-nonbranded007-mossgreen-front.jpg",
       "/images/products/pants-nonbranded007-mossgreen-back.jpg",
       "/images/products/pants-nonbranded007-cream-front.png",
-      "/images/products/pants-nonbranded007-cream-back.png"
+      "/images/products/pants-nonbranded007-cream-back.png",
+      "/images/products/pants-nonbranded007-mocha-front.jpg",
+      "/images/products/pants-nonbranded007-mocha-back.jpg",
+      "/images/products/pants-nonbranded007-forestblack-front.png",
+      "/images/products/pants-nonbranded007-forestblack-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Rêu", hex: "#595441", imageIndex: 0 },
-      { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 2 }
+      { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 2 },
+      { name: "Nâu Mocha", hex: "#61524D", imageIndex: 4 },
+      { name: "Xanh Rêu Đen", hex: "#232C28", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 152,
@@ -4694,15 +4700,83 @@ const products = [
       "/images/products/pants-nonbranded007-cream-front.png",
       "/images/products/pants-nonbranded007-cream-back.png",
       "/images/products/pants-nonbranded007-mossgreen-front.jpg",
-      "/images/products/pants-nonbranded007-mossgreen-back.jpg"
+      "/images/products/pants-nonbranded007-mossgreen-back.jpg",
+      "/images/products/pants-nonbranded007-mocha-front.jpg",
+      "/images/products/pants-nonbranded007-mocha-back.jpg",
+      "/images/products/pants-nonbranded007-forestblack-front.png",
+      "/images/products/pants-nonbranded007-forestblack-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 0 },
-      { name: "Xanh Rêu", hex: "#595441", imageIndex: 2 }
+      { name: "Xanh Rêu", hex: "#595441", imageIndex: 2 },
+      { name: "Nâu Mocha", hex: "#61524D", imageIndex: 4 },
+      { name: "Xanh Rêu Đen", hex: "#232C28", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 147,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Bird Eye Mesh"
+  },
+  {
+    id: 161,
+    name: "Quần Dài Jogger Thun Vải Bird Eye Mesh Thoáng Khí Co Giãn Nhiều Túi Tiện Lợi Phom Vừa F3 - Non Branded 007 - Màu Nâu Mocha",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Quần dài jogger thun thể thao nam cao cấp thuộc bộ sưu tập Non Branded 007 từ thương hiệu Aureus Fashion. Tông màu nâu mocha (Mocha Taupe / Nâu Đất) trầm ấm, thời thượng và mang hơi thở phong cách dạo phố Vintage Athleisure. Chất vải dệt lưới mắt chim Bird Eye Mesh tản nhiệt làm mát chuyên sâu, bề mặt êm mịn không gây kích ứng da và có khả năng thoát ẩm cực nhanh khi cơ thể vận động nhiều. Cạp chun bản mềm ôm khít lưng bụng không tạo lằn đỏ, gấu bo thun jogger tạo độ thụng tự nhiên năng động. Hệ thống túi đa năng tiện lợi với 2 túi xéo và 1 túi ốp sau sâu rộng. Phom vừa F3 (Regular Fit F3) linh hoạt, dễ dàng phối cùng áo thun ringer, polo sọc hoặc áo hoodie zip.",
+    images: [
+      "/images/products/pants-nonbranded007-mocha-front.jpg",
+      "/images/products/pants-nonbranded007-mocha-back.jpg",
+      "/images/products/pants-nonbranded007-forestblack-front.png",
+      "/images/products/pants-nonbranded007-forestblack-back.png",
+      "/images/products/pants-nonbranded007-mossgreen-front.jpg",
+      "/images/products/pants-nonbranded007-mossgreen-back.jpg",
+      "/images/products/pants-nonbranded007-cream-front.png",
+      "/images/products/pants-nonbranded007-cream-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Mocha", hex: "#61524D", imageIndex: 0 },
+      { name: "Xanh Rêu Đen", hex: "#232C28", imageIndex: 2 },
+      { name: "Xanh Rêu", hex: "#595441", imageIndex: 4 },
+      { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Bird Eye Mesh"
+  },
+  {
+    id: 162,
+    name: "Quần Dài Jogger Thun Vải Bird Eye Mesh Thoáng Khí Co Giãn Nhiều Túi Tiện Lợi Phom Vừa F3 - Non Branded 007 - Màu Xanh Rêu Đen",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Quần dài jogger thun thể thao nam cao cấp thuộc bộ sưu tập Non Branded 007 từ thương hiệu Aureus Fashion. Tông màu xanh rêu đen (Deep Forest Black / Dark Pine) huyền bí, sắc sảo và cực kỳ tôn dáng chân. Ứng dụng công nghệ sợi thun dệt Bird Eye Mesh thoát khí đa chiều giúp cơ thể giải phóng mồ hôi nhanh chóng, giữ form quần phẳng phiu không nhăn nhàu sau khi giặt sấy. Thiết kế cạp lưng thun kèm dây rút tiện lợi, bo gấu cổ chân thể thao tôn nét khỏe khoắn cùng hệ thống nhiều túi tiện dụng an toàn. Phom vừa F3 (Regular Fit F3) linh hoạt, phối cực chuẩn cùng áo thun oversize, áo ba lỗ tập gym hay áo khoác dù thể thao.",
+    images: [
+      "/images/products/pants-nonbranded007-forestblack-front.png",
+      "/images/products/pants-nonbranded007-forestblack-back.png",
+      "/images/products/pants-nonbranded007-mocha-front.jpg",
+      "/images/products/pants-nonbranded007-mocha-back.jpg",
+      "/images/products/pants-nonbranded007-mossgreen-front.jpg",
+      "/images/products/pants-nonbranded007-mossgreen-back.jpg",
+      "/images/products/pants-nonbranded007-cream-front.png",
+      "/images/products/pants-nonbranded007-cream-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu Đen", hex: "#232C28", imageIndex: 0 },
+      { name: "Nâu Mocha", hex: "#61524D", imageIndex: 2 },
+      { name: "Xanh Rêu", hex: "#595441", imageIndex: 4 },
+      { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 149,
     inStock: true,
     isNew: true,
     isSale: true,
