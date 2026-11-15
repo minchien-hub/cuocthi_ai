@@ -4793,12 +4793,15 @@ const products = [
       "/images/products/pants-beginner007-steelblue-front.jpg",
       "/images/products/pants-beginner007-steelblue-back.jpg",
       "/images/products/pants-beginner007-lightgrey-front.jpg",
-      "/images/products/pants-beginner007-lightgrey-back.jpg"
+      "/images/products/pants-beginner007-lightgrey-back.jpg",
+      "/images/products/pants-beginner007-black-front.png",
+      "/images/products/pants-beginner007-black-back.png"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Thép", hex: "#566273", imageIndex: 0 },
-      { name: "Xám Sáng", hex: "#949AA1", imageIndex: 2 }
+      { name: "Xám Sáng", hex: "#949AA1", imageIndex: 2 },
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 4 }
     ],
     rating: 5.0,
     reviews: 163,
@@ -4817,16 +4820,47 @@ const products = [
     images: [
       "/images/products/pants-beginner007-lightgrey-front.jpg",
       "/images/products/pants-beginner007-lightgrey-back.jpg",
+      "/images/products/pants-beginner007-black-front.png",
+      "/images/products/pants-beginner007-black-back.png",
       "/images/products/pants-beginner007-steelblue-front.jpg",
       "/images/products/pants-beginner007-steelblue-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Sáng", hex: "#949AA1", imageIndex: 0 },
-      { name: "Xanh Thép", hex: "#566273", imageIndex: 2 }
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 2 },
+      { name: "Xanh Thép", hex: "#566273", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Đáy Kim Cương F3"
+  },
+  {
+    id: 165,
+    name: "Quần Dài Jogger Thể Thao Double Face 200Gsm Nhanh Khô Rã Đáy Kim Cương Đai Vắt Khăn Phom Vừa F3 - The Beginner 007 - Màu Đen",
+    category: "Quần",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Quần dài jogger thể thao nam cao cấp thuộc bộ sưu tập The Beginner 007 từ thương hiệu Aureus Fashion. Tông màu đen tuyền nam tính (Athletic Black) phối đường line viền trắng sắc nét chạy dọc ống quần mang đậm hơi thở thể thao hiện đại và mạnh mẽ. Vải thun kỹ thuật Double Face 200Gsm dệt 2 mặt cao cấp mềm mịn như lụa, chống nhăn, tản nhiệt và khô ráo siêu tốc. Thiết kế đáy rã kim cương công thái học (Diamond Gusset Crotch) nâng đỡ chuyển động tối đa, đai vắt khăn thể thao tiện dụng ở cạp sườn hông phải và túi sau khóa kéo ẩn bảo mật an toàn. Bo gấu chun jogger thon gọn, phom vừa F3 (Regular Fit F3) tôn nét khỏe khoắn, phối hoàn hảo cùng áo thun tập gym, áo ba lỗ tank top hay hoodie thể thao.",
+    images: [
+      "/images/products/pants-beginner007-black-front.png",
+      "/images/products/pants-beginner007-black-back.png",
+      "/images/products/pants-beginner007-steelblue-front.jpg",
+      "/images/products/pants-beginner007-steelblue-back.jpg",
+      "/images/products/pants-beginner007-lightgrey-front.jpg",
+      "/images/products/pants-beginner007-lightgrey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1A1A1A", imageIndex: 0 },
+      { name: "Xanh Thép", hex: "#566273", imageIndex: 2 },
+      { name: "Xám Sáng", hex: "#949AA1", imageIndex: 4 }
+    ],
+    rating: 5.0,
+    reviews: 171,
     inStock: true,
     isNew: true,
     isSale: true,
