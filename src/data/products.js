@@ -6317,6 +6317,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Cargo F4"
+  },
+  {
+    id: 214,
+    name: "Quần Short Kaki Lưng Gài Durabletex™ 290Gsm Đáy Rã Gusset Linh Hoạt Túi Khóa Kéo Phom Vừa F3 - The Weekend 022 - Màu Nâu Khaki",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short kaki nam cao cấp thuộc bộ sưu tập The Weekend 022 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu kaki công nghệ Durabletex™ định lượng tiêu chuẩn 290Gsm dày dặn, đứng phom, co giãn nhẹ và chống mài mòn vượt trội. Đột phá kỹ thuật may đo với chi tiết đáy rã Gusset linh hoạt (Ergonomic Crotch Gusset) giải phóng hoàn toàn sự gò bó, giúp thoải mái tối đa khi co gập chân, lái xe, leo núi hay vận động cả ngày mà không lo bục rách. Thiết kế 2 túi mổ sườn dọc trang bị khóa kéo zip ẩn bảo vệ điện thoại, ví tiền an toàn tuyệt đối, kết hợp túi sau viền cơi ngang tinh tế. Cạp lưng gài khuy cài cổ điển phối đỉa luồn thắt lưng chỉn chu. Phom vừa F3 (Regular Fit F3) tôn vóc dáng gọn gàng, độ dài ngang đùi năng động. Tông màu nâu khaki (Mocha Khaki Brown) ấm áp, phong trần và nam tính, dễ phối cùng áo thun polo, sơ mi cộc tay hay áo phông basic.",
+    images: [
+      "/images/products/shorts-weekend022-khakibrown-front.jpg",
+      "/images/products/shorts-weekend022-khakibrown-back.jpg",
+      "/images/products/shorts-weekend022-darkslate-front.jpg",
+      "/images/products/shorts-weekend022-darkslate-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Khaki", hex: "#766355", imageIndex: 0 },
+      { name: "Xám Đen", hex: "#2F3535", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ F3"
+  },
+  {
+    id: 215,
+    name: "Quần Short Kaki Lưng Gài Durabletex™ 290Gsm Đáy Rã Gusset Linh Hoạt Túi Khóa Kéo Phom Vừa F3 - The Weekend 022 - Màu Xám Đen",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short kaki nam cao cấp thuộc bộ sưu tập The Weekend 022 từ thương hiệu Aureus Fashion. Tông màu xám đen (Dark Slate / Charcoal Black) hiện đại, mạnh mẽ, lịch lãm và cực kỳ tôn dáng. Ứng dụng dòng vải dệt kaki Durabletex™ 290Gsm cao cấp bền màu, bề mặt đanh mịn, kháng nhăn tự nhiên và co giãn nhẹ tạo cảm giác dễ chịu. Điểm nhấn đắt giá ở kết cấu rập đáy Gusset công thái học phân bổ đều lực căng chuyển động, kết hợp 2 túi sườn khóa kéo zip an toàn chống rơi rớt tư trang cá nhân. Cạp quần lưng gài khuy sang trọng có đỉa luồn thắt lưng và túi mổ sau sắc sảo. Phom vừa F3 (Regular Fit F3) vừa vặn, độ dài trên gối khỏe khoắn. Hoàn hảo cho các buổi dã ngoại cuối tuần, du lịch, thể thao nhẹ hay dạo phố khi mix cùng áo polo dệt kim, áo thun ôm hoặc sơ mi khoác ngoài.",
+    images: [
+      "/images/products/shorts-weekend022-darkslate-front.jpg",
+      "/images/products/shorts-weekend022-darkslate-back.jpg",
+      "/images/products/shorts-weekend022-khakibrown-front.jpg",
+      "/images/products/shorts-weekend022-khakibrown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Đen", hex: "#2F3535", imageIndex: 0 },
+      { name: "Nâu Khaki", hex: "#766355", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ F3"
   }
 ];
 
