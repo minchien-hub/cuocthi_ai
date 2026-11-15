@@ -5015,6 +5015,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Cloudtouch™ F3"
+  },
+  {
+    id: 172,
+    name: "Quần Dài Lưng Thun Ống Siêu Rộng Vải Đầm Tay Thoáng Mát Xếp Nếp Phẳng Bụng Phom Siêu Rộng F5 - The No Style 246 - Màu Đen",
+    category: "Quần",
+    price: 390000,
+    originalPrice: 560000,
+    description: "Quần dài nam lưng thun ống siêu rộng thuộc bộ sưu tập The No Style 246 từ thương hiệu Aureus Fashion. Được phát triển từ chất vải dệt đầm tay cao cấp, rũ mềm tự nhiên, thoáng mát và chống nhăn nhàu vượt trội. Điểm nhấn đột phá là kỹ thuật xếp nếp ly chìm tinh tế trước bụng giúp che giấu vòng 2 hoàn hảo, tạo hiệu ứng phẳng bụng và tôn dáng chân thẳng tắp. Thiết kế phom siêu rộng F5 (Super Wide Leg Silhouette F5) mang đậm hơi thở thời trang Avant-Garde và Minimalist Streetwear Nhật Bản, mang lại sự phóng khoáng, tự do tối đa cho từng bước đi. Cạp lưng thun co giãn bản to êm ái, túi xéo hai bên sâu rộng tiện lợi cùng túi ốp vuông phía sau gọn gàng. Tông màu đen huyền bí (Midnight Black) kinh điển, cực kỳ ăn ý khi phối cùng áo thun oversize, áo sơ mi phom hộp F5, áo blazer rộng hay sandal streetwear.",
+    images: [
+      "/images/products/pants-thenostyle246-black-front.jpg",
+      "/images/products/pants-thenostyle246-black-back.jpg",
+      "/images/products/pants-thenostyle246-white-front.jpg",
+      "/images/products/pants-thenostyle246-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Trắng", hex: "#F6F6F6", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 164,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Wide Leg F5"
+  },
+  {
+    id: 173,
+    name: "Quần Dài Lưng Thun Ống Siêu Rộng Vải Đầm Tay Thoáng Mát Xếp Nếp Phẳng Bụng Phom Siêu Rộng F5 - The No Style 246 - Màu Trắng",
+    category: "Quần",
+    price: 390000,
+    originalPrice: 560000,
+    description: "Quần dài nam lưng thun ống siêu rộng thuộc bộ sưu tập The No Style 246 từ thương hiệu Aureus Fashion. Tông màu trắng tinh khôi (Clean White) thanh lịch, thời thượng và mang đậm tinh thần City Boy hiện đại. Chất vải dệt đầm tay dày dặn vừa phải, không lộ bên trong, bề mặt mướt mịn rũ nhẹ cực sang và luôn giữ được độ thông thoáng mát mẻ suốt cả ngày. Kỹ thuật xếp nếp ly phẳng bụng hack tỷ lệ cơ thể, che khuyết điểm đùi to hay chân cong. Phom dáng siêu rộng F5 (Super Wide Leg F5) tạo chuyển động uyển chuyển, bay bổng. Cạp thun mềm mại không gây hằn bụng, túi sau tiện lợi. Phối hoàn hảo cùng áo thun ringer bo viền, sơ mi Cuba, áo len dệt kim mỏng hay giày da loaf/derby.",
+    images: [
+      "/images/products/pants-thenostyle246-white-front.jpg",
+      "/images/products/pants-thenostyle246-white-back.jpg",
+      "/images/products/pants-thenostyle246-black-front.jpg",
+      "/images/products/pants-thenostyle246-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#F6F6F6", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Wide Leg F5"
   }
 ];
 
