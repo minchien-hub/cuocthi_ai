@@ -5331,12 +5331,18 @@ const products = [
       "/images/products/pants-noniron001-black-front.png",
       "/images/products/pants-noniron001-black-back.png",
       "/images/products/pants-noniron001-oatmeal-front.jpg",
-      "/images/products/pants-noniron001-oatmeal-back.jpg"
+      "/images/products/pants-noniron001-oatmeal-back.jpg",
+      "/images/products/pants-noniron001-taupe-front.jpg",
+      "/images/products/pants-noniron001-taupe-back.jpg",
+      "/images/products/pants-noniron001-iceblue-front.jpg",
+      "/images/products/pants-noniron001-iceblue-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
-      { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 2 }
+      { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 2 },
+      { name: "Nâu Khaki", hex: "#968774", imageIndex: 4 },
+      { name: "Xanh Băng", hex: "#A9B2BC", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 172,
@@ -5356,15 +5362,83 @@ const products = [
       "/images/products/pants-noniron001-oatmeal-front.jpg",
       "/images/products/pants-noniron001-oatmeal-back.jpg",
       "/images/products/pants-noniron001-black-front.png",
-      "/images/products/pants-noniron001-black-back.png"
+      "/images/products/pants-noniron001-black-back.png",
+      "/images/products/pants-noniron001-taupe-front.jpg",
+      "/images/products/pants-noniron001-taupe-back.jpg",
+      "/images/products/pants-noniron001-iceblue-front.jpg",
+      "/images/products/pants-noniron001-iceblue-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 0 },
-      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Nâu Khaki", hex: "#968774", imageIndex: 4 },
+      { name: "Xanh Băng", hex: "#A9B2BC", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Non Iron F2"
+  },
+  {
+    id: 184,
+    name: "Quần Tây Casual Easycare™ Vải Rayon Blend Mềm Mại Tự Phục Hồi Nếp Phẳng Lưng Thun Phom Ôm Vừa F2 - Non Iron 001 - Màu Nâu Khaki",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Iron 001 từ thương hiệu Aureus Fashion. Tông màu nâu khaki (Taupe / Warm Earth) trầm ấm, thanh lịch và mang đậm phong cách Quiet Luxury cổ điển pha lẫn hiện đại. Được dệt từ chất liệu vải Rayon Blend tổng hợp cao cấp ứng dụng công nghệ Non-Iron Easycare™ đột phá với khả năng tự phục hồi nếp phẳng ngay sau khi giặt hoặc sau nhiều giờ ngồi làm việc. Thiết kế cạp lưng thun co giãn thông minh hai bên hông kết hợp mặt trước phẳng phiu chuẩn may đo Sartorial, nếp ly ép nhiệt thẳng tắp hack dáng chân dài. Phom dáng ôm vừa F2 (Slim Fit F2) tôn vóc dáng thon gọn, phối cực chuẩn cùng sơ mi trắng, sơ mi xanh pastel, áo polo knit dệt kim hay áo khoác blazer nâu.",
+    images: [
+      "/images/products/pants-noniron001-taupe-front.jpg",
+      "/images/products/pants-noniron001-taupe-back.jpg",
+      "/images/products/pants-noniron001-iceblue-front.jpg",
+      "/images/products/pants-noniron001-iceblue-back.jpg",
+      "/images/products/pants-noniron001-black-front.png",
+      "/images/products/pants-noniron001-black-back.png",
+      "/images/products/pants-noniron001-oatmeal-front.jpg",
+      "/images/products/pants-noniron001-oatmeal-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Nâu Khaki", hex: "#968774", imageIndex: 0 },
+      { name: "Xanh Băng", hex: "#A9B2BC", imageIndex: 2 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 4 },
+      { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 165,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Non Iron F2"
+  },
+  {
+    id: 185,
+    name: "Quần Tây Casual Easycare™ Vải Rayon Blend Mềm Mại Tự Phục Hồi Nếp Phẳng Lưng Thun Phom Ôm Vừa F2 - Non Iron 001 - Màu Xanh Băng",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Iron 001 từ thương hiệu Aureus Fashion. Tông màu xanh băng (Ice Blue / Frozen Steel) tươi mát, thời thượng và mang đến nguồn năng lượng tươi mới cho phong cách thời trang công sở thường nhật. Ứng dụng chất liệu vải Rayon Blend tổng hợp mềm mát rũ nhẹ kết hợp công nghệ Non-Iron Easycare™ thông minh tự làm phẳng nếp nhăn nhanh chóng mà không cần là ủi kỳ công. Thiết kế cạp lưng thun co giãn đàn hồi hai bên hông tạo sự thoải mái tối đa khi cử động và ngồi văn phòng, nếp ly ủi sắc nét vĩnh viễn tạo hiệu ứng đôi chân dài miên man. Phom ôm vừa F2 (Slim Fit F2) trẻ trung, dễ dàng mix&match cùng sơ mi trắng dài tay, áo thun polo hoặc giày tây/loafer thời trang.",
+    images: [
+      "/images/products/pants-noniron001-iceblue-front.jpg",
+      "/images/products/pants-noniron001-iceblue-back.jpg",
+      "/images/products/pants-noniron001-taupe-front.jpg",
+      "/images/products/pants-noniron001-taupe-back.jpg",
+      "/images/products/pants-noniron001-black-front.png",
+      "/images/products/pants-noniron001-black-back.png",
+      "/images/products/pants-noniron001-oatmeal-front.jpg",
+      "/images/products/pants-noniron001-oatmeal-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xanh Băng", hex: "#A9B2BC", imageIndex: 0 },
+      { name: "Nâu Khaki", hex: "#968774", imageIndex: 2 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 4 },
+      { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 149,
     inStock: true,
     isNew: true,
     isSale: true,
