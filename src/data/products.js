@@ -4607,6 +4607,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Kaki Twill 245Gsm"
+  },
+  {
+    id: 157,
+    name: "Quần Dài Kaki Túi Hộp Cargo Durabletex™ 300Gsm Co Giãn Rập Gối Xếp Ly 3D Chịu Lực Phom Vừa F3 - The Worker 009 - Màu Xanh Rêu Đậm",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần dài kaki túi hộp nam cao cấp phong cách Tactical Utility thuộc bộ sưu tập The Worker 009 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải Kaki Cotton công nghệ sợi Durabletex™ định lượng dày dặn 300Gsm đanh chắc, có khả năng chống mài mòn, chống trầy xước và hạn chế bám bụi vượt trội. Tích hợp sợi Spandex đàn hồi cao mang lại độ co giãn dễ chịu cho mọi chuyển động linh hoạt. Điểm nhấn đột phá là kỹ thuật rã rập gối xếp ly 3D công thái học (3D Articulated Knee Pleats) gia cố khả năng chịu lực, giúp người mặc dễ dàng gập gối, đứng lên ngồi xuống mà không lo bị căng tức hay bùng gối. Thiết kế hệ thống 6 túi đa dụng với 2 túi hộp cargo cỡ lớn bên hông có nắp đậy cài khuy nút bấm chắc chắn. Tông màu xanh rêu đậm (Dark Olive / Army Green) mang đậm khí chất mạnh mẽ, phong trần. Phom vừa F3 (Regular Fit F3) tôn vóc dáng khỏe khoắn, phối cực 'chất' cùng áo thun oversize, áo polo thể thao, áo sơ mi flannel hoặc áo khoác utility.",
+    images: [
+      "/images/products/pants-worker009-darkolive-front.jpg",
+      "/images/products/pants-worker009-darkolive-back.jpg",
+      "/images/products/pants-worker009-black-front.jpg",
+      "/images/products/pants-worker009-black-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xanh Rêu Đậm", hex: "#3A4035", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E20", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 176,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cargo 300Gsm F3"
+  },
+  {
+    id: 158,
+    name: "Quần Dài Kaki Túi Hộp Cargo Durabletex™ 300Gsm Co Giãn Rập Gối Xếp Ly 3D Chịu Lực Phom Vừa F3 - The Worker 009 - Màu Đen",
+    category: "Quần",
+    price: 490000,
+    originalPrice: 690000,
+    description: "Quần dài kaki túi hộp nam cao cấp phong cách Tactical Utility thuộc bộ sưu tập The Worker 009 từ thương hiệu Aureus Fashion. Tông màu đen tuyền nam tính (Tactical Pitch Black) sắc sảo, bí ẩn và cực kỳ dễ ứng dụng trong mọi phong cách hàng ngày từ Gorpcore, Techwear đến Streetwear. Chất vải Kaki Twill Durabletex™ 300Gsm cao cấp bền màu, bề mặt chải kỹ đanh mịn, thoáng khí và có độ co giãn nhẹ nhàng giúp vận động thoải mái tối đa. Cấu trúc rập gối xếp ly 3D chịu lực độc đáo giúp định hình ống quần luôn suông đứng và chống biến dạng form sau thời gian dài sử dụng. Trang bị đầy đủ túi hộp cargo nẹp đôi, cúc đúc hợp kim dập logo sắc nét và đỉa quần bản rộng chịu tải thắt lưng tốt. Phom vừa F3 (Regular Fit F3) tôn chiều cao và độ gọn gàng, hoàn hảo khi mix cùng hoodie boxy, áo thun streetwear, sơ mi cộc tay và giày sneaker chunky hoặc bốt da.",
+    images: [
+      "/images/products/pants-worker009-black-front.jpg",
+      "/images/products/pants-worker009-black-back.jpg",
+      "/images/products/pants-worker009-darkolive-front.jpg",
+      "/images/products/pants-worker009-darkolive-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Đen", hex: "#1E1E20", imageIndex: 0 },
+      { name: "Xanh Rêu Đậm", hex: "#3A4035", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 169,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cargo 300Gsm F3"
   }
 ];
 
