@@ -6541,6 +6541,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "CloudTouch™ F4"
+  },
+  {
+    id: 222,
+    name: "Quần Short Jeans DurableTex™ Denim Họa Tiết Sọc Dọc Đai Lưng Thông Minh Phom Rộng F4 - The Original 067 - Màu Sọc Xanh Nhạt",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 067 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải denim công nghệ DurableTex™ bền bỉ, dày dặn, đanh sợi và thoáng khí. Nổi bật với họa tiết sọc dọc thanh mảnh Hickory Pinstripe cổ điển phong cách Vintage Workwear & Americana Retro, tạo hiệu ứng thị giác giúp đôi chân trông thon dài và cao ráo hơn. Điểm nhấn tiện ích nằm ở thiết kế đai lưng thông minh Smart Waistband phối chun bo co giãn êm ái, kết hợp khuy cài kim loại dập nổi và dây rút luồn tinh tế tùy chỉnh độ ôm vừa vặn theo vòng eo mà không gây hằn cấn. Trang bị 2 túi mổ chéo phía trước sâu rộng cùng 2 túi ốp vuông phía sau đính tag dệt thể thao đỏ trắng cá tính. Phom rộng F4 (Loose Fit F4) độ dài ngang gối phóng khoáng, cực kỳ ăn ý khi phối cùng áo thun basic, polo dệt kim, áo ba lỗ tank top hay giày sneaker retro.",
+    images: [
+      "/images/products/shorts-jeans067-lightstripe-front.jpg",
+      "/images/products/shorts-jeans067-lightstripe-back.jpg",
+      "/images/products/shorts-jeans067-darkstripe-front.jpg",
+      "/images/products/shorts-jeans067-darkstripe-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Sọc Xanh Nhạt", hex: "#9CA9BC", imageIndex: 0 },
+      { name: "Sọc Xanh Đậm", hex: "#252B3C", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
+  },
+  {
+    id: 223,
+    name: "Quần Short Jeans DurableTex™ Denim Họa Tiết Sọc Dọc Đai Lưng Thông Minh Phom Rộng F4 - The Original 067 - Màu Sọc Xanh Đậm",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 067 từ thương hiệu Aureus Fashion. Tông màu sọc xanh chàm đậm (Deep Indigo Hickory Stripe) cổ điển, nam tính, đậm chất thời trang đường phố Streetwear & Workwear kinh điển. Ứng dụng dòng vải denim DurableTex™ dệt sợi cotton cao cấp đanh chắc, bền màu, kháng sờn rách và giữ form chuẩn mực sau nhiều lần giặt sấy. Thiết kế cạp lưng thông minh tích hợp bo chun co giãn linh hoạt kèm dây rút phía trước mang lại sự tiện lợi, thoải mái tuyệt đối cho mọi hoạt động ngoài trời hay lái xe đường dài. Hệ thống 4 túi tiện dụng với 2 túi mổ sườn và 2 túi ốp sau sâu rộng. Phom rộng F4 (Loose Fit F4) tự do, năng động, dễ dàng biến tấu cùng áo thun trắng, áo khoác denim ton-sur-ton, sơ mi flannel hay giày boot da/sneaker.",
+    images: [
+      "/images/products/shorts-jeans067-darkstripe-front.jpg",
+      "/images/products/shorts-jeans067-darkstripe-back.jpg",
+      "/images/products/shorts-jeans067-lightstripe-front.jpg",
+      "/images/products/shorts-jeans067-lightstripe-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Sọc Xanh Đậm", hex: "#252B3C", imageIndex: 0 },
+      { name: "Sọc Xanh Nhạt", hex: "#9CA9BC", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 147,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
   }
 ];
 
