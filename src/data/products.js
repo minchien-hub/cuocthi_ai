@@ -4397,12 +4397,18 @@ const products = [
       "/images/products/pants-nonbranded032-black-front.png",
       "/images/products/pants-nonbranded032-black-back.png",
       "/images/products/pants-nonbranded032-beige-front.png",
-      "/images/products/pants-nonbranded032-beige-back.png"
+      "/images/products/pants-nonbranded032-beige-back.png",
+      "/images/products/pants-nonbranded032-khaki-front.jpg",
+      "/images/products/pants-nonbranded032-khaki-back.png",
+      "/images/products/pants-nonbranded032-sand-front.jpg",
+      "/images/products/pants-nonbranded032-sand-back.png"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
-      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 2 }
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 2 },
+      { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 4 },
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 164,
@@ -4422,15 +4428,83 @@ const products = [
       "/images/products/pants-nonbranded032-beige-front.png",
       "/images/products/pants-nonbranded032-beige-back.png",
       "/images/products/pants-nonbranded032-black-front.png",
-      "/images/products/pants-nonbranded032-black-back.png"
+      "/images/products/pants-nonbranded032-black-back.png",
+      "/images/products/pants-nonbranded032-khaki-front.jpg",
+      "/images/products/pants-nonbranded032-khaki-back.png",
+      "/images/products/pants-nonbranded032-sand-front.jpg",
+      "/images/products/pants-nonbranded032-sand-back.png"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 0 },
-      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 }
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
+      { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 4 },
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Kaki Twill 245Gsm"
+  },
+  {
+    id: 153,
+    name: "Quần Dài Kaki Chinos Vải Twill 245Gsm Co Giãn Đứng Phom Bền Bỉ Thoải Mái Phom Ôm Vừa F2 - Non Branded 032 - Màu Vàng Khaki",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài kaki chinos nam cao cấp thuộc bộ sưu tập Non Branded 032 từ thương hiệu Aureus Fashion. Tông màu vàng khaki (Classic Warm Khaki / Tan) kinh điển vượt thời gian, mang lại vẻ ngoài nam tính, phóng khoáng và đậm chất quý ông công sở hiện đại. Chất liệu vải Kaki Cotton dệt chéo Twill 245Gsm đanh mịn, bền bỉ, dày dặn vừa phải và tích hợp sợi thun co giãn thoải mái cho mọi vận động. Cạp quần thiết kế chuẩn mực giữ dáng thẳng thớm suốt ngày dài làm việc. Phom ôm vừa F2 (Slim Fit F2) tôn đôi chân thon gọn, kết hợp hoàn hảo cùng áo polo thể thao, áo thun trắng trơn hoặc áo sơ mi Oxford.",
+    images: [
+      "/images/products/pants-nonbranded032-khaki-front.jpg",
+      "/images/products/pants-nonbranded032-khaki-back.png",
+      "/images/products/pants-nonbranded032-sand-front.jpg",
+      "/images/products/pants-nonbranded032-sand-back.png",
+      "/images/products/pants-nonbranded032-black-front.png",
+      "/images/products/pants-nonbranded032-black-back.png",
+      "/images/products/pants-nonbranded032-beige-front.png",
+      "/images/products/pants-nonbranded032-beige-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 0 },
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Kaki Twill 245Gsm"
+  },
+  {
+    id: 154,
+    name: "Quần Dài Kaki Chinos Vải Twill 245Gsm Co Giãn Đứng Phom Bền Bỉ Thoải Mái Phom Ôm Vừa F2 - Non Branded 032 - Màu Vàng Cát",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài kaki chinos nam cao cấp thuộc bộ sưu tập Non Branded 032 từ thương hiệu Aureus Fashion. Gam màu vàng cát (Desert Sand / Light Sand Beige) nhã nhặn, tôn da và cực kỳ dễ phối đồ theo phong cách Quiet Luxury lẫn dạo phố cuối tuần. Công nghệ dệt chéo Twill 245Gsm đanh chắc giữ nếp ly thẳng tắp, chống xù lông và chống bai dão sau nhiều chu kỳ giặt. Thiết kế túi xéo sâu và túi mổ sau viền tinh tế, đường may gia cố đũng đôi chống bục rách bền bỉ. Phom ôm vừa F2 (Slim Fit F2) trẻ trung, kết hợp ăn ý cùng áo sơ mi họa tiết, polo dệt kim hoặc blazer thanh lịch.",
+    images: [
+      "/images/products/pants-nonbranded032-sand-front.jpg",
+      "/images/products/pants-nonbranded032-sand-back.png",
+      "/images/products/pants-nonbranded032-khaki-front.jpg",
+      "/images/products/pants-nonbranded032-khaki-back.png",
+      "/images/products/pants-nonbranded032-black-front.png",
+      "/images/products/pants-nonbranded032-black-back.png",
+      "/images/products/pants-nonbranded032-beige-front.png",
+      "/images/products/pants-nonbranded032-beige-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 0 },
+      { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 165,
     inStock: true,
     isNew: true,
     isSale: true,
