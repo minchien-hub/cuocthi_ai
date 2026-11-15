@@ -5717,6 +5717,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Jacquard 280Gsm F4"
+  },
+  {
+    id: 196,
+    name: "Quần Đùi Lưng Thun Vải Co Giãn Tự Phẳng Hạn Chế Nhăn Phối Túi Hộp 3D Lớn Phom Rộng F4 - The No Style 268 - Màu Trắng",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần đùi túi hộp nam cao cấp phong cách Techwear & Urban Utility thuộc bộ sưu tập The No Style 268 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải dệt công nghệ cao co giãn 4 chiều linh hoạt kết hợp tính năng tự phẳng hạn chế nhăn nhàu vượt trội, giữ dáng quần luôn đứng phom và tinh tươm suốt cả ngày. Điểm nhấn nổi bật nằm ở thiết kế 2 túi hộp 3D bản lớn vạt nắp phía trước đùi cực kỳ thời thượng, mang đậm cá tính đường phố và tiện lợi cất giữ điện thoại, phụ kiện cá nhân. Thiết kế cạp lưng thun co giãn êm ái đàn hồi đa chiều không gây lằn thắt eo, kết hợp 2 túi mổ xéo dọc hông và 1 túi ốp vát góc phía sau tiện lợi. Phom rộng F4 (Wide Fit F4) thoải mái, năng động. Tông màu trắng tinh khôi (Bright White) nổi bật, dễ dàng phối cùng áo thun đen đối lập, áo tank top, áo sơ mi cộc tay khoác ngoài hay giày sneaker chunky.",
+    images: [
+      "/images/products/shorts-thenostyle268-white-front.jpg",
+      "/images/products/shorts-thenostyle268-white-back.jpg",
+      "/images/products/shorts-thenostyle268-black-front.jpg",
+      "/images/products/shorts-thenostyle268-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cargo 3D F4"
+  },
+  {
+    id: 197,
+    name: "Quần Đùi Lưng Thun Vải Co Giãn Tự Phẳng Hạn Chế Nhăn Phối Túi Hộp 3D Lớn Phom Rộng F4 - The No Style 268 - Màu Đen",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần đùi túi hộp nam cao cấp phong cách Techwear & Urban Utility thuộc bộ sưu tập The No Style 268 từ thương hiệu Aureus Fashion. Tông màu đen tuyền (Jet Black) mạnh mẽ, bụi bặm và bí ẩn, tôn trọn vẻ nam tính của các tín đồ thời trang đường phố. Chất liệu vải co giãn đàn hồi cao cấp kết hợp công nghệ tự phẳng thông minh chống nhăn xù, bề mặt đanh mịn mát rượi và nhanh khô. Thiết kế hai túi hộp 3D vạt nắp dập nổi lớn ở thân trước tạo điểm nhấn thị giác độc đáo và chuẩn phong cách Gorpcore hiện đại. Cạp chun co giãn ôm êm ái, túi xéo sườn sâu rộng cùng túi ốp sau vát góc sắc nét. Phom rộng F4 (Wide Fit F4) phóng khoáng, phối cực chuẩn cùng áo thun oversize, hoodie ngắn tay, áo khoác dù bomber hay phụ kiện mũ lưỡi trai.",
+    images: [
+      "/images/products/shorts-thenostyle268-black-front.jpg",
+      "/images/products/shorts-thenostyle268-black-back.jpg",
+      "/images/products/shorts-thenostyle268-white-front.jpg",
+      "/images/products/shorts-thenostyle268-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cargo 3D F4"
   }
 ];
 
