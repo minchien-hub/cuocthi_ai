@@ -5161,12 +5161,18 @@ const products = [
       "/images/products/pants-nonbranded030-black-front.png",
       "/images/products/pants-nonbranded030-black-back.png",
       "/images/products/pants-nonbranded030-beige-front.png",
-      "/images/products/pants-nonbranded030-beige-back.png"
+      "/images/products/pants-nonbranded030-beige-back.png",
+      "/images/products/pants-nonbranded030-khaki-front.jpg",
+      "/images/products/pants-nonbranded030-khaki-back.jpg",
+      "/images/products/pants-nonbranded030-navy-front.jpg",
+      "/images/products/pants-nonbranded030-navy-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
-      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 2 }
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 2 },
+      { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 4 },
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 176,
@@ -5186,15 +5192,83 @@ const products = [
       "/images/products/pants-nonbranded030-beige-front.png",
       "/images/products/pants-nonbranded030-beige-back.png",
       "/images/products/pants-nonbranded030-black-front.png",
-      "/images/products/pants-nonbranded030-black-back.png"
+      "/images/products/pants-nonbranded030-black-back.png",
+      "/images/products/pants-nonbranded030-khaki-front.jpg",
+      "/images/products/pants-nonbranded030-khaki-back.jpg",
+      "/images/products/pants-nonbranded030-navy-front.jpg",
+      "/images/products/pants-nonbranded030-navy-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 0 },
-      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 4 },
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F2"
+  },
+  {
+    id: 179,
+    name: "Quần Tây Công Sở Casual Easycare™ Vải Twill Co Giãn Chống Nhăn Đứng Dáng Phom Ôm Vừa F2 - Non Branded 030 - Màu Vàng Khaki",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Branded 030 từ thương hiệu Aureus Fashion. Tông màu vàng khaki (Classic Khaki / Sand Beige) ấm áp, phong độ, hoàn hảo cho phong cách Business Casual và Smart Dress cuối tuần. Chất vải Twill dệt chéo ứng dụng công nghệ Easycare™ hạn chế tối đa nhăn nhàu, vải có độ co giãn 4 chiều mềm mại giúp người mặc luôn thoải mái suốt ngày dài năng động. Đường ly ủi sắc nét giữ phom đứng dáng tinh tế, cạp đỉa sang trọng cùng hai túi sau khuy cài chuẩn mực. Phom ôm vừa F2 (Slim Fit F2) tôn vóc dáng cao ráo, rất hợp khi phối cùng áo sơ mi trắng, áo polo xanh navy hay áo len mỏng.",
+    images: [
+      "/images/products/pants-nonbranded030-khaki-front.jpg",
+      "/images/products/pants-nonbranded030-khaki-back.jpg",
+      "/images/products/pants-nonbranded030-navy-front.jpg",
+      "/images/products/pants-nonbranded030-navy-back.jpg",
+      "/images/products/pants-nonbranded030-black-front.png",
+      "/images/products/pants-nonbranded030-black-back.png",
+      "/images/products/pants-nonbranded030-beige-front.png",
+      "/images/products/pants-nonbranded030-beige-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 0 },
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 2 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F2"
+  },
+  {
+    id: 180,
+    name: "Quần Tây Công Sở Casual Easycare™ Vải Twill Co Giãn Chống Nhăn Đứng Dáng Phom Ôm Vừa F2 - Non Branded 030 - Màu Xanh Navy",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Branded 030 từ thương hiệu Aureus Fashion. Tông màu xanh navy (Navy Blue / Xanh Than) lịch lãm, quyền lực và cực kỳ dễ kết hợp trang phục chốn văn phòng hay các buổi hội nghị trang trọng. Sợi vải Twill Easycare™ đanh mịn, thoáng khí, kháng nhăn tự nhiên và bền màu sau nhiều lần giặt sấy. Thiết kế nếp ly ủi thẳng tắp vĩnh viễn, túi xéo sườn tinh tế cùng túi mổ sau cúc cài cao cấp. Phom ôm vừa F2 (Slim Fit F2) tạo vẻ ngoài gọn gàng, đĩnh đạc, phối hoàn mỹ cùng áo blazer đồng điệu, áo sơ mi kẻ sọc nhí hay áo thun polo trơn.",
+    images: [
+      "/images/products/pants-nonbranded030-navy-front.jpg",
+      "/images/products/pants-nonbranded030-navy-back.jpg",
+      "/images/products/pants-nonbranded030-khaki-front.jpg",
+      "/images/products/pants-nonbranded030-khaki-back.jpg",
+      "/images/products/pants-nonbranded030-black-front.png",
+      "/images/products/pants-nonbranded030-black-back.png",
+      "/images/products/pants-nonbranded030-beige-front.png",
+      "/images/products/pants-nonbranded030-beige-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 0 },
+      { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 2 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 169,
     inStock: true,
     isNew: true,
     isSale: true,
