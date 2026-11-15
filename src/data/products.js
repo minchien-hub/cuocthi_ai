@@ -6641,6 +6641,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Denim F4"
+  },
+  {
+    id: 226,
+    name: "Quần Đùi Jeans Ống Chữ A Mở Rộng Durabletex™ Đứng Dáng Hạn Chế Nhăn Che Bắp Chân Phom Rộng F4 - The Original 068 - Màu Xanh Đậm",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần đùi jeans nam cao cấp thuộc bộ sưu tập The Original 068 từ thương hiệu Aureus Fashion. Tông màu xanh chàm nguyên bản (Raw Deep Indigo) nam tính, cổ điển và đậm chất Vintage Workwear. Ứng dụng chất liệu denim công nghệ Durabletex™ đanh sợi, dày dặn, đứng phom chuẩn mực và hạn chế tối đa nếp nhăn nhàu sau nhiều lần sử dụng. Điểm nhấn đột phá nằm ở kết cấu rập ống chữ A mở rộng (A-Line Flare Silhouette) xòe nhẹ tự nhiên xuống gấu, tạo hiệu ứng thị giác che khuyết điểm đùi to và bắp chân cực kỳ khéo léo, mang lại dáng vóc cao ráo và cân đối. Tích hợp túi phụ phong cách thợ mộc (Carpenter Utility Pocket) bên sườn đùi phải tiện lợi cùng cấu trúc 5 túi kinh điển gia cố đinh tán đồng, đỉa thắt lưng chắc chắn và mác da bò cao cấp dập chìm 'THE ORIGINAL DENIM' sau cạp. Phom rộng F4 (Loose Fit F4) thoải mái, cực kỳ ăn ý khi phối cùng áo thun oversize, sơ mi khoác hay giày sneaker chunky.",
+    images: [
+      "/images/products/shorts-jeans068-darkblue-front.jpg",
+      "/images/products/shorts-jeans068-darkblue-back.jpg",
+      "/images/products/shorts-jeans068-lightblue-front.jpg",
+      "/images/products/shorts-jeans068-lightblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đậm", hex: "#1E2B45", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#85A6C8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
+  },
+  {
+    id: 227,
+    name: "Quần Đùi Jeans Ống Chữ A Mở Rộng Durabletex™ Đứng Dáng Hạn Chế Nhăn Che Bắp Chân Phom Rộng F4 - The Original 068 - Màu Xanh Nhạt",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần đùi jeans nam cao cấp thuộc bộ sưu tập The Original 068 từ thương hiệu Aureus Fashion. Gam màu xanh nhạt wash mài sáng (Light Blue Wash) trẻ trung, tươi mát và đậm chất đường phố mùa hè. Chất liệu denim Durabletex™ dệt từ sợi cotton cao cấp tản nhiệt thoáng khí, bề mặt vải đanh mịn, đứng dáng và kháng nhăn vượt trội. Thiết kế ống chữ A mở rộng (A-Line Silhouette) rộng rãi, phóng khoáng, giúp che khuyết điểm phần hông đùi và bắp chân hiệu quả, tạo sự thoải mái tối đa cho đôi chân trong mọi hoạt động. Trang bị túi phụ thợ mộc tiện dụng bên đùi phải phối cùng hệ thống 5 túi truyền thống, cạp cài khuy kim loại dập nổi và mác da bò thời thượng. Phom rộng F4 (Loose Fit F4) tự do, dễ dàng biến tấu cùng áo thun graphic, áo polo dệt kim hay sơ mi cộc tay dạo phố.",
+    images: [
+      "/images/products/shorts-jeans068-lightblue-front.jpg",
+      "/images/products/shorts-jeans068-lightblue-back.jpg",
+      "/images/products/shorts-jeans068-darkblue-front.jpg",
+      "/images/products/shorts-jeans068-darkblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#85A6C8", imageIndex: 0 },
+      { name: "Xanh Đậm", hex: "#1E2B45", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 165,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
   }
 ];
 
