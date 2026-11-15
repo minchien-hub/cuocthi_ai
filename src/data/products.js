@@ -4915,6 +4915,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ F4"
+  },
+  {
+    id: 168,
+    name: "Quần Dài Jogger Ống Rộng Vải Nhung Corduroy Durabletex™ Nhẹ Thoáng Ít Nhăn Phối Sườn Phom Rộng F4 - Seventy Seven 033 - Màu Xanh Rêu Đậm",
+    category: "Quần",
+    price: 460000,
+    originalPrice: 650000,
+    description: "Quần dài jogger ống rộng nam cao cấp thuộc bộ sưu tập Seventy Seven 033 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải nhung tăm tăm nhuyễn Corduroy ứng dụng công nghệ sợi dệt Durabletex™ siêu nhẹ, bề mặt óng ả sang trọng, tản nhiệt tốt, ít nhăn và giữ form ống thẳng tắp sau nhiều lần giặt sấy. Điểm nhấn nổi bật là dải viền sọc đôi phối màu trắng kem chạy dọc hai bên sườn ngoài (Contrast Side Stripes) mang đậm hơi thở thời trang Retro Track Pants thập niên 90 và tạo hiệu ứng thị giác hack dài đôi chân tuyệt đối. Thêu typography số '7.7' sắc sảo ở đùi trái khẳng định đẳng cấp thương hiệu. Cạp chun thun co giãn êm ái tích hợp dây rút thừng dệt kem vintage, kết hợp túi xéo sườn sâu rộng và túi ốp sau tiện lợi có đính nhãn may thương hiệu. Tông màu xanh rêu đậm (Dark Olive / Vintage Army Green) phong trần, phom rộng F4 (Relaxed Wide Leg F4) che khuyết điểm chân, phối cực 'chất' cùng áo thun oversize, áo sơ mi nhung tăm (Seventy Seven 065), hoodie boxy hay giày chunky sneaker.",
+    images: [
+      "/images/products/pants-seventyseven033-darkolive-front.jpg",
+      "/images/products/pants-seventyseven033-darkolive-back.jpg",
+      "/images/products/pants-seventyseven033-cacao-front.jpg",
+      "/images/products/pants-seventyseven033-cacao-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu Đậm", hex: "#373C33", imageIndex: 0 },
+      { name: "Nâu Cacao", hex: "#5F4839", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 174,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Corduroy F4"
+  },
+  {
+    id: 169,
+    name: "Quần Dài Jogger Ống Rộng Vải Nhung Corduroy Durabletex™ Nhẹ Thoáng Ít Nhăn Phối Sườn Phom Rộng F4 - Seventy Seven 033 - Màu Nâu Cacao",
+    category: "Quần",
+    price: 460000,
+    originalPrice: 650000,
+    description: "Quần dài jogger ống rộng nam cao cấp thuộc bộ sưu tập Seventy Seven 033 từ thương hiệu Aureus Fashion. Tông màu nâu cacao (Cacao Brown / Mocha Vintage) ấm áp, hoài niệm và cực kỳ ăn nhập với xu hướng thời trang Thu Đông Streetwear. Chất vải nhung tăm Corduroy Durabletex™ đanh mịn, không bí bách, hạn chế xù xước và đem lại cảm giác êm mềm thư thái cho làn da. Đường phối sọc sườn màu kem tương phản tôn dáng người mặc cao ráo, thanh thoát. Thêu logo biểu tượng '7.7' tỉ mỉ ở đùi trước, cạp lưng thun dây rút bản to giữ phom chắc chắn. Phom rộng F4 (Relaxed Wide Leg F4) ống suông thẳng đứng phóng khoáng, dễ dàng mix-match cùng áo polo dệt kim, áo nỉ sweater, sơ mi flannel khoác ngoài hoặc bốt da cao cổ.",
+    images: [
+      "/images/products/pants-seventyseven033-cacao-front.jpg",
+      "/images/products/pants-seventyseven033-cacao-back.jpg",
+      "/images/products/pants-seventyseven033-darkolive-front.jpg",
+      "/images/products/pants-seventyseven033-darkolive-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Cacao", hex: "#5F4839", imageIndex: 0 },
+      { name: "Xanh Rêu Đậm", hex: "#373C33", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Corduroy F4"
   }
 ];
 
