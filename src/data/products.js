@@ -5165,14 +5165,17 @@ const products = [
       "/images/products/pants-nonbranded030-khaki-front.jpg",
       "/images/products/pants-nonbranded030-khaki-back.jpg",
       "/images/products/pants-nonbranded030-navy-front.jpg",
-      "/images/products/pants-nonbranded030-navy-back.jpg"
+      "/images/products/pants-nonbranded030-navy-back.jpg",
+      "/images/products/pants-nonbranded030-grey-front.jpg",
+      "/images/products/pants-nonbranded030-grey-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
       { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 2 },
       { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 4 },
-      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 6 }
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 6 },
+      { name: "Xám", hex: "#7E7C84", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 176,
@@ -5196,14 +5199,17 @@ const products = [
       "/images/products/pants-nonbranded030-khaki-front.jpg",
       "/images/products/pants-nonbranded030-khaki-back.jpg",
       "/images/products/pants-nonbranded030-navy-front.jpg",
-      "/images/products/pants-nonbranded030-navy-back.jpg"
+      "/images/products/pants-nonbranded030-navy-back.jpg",
+      "/images/products/pants-nonbranded030-grey-front.jpg",
+      "/images/products/pants-nonbranded030-grey-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 0 },
       { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
       { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 4 },
-      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 6 }
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 6 },
+      { name: "Xám", hex: "#7E7C84", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 162,
@@ -5227,14 +5233,17 @@ const products = [
       "/images/products/pants-nonbranded030-black-front.png",
       "/images/products/pants-nonbranded030-black-back.png",
       "/images/products/pants-nonbranded030-beige-front.png",
-      "/images/products/pants-nonbranded030-beige-back.png"
+      "/images/products/pants-nonbranded030-beige-back.png",
+      "/images/products/pants-nonbranded030-grey-front.jpg",
+      "/images/products/pants-nonbranded030-grey-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 0 },
       { name: "Xanh Navy", hex: "#1F293E", imageIndex: 2 },
       { name: "Đen", hex: "#1E1E1E", imageIndex: 4 },
-      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 6 }
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 6 },
+      { name: "Xám", hex: "#7E7C84", imageIndex: 8 }
     ],
     rating: 5.0,
     reviews: 158,
@@ -5258,17 +5267,54 @@ const products = [
       "/images/products/pants-nonbranded030-black-front.png",
       "/images/products/pants-nonbranded030-black-back.png",
       "/images/products/pants-nonbranded030-beige-front.png",
-      "/images/products/pants-nonbranded030-beige-back.png"
+      "/images/products/pants-nonbranded030-beige-back.png",
+      "/images/products/pants-nonbranded030-grey-front.jpg",
+      "/images/products/pants-nonbranded030-grey-back.jpg"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Xanh Navy", hex: "#1F293E", imageIndex: 0 },
       { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 2 },
       { name: "Đen", hex: "#1E1E1E", imageIndex: 4 },
-      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 6 }
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 6 },
+      { name: "Xám", hex: "#7E7C84", imageIndex: 8 }
     ],
     rating: 4.9,
     reviews: 169,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F2"
+  },
+  {
+    id: 181,
+    name: "Quần Tây Công Sở Casual Easycare™ Vải Twill Co Giãn Chống Nhăn Đứng Dáng Phom Ôm Vừa F2 - Non Branded 030 - Màu Xám",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Branded 030 từ thương hiệu Aureus Fashion. Tông màu xám trung tính (Slate Grey / Medium Grey) kinh điển, chuẩn mực và tinh tế cho mọi môi trường làm việc chuyên nghiệp. Vải Twill dệt chéo tích hợp công nghệ Easycare™ chống nhăn nhàu vượt trội, co giãn 4 chiều mềm mại và giữ nếp ly ủi thẳng đứng hoàn hảo suốt cả ngày dài. Cạp quần may đo Sartorial đỉa thắt lưng chắc chắn, túi xéo hông tiện lợi và hai túi mổ sau khuy cài sang trọng. Phom ôm vừa F2 (Slim Fit F2) tôn vóc dáng thanh thoát, cực kỳ dễ phối cùng áo sơ mi trắng, xanh nhạt, áo polo dệt kim hay áo vest blazer.",
+    images: [
+      "/images/products/pants-nonbranded030-grey-front.jpg",
+      "/images/products/pants-nonbranded030-grey-back.jpg",
+      "/images/products/pants-nonbranded030-black-front.png",
+      "/images/products/pants-nonbranded030-black-back.png",
+      "/images/products/pants-nonbranded030-beige-front.png",
+      "/images/products/pants-nonbranded030-beige-back.png",
+      "/images/products/pants-nonbranded030-khaki-front.jpg",
+      "/images/products/pants-nonbranded030-khaki-back.jpg",
+      "/images/products/pants-nonbranded030-navy-front.jpg",
+      "/images/products/pants-nonbranded030-navy-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xám", hex: "#7E7C84", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 4 },
+      { name: "Vàng Khaki", hex: "#D5BA98", imageIndex: 6 },
+      { name: "Xanh Navy", hex: "#1F293E", imageIndex: 8 }
+    ],
+    rating: 4.9,
+    reviews: 154,
     inStock: true,
     isNew: true,
     isSale: true,
