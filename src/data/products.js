@@ -6703,12 +6703,15 @@ const products = [
       "/images/products/shorts-jeans041-darkblue-front.jpg",
       "/images/products/shorts-jeans041-darkblue-back.jpg",
       "/images/products/shorts-jeans041-greyblue-front.jpg",
-      "/images/products/shorts-jeans041-greyblue-back.jpg"
+      "/images/products/shorts-jeans041-greyblue-back.jpg",
+      "/images/products/shorts-jeans041-lightblue-front.jpg",
+      "/images/products/shorts-jeans041-lightblue-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Đen", hex: "#232733", imageIndex: 0 },
-      { name: "Xám Xanh", hex: "#96A4B8", imageIndex: 2 }
+      { name: "Xám Xanh", hex: "#96A4B8", imageIndex: 2 },
+      { name: "Xanh Nhạt", hex: "#6C86A8", imageIndex: 4 }
     ],
     rating: 5.0,
     reviews: 185,
@@ -6728,15 +6731,46 @@ const products = [
       "/images/products/shorts-jeans041-greyblue-front.jpg",
       "/images/products/shorts-jeans041-greyblue-back.jpg",
       "/images/products/shorts-jeans041-darkblue-front.jpg",
-      "/images/products/shorts-jeans041-darkblue-back.jpg"
+      "/images/products/shorts-jeans041-darkblue-back.jpg",
+      "/images/products/shorts-jeans041-lightblue-front.jpg",
+      "/images/products/shorts-jeans041-lightblue-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Xanh", hex: "#96A4B8", imageIndex: 0 },
-      { name: "Xanh Đen", hex: "#232733", imageIndex: 2 }
+      { name: "Xanh Đen", hex: "#232733", imageIndex: 2 },
+      { name: "Xanh Nhạt", hex: "#6C86A8", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 176,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
+  },
+  {
+    id: 230,
+    name: "Quần Short Jeans Lưng Thun Co Giãn Vải Denim Mềm Mát Dễ Chịu Cả Ngày Phom Rộng F4 - The Original 041 - Màu Xanh Nhạt",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 550000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 041 từ thương hiệu Aureus Fashion. Tông màu xanh nhạt wash đá (Mid-Light Blue Stone Wash) tươi sáng, năng động và chuẩn chất denim cổ điển. Sử dụng chất liệu vải denim 100% cotton dệt cao cấp qua xử lý wash mềm mại tản nhiệt nhanh, bề mặt vải mướt mịn không xù nhám, mang lại trải nghiệm êm ái tuyệt đối cho làn da. Bản cạp chun co giãn 360 độ kèm dây rút điều chỉnh linh hoạt không gây cấn hằn bụng. Thiết kế 2 túi mổ xéo sườn trước sâu rộng cùng 2 túi ốp sau phối tag dệt thể thao đỏ trắng 'THE ORIGINAL DENIM' cá tính. Phom rộng F4 (Loose Fit F4) độ dài ngang gối phóng khoáng, dễ dàng kết hợp cùng áo thun trắng basic, tank top thể thao, polo dệt kim hay áo sơ mi flannel mở cúc.",
+    images: [
+      "/images/products/shorts-jeans041-lightblue-front.jpg",
+      "/images/products/shorts-jeans041-lightblue-back.jpg",
+      "/images/products/shorts-jeans041-darkblue-front.jpg",
+      "/images/products/shorts-jeans041-darkblue-back.jpg",
+      "/images/products/shorts-jeans041-greyblue-front.jpg",
+      "/images/products/shorts-jeans041-greyblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#6C86A8", imageIndex: 0 },
+      { name: "Xanh Đen", hex: "#232733", imageIndex: 2 },
+      { name: "Xám Xanh", hex: "#96A4B8", imageIndex: 4 }
+    ],
+    rating: 5.0,
+    reviews: 162,
     inStock: true,
     isNew: true,
     isSale: true,
