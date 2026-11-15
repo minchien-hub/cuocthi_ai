@@ -5833,14 +5833,20 @@ const products = [
       "/images/products/shorts-minimalist012-lightgrey-front.jpg",
       "/images/products/shorts-minimalist012-lightgrey-back.jpg",
       "/images/products/shorts-minimalist012-charcoal-front.jpg",
-      "/images/products/shorts-minimalist012-charcoal-back.jpg"
+      "/images/products/shorts-minimalist012-charcoal-back.jpg",
+      "/images/products/shorts-minimalist012-cream-front.jpg",
+      "/images/products/shorts-minimalist012-cream-back.jpg",
+      "/images/products/shorts-minimalist012-terracotta-front.jpg",
+      "/images/products/shorts-minimalist012-terracotta-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Xám", hex: "#56514D", imageIndex: 0 },
       { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 2 },
       { name: "Xám Sáng", hex: "#8E9197", imageIndex: 4 },
-      { name: "Xám Chì", hex: "#616469", imageIndex: 6 }
+      { name: "Xám Chì", hex: "#616469", imageIndex: 6 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 8 },
+      { name: "Cam Đất", hex: "#A65B3E", imageIndex: 10 }
     ],
     rating: 5.0,
     reviews: 168,
@@ -5864,14 +5870,20 @@ const products = [
       "/images/products/shorts-minimalist012-lightgrey-front.jpg",
       "/images/products/shorts-minimalist012-lightgrey-back.jpg",
       "/images/products/shorts-minimalist012-charcoal-front.jpg",
-      "/images/products/shorts-minimalist012-charcoal-back.jpg"
+      "/images/products/shorts-minimalist012-charcoal-back.jpg",
+      "/images/products/shorts-minimalist012-cream-front.jpg",
+      "/images/products/shorts-minimalist012-cream-back.jpg",
+      "/images/products/shorts-minimalist012-terracotta-front.jpg",
+      "/images/products/shorts-minimalist012-terracotta-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 0 },
       { name: "Nâu Xám", hex: "#56514D", imageIndex: 2 },
       { name: "Xám Sáng", hex: "#8E9197", imageIndex: 4 },
-      { name: "Xám Chì", hex: "#616469", imageIndex: 6 }
+      { name: "Xám Chì", hex: "#616469", imageIndex: 6 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 8 },
+      { name: "Cam Đất", hex: "#A65B3E", imageIndex: 10 }
     ],
     rating: 4.9,
     reviews: 154,
@@ -5895,14 +5907,20 @@ const products = [
       "/images/products/shorts-minimalist012-taupe-front.jpg",
       "/images/products/shorts-minimalist012-taupe-back.jpg",
       "/images/products/shorts-minimalist012-green-front.jpg",
-      "/images/products/shorts-minimalist012-green-back.jpg"
+      "/images/products/shorts-minimalist012-green-back.jpg",
+      "/images/products/shorts-minimalist012-cream-front.jpg",
+      "/images/products/shorts-minimalist012-cream-back.jpg",
+      "/images/products/shorts-minimalist012-terracotta-front.jpg",
+      "/images/products/shorts-minimalist012-terracotta-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Sáng", hex: "#8E9197", imageIndex: 0 },
       { name: "Xám Chì", hex: "#616469", imageIndex: 2 },
       { name: "Nâu Xám", hex: "#56514D", imageIndex: 4 },
-      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 }
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 8 },
+      { name: "Cam Đất", hex: "#A65B3E", imageIndex: 10 }
     ],
     rating: 5.0,
     reviews: 160,
@@ -5926,17 +5944,97 @@ const products = [
       "/images/products/shorts-minimalist012-taupe-front.jpg",
       "/images/products/shorts-minimalist012-taupe-back.jpg",
       "/images/products/shorts-minimalist012-green-front.jpg",
-      "/images/products/shorts-minimalist012-green-back.jpg"
+      "/images/products/shorts-minimalist012-green-back.jpg",
+      "/images/products/shorts-minimalist012-cream-front.jpg",
+      "/images/products/shorts-minimalist012-cream-back.jpg",
+      "/images/products/shorts-minimalist012-terracotta-front.jpg",
+      "/images/products/shorts-minimalist012-terracotta-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Chì", hex: "#616469", imageIndex: 0 },
       { name: "Xám Sáng", hex: "#8E9197", imageIndex: 2 },
       { name: "Nâu Xám", hex: "#56514D", imageIndex: 4 },
-      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 }
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 8 },
+      { name: "Cam Đất", hex: "#A65B3E", imageIndex: 10 }
     ],
     rating: 4.9,
     reviews: 147,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ F3"
+  },
+  {
+    id: 204,
+    name: "Quần Short Thun Icevibes™ Chạm Mát Lạnh Đáy Gusset Chịu Lực Túi Zip Ẩn Phom Vừa F3 - The Minimalist 012 - Màu Trắng Kem",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam thể thao & thường nhật cao cấp thuộc bộ sưu tập The Minimalist 012 từ thương hiệu Aureus Fashion. Tông màu trắng kem (Cream White / Ivory Sand) trang nhã, thanh khiết và đậm chất tối giản đương đại Minimalist Chic. Ứng dụng công nghệ vải dệt sợi Icevibes™ mát lạnh sâu ngay khi tiếp xúc bề mặt da, co giãn 4 chiều mềm mịn, kháng mùi và mau khô vượt trội khi vận động đổ nhiều mồ hôi. Điểm nhấn cơ học đắt giá với miếng đáp đáy Gusset chịu lực phân bổ đồng đều áp lực chuyển động, thoải mái tối đa khi tập gym, chạy bộ, leo núi hay dạo phố. Thiết kế 2 túi mổ sườn khóa zip ẩn cao cấp bảo quản điện thoại an toàn, 1 túi sau tiện dụng và cạp lưng chun êm ái kèm dây rút luồn gọn gàng. Phom vừa F3 (Regular Fit F3) chuẩn mực, tôn vóc dáng gọn gàng, hoàn hảo khi phối cùng áo thun basic, polo thể thao hay sneaker trắng.",
+    images: [
+      "/images/products/shorts-minimalist012-cream-front.jpg",
+      "/images/products/shorts-minimalist012-cream-back.jpg",
+      "/images/products/shorts-minimalist012-terracotta-front.jpg",
+      "/images/products/shorts-minimalist012-terracotta-back.jpg",
+      "/images/products/shorts-minimalist012-taupe-front.jpg",
+      "/images/products/shorts-minimalist012-taupe-back.jpg",
+      "/images/products/shorts-minimalist012-green-front.jpg",
+      "/images/products/shorts-minimalist012-green-back.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-front.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-back.jpg",
+      "/images/products/shorts-minimalist012-charcoal-front.jpg",
+      "/images/products/shorts-minimalist012-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 0 },
+      { name: "Cam Đất", hex: "#A65B3E", imageIndex: 2 },
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 4 },
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 },
+      { name: "Xám Sáng", hex: "#8E9197", imageIndex: 8 },
+      { name: "Xám Chì", hex: "#616469", imageIndex: 10 }
+    ],
+    rating: 5.0,
+    reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ F3"
+  },
+  {
+    id: 205,
+    name: "Quần Short Thun Icevibes™ Chạm Mát Lạnh Đáy Gusset Chịu Lực Túi Zip Ẩn Phom Vừa F3 - The Minimalist 012 - Màu Cam Đất",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam thể thao & thường nhật cao cấp thuộc bộ sưu tập The Minimalist 012 từ thương hiệu Aureus Fashion. Tông màu cam đất (Terracotta Rust / Burnt Brick) ấm áp, cá tính và tràn đầy cảm hứng thời trang dã ngoại gorpcore năng động. Tích hợp sợi công nghệ Icevibes™ chạm mát tức thì, mang lại cảm giác nhẹ tênh, sảng khoái và thông thoáng tuyệt đối trong mọi điều kiện thời tiết oi bức. Chi tiết rập đệm đáy Gusset chịu lực công thái học giúp triệt tiêu áp lực kéo căng, cho phép tự do vận động mạnh, squat sâu hay co gập gối mà không lo rách bục. Hai túi mổ sườn khóa kéo ẩn mượt mà giữ trọn vật dụng cá nhân, cạp lưng thun co giãn êm ái cùng dây rút tùy chỉnh độ ôm. Phom vừa F3 (Regular Fit F3) tôn nét cơ bắp săn chắc, cực kỳ ăn ý khi kết hợp cùng áo thun đen, be, trắng hay áo khoác dù thể thao.",
+    images: [
+      "/images/products/shorts-minimalist012-terracotta-front.jpg",
+      "/images/products/shorts-minimalist012-terracotta-back.jpg",
+      "/images/products/shorts-minimalist012-cream-front.jpg",
+      "/images/products/shorts-minimalist012-cream-back.jpg",
+      "/images/products/shorts-minimalist012-taupe-front.jpg",
+      "/images/products/shorts-minimalist012-taupe-back.jpg",
+      "/images/products/shorts-minimalist012-green-front.jpg",
+      "/images/products/shorts-minimalist012-green-back.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-front.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-back.jpg",
+      "/images/products/shorts-minimalist012-charcoal-front.jpg",
+      "/images/products/shorts-minimalist012-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Cam Đất", hex: "#A65B3E", imageIndex: 0 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 2 },
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 4 },
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 },
+      { name: "Xám Sáng", hex: "#8E9197", imageIndex: 8 },
+      { name: "Xám Chì", hex: "#616469", imageIndex: 10 }
+    ],
+    rating: 4.9,
+    reviews: 158,
     inStock: true,
     isNew: true,
     isSale: true,
