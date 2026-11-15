@@ -1,5 +1,5 @@
-import React, { useState, useContext, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import React, { useState, useContext, useEffect, useMemo } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { FiHeart, FiShoppingBag, FiTruck, FiRefreshCw, FiMinus, FiPlus, FiCheck } from 'react-icons/fi';
 import { FaHeart, FaStar, FaMagic } from 'react-icons/fa';
 import { CartContext } from '../context/CartContext';
@@ -7,8 +7,55 @@ import ProductCard from '../components/ProductCard';
 import products, { getProductById } from '../data/products';
 import './ProductDetailPage.css';
 
+const getBaseName = (name) => {
+  const lastDash = name.lastIndexOf(' - ');
+  if (lastDash !== -1) {
+    return name.slice(0, lastDash).trim();
+  }
+  return name;
+};
+
+const normalizeStr = (str) => {
+  return (str || '')
+    .toLowerCase()
+    .replace(/^màu\s+/, '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim();
+};
+
+const findSiblingProduct = (currentProduct, targetColorName) => {
+  if (!currentProduct || !targetColorName) return null;
+  const base = getBaseName(currentProduct.name);
+  const targetNorm = normalizeStr(targetColorName);
+
+  // 1. Direct match: product with same base whose name contains the target color
+  const match = products.find(p => {
+    if (p.id === currentProduct.id) return false;
+    const pBase = getBaseName(p.name);
+    if (pBase !== base) return false;
+    const suffix = p.name.slice(pBase.length);
+    const suffixNorm = normalizeStr(suffix);
+    return suffixNorm.includes(targetNorm) || targetNorm.includes(suffixNorm);
+  });
+  if (match) return match;
+
+  // 2. Fallback: match by primary color (colors[0]) in the same collection
+  return products.find(p => {
+    if (p.id === currentProduct.id) return false;
+    if (p.category !== currentProduct.category) return false;
+    const pBase = getBaseName(p.name);
+    if (pBase !== base) return false;
+    if (p.colors && p.colors[0]) {
+      return normalizeStr(p.colors[0].name) === targetNorm;
+    }
+    return false;
+  }) || null;
+};
+
 const ProductDetailPage = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const product = getProductById(id);
   const { addToCart, addToWishlist, removeFromWishlist, isInWishlist } = useContext(CartContext);
 
@@ -17,6 +64,18 @@ const ProductDetailPage = () => {
   const [selectedColor, setSelectedColor] = useState(null);
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState('desc');
+
+  // Only display the images of the current product / current color
+  const displayImages = useMemo(() => {
+    if (!product || !product.images) return [];
+    if (product.colors && product.colors.length > 1 && product.colors[1]?.imageIndex !== undefined) {
+      const endIdx = product.colors[1].imageIndex;
+      if (endIdx > 0 && endIdx <= product.images.length) {
+        return product.images.slice(0, endIdx);
+      }
+    }
+    return product.images;
+  }, [product]);
 
   // Reset when product changes
   useEffect(() => {
@@ -49,6 +108,19 @@ const ProductDetailPage = () => {
 
   // When user selects a color swatch
   const handleColorSelect = (color, index) => {
+    // If clicking the current color, do nothing
+    if (selectedColor && normalizeStr(selectedColor.name) === normalizeStr(color.name)) {
+      return;
+    }
+
+    // Try finding sibling product for this color
+    const sibling = findSiblingProduct(product, color.name);
+    if (sibling) {
+      navigate(`/product/${sibling.id}`);
+      return;
+    }
+
+    // Fallback for standalone products with internal color variants
     setSelectedColor(color);
     const targetIdx = color.imageIndex !== undefined ? color.imageIndex : index;
     if (product.images && product.images[targetIdx]) {
@@ -59,12 +131,6 @@ const ProductDetailPage = () => {
   // When user clicks a thumbnail
   const handleThumbnailSelect = (index) => {
     setSelectedImage(index);
-    if (product.colors && product.colors.length > 0) {
-      const matchedColor = product.colors.find(c => c.imageIndex === index) || product.colors[index];
-      if (matchedColor) {
-        setSelectedColor(matchedColor);
-      }
-    }
   };
 
   const handleAddToCart = () => {
@@ -97,7 +163,7 @@ const ProductDetailPage = () => {
             <div className="product-detail__main-img">
               <img
                 key={selectedImage}
-                src={product.images[selectedImage] || product.images[0]}
+                src={displayImages[selectedImage] || displayImages[0] || (product.images && product.images[0])}
                 alt={`${product.name} - ${selectedColor ? selectedColor.name : ''}`}
                 className="product-detail__main-img-element"
               />
@@ -108,10 +174,7 @@ const ProductDetailPage = () => {
 
             {/* Thumbnail Gallery */}
             <div className="product-detail__thumbnails">
-              {product.images.map((img, i) => {
-                const matchingColor = product.colors
-                  ? (product.colors.find(c => c.imageIndex === i) || product.colors[i])
-                  : null;
+              {displayImages.map((img, i) => {
                 const isActive = selectedImage === i;
 
                 return (
@@ -120,9 +183,9 @@ const ProductDetailPage = () => {
                     type="button"
                     className={`product-detail__thumb ${isActive ? 'product-detail__thumb--active' : ''}`}
                     onClick={() => handleThumbnailSelect(i)}
-                    title={matchingColor ? `Màu ${matchingColor.name}` : `Ảnh ${i + 1}`}
+                    title={`Ảnh ${i + 1}`}
                   >
-                    <img src={img} alt={`${product.name} - ${matchingColor ? matchingColor.name : i + 1}`} />
+                    <img src={img} alt={`${product.name} - Ảnh ${i + 1}`} />
                   </button>
                 );
               })}
@@ -250,7 +313,7 @@ const ProductDetailPage = () => {
             {/* AI Try-on Quick Feature */}
             <div className="product-detail__vton-box">
               <Link
-                to={`/try-on?garment=${encodeURIComponent(product.images[selectedImage])}&name=${encodeURIComponent(product.name)}`}
+                to={`/try-on?garment=${encodeURIComponent(displayImages[selectedImage] || displayImages[0] || (product.images && product.images[0]))}&name=${encodeURIComponent(product.name)}`}
                 className="btn product-detail__vton-link"
               >
                 <FaMagic className="vton-icon" />
