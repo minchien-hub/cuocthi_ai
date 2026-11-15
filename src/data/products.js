@@ -6329,12 +6329,18 @@ const products = [
       "/images/products/shorts-weekend022-khakibrown-front.jpg",
       "/images/products/shorts-weekend022-khakibrown-back.jpg",
       "/images/products/shorts-weekend022-darkslate-front.jpg",
-      "/images/products/shorts-weekend022-darkslate-back.jpg"
+      "/images/products/shorts-weekend022-darkslate-back.jpg",
+      "/images/products/shorts-weekend022-charcoal-front.jpg",
+      "/images/products/shorts-weekend022-charcoal-back.jpg",
+      "/images/products/shorts-weekend022-black-front.jpg",
+      "/images/products/shorts-weekend022-black-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
-      { name: "Nâu Khaki", hex: "#766355", imageIndex: 0 },
-      { name: "Xám Đen", hex: "#2F3535", imageIndex: 2 }
+      { name: "Nâu Khaki", hex: "#7C685B", imageIndex: 0 },
+      { name: "Xanh Rêu Đậm", hex: "#343A3A", imageIndex: 2 },
+      { name: "Xám Chì", hex: "#464646", imageIndex: 4 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 145,
@@ -6345,12 +6351,47 @@ const products = [
   },
   {
     id: 215,
-    name: "Quần Short Kaki Lưng Gài Durabletex™ 290Gsm Đáy Rã Gusset Linh Hoạt Túi Khóa Kéo Phom Vừa F3 - The Weekend 022 - Màu Xám Đen",
+    name: "Quần Short Kaki Lưng Gài Durabletex™ 290Gsm Đáy Rã Gusset Linh Hoạt Túi Khóa Kéo Phom Vừa F3 - The Weekend 022 - Màu Xanh Rêu Đậm",
     category: "Quần",
     price: 340000,
     originalPrice: 520000,
-    description: "Quần short kaki nam cao cấp thuộc bộ sưu tập The Weekend 022 từ thương hiệu Aureus Fashion. Tông màu xám đen (Dark Slate / Charcoal Black) hiện đại, mạnh mẽ, lịch lãm và cực kỳ tôn dáng. Ứng dụng dòng vải dệt kaki Durabletex™ 290Gsm cao cấp bền màu, bề mặt đanh mịn, kháng nhăn tự nhiên và co giãn nhẹ tạo cảm giác dễ chịu. Điểm nhấn đắt giá ở kết cấu rập đáy Gusset công thái học phân bổ đều lực căng chuyển động, kết hợp 2 túi sườn khóa kéo zip an toàn chống rơi rớt tư trang cá nhân. Cạp quần lưng gài khuy sang trọng có đỉa luồn thắt lưng và túi mổ sau sắc sảo. Phom vừa F3 (Regular Fit F3) vừa vặn, độ dài trên gối khỏe khoắn. Hoàn hảo cho các buổi dã ngoại cuối tuần, du lịch, thể thao nhẹ hay dạo phố khi mix cùng áo polo dệt kim, áo thun ôm hoặc sơ mi khoác ngoài.",
+    description: "Quần short kaki nam cao cấp thuộc bộ sưu tập The Weekend 022 từ thương hiệu Aureus Fashion. Tông màu xanh rêu đậm (Dark Olive Slate / Forest Pine) hiện đại, mạnh mẽ, lịch lãm và cực kỳ tôn dáng. Ứng dụng dòng vải dệt kaki Durabletex™ 290Gsm cao cấp bền màu, bề mặt đanh mịn, kháng nhăn tự nhiên và co giãn nhẹ tạo cảm giác dễ chịu. Điểm nhấn đắt giá ở kết cấu rập đáy Gusset công thái học phân bổ đều lực căng chuyển động, kết hợp 2 túi sườn khóa kéo zip an toàn chống rơi rớt tư trang cá nhân. Cạp quần lưng gài khuy sang trọng có đỉa luồn thắt lưng và túi mổ sau sắc sảo. Phom vừa F3 (Regular Fit F3) vừa vặn, độ dài trên gối khỏe khoắn. Hoàn hảo cho các buổi dã ngoại cuối tuần, du lịch, thể thao nhẹ hay dạo phố khi mix cùng áo polo dệt kim, áo thun ôm hoặc sơ mi khoác ngoài.",
     images: [
+      "/images/products/shorts-weekend022-darkslate-front.jpg",
+      "/images/products/shorts-weekend022-darkslate-back.jpg",
+      "/images/products/shorts-weekend022-khakibrown-front.jpg",
+      "/images/products/shorts-weekend022-khakibrown-back.jpg",
+      "/images/products/shorts-weekend022-charcoal-front.jpg",
+      "/images/products/shorts-weekend022-charcoal-back.jpg",
+      "/images/products/shorts-weekend022-black-front.jpg",
+      "/images/products/shorts-weekend022-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu Đậm", hex: "#343A3A", imageIndex: 0 },
+      { name: "Nâu Khaki", hex: "#7C685B", imageIndex: 2 },
+      { name: "Xám Chì", hex: "#464646", imageIndex: 4 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 139,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ F3"
+  },
+  {
+    id: 216,
+    name: "Quần Short Kaki Lưng Gài Durabletex™ 290Gsm Đáy Rã Gusset Linh Hoạt Túi Khóa Kéo Phom Vừa F3 - The Weekend 022 - Màu Xám Chì",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short kaki nam cao cấp thuộc bộ sưu tập The Weekend 022 từ thương hiệu Aureus Fashion. Tông màu xám chì (Charcoal Slate / Dark Graphite) nam tính, lịch lãm và cực kỳ dễ phối đồ theo phong cách Smart Casual năng động. Ứng dụng dòng vải dệt kaki Durabletex™ 290Gsm cao cấp bền màu, bề mặt đanh mịn, kháng nhăn tự nhiên và co giãn nhẹ tạo cảm giác dễ chịu. Điểm nhấn đắt giá ở kết cấu rập đáy Gusset công thái học phân bổ đều lực căng chuyển động, kết hợp 2 túi sườn khóa kéo zip an toàn chống rơi rớt tư trang cá nhân. Cạp quần lưng gài khuy sang trọng có đỉa luồn thắt lưng và túi mổ sau sắc sảo. Phom vừa F3 (Regular Fit F3) vừa vặn, độ dài ngang đùi khỏe khoắn. Hoàn hảo cho các buổi dã ngoại cuối tuần, du lịch, thể thao nhẹ hay dạo phố khi mix cùng áo polo dệt kim, áo thun ôm hoặc sơ mi khoác ngoài.",
+    images: [
+      "/images/products/shorts-weekend022-charcoal-front.jpg",
+      "/images/products/shorts-weekend022-charcoal-back.jpg",
+      "/images/products/shorts-weekend022-black-front.jpg",
+      "/images/products/shorts-weekend022-black-back.jpg",
       "/images/products/shorts-weekend022-darkslate-front.jpg",
       "/images/products/shorts-weekend022-darkslate-back.jpg",
       "/images/products/shorts-weekend022-khakibrown-front.jpg",
@@ -6358,11 +6399,44 @@ const products = [
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
-      { name: "Xám Đen", hex: "#2F3535", imageIndex: 0 },
-      { name: "Nâu Khaki", hex: "#766355", imageIndex: 2 }
+      { name: "Xám Chì", hex: "#464646", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Xanh Rêu Đậm", hex: "#343A3A", imageIndex: 4 },
+      { name: "Nâu Khaki", hex: "#7C685B", imageIndex: 6 }
     ],
-    rating: 4.9,
-    reviews: 139,
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Durabletex™ F3"
+  },
+  {
+    id: 217,
+    name: "Quần Short Kaki Lưng Gài Durabletex™ 290Gsm Đáy Rã Gusset Linh Hoạt Túi Khóa Kéo Phom Vừa F3 - The Weekend 022 - Màu Đen",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short kaki nam cao cấp thuộc bộ sưu tập The Weekend 022 từ thương hiệu Aureus Fashion. Tông màu đen huyền bí (Jet Black / Tactical Onyx) quyền lực, tôn trọn vóc dáng nam tính và che khuyết điểm cơ thể hoàn hảo. Được chế tác từ chất vải kaki công nghệ Durabletex™ 290Gsm dày dặn dẻo dai, chống bai dão, chống nhăn và kháng mài mòn tối ưu. Đột phá kỹ thuật may đo với chi tiết đáy rã Gusset linh hoạt (Ergonomic Crotch Gusset) giúp giải phóng hoàn toàn sự gò bó, mang lại sự an tâm tuyệt đối khi squat sâu, bước sải chân rộng, lái xe hay leo núi. Cặp túi mổ sườn tích hợp khóa kéo zip dọc ẩn bảo vệ trọn vẹn điện thoại ví tiền, cạp lưng gài khuy tinh tế kèm đỉa thắt lưng chắc chắn. Phom vừa F3 (Regular Fit F3) chuẩn mực, cực kỳ đa năng khi phối cùng áo thun basic, polo thể thao, sơ mi cuban hay áo khoác dã ngoại.",
+    images: [
+      "/images/products/shorts-weekend022-black-front.jpg",
+      "/images/products/shorts-weekend022-black-back.jpg",
+      "/images/products/shorts-weekend022-charcoal-front.jpg",
+      "/images/products/shorts-weekend022-charcoal-back.jpg",
+      "/images/products/shorts-weekend022-darkslate-front.jpg",
+      "/images/products/shorts-weekend022-darkslate-back.jpg",
+      "/images/products/shorts-weekend022-khakibrown-front.jpg",
+      "/images/products/shorts-weekend022-khakibrown-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#464646", imageIndex: 2 },
+      { name: "Xanh Rêu Đậm", hex: "#343A3A", imageIndex: 4 },
+      { name: "Nâu Khaki", hex: "#7C685B", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 156,
     inStock: true,
     isNew: true,
     isSale: true,
