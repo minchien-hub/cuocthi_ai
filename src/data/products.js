@@ -5443,6 +5443,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Non Iron F2"
+  },
+  {
+    id: 186,
+    name: "Quần Tây Công Sở Easycare™ Xếp Ly Thoải Mái Giữ Ly Thẳng Đứng Ít Nhăn Phom Vừa F3 - The Ceo 033 - Màu Đen",
+    category: "Quần",
+    price: 460000,
+    originalPrice: 680000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập The Ceo 033 từ thương hiệu Aureus Fashion. Được chế tác từ chất liệu vải dệt thoi pha sợi cao cấp tích hợp công nghệ Easycare™ thông minh với ưu điểm chống nhăn nhàu vượt bậc, mặt vải đanh mịn thoáng khí và độ rũ tự nhiên chuẩn phong thái doanh nhân. Thiết kế xếp ly đôi mặt trước (Double Pleated Front) cổ điển giúp giải phóng tối đa không gian cử động vùng hông và đùi, đem lại cảm giác thoải mái tuyệt đối khi ngồi làm việc hay họp hành suốt ngày dài. Kỹ thuật ép nhiệt giữ ly vĩnh viễn (Permanent Sharp Crease) tạo nếp ly ủi thẳng đứng sắc nét tôn đôi chân thẳng tắp. Chi tiết cạp may đo Sartorial đỉa cài thắt lưng kèm vạt khuy cài mở rộng tinh tế, 2 túi xéo hông tiện dụng và 2 túi mổ sau cài khuy chỉn chu. Phom vừa F3 (Regular Fit F3) đĩnh đạc, phối hoàn hảo cùng áo sơ mi công sở, áo polo dệt kim hay áo blazer sang trọng.",
+    images: [
+      "/images/products/pants-theceo033-black-front.png",
+      "/images/products/pants-theceo033-black-back.png",
+      "/images/products/pants-theceo033-grey-front.jpg",
+      "/images/products/pants-theceo033-grey-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Xám", hex: "#63666D", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F3"
+  },
+  {
+    id: 187,
+    name: "Quần Tây Công Sở Easycare™ Xếp Ly Thoải Mái Giữ Ly Thẳng Đứng Ít Nhăn Phom Vừa F3 - The Ceo 033 - Màu Xám",
+    category: "Quần",
+    price: 460000,
+    originalPrice: 680000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập The Ceo 033 từ thương hiệu Aureus Fashion. Tông màu xám ghi lịch lãm (Charcoal Slate Grey) mang đến diện mạo sang trọng, đĩnh đạc và chuẩn mực cho các quý ông văn phòng lẫn lãnh đạo hiện đại. Ứng dụng công nghệ vải Easycare™ cao cấp hạn chế nhăn tối đa, thoáng mát và co giãn nhẹ tạo sự linh hoạt khi di chuyển. Chi tiết xếp ly thoải mái mặt trước tạo độ phồng nhẹ tinh tế ở phần đùi trên giúp che khuyết điểm hoàn hảo, kết hợp đường nếp ly ủi sắc lẹm kéo dài tỉ lệ cơ thể. Đai cạp may đo cao cấp đính kèm vạt cài khuy giấu, túi mổ hậu khuy đính chắc chắn. Phom vừa F3 (Regular Fit F3) tôn phong thái chững chạc, dễ dàng kết hợp cùng áo sơ mi trắng, sơ mi xanh nhạt, áo len mỏng dệt kim hoặc áo vest/blazer đồng điệu.",
+    images: [
+      "/images/products/pants-theceo033-grey-front.jpg",
+      "/images/products/pants-theceo033-grey-back.jpg",
+      "/images/products/pants-theceo033-black-front.png",
+      "/images/products/pants-theceo033-black-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xám", hex: "#63666D", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 136,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F3"
   }
 ];
 
