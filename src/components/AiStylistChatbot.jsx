@@ -54,7 +54,7 @@ export default function AiStylistChatbot() {
 
     try {
       e.currentTarget.setPointerCapture(e.pointerId);
-    } catch (err) {}
+    } catch (err) { }
   };
 
   const handlePointerMove = (e) => {
@@ -83,7 +83,7 @@ export default function AiStylistChatbot() {
 
     try {
       e.currentTarget.releasePointerCapture(e.pointerId);
-    } catch (err) {}
+    } catch (err) { }
 
     // Nếu chỉ click/tap nhẹ mà không kéo di chuyển -> Mở cửa sổ chat
     if (!hasMovedRef.current) {

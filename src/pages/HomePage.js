@@ -25,15 +25,15 @@ const HomePage = () => {
   }, []);
 
   const featuredProducts = [
-    products[0],  // Áo Polo Đồng Phục HCMUTE
-    products[17], // Áo Thun Raglan Oversize - Màu Nâu
-    products[18], // Áo Thun Raglan Oversize - Màu Trắng Sữa
-    products[19], // Áo Thun Raglan Oversize - Màu Xanh Nhạt
-    products[20], // Áo Thun Raglan Oversize - Màu Xám Đậm
-    products[1],  // Áo Blazer Nữ Premium
-    products[2],  // Đầm Dạ Hội Lụa Satin
-    products[3],  // Quần Tây Slim Fit
-  ];
+    products.find(p => p.id === 1),  // Áo Polo Đồng Phục HCMUTE
+    products.find(p => p.id === 18), // Áo Thun Raglan Oversize - Màu Nâu
+    products.find(p => p.id === 19), // Áo Thun Raglan Oversize - Màu Trắng Sữa
+    products.find(p => p.id === 20), // Áo Thun Raglan Oversize - Màu Xanh Nhạt
+    products.find(p => p.id === 21), // Áo Thun Raglan Oversize - Màu Xám Đậm
+    products.find(p => p.id === 3),  // Đầm Dạ Hội Lụa Satin
+    products.find(p => p.id === 4),  // Quần Tây Slim Fit
+    products.find(p => p.id === 7),  // Đầm Midi Hoa Nhí
+  ].filter(Boolean);
 
   const getCategoryCount = (catName) => {
     const count = products.filter(p => p.category === catName).length;

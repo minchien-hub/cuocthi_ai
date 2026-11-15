@@ -21,31 +21,6 @@ const products = [
     badge: "Đồng phục HCMUTE"
   },
   {
-    id: 2,
-    name: "Áo Blazer Nữ Premium",
-    category: "Áo",
-    price: 1850000,
-    originalPrice: 2500000,
-    description: "Áo blazer nữ thiết kế cao cấp, chất liệu vải tweed nhập khẩu. Phom dáng chuẩn Hàn Quốc, cúc mạ vàng dập nổi sang trọng, phù hợp cho cả công sở và dạo phố.",
-    images: [
-      "/images/products/blazer-1.jpg",
-      "/images/products/blazer-2.jpg",
-      "/images/products/blazer-3.jpg"
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      { name: "Đen", hex: "#1a1a1a", imageIndex: 0 },
-      { name: "Be", hex: "#d4b896", imageIndex: 1 },
-      { name: "Trắng kem", hex: "#f5f0e8", imageIndex: 2 }
-    ],
-    rating: 4.8,
-    reviews: 124,
-    inStock: true,
-    isNew: true,
-    isSale: true,
-    badge: "Sale -26%"
-  },
-  {
     id: 3,
     name: "Đầm Dạ Hội Lụa Satin",
     category: "Đầm",
@@ -121,31 +96,6 @@ const products = [
     badge: "Hot"
   },
   {
-    id: 6,
-    name: "Áo Sơ Mi Lụa Cổ Đứng",
-    category: "Áo",
-    price: 750000,
-    originalPrice: 950000,
-    description: "Áo sơ mi nữ chất liệu lụa tơ tằm mềm mại, cổ tàu đứng thanh lịch. Thiết kế tối giản nhưng sang trọng, tôn lên vẻ nữ tính quý phái.",
-    images: [
-      "/images/products/shirt-1.jpg",
-      "/images/products/shirt-2.jpg",
-      "/images/products/shirt-3.jpg"
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      { name: "Trắng", hex: "#ffffff", imageIndex: 0 },
-      { name: "Hồng nhạt", hex: "#FFB6C1", imageIndex: 1 },
-      { name: "Xanh baby", hex: "#89CFF0", imageIndex: 2 }
-    ],
-    rating: 4.5,
-    reviews: 156,
-    inStock: true,
-    isNew: false,
-    isSale: true,
-    badge: "Sale -21%"
-  },
-  {
     id: 7,
     name: "Đầm Midi Hoa Nhí",
     category: "Đầm",
@@ -219,31 +169,6 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Sale -25%"
-  },
-  {
-    id: 10,
-    name: "Áo Khoác Măng Tô Dạ Dáng Dài",
-    category: "Áo",
-    price: 2450000,
-    originalPrice: 3200000,
-    description: "Áo khoác măng tô dáng dài qua gối, chất dạ len ép cao cấp dày dặn ấm áp. Cổ bẻ ve lớn, kèm đai thắt eo tạo phom đồng hồ cát sang trọng.",
-    images: [
-      "/images/products/coat-1.jpg",
-      "/images/products/coat-2.jpg",
-      "/images/products/coat-3.jpg"
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      { name: "Camel", hex: "#C19A6B", imageIndex: 0 },
-      { name: "Đen", hex: "#1a1a1a", imageIndex: 1 },
-      { name: "Ghi sáng", hex: "#D3D3D3", imageIndex: 2 }
-    ],
-    rating: 4.9,
-    reviews: 95,
-    inStock: true,
-    isNew: true,
-    isSale: true,
-    badge: "Best Seller"
   },
   {
     id: 11,
