@@ -5027,12 +5027,15 @@ const products = [
       "/images/products/pants-thenostyle246-black-front.jpg",
       "/images/products/pants-thenostyle246-black-back.jpg",
       "/images/products/pants-thenostyle246-white-front.jpg",
-      "/images/products/pants-thenostyle246-white-back.jpg"
+      "/images/products/pants-thenostyle246-white-back.jpg",
+      "/images/products/pants-thenostyle246-grey-front.jpg",
+      "/images/products/pants-thenostyle246-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
-      { name: "Trắng", hex: "#F6F6F6", imageIndex: 2 }
+      { name: "Trắng", hex: "#F6F6F6", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#C5C7CA", imageIndex: 4 }
     ],
     rating: 5.0,
     reviews: 164,
@@ -5052,15 +5055,46 @@ const products = [
       "/images/products/pants-thenostyle246-white-front.jpg",
       "/images/products/pants-thenostyle246-white-back.jpg",
       "/images/products/pants-thenostyle246-black-front.jpg",
-      "/images/products/pants-thenostyle246-black-back.jpg"
+      "/images/products/pants-thenostyle246-black-back.jpg",
+      "/images/products/pants-thenostyle246-grey-front.jpg",
+      "/images/products/pants-thenostyle246-grey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng", hex: "#F6F6F6", imageIndex: 0 },
-      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#C5C7CA", imageIndex: 4 }
     ],
     rating: 4.9,
     reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Wide Leg F5"
+  },
+  {
+    id: 174,
+    name: "Quần Dài Lưng Thun Ống Siêu Rộng Vải Đầm Tay Thoáng Mát Xếp Nếp Phẳng Bụng Phom Siêu Rộng F5 - The No Style 246 - Màu Xám Tiêu Sáng",
+    category: "Quần",
+    price: 390000,
+    originalPrice: 560000,
+    description: "Quần dài nam lưng thun ống siêu rộng thuộc bộ sưu tập The No Style 246 từ thương hiệu Aureus Fashion. Tông màu xám tiêu sáng (Heather Grey / Light Grey Melange) mang đậm phong cách Minimalist Athletic & City Boy năng động, cực kỳ tôn da và dễ mix-match. Vải dệt đầm tay dày dặn, độ rũ mềm tự nhiên, thoáng mát và co giãn nhẹ tạo cảm giác thư giãn dễ chịu cả ngày dài. Thiết kế xếp nếp ly chìm trước bụng tạo hiệu ứng phẳng bụng giấu eo tài tình, kết hợp phom siêu rộng F5 (Super Wide Leg F5) phóng khoáng, che khuyết điểm chân và hack chiều cao tối đa. Lưng thun co giãn thoải mái, túi hông xéo sâu cùng túi mổ vuông phía sau tiện dụng. Rất thích hợp khi phối cùng áo hoodie streetwear, áo thun phom hộp boxy, sơ mi oversize hay sneaker retro.",
+    images: [
+      "/images/products/pants-thenostyle246-grey-front.jpg",
+      "/images/products/pants-thenostyle246-grey-back.jpg",
+      "/images/products/pants-thenostyle246-black-front.jpg",
+      "/images/products/pants-thenostyle246-black-back.jpg",
+      "/images/products/pants-thenostyle246-white-front.jpg",
+      "/images/products/pants-thenostyle246-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#C5C7CA", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Trắng", hex: "#F6F6F6", imageIndex: 4 }
+    ],
+    rating: 4.9,
+    reviews: 148,
     inStock: true,
     isNew: true,
     isSale: true,
