@@ -6109,12 +6109,18 @@ const products = [
       "/images/products/shorts-weekend063-white-front.jpg",
       "/images/products/shorts-weekend063-white-back.jpg",
       "/images/products/shorts-weekend063-beige-front.jpg",
-      "/images/products/shorts-weekend063-beige-back.jpg"
+      "/images/products/shorts-weekend063-beige-back.jpg",
+      "/images/products/shorts-weekend063-charcoal-front.jpg",
+      "/images/products/shorts-weekend063-charcoal-back.jpg",
+      "/images/products/shorts-weekend063-lightgrey-front.jpg",
+      "/images/products/shorts-weekend063-lightgrey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
-      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 2 }
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 2 },
+      { name: "Xám Chì", hex: "#55524D", imageIndex: 4 },
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 142,
@@ -6134,15 +6140,83 @@ const products = [
       "/images/products/shorts-weekend063-beige-front.jpg",
       "/images/products/shorts-weekend063-beige-back.jpg",
       "/images/products/shorts-weekend063-white-front.jpg",
-      "/images/products/shorts-weekend063-white-back.jpg"
+      "/images/products/shorts-weekend063-white-back.jpg",
+      "/images/products/shorts-weekend063-charcoal-front.jpg",
+      "/images/products/shorts-weekend063-charcoal-back.jpg",
+      "/images/products/shorts-weekend063-lightgrey-front.jpg",
+      "/images/products/shorts-weekend063-lightgrey-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 0 },
-      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 },
+      { name: "Xám Chì", hex: "#55524D", imageIndex: 4 },
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 135,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ F3"
+  },
+  {
+    id: 209,
+    name: "Quần Short Lưng Gài DurableTex™ Xếp Ly Thân Trước Chiết Ben Ôm Eo Chạm Gối Phom Vừa F3 - The Weekend 063 - Màu Xám Chì",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short nam may đo cao cấp thuộc bộ sưu tập The Weekend 063 từ thương hiệu Aureus Fashion. Tông màu xám chì (Charcoal Slate / Dark Graphite) nam tính, lịch lãm và cực kỳ dễ phối đồ theo phong cách Sartorial Smart Casual. Phát triển từ chất vải dệt DurableTex™ độc quyền với kết cấu sợi bền bỉ, bề mặt đanh mịn màng, chống nhăn và giữ phom ly thẳng tắp suốt ngày dài. Điểm nhấn may đo tinh xảo với đường xếp ly kép phía trước (Front Pleats) giải phóng không gian cử động vùng đùi, kết hợp chi tiết chiết ben lưng sau (Back Waist Darts) giúp ôm vừa vặn theo hõm eo mà không lo bị phồng hở cạp khi ngồi. Cạp lưng gài khuy cài trang trọng có đỉa luồn thắt lưng da, 2 túi xéo bên hông sâu tiện dụng và 1 túi mổ cơi phía sau sắc sảo. Chiều dài chạm gối chuẩn mực, phom vừa F3 (Regular Fit F3) tôn nét đĩnh đạc chỉn chu. Rất thích hợp khi mix cùng áo polo dệt kim, sơ mi cổ Cuba hay áo blazer cộc tay dạo phố.",
+    images: [
+      "/images/products/shorts-weekend063-charcoal-front.jpg",
+      "/images/products/shorts-weekend063-charcoal-back.jpg",
+      "/images/products/shorts-weekend063-lightgrey-front.jpg",
+      "/images/products/shorts-weekend063-lightgrey-back.jpg",
+      "/images/products/shorts-weekend063-white-front.jpg",
+      "/images/products/shorts-weekend063-white-back.jpg",
+      "/images/products/shorts-weekend063-beige-front.jpg",
+      "/images/products/shorts-weekend063-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Chì", hex: "#55524D", imageIndex: 0 },
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 2 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ F3"
+  },
+  {
+    id: 210,
+    name: "Quần Short Lưng Gài DurableTex™ Xếp Ly Thân Trước Chiết Ben Ôm Eo Chạm Gối Phom Vừa F3 - The Weekend 063 - Màu Xám Sáng",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short nam may đo cao cấp thuộc bộ sưu tập The Weekend 063 từ thương hiệu Aureus Fashion. Tông màu xám sáng (Light Mist Grey / Silver Ash) hiện đại, tươi trẻ và mang tinh thần thành thị City Sartorial tinh tế. Ứng dụng chất liệu vải dệt cao cấp DurableTex™ công nghệ cao thoáng mát, đanh sợi, kháng nhàu và giữ nếp ly quần luôn sắc cạnh. Thiết kế kỹ thuật cao với đường xếp ly thanh lịch phía trước nới rộng biên độ bước chân, đồng thời kỹ thuật chiết ben mặt sau ôm gọn theo dáng eo tạo hiệu ứng tôn vòng hông cân đối. Cạp quần lưng gài khuy tinh tế kèm đỉa thắt lưng chắc chắn, túi xéo 2 bên sâu rộng cùng túi mổ viền cơi sau tiện ích. Độ dài chạm gối lịch sự, phom vừa F3 (Regular Fit F3) vừa vặn thanh thoát. Hoàn hảo cho các buổi gặp gỡ cuối tuần, du lịch nghỉ dưỡng khi phối cùng sơ mi linen, áo polo knit dệt kim hay sneaker trắng thanh lịch.",
+    images: [
+      "/images/products/shorts-weekend063-lightgrey-front.jpg",
+      "/images/products/shorts-weekend063-lightgrey-back.jpg",
+      "/images/products/shorts-weekend063-charcoal-front.jpg",
+      "/images/products/shorts-weekend063-charcoal-back.jpg",
+      "/images/products/shorts-weekend063-white-front.jpg",
+      "/images/products/shorts-weekend063-white-back.jpg",
+      "/images/products/shorts-weekend063-beige-front.jpg",
+      "/images/products/shorts-weekend063-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Sáng", hex: "#B8BABC", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#55524D", imageIndex: 2 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 139,
     inStock: true,
     isNew: true,
     isSale: true,
