@@ -4865,6 +4865,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Đáy Kim Cương F3"
+  },
+  {
+    id: 166,
+    name: "Quần Dài Jogger Mặc Nhà Airdry™ Siêu Nhẹ Thoáng Khí Đáy Relaxed Rise Thông Minh Phom Rộng F4 - The Homebody 006 - Màu Xám Tiêu Sáng",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 490000,
+    description: "Quần dài mặc nhà nam cao cấp thuộc bộ sưu tập The Homebody 006 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải thun công nghệ Airdry™ siêu nhẹ (Featherlight Airdry™ Fabric), kết cấu sợi dệt thoáng khí tản nhiệt nhanh, bề mặt vi mô siêu mềm mịn không gây cọ xát hay kích ứng cho làn da. Điểm nhấn đột phá là thiết kế đáy hạ Relaxed Rise thông minh giúp giải phóng hoàn toàn sự gò bó cho phần hông và đáy chậu, mang lại cảm giác dễ chịu, thoải mái tuyệt đối khi ngồi làm việc tại nhà (Work from Home), nằm thư giãn, đọc sách hay đi ngủ. Cạp chun thun co giãn êm ái không gây hằn bụng, tích hợp dây rút mềm mại tùy chỉnh độ vừa vặn và 2 túi sườn sâu tiện lợi đựng điện thoại. Tông màu xám tiêu sáng (Light Heather Grey Melange) trang nhã, hiện đại. Thiết kế phom rộng F4 (Relaxed Fit F4) buông nhẹ tự nhiên, dễ dàng kết hợp cùng áo thun trơn, áo tank top hoặc áo thun tay dài mặc nhà.",
+    images: [
+      "/images/products/pants-homebody006-lightgrey-front.jpg",
+      "/images/products/pants-homebody006-lightgrey-back.jpg",
+      "/images/products/pants-homebody006-black-front.png",
+      "/images/products/pants-homebody006-black-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#C5C7CA", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 167,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ F4"
+  },
+  {
+    id: 167,
+    name: "Quần Dài Jogger Mặc Nhà Airdry™ Siêu Nhẹ Thoáng Khí Đáy Relaxed Rise Thông Minh Phom Rộng F4 - The Homebody 006 - Màu Đen",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 490000,
+    description: "Quần dài mặc nhà nam cao cấp thuộc bộ sưu tập The Homebody 006 từ thương hiệu Aureus Fashion. Tông màu đen tuyền kinh điển (Pitch Black) sạch sẽ, tinh tế và lịch sự, có thể tự tin mặc ở nhà, dạo bộ hay đi cà phê gần nhà mà vẫn giữ vẻ ngoài gọn gàng, phong cách. Chất vải Airdry™ siêu nhẹ thoáng khí, co giãn 4 chiều mềm mại tựa như làn da thứ hai, kháng nhăn và khô cực nhanh sau khi giặt. Cấu trúc đáy hạ Relaxed Rise công thái học chống kích chật, đường may phẳng êm ái kết hợp phom rộng F4 (Relaxed Fit F4) phóng khoáng mang lại sự tự do và thư thái tuyệt đối cho mọi khoảnh khắc nghỉ ngơi sau ngày dài làm việc căng thẳng.",
+    images: [
+      "/images/products/pants-homebody006-black-front.png",
+      "/images/products/pants-homebody006-black-back.png",
+      "/images/products/pants-homebody006-lightgrey-front.jpg",
+      "/images/products/pants-homebody006-lightgrey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Xám Tiêu Sáng", hex: "#C5C7CA", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ F4"
   }
 ];
 
