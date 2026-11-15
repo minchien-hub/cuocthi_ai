@@ -5767,6 +5767,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Cargo 3D F4"
+  },
+  {
+    id: 198,
+    name: "Quần Short Kaki Ống Rộng Airdry™ Hiệu Ứng Linen Sọc Mịn Thoáng Mát Nhẹ Nhàng Phom Rộng F4 - The No Style 202 - Màu Sọc Xanh Biển",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần short kaki nam phong cách Resort Chic & Coastal Summer thuộc bộ sưu tập The No Style 202 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải kaki cao cấp dệt xước mộc ứng dụng công nghệ Airdry™ tạo hiệu ứng bề mặt vân Linen đũi tự nhiên siêu mỏng nhẹ, tản nhiệt và bay ẩm siêu tốc, giữ cơ thể luôn mát mẻ dưới tiết trời nhiệt đới oi ả. Họa tiết sọc dọc thanh mảnh (Blue Pinstripes) phối xanh biển trên nền trắng tươi sáng mang lại diện mạo trẻ trung, phóng khoáng và hack dáng chân thon gọn. Thiết kế cạp lưng kết hợp thông minh (Hybrid Elastic Waistband): mặt trước phẳng phiu có đỉa cài thắt lưng, cúc cài và dây rút luồn tinh tế, mặt sau bo chun co giãn giải phóng áp lực vòng bụng. Trang bị 2 túi mổ sườn sâu rộng và 1 túi mổ ngang sau lưng. Phom rộng F4 (Wide Fit F4) độ dài ngang gối thoải mái, hoàn hảo khi kết hợp cùng áo polo knit dệt kim, sơ mi trắng linen, áo thun trơn hay giày xỏ lười loafer/sandal.",
+    images: [
+      "/images/products/shorts-thenostyle202-blue-front.jpg",
+      "/images/products/shorts-thenostyle202-blue-back.jpg",
+      "/images/products/shorts-thenostyle202-green-front.jpg",
+      "/images/products/shorts-thenostyle202-green-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Sọc Xanh Biển", hex: "#4A7BB0", imageIndex: 0 },
+      { name: "Sọc Xanh Rêu", hex: "#5A7A64", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Linen F4"
+  },
+  {
+    id: 199,
+    name: "Quần Short Kaki Ống Rộng Airdry™ Hiệu Ứng Linen Sọc Mịn Thoáng Mát Nhẹ Nhàng Phom Rộng F4 - The No Style 202 - Màu Sọc Xanh Rêu",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần short kaki nam phong cách Resort Chic & Coastal Summer thuộc bộ sưu tập The No Style 202 từ thương hiệu Aureus Fashion. Tông màu sọc xanh rêu xô thơm (Sage Green Pinstripes) nhã nhặn, mang đậm hơi thở thời trang Parisian & Quiet Luxury thanh lịch. Chất vải kaki hiệu ứng sợi Linen tự nhiên công nghệ Airdry™ cực kỳ thoáng mát, đanh nhẹ nhưng không nhăn xù hay thô ráp, thân thiện với làn da. Thiết kế cạp trước có cúc cài và đỉa thắt lưng kèm dây rút tiện lợi, cạp sau thun co giãn êm ái linh hoạt. Cấu trúc túi mổ xéo hai bên hông cùng túi mổ sau tối giản. Phom rộng F4 (Wide Fit F4) suông rũ thoải mái, dễ dàng mix-match cùng áo sơ mi đũi cộc tay, áo thun trơn, dép cói hay giày sneaker tối giản cho những chuyến du lịch biển và dạo phố cuối tuần.",
+    images: [
+      "/images/products/shorts-thenostyle202-green-front.jpg",
+      "/images/products/shorts-thenostyle202-green-back.jpg",
+      "/images/products/shorts-thenostyle202-blue-front.jpg",
+      "/images/products/shorts-thenostyle202-blue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Sọc Xanh Rêu", hex: "#5A7A64", imageIndex: 0 },
+      { name: "Sọc Xanh Biển", hex: "#4A7BB0", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Airdry™ Linen F4"
   }
 ];
 
