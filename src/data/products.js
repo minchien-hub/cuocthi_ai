@@ -6691,6 +6691,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Denim F4"
+  },
+  {
+    id: 228,
+    name: "Quần Short Jeans Lưng Thun Co Giãn Vải Denim Mềm Mát Dễ Chịu Cả Ngày Phom Rộng F4 - The Original 041 - Màu Xanh Đen",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 550000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 041 từ thương hiệu Aureus Fashion. Tông màu xanh đen wash trầm đậm (Deep Indigo-Black Wash) nam tính, mạnh mẽ và cực kỳ tôn dáng. Được dệt từ sợi cotton thiên nhiên cao cấp trải qua công nghệ giặt wash làm mềm (Soft Touch Denim), mang lại bề mặt vải êm ái, thoáng mát, không gây cảm giác thô ráp cứng nhắc như các dòng jeans truyền thống. Thiết kế cạp thun co giãn toàn phần (Full Elastic Waistband) ôm nhẹ nhàng quanh vòng eo, triệt tiêu hoàn toàn cảm giác lằn bụng hay siết eo khi ngồi lâu hoặc lái xe, kết hợp dây rút luồn bọc đầu kim loại cao cấp tùy chỉnh độ vừa vặn dễ dàng. Trang bị 2 túi mổ chéo trước sâu rộng để vừa các dòng smartphone cỡ lớn cùng 2 túi ốp sau thêu đường dằn chỉ ngang và đính tag dệt thể thao đỏ trắng 'THE ORIGINAL DENIM' tinh tế. Phom rộng F4 (Loose Fit F4) năng động, thoải mái tối đa cho ngày dài hoạt động ngoài trời, dạo phố hay du lịch.",
+    images: [
+      "/images/products/shorts-jeans041-darkblue-front.jpg",
+      "/images/products/shorts-jeans041-darkblue-back.jpg",
+      "/images/products/shorts-jeans041-greyblue-front.jpg",
+      "/images/products/shorts-jeans041-greyblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đen", hex: "#232733", imageIndex: 0 },
+      { name: "Xám Xanh", hex: "#96A4B8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 185,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
+  },
+  {
+    id: 229,
+    name: "Quần Short Jeans Lưng Thun Co Giãn Vải Denim Mềm Mát Dễ Chịu Cả Ngày Phom Rộng F4 - The Original 041 - Màu Xám Xanh",
+    category: "Quần",
+    price: 350000,
+    originalPrice: 550000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 041 từ thương hiệu Aureus Fashion. Sở hữu gam màu xám xanh wash khói (Acid Light Grey-Blue Wash) độc đáo, mới lạ và mang đậm hơi thở thời trang dạo phố mùa hè. Chất liệu vải denim cotton mềm mát, tản nhiệt và thấm hút mồ hôi tối ưu, đem lại sự dễ chịu thư thái suốt 24 giờ. Bản lưng thun co giãn êm ái chống xoắn gập kết hợp dây rút đồng màu giúp điều chỉnh kích cỡ linh hoạt theo từng vóc dáng. Cấu trúc 4 túi tiện dụng với 2 túi mổ sườn và 2 túi ốp sau đính tag dệt thể thao phong cách. Phom rộng F4 (Loose Fit F4) độ dài ngang gối phóng khoáng, cực kỳ ăn ý khi phối cùng áo thun trơn basic, áo ba lỗ tank top, áo polo dệt kim hay sơ mi cộc tay khoác ngoài.",
+    images: [
+      "/images/products/shorts-jeans041-greyblue-front.jpg",
+      "/images/products/shorts-jeans041-greyblue-back.jpg",
+      "/images/products/shorts-jeans041-darkblue-front.jpg",
+      "/images/products/shorts-jeans041-darkblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Xanh", hex: "#96A4B8", imageIndex: 0 },
+      { name: "Xanh Đen", hex: "#232733", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 176,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
   }
 ];
 
