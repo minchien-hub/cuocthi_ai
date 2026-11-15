@@ -6491,6 +6491,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Denim F4"
+  },
+  {
+    id: 220,
+    name: "Quần Short Jeans CloudTouch™ Định Hình Pen Ôm Gọn Bụng Dài Qua Gối Phom Rộng F4 - The Original 074 - Màu Xanh Nhạt",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 074 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải denim công nghệ CloudTouch™ độc quyền với cảm giác mềm mại như chạm vào mây, khắc phục hoàn toàn nhược điểm thô ráp của vải jeans truyền thống, mang lại sự êm ái, thoáng mát và co giãn dễ chịu suốt ngày dài. Điểm nhấn may đo Sartorial đắt giá nằm ở chi tiết xếp ly định hình pen thân trước (Pleated Dart Front) giúp che khuyết điểm vòng 2, tạo hiệu ứng phẳng bụng và thon gọn eo tức thì. Mặt sau phối đường chiết ben thủ công ôm khít hõm lưng tinh tế, kết hợp mác da bò cao cấp phía sau cạp quần và các chi tiết tán đinh kim loại chắc chắn tại miệng túi. Thiết kế chiều dài qua gối thời thượng (Over-the-knee Bermuda Length) chuẩn phong cách City Boy & Skater phóng khoáng. Phom rộng F4 (Wide Leg Fit F4) tôn vóc dáng cao ráo. Tông màu xanh nhạt (Light Sky Blue Denim) tươi trẻ, năng động, cực kỳ ăn ý khi phối cùng áo polo dệt kim, sơ mi trắng phom rộng hay áo thun graphic.",
+    images: [
+      "/images/products/shorts-jeans074-lightblue-front.jpg",
+      "/images/products/shorts-jeans074-lightblue-back.jpg",
+      "/images/products/shorts-jeans074-darkblue-front.jpg",
+      "/images/products/shorts-jeans074-darkblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#92A4BE", imageIndex: 0 },
+      { name: "Xanh Đậm", hex: "#1C243A", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F4"
+  },
+  {
+    id: 221,
+    name: "Quần Short Jeans CloudTouch™ Định Hình Pen Ôm Gọn Bụng Dài Qua Gối Phom Rộng F4 - The Original 074 - Màu Xanh Đậm",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần short jeans nam cao cấp thuộc bộ sưu tập The Original 074 từ thương hiệu Aureus Fashion. Tông màu xanh chàm đậm (Deep Raw Indigo Blue) cổ điển, lịch lãm, sạch sẽ và cực kỳ tôn dáng. Ứng dụng công nghệ sợi denim CloudTouch™ mềm mịn vượt trội, co giãn linh hoạt và bền bỉ giữ form qua nhiều chu kỳ giặt ủi. Kỹ thuật xếp pen định hình mặt trước kết hợp cùng đường chiết eo sau tạo phom ôm gọn gàng vùng bụng mà không gây tức bụng khi ngồi hay ăn no. Chiều dài quần phủ qua gối thời thượng chuẩn xu hướng thời trang đường phố đương đại, đi kèm 2 túi xéo sườn sâu rộng và 2 túi ốp sau sắc nét. Phom rộng F4 (Wide Leg Fit F4) tự do, phóng khoáng, dễ dàng kết hợp cùng áo thun trơn oversize, áo sơ mi cộc tay dệt xước, áo khoác dù bomber hay giày sneaker chunky cá tính.",
+    images: [
+      "/images/products/shorts-jeans074-darkblue-front.jpg",
+      "/images/products/shorts-jeans074-darkblue-back.jpg",
+      "/images/products/shorts-jeans074-lightblue-front.jpg",
+      "/images/products/shorts-jeans074-lightblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đậm", hex: "#1C243A", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#92A4BE", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 141,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "CloudTouch™ F4"
   }
 ];
 
