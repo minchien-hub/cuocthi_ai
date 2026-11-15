@@ -5829,12 +5829,18 @@ const products = [
       "/images/products/shorts-minimalist012-taupe-front.jpg",
       "/images/products/shorts-minimalist012-taupe-back.jpg",
       "/images/products/shorts-minimalist012-green-front.jpg",
-      "/images/products/shorts-minimalist012-green-back.jpg"
+      "/images/products/shorts-minimalist012-green-back.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-front.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-back.jpg",
+      "/images/products/shorts-minimalist012-charcoal-front.jpg",
+      "/images/products/shorts-minimalist012-charcoal-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Nâu Xám", hex: "#56514D", imageIndex: 0 },
-      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 2 }
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 2 },
+      { name: "Xám Sáng", hex: "#8E9197", imageIndex: 4 },
+      { name: "Xám Chì", hex: "#616469", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 168,
@@ -5854,15 +5860,83 @@ const products = [
       "/images/products/shorts-minimalist012-green-front.jpg",
       "/images/products/shorts-minimalist012-green-back.jpg",
       "/images/products/shorts-minimalist012-taupe-front.jpg",
-      "/images/products/shorts-minimalist012-taupe-back.jpg"
+      "/images/products/shorts-minimalist012-taupe-back.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-front.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-back.jpg",
+      "/images/products/shorts-minimalist012-charcoal-front.jpg",
+      "/images/products/shorts-minimalist012-charcoal-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 0 },
-      { name: "Nâu Xám", hex: "#56514D", imageIndex: 2 }
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 2 },
+      { name: "Xám Sáng", hex: "#8E9197", imageIndex: 4 },
+      { name: "Xám Chì", hex: "#616469", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ F3"
+  },
+  {
+    id: 202,
+    name: "Quần Short Thun Icevibes™ Chạm Mát Lạnh Đáy Gusset Chịu Lực Túi Zip Ẩn Phom Vừa F3 - The Minimalist 012 - Màu Xám Sáng",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam thể thao & thường nhật cao cấp thuộc bộ sưu tập The Minimalist 012 từ thương hiệu Aureus Fashion. Tông màu xám sáng (Light Mist Grey / Silver Heather) tươi trẻ, thanh lịch và mang tinh thần Athleisure hiện đại, dễ dàng phối hợp ăn ý với mọi trang phục mùa hè. Ứng dụng chất liệu thun sợi công nghệ Icevibes™ chạm mát lạnh tức thì, tản nhiệt nhanh và thấm hút mồ hôi tối ưu. Cấu trúc rập đệm đáy Gusset chịu lực công thái học giải phóng hoàn toàn sự gò bó, hỗ trợ chuyển động gập duỗi linh hoạt mà không lo bục rách. Thiết kế 2 túi mổ sườn khóa zip ẩn an toàn để chìa khóa, điện thoại cùng 1 túi sau tiện ích, lưng thun co giãn êm ái kèm dây rút tùy chỉnh. Phom vừa F3 (Regular Fit F3) tôn vóc dáng thể thao gọn gàng, hoàn hảo khi mix cùng áo thun trơn, áo tank top, polo dệt kim hay giày thể thao năng động.",
+    images: [
+      "/images/products/shorts-minimalist012-lightgrey-front.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-back.jpg",
+      "/images/products/shorts-minimalist012-charcoal-front.jpg",
+      "/images/products/shorts-minimalist012-charcoal-back.jpg",
+      "/images/products/shorts-minimalist012-taupe-front.jpg",
+      "/images/products/shorts-minimalist012-taupe-back.jpg",
+      "/images/products/shorts-minimalist012-green-front.jpg",
+      "/images/products/shorts-minimalist012-green-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Sáng", hex: "#8E9197", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#616469", imageIndex: 2 },
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 4 },
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 160,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ F3"
+  },
+  {
+    id: 203,
+    name: "Quần Short Thun Icevibes™ Chạm Mát Lạnh Đáy Gusset Chịu Lực Túi Zip Ẩn Phom Vừa F3 - The Minimalist 012 - Màu Xám Chì",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam thể thao & thường nhật cao cấp thuộc bộ sưu tập The Minimalist 012 từ thương hiệu Aureus Fashion. Gam màu xám chì (Charcoal Grey / Slate Anthracite) trầm nam tính, mạnh mẽ và cực kỳ tôn dáng. Chất liệu vải dệt thun Icevibes™ co giãn 4 chiều mềm mượt, bề mặt mát lạnh sâu, kháng nhăn tự nhiên và bền bỉ qua nhiều chu kỳ giặt sấy. Điểm nhấn đắt giá ở chi tiết miếng đáp đáy Gusset chịu lực phân bổ lực kéo thông minh, mang lại sự an tâm tuyệt đối trong mọi buổi tập gym, chạy bộ hay vận động ngoài trời. Cặp túi sườn khóa kéo ẩn mượt mà bảo vệ tư trang an toàn, cạp lưng thun co giãn ôm khít êm ái cùng túi sau phong cách. Phom vừa F3 (Regular Fit F3) năng động, dễ dàng kết hợp cùng áo thun oversize, hoodie cộc tay hoặc giày sneaker thời trang.",
+    images: [
+      "/images/products/shorts-minimalist012-charcoal-front.jpg",
+      "/images/products/shorts-minimalist012-charcoal-back.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-front.jpg",
+      "/images/products/shorts-minimalist012-lightgrey-back.jpg",
+      "/images/products/shorts-minimalist012-taupe-front.jpg",
+      "/images/products/shorts-minimalist012-taupe-back.jpg",
+      "/images/products/shorts-minimalist012-green-front.jpg",
+      "/images/products/shorts-minimalist012-green-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Chì", hex: "#616469", imageIndex: 0 },
+      { name: "Xám Sáng", hex: "#8E9197", imageIndex: 2 },
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 4 },
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 147,
     inStock: true,
     isNew: true,
     isSale: true,
