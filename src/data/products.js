@@ -4965,6 +4965,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Corduroy F4"
+  },
+  {
+    id: 170,
+    name: "Quần Jogger Thun Scuba Cloudtouch™ Siêu Mịn Mềm Xốp Ít Nhăn Cắt Rập 3D Tôn Dáng Phom Vừa F3 - Non Branded 053 - Màu Xám Sáng",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài jogger thun nam cao cấp thuộc bộ sưu tập Non Branded 053 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải thun Scuba công nghệ độc quyền Cloudtouch™ cao cấp sở hữu cấu trúc đệm khí 3 lớp mềm xốp nhẹ tênh, bề mặt mịn màng êm ái tựa làn mây, co giãn 4 chiều linh hoạt và khả năng chống nhăn vượt trội giúp giữ form dáng đứng chuẩn suốt cả ngày. Kỹ thuật cắt rập 3D công thái học tôn dáng chân thon gọn, phom vừa F3 (Regular Tapered Fit F3) vừa vặn thanh lịch. Thiết kế tiện ích vượt trội với túi hộp sườn đa năng bên đùi trái có nút bấm thời thượng, túi sau mổ ngang tích hợp khóa kéo ẩn chống rơi đồ, cạp lưng thun co giãn êm ái tích hợp dây rút giấu gọn và bo gấu jogger ôm cổ chân tôn dáng giày sneaker. Tông màu xám sáng (Light Grey / Silver Mist) trẻ trung, hiện đại, dễ dàng phối cùng áo thun, hoodie, áo polo dệt kim hay áo khoác bomber.",
+    images: [
+      "/images/products/pants-nonbranded053-lightgrey-front.jpg",
+      "/images/products/pants-nonbranded053-lightgrey-back.jpg",
+      "/images/products/pants-nonbranded053-charcoal-front.jpg",
+      "/images/products/pants-nonbranded053-charcoal-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Sáng", hex: "#C3C6CB", imageIndex: 0 },
+      { name: "Xám Chì", hex: "#4A504E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cloudtouch™ F3"
+  },
+  {
+    id: 171,
+    name: "Quần Jogger Thun Scuba Cloudtouch™ Siêu Mịn Mềm Xốp Ít Nhăn Cắt Rập 3D Tôn Dáng Phom Vừa F3 - Non Branded 053 - Màu Xám Chì",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài jogger thun nam cao cấp thuộc bộ sưu tập Non Branded 053 từ thương hiệu Aureus Fashion. Tông màu xám chì (Charcoal Grey / Slate Anthracite) trầm ấm, nam tính, đậm chất Modern Athleisure và Techwear. Chất liệu vải thun Scuba Cloudtouch™ mướt mịn, đanh chắc nhưng vô cùng mềm xốp, chống nhăn tự nhiên và cách nhiệt linh hoạt. Đường may cắt rập 3D tinh tế hỗ trợ tối đa mọi chuyển động chạy nhảy, tập luyện hay dạo phố. Trang bị túi hộp utility thời trang ở đùi trái, túi zip ngang sau hông tiện dụng, cạp thun co giãn và bo gấu thun ôm gọn mắt cá. Hoàn hảo khi kết hợp cùng áo thun oversize, áo tank top thể thao, áo nỉ sweater hay áo khoác gió năng động.",
+    images: [
+      "/images/products/pants-nonbranded053-charcoal-front.jpg",
+      "/images/products/pants-nonbranded053-charcoal-back.jpg",
+      "/images/products/pants-nonbranded053-lightgrey-front.jpg",
+      "/images/products/pants-nonbranded053-lightgrey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Chì", hex: "#4A504E", imageIndex: 0 },
+      { name: "Xám Sáng", hex: "#C3C6CB", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 145,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Cloudtouch™ F3"
   }
 ];
 
