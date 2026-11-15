@@ -4401,14 +4401,20 @@ const products = [
       "/images/products/pants-nonbranded032-khaki-front.jpg",
       "/images/products/pants-nonbranded032-khaki-back.png",
       "/images/products/pants-nonbranded032-sand-front.jpg",
-      "/images/products/pants-nonbranded032-sand-back.png"
+      "/images/products/pants-nonbranded032-sand-back.png",
+      "/images/products/pants-nonbranded032-olive-front.jpg",
+      "/images/products/pants-nonbranded032-olive-back.png",
+      "/images/products/pants-nonbranded032-lightgrey-front.png",
+      "/images/products/pants-nonbranded032-lightgrey-back.png"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
       { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 2 },
       { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 4 },
-      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 6 }
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 6 },
+      { name: "Xanh Rêu Khaki", hex: "#6F6A57", imageIndex: 8 },
+      { name: "Xám Sáng", hex: "#C5C7CA", imageIndex: 10 }
     ],
     rating: 5.0,
     reviews: 164,
@@ -4432,14 +4438,20 @@ const products = [
       "/images/products/pants-nonbranded032-khaki-front.jpg",
       "/images/products/pants-nonbranded032-khaki-back.png",
       "/images/products/pants-nonbranded032-sand-front.jpg",
-      "/images/products/pants-nonbranded032-sand-back.png"
+      "/images/products/pants-nonbranded032-sand-back.png",
+      "/images/products/pants-nonbranded032-olive-front.jpg",
+      "/images/products/pants-nonbranded032-olive-back.png",
+      "/images/products/pants-nonbranded032-lightgrey-front.png",
+      "/images/products/pants-nonbranded032-lightgrey-back.png"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 0 },
       { name: "Đen", hex: "#1C1C1E", imageIndex: 2 },
       { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 4 },
-      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 6 }
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 6 },
+      { name: "Xanh Rêu Khaki", hex: "#6F6A57", imageIndex: 8 },
+      { name: "Xám Sáng", hex: "#C5C7CA", imageIndex: 10 }
     ],
     rating: 4.9,
     reviews: 158,
@@ -4463,14 +4475,20 @@ const products = [
       "/images/products/pants-nonbranded032-black-front.png",
       "/images/products/pants-nonbranded032-black-back.png",
       "/images/products/pants-nonbranded032-beige-front.png",
-      "/images/products/pants-nonbranded032-beige-back.png"
+      "/images/products/pants-nonbranded032-beige-back.png",
+      "/images/products/pants-nonbranded032-olive-front.jpg",
+      "/images/products/pants-nonbranded032-olive-back.png",
+      "/images/products/pants-nonbranded032-lightgrey-front.png",
+      "/images/products/pants-nonbranded032-lightgrey-back.png"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 0 },
       { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 2 },
       { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
-      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 }
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 },
+      { name: "Xanh Rêu Khaki", hex: "#6F6A57", imageIndex: 8 },
+      { name: "Xám Sáng", hex: "#C5C7CA", imageIndex: 10 }
     ],
     rating: 5.0,
     reviews: 172,
@@ -4494,17 +4512,97 @@ const products = [
       "/images/products/pants-nonbranded032-black-front.png",
       "/images/products/pants-nonbranded032-black-back.png",
       "/images/products/pants-nonbranded032-beige-front.png",
-      "/images/products/pants-nonbranded032-beige-back.png"
+      "/images/products/pants-nonbranded032-beige-back.png",
+      "/images/products/pants-nonbranded032-olive-front.jpg",
+      "/images/products/pants-nonbranded032-olive-back.png",
+      "/images/products/pants-nonbranded032-lightgrey-front.png",
+      "/images/products/pants-nonbranded032-lightgrey-back.png"
     ],
     sizes: ["29", "30", "31", "32", "34", "36"],
     colors: [
       { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 0 },
       { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 2 },
       { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
-      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 }
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 },
+      { name: "Xanh Rêu Khaki", hex: "#6F6A57", imageIndex: 8 },
+      { name: "Xám Sáng", hex: "#C5C7CA", imageIndex: 10 }
     ],
     rating: 4.9,
     reviews: 165,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Kaki Twill 245Gsm"
+  },
+  {
+    id: 155,
+    name: "Quần Dài Kaki Chinos Vải Twill 245Gsm Co Giãn Đứng Phom Bền Bỉ Thoải Mái Phom Ôm Vừa F2 - Non Branded 032 - Màu Xanh Rêu Khaki",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài kaki chinos nam cao cấp thuộc bộ sưu tập Non Branded 032 từ thương hiệu Aureus Fashion. Tông màu xanh rêu khaki (Olive Green / Khaki Rêu) mang hơi thở quân đội pha lẫn nét hiện đại, thời thượng và cực kỳ nam tính. Được phát triển từ chất liệu vải Kaki Cotton dệt chéo Twill 245Gsm đanh mịn, bền bỉ, dày dặn vừa phải và tích hợp sợi thun Spandex co giãn thoải mái cho mọi vận động. Cạp quần thiết kế chuẩn mực giữ dáng thẳng thớm suốt ngày dài làm việc. Phom ôm vừa F2 (Slim Fit F2) tôn đôi chân thon gọn, kết hợp hoàn hảo cùng áo thun trắng, áo polo dệt kim hoặc áo sơ mi Oxford xắn tay.",
+    images: [
+      "/images/products/pants-nonbranded032-olive-front.jpg",
+      "/images/products/pants-nonbranded032-olive-back.png",
+      "/images/products/pants-nonbranded032-lightgrey-front.png",
+      "/images/products/pants-nonbranded032-lightgrey-back.png",
+      "/images/products/pants-nonbranded032-black-front.png",
+      "/images/products/pants-nonbranded032-black-back.png",
+      "/images/products/pants-nonbranded032-beige-front.png",
+      "/images/products/pants-nonbranded032-beige-back.png",
+      "/images/products/pants-nonbranded032-khaki-front.jpg",
+      "/images/products/pants-nonbranded032-khaki-back.png",
+      "/images/products/pants-nonbranded032-sand-front.jpg",
+      "/images/products/pants-nonbranded032-sand-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xanh Rêu Khaki", hex: "#6F6A57", imageIndex: 0 },
+      { name: "Xám Sáng", hex: "#C5C7CA", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 },
+      { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 8 },
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 10 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Kaki Twill 245Gsm"
+  },
+  {
+    id: 156,
+    name: "Quần Dài Kaki Chinos Vải Twill 245Gsm Co Giãn Đứng Phom Bền Bỉ Thoải Mái Phom Ôm Vừa F2 - Non Branded 032 - Màu Xám Sáng",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài kaki chinos nam cao cấp thuộc bộ sưu tập Non Branded 032 từ thương hiệu Aureus Fashion. Tông màu xám sáng (Light Grey / Silver Mist) trang nhã, thanh lịch và mang hơi thở phong cách quý ông Smart Casual đương đại. Chất vải Kaki Twill 245Gsm đanh mịn, tản nhiệt tốt, thấm hút mồ hôi và giữ phom ly thẳng thớm sau nhiều lần giặt. Cấu trúc đường may đôi gia cố tỉ mỉ ở các vị trí chịu lực đảm bảo độ bền tối đa. Phom ôm vừa F2 (Slim Fit F2) thon gọn, thanh thoát, cực kỳ ăn ý khi kết hợp cùng áo polo sẫm màu, áo sơ mi kẻ sọc, áo len mỏng hay blazer lịch sự.",
+    images: [
+      "/images/products/pants-nonbranded032-lightgrey-front.png",
+      "/images/products/pants-nonbranded032-lightgrey-back.png",
+      "/images/products/pants-nonbranded032-olive-front.jpg",
+      "/images/products/pants-nonbranded032-olive-back.png",
+      "/images/products/pants-nonbranded032-black-front.png",
+      "/images/products/pants-nonbranded032-black-back.png",
+      "/images/products/pants-nonbranded032-beige-front.png",
+      "/images/products/pants-nonbranded032-beige-back.png",
+      "/images/products/pants-nonbranded032-khaki-front.jpg",
+      "/images/products/pants-nonbranded032-khaki-back.png",
+      "/images/products/pants-nonbranded032-sand-front.jpg",
+      "/images/products/pants-nonbranded032-sand-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Xám Sáng", hex: "#C5C7CA", imageIndex: 0 },
+      { name: "Xanh Rêu Khaki", hex: "#6F6A57", imageIndex: 2 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 4 },
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 6 },
+      { name: "Vàng Khaki", hex: "#CAA870", imageIndex: 8 },
+      { name: "Vàng Cát", hex: "#D9BD9E", imageIndex: 10 }
+    ],
+    rating: 4.9,
+    reviews: 159,
     inStock: true,
     isNew: true,
     isSale: true,
