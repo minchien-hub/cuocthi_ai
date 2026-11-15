@@ -6097,6 +6097,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Icevibes™ F3"
+  },
+  {
+    id: 207,
+    name: "Quần Short Lưng Gài DurableTex™ Xếp Ly Thân Trước Chiết Ben Ôm Eo Chạm Gối Phom Vừa F3 - The Weekend 063 - Màu Trắng",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short nam may đo cao cấp thuộc bộ sưu tập The Weekend 063 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải dệt công nghệ DurableTex™ độc quyền với cấu trúc sợi dẻo dai, bề mặt đanh mịn, kháng nhăn tự nhiên và bền bỉ giữ phom sắc nét qua nhiều lần giặt sấy. Điểm nhấn may đo Sartorial đắt giá nằm ở kỹ thuật xếp ly tinh tế phía trước (Front Pleats) tạo độ phồng cử động tự nhiên cho đùi, kết hợp chi tiết chiết ben lưng sau (Back Waist Darts) giúp quần ôm khít hoàn hảo theo đường cong eo hông mà không bị hở lưng khi ngồi. Cạp quần dạng lưng gài khuy cài chỉn chu, tích hợp con đỉa tiện lợi phối cùng thắt lưng da, 2 túi xéo sườn sâu rộng và 1 túi mổ cơi sau thanh lịch. Chiều dài quần chạm gối chuẩn mực tôn dáng đôi chân thon dài cao ráo. Phom vừa F3 (Regular Fit F3) vừa vặn lịch lãm. Tông màu trắng (Pure Crisp White) tinh khôi, sang trọng và chuẩn gu quý ông nghỉ dưỡng Resort Chic, dễ dàng phối cùng sơ mi linen, polo dệt kim hay giày lười loafer.",
+    images: [
+      "/images/products/shorts-weekend063-white-front.jpg",
+      "/images/products/shorts-weekend063-white-back.jpg",
+      "/images/products/shorts-weekend063-beige-front.jpg",
+      "/images/products/shorts-weekend063-beige-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 0 },
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 142,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ F3"
+  },
+  {
+    id: 208,
+    name: "Quần Short Lưng Gài DurableTex™ Xếp Ly Thân Trước Chiết Ben Ôm Eo Chạm Gối Phom Vừa F3 - The Weekend 063 - Màu Be Sáng",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 520000,
+    description: "Quần short nam may đo cao cấp thuộc bộ sưu tập The Weekend 063 từ thương hiệu Aureus Fashion. Gam màu be sáng (Light Sand Beige / Stone Oatmeal) nền nã, thanh lịch và mang đậm phong cách Old Money & Smart Casual hiện đại. Ứng dụng dòng vải dệt cao cấp DurableTex™ đứng phom xuất sắc, thoáng khí, chống co rút và chống nhăn nhàu hiệu quả. Thiết kế nổi bật với chi tiết xếp ly đôi mặt trước giúp giải phóng áp lực vòng đùi khi di chuyển, phối cùng kỹ thuật chiết ben thủ công mặt sau ôm sát hõm lưng tinh tế. Cạp lưng gài khuy đỉa cài thắt lưng chuẩn mực của quần tây cổ điển, đi kèm túi mổ sau viền cơi sắc sảo và túi xéo hông tiện ích. Độ dài chạm gối lịch sự, phom vừa F3 (Regular Fit F3) tôn trọn vóc dáng nam tính chỉn chu. Phối hợp hoàn hảo cho những chuyến du lịch, dạo phố cuối tuần hay buổi hẹn cà phê khi mix cùng polo dệt kim, sơ mi đũi cộc tay hoặc áo thun cao cấp.",
+    images: [
+      "/images/products/shorts-weekend063-beige-front.jpg",
+      "/images/products/shorts-weekend063-beige-back.jpg",
+      "/images/products/shorts-weekend063-white-front.jpg",
+      "/images/products/shorts-weekend063-white-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Be Sáng", hex: "#C8C0B5", imageIndex: 0 },
+      { name: "Trắng", hex: "#FFFFFF", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 135,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "DurableTex™ F3"
   }
 ];
 
