@@ -6441,6 +6441,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Durabletex™ F3"
+  },
+  {
+    id: 218,
+    name: "Quần Short Jeans DurableTex™ Túi Hộp Cargo Cotton Mài Rách Phom Rộng F4 - The Original 081 - Màu Xanh Nhạt Mài",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần short jeans túi hộp cargo nam cao cấp thuộc bộ sưu tập The Original 081 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu denim 100% cotton công nghệ DurableTex™ dày dặn, đanh chắc, thấm hút mồ hôi tốt và giữ form đứng cá tính. Ứng dụng kỹ thuật giặt mài hiệu ứng tuyết Acid Snow Wash độc bản kết hợp các điểm mài cào xước rách nhẹ viền tua rua (Distressed Raw Edge Details) đậm chất Y2K Grunge & 90s Streetwear. Thiết kế tiện dụng với 2 túi hộp Cargo bản lớn bên sườn đùi vạt nắp viền sờn thời thượng, 2 túi xéo trước và 1 túi ốp sau kèm tag dệt phong cách. Cạp lưng phối thun bo co giãn thông minh 2 bên hông kết hợp đỉa cài khuy cài kim loại cao cấp giúp ôm vừa vặn vòng bụng mà vẫn thoải mái tối đa khi cử động. Phom rộng F4 (Loose Fit F4) phủ gối phóng khoáng, cực ngầu khi mix cùng áo thun oversize, hoodie sát nách, baby tee hay sneaker cổ cao.",
+    images: [
+      "/images/products/shorts-jeans081-lightblue-front.jpg",
+      "/images/products/shorts-jeans081-lightblue-back.jpg",
+      "/images/products/shorts-jeans081-darkblue-front.jpg",
+      "/images/products/shorts-jeans081-darkblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt Mài", hex: "#A5B5C2", imageIndex: 0 },
+      { name: "Xanh Đậm Mài", hex: "#222E46", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
+  },
+  {
+    id: 219,
+    name: "Quần Short Jeans DurableTex™ Túi Hộp Cargo Cotton Mài Rách Phom Rộng F4 - The Original 081 - Màu Xanh Đậm Mài",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần short jeans túi hộp cargo nam cao cấp thuộc bộ sưu tập The Original 081 từ thương hiệu Aureus Fashion. Tông màu xanh chàm đậm mài (Deep Indigo Vintage Wash) cổ điển, nam tính và phong trần. Chất vải denim DurableTex™ 100% cotton cao cấp bề mặt đanh mịn, bền bỉ qua thời gian và có độ mềm rũ tự nhiên sau xử lý giặt enzyme mài xước thủ công. Thiết kế 2 túi hộp cargo thân đùi độc đáo với nắp gập viền rách nhẹ bụi bặm, cạp quần tích hợp chun co giãn 2 bên sườn linh hoạt không gây cấn bụng khi ngồi, kết hợp con đỉa luồn thắt lưng chắc chắn. Phom rộng F4 (Loose Fit F4) độ dài ngang/chớm qua gối chuẩn xu hướng Street Style & Skateboarding. Dễ dàng kết hợp cùng áo thun in hình graphic, sơ mi flannel khoác ngoài, áo tank top dệt kim hay giày thể thao hầm hố.",
+    images: [
+      "/images/products/shorts-jeans081-darkblue-front.jpg",
+      "/images/products/shorts-jeans081-darkblue-back.jpg",
+      "/images/products/shorts-jeans081-lightblue-front.jpg",
+      "/images/products/shorts-jeans081-lightblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đậm Mài", hex: "#222E46", imageIndex: 0 },
+      { name: "Xanh Nhạt Mài", hex: "#A5B5C2", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 144,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
   }
 ];
 
