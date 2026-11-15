@@ -4657,6 +4657,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Cargo 300Gsm F3"
+  },
+  {
+    id: 159,
+    name: "Quần Dài Jogger Thun Vải Bird Eye Mesh Thoáng Khí Co Giãn Nhiều Túi Tiện Lợi Phom Vừa F3 - Non Branded 007 - Màu Xanh Rêu",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Quần dài jogger thun thể thao nam cao cấp thuộc bộ sưu tập Non Branded 007 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải thun công nghệ Bird Eye Mesh (vải lưới mắt chim) cao cấp với hàng triệu lỗ thoáng khí vi mô giúp tản nhiệt tức thì, thoát ẩm và làm mát da vượt trội suốt ngày dài. Sợi thun co giãn đàn hồi 4 chiều mềm mại, chống nhăn và chống xù lông tuyệt đối, mang lại cảm giác nhẹ tênh không trọng lượng khi mặc. Thiết kế cạp thun co giãn êm ái tích hợp dây rút tùy chỉnh độ vừa vặn, kết hợp gấu bo thun jogger gọn gàng giúp tôn dáng chân và làm nổi bật giày thể thao. Cấu trúc nhiều túi tiện lợi (Multi-Pocket Utility) gồm 2 túi xéo bên hông sâu rộng an toàn cùng 1 túi mổ phía sau tiện ích. Tông màu xanh rêu (Moss Green / Olive) hiện đại, khỏe khoắn, phom vừa F3 (Regular Fit F3) linh hoạt tuyệt đối cho tập gym, chạy bộ, dạo phố hay mặc nhà hàng ngày.",
+    images: [
+      "/images/products/pants-nonbranded007-mossgreen-front.jpg",
+      "/images/products/pants-nonbranded007-mossgreen-back.jpg",
+      "/images/products/pants-nonbranded007-cream-front.png",
+      "/images/products/pants-nonbranded007-cream-back.png"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu", hex: "#595441", imageIndex: 0 },
+      { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Bird Eye Mesh"
+  },
+  {
+    id: 160,
+    name: "Quần Dài Jogger Thun Vải Bird Eye Mesh Thoáng Khí Co Giãn Nhiều Túi Tiện Lợi Phom Vừa F3 - Non Branded 007 - Màu Trắng Kem",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 490000,
+    description: "Quần dài jogger thun thể thao nam cao cấp thuộc bộ sưu tập Non Branded 007 từ thương hiệu Aureus Fashion. Gam màu trắng kem (Cream / Off-White) tinh tế, trẻ trung và chuẩn phong cách Athleisure Clean Fit thời thượng. Cấu trúc vải dệt lưới mắt chim Bird Eye Mesh siêu thoáng khí, chống tích nhiệt và mang lại cảm giác mát lạnh tức thì ngay khi chạm vào bề mặt vải. Tính năng co giãn đa chiều tạo sự tự do tối đa cho từng bước sải chân hay các bài tập thể lực cường độ cao. Thiết kế cạp chun kèm dây rút tiện lợi, hệ thống túi xéo sâu chống rơi vật dụng cá nhân cùng túi sau ốp viền chỉn chu. Phom vừa F3 (Regular Fit F3) tôn nét cơ bắp săn chắc, cực kỳ ăn ý khi phối cùng áo thun thể thao, áo tank top, áo polo pique hoặc áo khoác gió running.",
+    images: [
+      "/images/products/pants-nonbranded007-cream-front.png",
+      "/images/products/pants-nonbranded007-cream-back.png",
+      "/images/products/pants-nonbranded007-mossgreen-front.jpg",
+      "/images/products/pants-nonbranded007-mossgreen-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Kem", hex: "#EAE6DA", imageIndex: 0 },
+      { name: "Xanh Rêu", hex: "#595441", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 147,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Bird Eye Mesh"
   }
 ];
 
