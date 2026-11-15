@@ -6591,6 +6591,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Denim F4"
+  },
+  {
+    id: 224,
+    name: "Quần Đùi Jeans Ống Suông Phủ Gối Durabletex™ Cotton Thoáng Mát Dằn Đáy Chống Rách Phom Rộng F4 - The Original 069 - Màu Xanh Nhạt",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần đùi jeans nam cao cấp thuộc bộ sưu tập The Original 069 từ thương hiệu Aureus Fashion. Sử dụng chất liệu vải denim 100% cotton công nghệ Durabletex™ đanh sợi, dày dặn, đứng phom và tản nhiệt thoáng mát suốt ngày dài. Kỹ thuật dằn đường may gia cố đũng quần (dằn đáy chịu lực) chuyên biệt chống bục rách, giải phóng hoàn toàn áp lực đũng khi ngồi xổm, co gập chân hay vận động mạnh. Điểm nhấn thời trang nằm ở công nghệ wash mài cát thủ công tạo vệt râu mèo (whiskers) và mảng phai màu sáng tối nghệ thuật phong cách 90s Retro Skater & Vintage Streetwear. Cấu trúc 5 túi kinh điển gia cố đinh tán đồng bền bỉ, cạp gài khuy kim loại chắc chắn cùng tag da bò cao cấp dập chìm 'THE ORIGINAL DENIM' phía sau. Thiết kế ống suông phủ gối thời thượng, phom rộng F4 (Loose Fit F4) tự do, dễ dàng phối cùng áo thun graphic oversize, polo dệt kim, sơ mi khoác ngoài hay giày sneaker chunky.",
+    images: [
+      "/images/products/shorts-jeans069-lightblue-front.jpg",
+      "/images/products/shorts-jeans069-lightblue-back.jpg",
+      "/images/products/shorts-jeans069-darkblue-front.jpg",
+      "/images/products/shorts-jeans069-darkblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Nhạt", hex: "#7E9DBE", imageIndex: 0 },
+      { name: "Xanh Đậm", hex: "#335075", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
+  },
+  {
+    id: 225,
+    name: "Quần Đùi Jeans Ống Suông Phủ Gối Durabletex™ Cotton Thoáng Mát Dằn Đáy Chống Rách Phom Rộng F4 - The Original 069 - Màu Xanh Đậm",
+    category: "Quần",
+    price: 380000,
+    originalPrice: 580000,
+    description: "Quần đùi jeans nam cao cấp thuộc bộ sưu tập The Original 069 từ thương hiệu Aureus Fashion. Sở hữu gam màu xanh chàm wash đậm (Deep Indigo Wash) nam tính, cổ điển và cực kỳ dễ phối đồ. Vải denim dệt từ sợi cotton thiên nhiên bền bỉ với công nghệ Durabletex™ chống sờn mòn, giữ màu tốt và mềm mại dần sau từng lần giặt. Gia cố đường may dằn đáy chỉ đôi chịu lực tối đa, loại bỏ hoàn toàn nỗi lo bục chỉ đũng khi vận động thể thao hay đi lại nhiều. Thiết kế cạp cài khuy kim loại chắc chắn, đỉa thắt lưng may đo và mác da bò cao cấp 'THE ORIGINAL DENIM' sang trọng. Độ dài phủ qua gối phóng khoáng kết hợp phom rộng F4 (Loose Fit F4) chuẩn phong cách City Boy, Skater & Casual Streetwear, phối ăn ý cùng áo thun trắng, tank top, sơ mi flannel hay giày sneaker retro.",
+    images: [
+      "/images/products/shorts-jeans069-darkblue-front.jpg",
+      "/images/products/shorts-jeans069-darkblue-back.jpg",
+      "/images/products/shorts-jeans069-lightblue-front.jpg",
+      "/images/products/shorts-jeans069-lightblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Đậm", hex: "#335075", imageIndex: 0 },
+      { name: "Xanh Nhạt", hex: "#7E9DBE", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 159,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Denim F4"
   }
 ];
 
