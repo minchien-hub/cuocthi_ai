@@ -5817,6 +5817,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Airdry™ Linen F4"
+  },
+  {
+    id: 200,
+    name: "Quần Short Thun Icevibes™ Chạm Mát Lạnh Đáy Gusset Chịu Lực Túi Zip Ẩn Phom Vừa F3 - The Minimalist 012 - Màu Nâu Xám",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam thể thao & thường nhật cao cấp thuộc bộ sưu tập The Minimalist 012 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu thun công nghệ Icevibes™ độc quyền với cảm giác mát lạnh tức thì khi chạm vào da (Instant Cool Touch), co giãn 4 chiều đàn hồi cực tốt, thoáng khí và kháng nhăn nhàu vượt trội. Điểm nhấn kỹ thuật đắt giá nằm ở chi tiết đệm đáy Gusset chịu lực (Reinforced Crotch Gusset) dạng hình thoi công thái học giúp triệt tiêu áp lực kéo căng vùng đáy quần, hỗ trợ tối đa khi chạy bộ, squat, tập gym hay ngồi lâu mà không lo bục rách. Thiết kế 2 túi mổ sườn tích hợp khóa kéo ẩn (Concealed Zip Pockets) chống rơi rớt điện thoại, ví tiền cùng 1 túi ốp vát góc sau tiện dụng. Cạp lưng thun co giãn êm ái kèm dây rút luồn tinh gọn. Phom vừa F3 (Regular Fit F3) tôn dáng thể thao săn chắc. Tông màu nâu xám (Taupe Grey / Dark Mocha Grey) thời thượng, dễ phối cùng áo thun ôm, áo ba lỗ tank top hay polo dệt kim.",
+    images: [
+      "/images/products/shorts-minimalist012-taupe-front.jpg",
+      "/images/products/shorts-minimalist012-taupe-back.jpg",
+      "/images/products/shorts-minimalist012-green-front.jpg",
+      "/images/products/shorts-minimalist012-green-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 0 },
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 168,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ F3"
+  },
+  {
+    id: 201,
+    name: "Quần Short Thun Icevibes™ Chạm Mát Lạnh Đáy Gusset Chịu Lực Túi Zip Ẩn Phom Vừa F3 - The Minimalist 012 - Màu Xanh Rêu Đậm",
+    category: "Quần",
+    price: 320000,
+    originalPrice: 480000,
+    description: "Quần short thun nam thể thao & thường nhật cao cấp thuộc bộ sưu tập The Minimalist 012 từ thương hiệu Aureus Fashion. Tông màu xanh rêu đậm (Forest Pine Green / Dark Olive) nam tính, phong trần và tràn đầy năng lượng dã ngoại Outdoor & Training. Chất liệu vải dệt sợi Icevibes™ giải nhiệt cơ thể thần tốc, bề mặt trơn mịn mát rượi, chống bết dính mồ hôi và nhanh khô siêu việt. Cấu trúc rập đáy Gusset công thái học tạo độ linh hoạt không giới hạn cho các chuyển động mạnh. Hai túi sườn khóa zip ẩn an toàn bảo vệ đồ đạc cá nhân trong mọi buổi tập luyện hay dạo phố, kết hợp túi sau tiện dụng và cạp thun dây rút bản êm không gây lằn bụng. Phom vừa F3 (Regular Fit F3) gọn gàng, độ dài ngang đùi tôn vóc dáng cao ráo, hoàn hảo khi mix cùng áo thun thể thao, áo hoodie mỏng hoặc giày running chuyên dụng.",
+    images: [
+      "/images/products/shorts-minimalist012-green-front.jpg",
+      "/images/products/shorts-minimalist012-green-back.jpg",
+      "/images/products/shorts-minimalist012-taupe-front.jpg",
+      "/images/products/shorts-minimalist012-taupe-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Rêu Đậm", hex: "#3D4E46", imageIndex: 0 },
+      { name: "Nâu Xám", hex: "#56514D", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 154,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Icevibes™ F3"
   }
 ];
 
