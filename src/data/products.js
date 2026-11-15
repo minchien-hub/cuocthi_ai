@@ -4385,6 +4385,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Ống Cong 3D F5"
+  },
+  {
+    id: 151,
+    name: "Quần Dài Kaki Chinos Vải Twill 245Gsm Co Giãn Đứng Phom Bền Bỉ Thoải Mái Phom Ôm Vừa F2 - Non Branded 032 - Màu Đen",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài kaki chinos nam cao cấp thuộc bộ sưu tập Non Branded 032 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải Kaki Cotton dệt chéo Twill định lượng tiêu chuẩn 245Gsm, bề mặt vải đanh mịn, dày dặn, bền màu và chống xù lông vượt trội. Tích hợp sợi Spandex co giãn đàn hồi cao giúp người mặc dễ dàng đứng lên, ngồi xuống hay di chuyển linh hoạt suốt cả ngày mà không hề bị gò bó. Tông màu đen tuyền (Pitch Black) trang nhã, lịch lãm và chuẩn phong cách Smart Casual. Thiết kế cạp lưng đứng phom chỉn chu, khóa kéo kim loại chống trượt, túi xéo phía trước tiện lợi cùng túi mổ viền sau thanh lịch. Phom ôm vừa F2 (Slim Fit F2) tôn đôi chân thẳng tắp, dễ dàng phối cùng áo sơ mi công sở, áo polo hoặc áo thun casual.",
+    images: [
+      "/images/products/pants-nonbranded032-black-front.png",
+      "/images/products/pants-nonbranded032-black-back.png",
+      "/images/products/pants-nonbranded032-beige-front.png",
+      "/images/products/pants-nonbranded032-beige-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 0 },
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 164,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Kaki Twill 245Gsm"
+  },
+  {
+    id: 152,
+    name: "Quần Dài Kaki Chinos Vải Twill 245Gsm Co Giãn Đứng Phom Bền Bỉ Thoải Mái Phom Ôm Vừa F2 - Non Branded 032 - Màu Be Sáng",
+    category: "Quần",
+    price: 420000,
+    originalPrice: 590000,
+    description: "Quần dài kaki chinos nam cao cấp thuộc bộ sưu tập Non Branded 032 từ thương hiệu Aureus Fashion. Gam màu be sáng (Light Beige / Cream Khaki) hiện đại, trẻ trung và mang hơi thở phong cách quý ông thanh lịch phong cách Old Money. Chất vải Kaki Twill 245Gsm đanh mịn, tản nhiệt tốt, thấm hút mồ hôi và giữ phom ly thẳng thớm sau nhiều lần giặt. Cấu trúc đường may đôi gia cố tỉ mỉ ở các vị trí chịu lực đảm bảo độ bền tối đa. Phom ôm vừa F2 (Slim Fit F2) thon gọn, thanh thoát, cực kỳ ăn ý khi kết hợp cùng áo thun trơn, sơ mi oxford, áo polo hay áo khoác blazer dạo phố.",
+    images: [
+      "/images/products/pants-nonbranded032-beige-front.png",
+      "/images/products/pants-nonbranded032-beige-back.png",
+      "/images/products/pants-nonbranded032-black-front.png",
+      "/images/products/pants-nonbranded032-black-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Be Sáng", hex: "#EBE6D8", imageIndex: 0 },
+      { name: "Đen", hex: "#1C1C1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Kaki Twill 245Gsm"
   }
 ];
 
