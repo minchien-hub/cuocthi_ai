@@ -4781,6 +4781,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Bird Eye Mesh"
+  },
+  {
+    id: 163,
+    name: "Quần Dài Jogger Thể Thao Double Face 200Gsm Nhanh Khô Rã Đáy Kim Cương Đai Vắt Khăn Phom Vừa F3 - The Beginner 007 - Màu Xanh Thép",
+    category: "Quần",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Quần dài jogger thể thao nam cao cấp thuộc bộ sưu tập The Beginner 007 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải thể thao công nghệ Double Face (vải 2 mặt dệt kỹ thuật) định lượng 200Gsm siêu nhẹ, mặt ngoài đanh mịn kháng bụi bẩn, mặt trong thoáng khí hút ẩm nhanh QuickDry giữ cơ thể luôn khô ráo và mát mẻ trong mọi bài tập cường độ cao. Tích hợp sợi Spandex co giãn 4 chiều đàn hồi cực tốt, cho phép sải chân tối đa không vướng víu. Thiết kế đột phá với kỹ thuật may rã đáy kim cương công thái học (Diamond Gusset Crotch) triệt tiêu hoàn toàn cảm giác căng bó vùng đũng khi squat, nhảy hay chạy bộ. Cạp chun bản mềm tích hợp dây rút đầu bọc kim loại, đai vắt khăn thể thao tiện dụng (Towel Loop) ở sườn hông phải và túi sau khóa kéo ẩn an toàn bảo vệ tư trang. Đường line viền trắng chạy dọc sườn ngoài tạo điểm nhấn thể thao khỏe khoắn và kéo dài đôi chân. Tông màu xanh thép (Steel Blue / Xanh Xám) hiện đại, phom vừa F3 (Regular Fit F3) tôn dáng thể thao mạnh mẽ.",
+    images: [
+      "/images/products/pants-beginner007-steelblue-front.jpg",
+      "/images/products/pants-beginner007-steelblue-back.jpg",
+      "/images/products/pants-beginner007-lightgrey-front.jpg",
+      "/images/products/pants-beginner007-lightgrey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xanh Thép", hex: "#566273", imageIndex: 0 },
+      { name: "Xám Sáng", hex: "#949AA1", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 163,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Đáy Kim Cương F3"
+  },
+  {
+    id: 164,
+    name: "Quần Dài Jogger Thể Thao Double Face 200Gsm Nhanh Khô Rã Đáy Kim Cương Đai Vắt Khăn Phom Vừa F3 - The Beginner 007 - Màu Xám Sáng",
+    category: "Quần",
+    price: 390000,
+    originalPrice: 550000,
+    description: "Quần dài jogger thể thao nam cao cấp thuộc bộ sưu tập The Beginner 007 từ thương hiệu Aureus Fashion. Tông màu xám sáng (Light Heather Grey / Xám Bạc) tinh tế, thời thượng và đậm chất phong cách Athleisure hiện đại. Chất vải công nghệ Double Face 200Gsm nhẹ tênh, tản nhiệt và thấm hút mồ hôi vượt trội, co giãn 4 chiều đa hướng giúp vận động mượt mà không giới hạn. Cấu trúc rã đáy kim cương (Diamond Gusset Crotch) chống cọ xát và hỗ trợ mở rộng biên độ chuyển động cho phần háng. Trang bị đầy đủ đai vắt khăn thể thao bên hông tiện ích cho runner hoặc gymer, túi bên sâu chống rơi điện thoại và túi sau khóa kéo ngang kín đáo. Gấu bo chun thun jogger ôm vừa vặn cổ chân, kết hợp đường kẻ viền sọc trắng tương phản nổi bật. Phom vừa F3 (Regular Fit F3) chuẩn athletic, phối cực đẹp cùng áo thun thể thao, áo ba lỗ tank top hoặc áo khoác gió.",
+    images: [
+      "/images/products/pants-beginner007-lightgrey-front.jpg",
+      "/images/products/pants-beginner007-lightgrey-back.jpg",
+      "/images/products/pants-beginner007-steelblue-front.jpg",
+      "/images/products/pants-beginner007-steelblue-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Sáng", hex: "#949AA1", imageIndex: 0 },
+      { name: "Xanh Thép", hex: "#566273", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 156,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Đáy Kim Cương F3"
   }
 ];
 
