@@ -5149,6 +5149,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Curved F5"
+  },
+  {
+    id: 177,
+    name: "Quần Tây Công Sở Casual Easycare™ Vải Twill Co Giãn Chống Nhăn Đứng Dáng Phom Ôm Vừa F2 - Non Branded 030 - Màu Đen",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Branded 030 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải Twill dệt chéo cao cấp tích hợp công nghệ Easycare™ chống nhăn nhàu vượt trội, co giãn 4 chiều linh hoạt và giữ nếp ly ủi sắc nét suốt cả ngày dài làm việc. Đường may tinh xảo chuẩn phong cách may đo Sartorial, cạp quần chắc chắn có đỉa cài thắt lưng, túi xéo sườn sâu rộng cùng hai túi mổ sau có khuy cài lịch lãm. Phom ôm vừa F2 (Slim Fit F2) tôn đôi chân thon gọn, thanh thoát và chuẩn tỷ lệ cơ thể. Tông màu đen kinh điển (Classic Black) sang trọng, là item không thể thiếu trong tủ đồ của quý ông, phối hoàn hảo cùng áo sơ mi công sở (The Minimalist 017, Seventy Seven 052, Non Branded 060), áo blazer hay áo polo thanh lịch.",
+    images: [
+      "/images/products/pants-nonbranded030-black-front.png",
+      "/images/products/pants-nonbranded030-black-back.png",
+      "/images/products/pants-nonbranded030-beige-front.png",
+      "/images/products/pants-nonbranded030-beige-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 176,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F2"
+  },
+  {
+    id: 178,
+    name: "Quần Tây Công Sở Casual Easycare™ Vải Twill Co Giãn Chống Nhăn Đứng Dáng Phom Ôm Vừa F2 - Non Branded 030 - Màu Be Sáng",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Branded 030 từ thương hiệu Aureus Fashion. Tông màu be sáng (Light Beige / Cream Tailored) hiện đại, tinh tế, mang lại diện mạo trẻ trung, thời thượng chuẩn phong cách Smart Casual châu Âu. Chất vải Twill công nghệ Easycare™ mềm mát, đanh mịn, hạn chế bám bụi bẩn và không bị nhăn gập khi ngồi làm việc hay lái xe nhiều giờ. Đường ly ủi thẳng tắp vĩnh viễn tạo hiệu ứng đôi chân dài miên man. Thiết kế cạp phẳng sang trọng, hai túi mổ sau cúc cài tỉ mỉ. Phom ôm vừa F2 (Slim Fit F2) tôn dáng tối đa, dễ dàng kết hợp cùng áo polo knit dệt kim, sơ mi trắng dài tay, áo thun trơn hay giày tây/loafer cao cấp.",
+    images: [
+      "/images/products/pants-nonbranded030-beige-front.png",
+      "/images/products/pants-nonbranded030-beige-back.png",
+      "/images/products/pants-nonbranded030-black-front.png",
+      "/images/products/pants-nonbranded030-black-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Be Sáng", hex: "#EAE6DC", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 162,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Easycare™ F2"
   }
 ];
 
