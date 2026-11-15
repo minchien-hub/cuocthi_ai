@@ -5593,6 +5593,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "AirDry™ F4"
+  },
+  {
+    id: 192,
+    name: "Quần Đùi Lưng Thun Ống Rộng Vải Dệt Vân Nổi 280Gsm Giữ Phom Phẳng Lưng Chống Xoắn Phom Rộng F4 - The No Style 272 - Màu Xám Tiêu Sáng",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần đùi thun nam ống rộng cao cấp phong cách Streetwear & Modern Casual thuộc bộ sưu tập The No Style 272 từ thương hiệu Aureus Fashion. Được dệt từ chất liệu vải Jacquard cao cấp định lượng dày dặn 280Gsm với kỹ thuật dệt vân nổi 3D họa tiết hình học đan xen độc bản, vừa tạo hiệu ứng thị giác sang trọng vừa giữ phom dáng đứng form và chống bai xù tuyệt hảo. Thiết kế bản lưng thun dệt nguyên khối công nghệ chống xoắn (Anti-twist Flat Elastic Waistband) giúp cạp quần luôn phẳng phiu, ôm êm ái vào thắt lưng mà không lo xoắn lộn chun khi giặt hay vận động. Điểm nhấn đường xếp ly nhẹ phía trước tạo độ rũ tự nhiên, giải phóng vùng cử động hông đùi. Trang bị 2 túi mổ xéo dọc hông sâu rộng và 1 túi ốp vuông phía sau bên phải. Phom rộng F4 (Wide Fit F4) năng động, thoáng mát tối đa. Tông màu xám tiêu sáng (Light Heather Grey) trẻ trung, dễ dàng phối cùng áo thun oversize, tank top thể thao, áo polo dệt kim hay áo khoác sơ mi.",
+    images: [
+      "/images/products/shorts-thenostyle272-grey-front.jpg",
+      "/images/products/shorts-thenostyle272-grey-back.jpg",
+      "/images/products/shorts-thenostyle272-black-front.jpg",
+      "/images/products/shorts-thenostyle272-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 146,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Jacquard 280Gsm F4"
+  },
+  {
+    id: 193,
+    name: "Quần Đùi Lưng Thun Ống Rộng Vải Dệt Vân Nổi 280Gsm Giữ Phom Phẳng Lưng Chống Xoắn Phom Rộng F4 - The No Style 272 - Màu Đen",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần đùi thun nam ống rộng cao cấp phong cách Streetwear & Modern Casual thuộc bộ sưu tập The No Style 272 từ thương hiệu Aureus Fashion. Tông màu đen tuyền (Jet Black) nam tính, mạnh mẽ và thời thượng trên nền cấu trúc vân nổi Jacquard 3D chìm tinh tế. Chất vải dệt đanh chắc định lượng 280Gsm mềm mại, co giãn đàn hồi và thấm hút mồ hôi tối ưu, đem lại trải nghiệm thoáng mát tuyệt vời cho mọi ngày hè năng động. Cấu trúc cạp lưng thun phẳng thông minh chống vặn xoắn tuyệt đối, cố định phom cạp đẹp mắt suốt quá trình sử dụng. Đường ly trước tạo nét chỉn chu pha lẫn phóng khoáng, kết hợp túi mổ sườn tiện lợi và túi ốp sau phong cách. Phom rộng F4 (Wide Fit F4) thời thượng, che khuyết điểm đùi to, cực kỳ ăn ý khi kết hợp cùng áo thun graphic, áo hoodie không tay hay sneaker chunky cá tính.",
+    images: [
+      "/images/products/shorts-thenostyle272-black-front.jpg",
+      "/images/products/shorts-thenostyle272-black-back.jpg",
+      "/images/products/shorts-thenostyle272-grey-front.jpg",
+      "/images/products/shorts-thenostyle272-grey-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Jacquard 280Gsm F4"
   }
 ];
 
