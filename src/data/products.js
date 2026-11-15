@@ -5605,12 +5605,18 @@ const products = [
       "/images/products/shorts-thenostyle272-grey-front.jpg",
       "/images/products/shorts-thenostyle272-grey-back.jpg",
       "/images/products/shorts-thenostyle272-black-front.jpg",
-      "/images/products/shorts-thenostyle272-black-back.jpg"
+      "/images/products/shorts-thenostyle272-black-back.jpg",
+      "/images/products/shorts-thenostyle272-brown-front.jpg",
+      "/images/products/shorts-thenostyle272-brown-back.jpg",
+      "/images/products/shorts-thenostyle272-cream-front.jpg",
+      "/images/products/shorts-thenostyle272-cream-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 0 },
-      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 },
+      { name: "Nâu Cacao", hex: "#5A453A", imageIndex: 4 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 6 }
     ],
     rating: 5.0,
     reviews: 146,
@@ -5630,15 +5636,83 @@ const products = [
       "/images/products/shorts-thenostyle272-black-front.jpg",
       "/images/products/shorts-thenostyle272-black-back.jpg",
       "/images/products/shorts-thenostyle272-grey-front.jpg",
-      "/images/products/shorts-thenostyle272-grey-back.jpg"
+      "/images/products/shorts-thenostyle272-grey-back.jpg",
+      "/images/products/shorts-thenostyle272-brown-front.jpg",
+      "/images/products/shorts-thenostyle272-brown-back.jpg",
+      "/images/products/shorts-thenostyle272-cream-front.jpg",
+      "/images/products/shorts-thenostyle272-cream-back.jpg"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
-      { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 2 }
+      { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 2 },
+      { name: "Nâu Cacao", hex: "#5A453A", imageIndex: 4 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 6 }
     ],
     rating: 4.9,
     reviews: 152,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Jacquard 280Gsm F4"
+  },
+  {
+    id: 194,
+    name: "Quần Đùi Lưng Thun Ống Rộng Vải Dệt Vân Nổi 280Gsm Giữ Phom Phẳng Lưng Chống Xoắn Phom Rộng F4 - The No Style 272 - Màu Nâu Cacao",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần đùi thun nam ống rộng cao cấp phong cách Streetwear & Modern Casual thuộc bộ sưu tập The No Style 272 từ thương hiệu Aureus Fashion. Tông màu nâu cacao (Mocha Brown / Cacao) ấm áp, độc đáo và cực kỳ tôn da, chuẩn xu hướng thời trang Earth Tone hiện đại. Nền vải dệt Jacquard 280Gsm dày dặn với cấu trúc vân dệt 3D hình học sắc sảo, đanh chắc đứng phom nhưng thoáng khí và mềm mát khi mặc. Thiết kế cạp chun phẳng thông minh chống xoắn vặn (Anti-twist Flat Elastic Waistband) ôm nhẹ lưng quần êm ái, đường ly trước tinh tế giải phóng không gian cử động hông đùi. Trang bị túi xéo sườn tiện dụng và túi ốp sau khỏe khoắn. Phom rộng F4 (Wide Fit F4) năng động, dễ dàng tạo nên các bản phối layering sành điệu cùng áo thun trắng/kem, áo polo dệt kim vintage hay sơ mi kẻ ca rô.",
+    images: [
+      "/images/products/shorts-thenostyle272-brown-front.jpg",
+      "/images/products/shorts-thenostyle272-brown-back.jpg",
+      "/images/products/shorts-thenostyle272-cream-front.jpg",
+      "/images/products/shorts-thenostyle272-cream-back.jpg",
+      "/images/products/shorts-thenostyle272-grey-front.jpg",
+      "/images/products/shorts-thenostyle272-grey-back.jpg",
+      "/images/products/shorts-thenostyle272-black-front.jpg",
+      "/images/products/shorts-thenostyle272-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Nâu Cacao", hex: "#5A453A", imageIndex: 0 },
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 4 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 6 }
+    ],
+    rating: 5.0,
+    reviews: 148,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Jacquard 280Gsm F4"
+  },
+  {
+    id: 195,
+    name: "Quần Đùi Lưng Thun Ống Rộng Vải Dệt Vân Nổi 280Gsm Giữ Phom Phẳng Lưng Chống Xoắn Phom Rộng F4 - The No Style 272 - Màu Trắng Kem",
+    category: "Quần",
+    price: 340000,
+    originalPrice: 490000,
+    description: "Quần đùi thun nam ống rộng cao cấp phong cách Streetwear & Modern Casual thuộc bộ sưu tập The No Style 272 từ thương hiệu Aureus Fashion. Tông màu trắng kem (Cream White / Sand Ivory) thanh lịch, sạch sẽ và mang lại cảm giác tươi mới tràn đầy năng lượng mùa hè. Sử dụng chất liệu vải Jacquard dệt vân nổi 3D cao cấp 280Gsm với kết cấu sợi đan dày dặn, không lộ bên trong, kháng bai dão và tự đứng phom tự nhiên. Chi tiết bản lưng thun dệt phẳng chống xoắn gập cạp quần độc quyền đem lại sự thoải mái tuyệt đối, kết hợp ly xếp nhẹ trước tạo độ rũ phóng khoáng. Trang bị 2 túi mổ dọc sâu rộng và 1 túi ốp vuông phía sau. Phom rộng F4 (Wide Fit F4) thời thượng, cực kỳ ăn khớp khi mix cùng áo thun màu pastel, áo sơ mi cộc tay dạo phố hay giày sneaker trắng năng động.",
+    images: [
+      "/images/products/shorts-thenostyle272-cream-front.jpg",
+      "/images/products/shorts-thenostyle272-cream-back.jpg",
+      "/images/products/shorts-thenostyle272-brown-front.jpg",
+      "/images/products/shorts-thenostyle272-brown-back.jpg",
+      "/images/products/shorts-thenostyle272-grey-front.jpg",
+      "/images/products/shorts-thenostyle272-grey-back.jpg",
+      "/images/products/shorts-thenostyle272-black-front.jpg",
+      "/images/products/shorts-thenostyle272-black-back.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: [
+      { name: "Trắng Kem", hex: "#ECE6DB", imageIndex: 0 },
+      { name: "Nâu Cacao", hex: "#5A453A", imageIndex: 2 },
+      { name: "Xám Tiêu Sáng", hex: "#B8B9BD", imageIndex: 4 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 6 }
+    ],
+    rating: 4.9,
+    reviews: 139,
     inStock: true,
     isNew: true,
     isSale: true,
