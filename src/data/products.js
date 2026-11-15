@@ -5319,6 +5319,56 @@ const products = [
     isNew: true,
     isSale: true,
     badge: "Easycare™ F2"
+  },
+  {
+    id: 182,
+    name: "Quần Tây Casual Easycare™ Vải Rayon Blend Mềm Mại Tự Phục Hồi Nếp Phẳng Lưng Thun Phom Ôm Vừa F2 - Non Iron 001 - Màu Đen",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Iron 001 từ thương hiệu Aureus Fashion. Được phát triển từ chất liệu vải Rayon Blend tổng hợp cao cấp ứng dụng công nghệ Non-Iron Easycare™ thông minh với đặc tính tự phục hồi nếp phẳng sau khi giặt hoặc ngồi nhiều giờ, bề mặt vải mướt mịn tự nhiên, thoáng mát và co giãn nhẹ. Thiết kế cạp lưng thun linh hoạt (Smart Elastic Waistband): mặt trước phẳng phiu chỉn chu có đỉa cài thắt lưng, kết hợp hai bên hông co giãn êm ái giúp giải phóng vòng eo khi ngồi lâu hay sau bữa ăn. Đường ly ủi sắc nét vĩnh viễn tạo hiệu ứng kéo dài đôi chân, túi xéo hông tiện lợi và hai túi mổ sau tối giản. Phom ôm vừa F2 (Slim Fit F2) tôn vóc dáng gọn gàng, thanh lịch. Tông màu đen kinh điển (Classic Black) là lựa chọn chuẩn mực cho quý ông hiện đại, phối hoàn hảo cùng áo sơ mi công sở, áo polo hoặc blazer.",
+    images: [
+      "/images/products/pants-noniron001-black-front.png",
+      "/images/products/pants-noniron001-black-back.png",
+      "/images/products/pants-noniron001-oatmeal-front.jpg",
+      "/images/products/pants-noniron001-oatmeal-back.jpg"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 0 },
+      { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 2 }
+    ],
+    rating: 5.0,
+    reviews: 172,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Non Iron F2"
+  },
+  {
+    id: 183,
+    name: "Quần Tây Casual Easycare™ Vải Rayon Blend Mềm Mại Tự Phục Hồi Nếp Phẳng Lưng Thun Phom Ôm Vừa F2 - Non Iron 001 - Màu Be Yến Mạch",
+    category: "Quần",
+    price: 450000,
+    originalPrice: 650000,
+    description: "Quần tây nam công sở cao cấp thuộc bộ sưu tập Non Iron 001 từ thương hiệu Aureus Fashion. Tông màu be yến mạch (Oatmeal Beige / Sand Mélange) mang sắc thái thanh lịch, hiện đại chuẩn phong cách Parisian & Smart Casual. Chất vải dệt sợi Rayon Blend rũ nhẹ, đanh mát, công nghệ tự phục hồi nếp phẳng giúp quần luôn giữ độ chỉn chu mà không cần là ủi phức tạp. Cạp lưng thun co giãn thông minh không gây lằn bụng, nếp ly ủi thẳng tắp tôn dáng chân dài và thon gọn. Thiết kế phom ôm vừa F2 (Slim Fit F2) hiện đại, phối cực kỳ ăn nhập cùng áo thun dệt kim knit, áo sơ mi cộc tay cổ trụ, sơ mi trắng dài tay hay giày loafer da lộn.",
+    images: [
+      "/images/products/pants-noniron001-oatmeal-front.jpg",
+      "/images/products/pants-noniron001-oatmeal-back.jpg",
+      "/images/products/pants-noniron001-black-front.png",
+      "/images/products/pants-noniron001-black-back.png"
+    ],
+    sizes: ["29", "30", "31", "32", "34", "36"],
+    colors: [
+      { name: "Be Yến Mạch", hex: "#D8D3C8", imageIndex: 0 },
+      { name: "Đen", hex: "#1E1E1E", imageIndex: 2 }
+    ],
+    rating: 4.9,
+    reviews: 158,
+    inStock: true,
+    isNew: true,
+    isSale: true,
+    badge: "Non Iron F2"
   }
 ];
 
