@@ -131,20 +131,7 @@
   object-fit: cover;
   display: block;
 }
-.product-detail__thumb-label {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(26, 26, 46, 0.85);
-  color: #ffffff;
-  font-size: 0.68rem;
-  font-weight: 600;
-  padding: 3px 2px;
-  text-align: center;
-  letter-spacing: 0.3px;
-  backdrop-filter: blur(3px);
-}
+
 
 /* Info */
 .product-detail__info {

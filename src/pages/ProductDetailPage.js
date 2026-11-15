@@ -106,7 +106,7 @@ const ProductDetailPage = () => {
               )}
             </div>
 
-            {/* Thumbnail Gallery with color hints */}
+            {/* Thumbnail Gallery */}
             <div className="product-detail__thumbnails">
               {product.images.map((img, i) => {
                 const matchingColor = product.colors
@@ -123,9 +123,6 @@ const ProductDetailPage = () => {
                     title={matchingColor ? `Màu ${matchingColor.name}` : `Ảnh ${i + 1}`}
                   >
                     <img src={img} alt={`${product.name} - ${matchingColor ? matchingColor.name : i + 1}`} />
-                    {matchingColor && (
-                      <span className="product-detail__thumb-label">{matchingColor.name}</span>
-                    )}
                   </button>
                 );
               })}
